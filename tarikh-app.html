@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#1a0a00">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Tarikh">
+<meta name="description" content="Une anecdote historique islamique chaque jour">
+<link rel="manifest" href="manifest.json">
+<title>Tarikh — Histoire Islamique</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --gold: #c9a84c;
+  --gold-light: #e8c97a;
+  --gold-dark: #8a6f2e;
+  --bg-dark: #0d0600;
+  --bg-mid: #1a0e04;
+  --bg-card: #241508;
+  --text: #f5e6c8;
+  --text-muted: #9e8660;
+  --green: #2d6a4f;
+  --green-light: #52b788;
+  --radius: 16px;
+  --radius-lg: 24px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg-dark);
+  color: var(--text);
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  overflow-x: hidden;
+}
+
+.geometric-bg {
+  position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(201,168,76,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 80%, rgba(201,168,76,0.04) 0%, transparent 60%);
+}
+
+.pattern {
+  position: fixed; inset: 0; pointer-events: none; z-index: 0; opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9a84c' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.app { position: relative; z-index: 1; max-width: 430px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; }
+
+/* SPLASH */
+#splash {
+  position: fixed; inset: 0; z-index: 100;
+  background: var(--bg-dark);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+  transition: opacity 0.6s ease;
+}
+#splash.hide { opacity: 0; pointer-events: none; }
+.splash-logo { font-family: 'Amiri', serif; font-size: 48px; color: var(--gold); }
+.splash-sub { font-size: 13px; color: var(--text-muted); letter-spacing: 0.1em; }
+.splash-line { width: 60px; height: 1px; background: var(--gold-dark); margin: 8px 0; }
+
+/* HEADER */
+header {
+  padding: 20px 20px 12px;
+  display: flex; align-items: center; justify-content: space-between;
+  border-bottom: 0.5px solid rgba(201,168,76,0.15);
+}
+.header-logo { font-family: 'Amiri', serif; font-size: 26px; color: var(--gold); }
+.header-right { display: flex; align-items: center; gap: 12px; }
+.lang-btn {
+  font-size: 12px; color: var(--text-muted); background: none;
+  border: 0.5px solid rgba(201,168,76,0.3); border-radius: 20px;
+  padding: 4px 10px; cursor: pointer; font-family: 'DM Sans', sans-serif;
+}
+.lang-btn:hover { color: var(--gold); border-color: var(--gold); }
+.streak { display: flex; align-items: center; gap: 4px; font-size: 12px; color: var(--gold); }
+
+/* LANG SELECTOR */
+#lang-panel {
+  display: none; padding: 16px 20px;
+  background: var(--bg-card); border-bottom: 0.5px solid rgba(201,168,76,0.1);
+}
+#lang-panel.open { display: flex; gap: 8px; flex-wrap: wrap; }
+.lang-opt {
+  padding: 6px 14px; border-radius: 20px; font-size: 13px; cursor: pointer;
+  border: 0.5px solid rgba(201,168,76,0.2); background: none; color: var(--text-muted);
+  font-family: 'DM Sans', sans-serif;
+}
+.lang-opt.active { background: var(--gold); color: var(--bg-dark); border-color: var(--gold); font-weight: 500; }
+
+/* DATE STRIP */
+.date-strip {
+  padding: 14px 20px 10px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.date-hijri { font-family: 'Amiri', serif; font-size: 13px; color: var(--gold); }
+.date-greg { font-size: 12px; color: var(--text-muted); }
+
+/* MAIN CARD */
+.story-card {
+  margin: 0 16px 16px;
+  background: var(--bg-card);
+  border: 0.5px solid rgba(201,168,76,0.2);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  flex: 1;
+}
+.card-header {
+  padding: 20px 20px 16px;
+  border-bottom: 0.5px solid rgba(201,168,76,0.1);
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;
+}
+.era-badge {
+  font-size: 10px; font-weight: 500; letter-spacing: 0.08em;
+  background: rgba(201,168,76,0.12); color: var(--gold);
+  padding: 3px 10px; border-radius: 20px; white-space: nowrap;
+  border: 0.5px solid rgba(201,168,76,0.25);
+}
+.card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px; font-weight: 700; line-height: 1.3;
+  color: var(--text); flex: 1;
+}
+.card-body { padding: 20px; }
+.story-text {
+  font-size: 15px; line-height: 1.8; color: var(--text);
+  font-family: 'DM Sans', sans-serif; font-weight: 300;
+}
+.story-text.arabic {
+  font-family: 'Amiri', serif; font-size: 17px; line-height: 2;
+  direction: rtl; text-align: right;
+}
+.divider-ornament {
+  text-align: center; color: var(--gold-dark); font-size: 18px;
+  margin: 16px 0; letter-spacing: 8px;
+}
+.lesson-box {
+  background: rgba(201,168,76,0.06);
+  border: 0.5px solid rgba(201,168,76,0.2);
+  border-radius: var(--radius); padding: 14px 16px; margin-top: 16px;
+}
+.lesson-label { font-size: 10px; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 6px; font-weight: 500; }
+.lesson-text { font-size: 13px; color: var(--text-muted); line-height: 1.6; font-style: italic; }
+
+/* LOADING STATE */
+.loading-state { padding: 40px 20px; text-align: center; }
+.loading-ornament { font-family: 'Amiri', serif; font-size: 36px; color: var(--gold); animation: pulse 2s infinite; }
+.loading-text { font-size: 13px; color: var(--text-muted); margin-top: 12px; }
+@keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+/* ACTIONS */
+.card-actions {
+  padding: 16px 20px 20px;
+  display: flex; gap: 10px; border-top: 0.5px solid rgba(201,168,76,0.1);
+}
+.action-btn {
+  flex: 1; padding: 11px; border-radius: var(--radius); font-size: 13px;
+  font-weight: 500; cursor: pointer; border: 0.5px solid rgba(201,168,76,0.25);
+  background: none; color: var(--text-muted); font-family: 'DM Sans', sans-serif;
+  transition: all 0.2s;
+}
+.action-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(201,168,76,0.06); }
+.action-btn.primary {
+  background: var(--gold); color: var(--bg-dark); border-color: var(--gold); font-weight: 600;
+}
+.action-btn.primary:hover { background: var(--gold-light); }
+
+/* BOTTOM NAV */
+.bottom-nav {
+  display: flex; padding: 12px 20px 24px;
+  border-top: 0.5px solid rgba(201,168,76,0.1);
+  gap: 8px;
+}
+.nav-item {
+  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 8px; border-radius: var(--radius); cursor: pointer;
+  background: none; border: none; color: var(--text-muted); font-family: 'DM Sans', sans-serif;
+}
+.nav-item.active { color: var(--gold); background: rgba(201,168,76,0.08); }
+.nav-icon { font-size: 20px; }
+.nav-label { font-size: 10px; font-weight: 500; }
+
+/* FREEMIUM BANNER */
+.freemium-banner {
+  margin: 0 16px 16px;
+  background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(201,168,76,0.06));
+  border: 0.5px solid rgba(201,168,76,0.3);
+  border-radius: var(--radius-lg); padding: 16px 20px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+}
+.banner-text { font-size: 13px; color: var(--text); line-height: 1.5; }
+.banner-text span { color: var(--gold); font-weight: 500; }
+.banner-btn {
+  background: var(--gold); color: var(--bg-dark); border: none;
+  padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600;
+  cursor: pointer; white-space: nowrap; font-family: 'DM Sans', sans-serif;
+}
+
+/* TRIAL badge */
+.trial-badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: rgba(82,183,136,0.15); color: var(--green-light);
+  border: 0.5px solid rgba(82,183,136,0.3);
+  font-size: 11px; padding: 3px 10px; border-radius: 20px; font-weight: 500;
+}
+
+/* HISTORY VIEW */
+#history-view { display: none; flex-direction: column; flex: 1; padding: 0 16px 16px; }
+#history-view.show { display: flex; }
+.history-title { font-family: 'Playfair Display', serif; font-size: 20px; padding: 16px 0 12px; color: var(--text); }
+.history-item {
+  background: var(--bg-card); border: 0.5px solid rgba(201,168,76,0.15);
+  border-radius: var(--radius); padding: 14px 16px; margin-bottom: 10px; cursor: pointer;
+}
+.history-item:hover { border-color: rgba(201,168,76,0.35); }
+.history-date { font-size: 11px; color: var(--text-muted); margin-bottom: 4px; }
+.history-ttl { font-size: 14px; font-weight: 500; color: var(--text); }
+.locked-msg { text-align: center; padding: 24px; color: var(--text-muted); font-size: 14px; }
+
+/* UTILS */
+.hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<div class="geometric-bg"></div>
+<div class="pattern"></div>
+
+<div id="splash">
+  <div class="splash-logo">طارق</div>
+  <div class="splash-line"></div>
+  <div class="splash-sub">TARIKH · HISTOIRE ISLAMIQUE</div>
+</div>
+
+<div class="app">
+  <header>
+    <div class="header-logo">طارق</div>
+    <div class="header-right">
+      <div class="trial-badge">✦ 7 jours gratuits</div>
+      <button class="lang-btn" onclick="toggleLang()">🌐 FR</button>
+    </div>
+  </header>
+
+  <div id="lang-panel">
+    <button class="lang-opt active" onclick="setLang('fr')">🇫🇷 Français</button>
+    <button class="lang-opt" onclick="setLang('en')">🇬🇧 English</button>
+    <button class="lang-opt" onclick="setLang('ar')">🇸🇦 العربية</button>
+    <button class="lang-opt" onclick="setLang('es')">🇪🇸 Español</button>
+  </div>
+
+  <div id="main-view" style="display:flex;flex-direction:column;flex:1">
+    <div class="date-strip">
+      <div class="date-hijri" id="hijri-date">— Hijri</div>
+      <div class="date-greg" id="greg-date"></div>
+    </div>
+
+    <div class="story-card">
+      <div class="card-header">
+        <div class="card-title" id="story-title">Chargement...</div>
+        <div class="era-badge" id="story-era">—</div>
+      </div>
+      <div class="card-body">
+        <div id="story-content" class="loading-state">
+          <div class="loading-ornament">☽</div>
+          <div class="loading-text" id="loading-text">L'histoire du jour arrive...</div>
+        </div>
+      </div>
+      <div class="card-actions">
+        <button class="action-btn" onclick="shareStory()">Partager</button>
+        <button class="action-btn" onclick="generateStory()">Nouvelle histoire</button>
+        <button class="action-btn primary" onclick="showPremium()">Premium ↗</button>
+      </div>
+    </div>
+
+    <div class="freemium-banner">
+      <div class="banner-text">
+        <span>7 jours gratuits</span> — Accède à toutes les histoires, toutes les langues, sans pub.
+      </div>
+      <button class="banner-btn" onclick="showPremium()">2,99€/mois</button>
+    </div>
+  </div>
+
+  <div id="history-view">
+    <div class="history-title" id="history-title">Historique</div>
+    <div id="history-list"></div>
+    <div class="locked-msg" id="locked-msg">🔒 Abonnez-vous pour accéder à toutes les histoires passées</div>
+  </div>
+
+  <div class="bottom-nav">
+    <button class="nav-item active" id="nav-home" onclick="switchTab('home')">
+      <span class="nav-icon">☽</span>
+      <span class="nav-label" data-key="nav_home">Aujourd'hui</span>
+    </button>
+    <button class="nav-item" id="nav-history" onclick="switchTab('history')">
+      <span class="nav-icon">📜</span>
+      <span class="nav-label" data-key="nav_history">Historique</span>
+    </button>
+    <button class="nav-item" id="nav-premium" onclick="showPremium()">
+      <span class="nav-icon">✦</span>
+      <span class="nav-label" data-key="nav_premium">Premium</span>
+    </button>
+  </div>
+</div>
+
+<script>
+const ANTHROPIC_KEY = 'REMPLACE_PAR_TA_CLE_API';
+
+let currentLang = 'fr';
+let currentStory = null;
+let history_items = JSON.parse(localStorage.getItem('tarikh_history') || '[]');
+
+const i18n = {
+  fr: { loading: "L'histoire du jour arrive...", share_text: "Histoire islamique du jour", lesson_label: "LEÇON DU JOUR", nav_home: "Aujourd'hui", nav_history: "Historique", nav_premium: "Premium", history_title: "Historique", locked: "🔒 Abonnez-vous pour accéder à toutes les histoires passées", new_story: "Nouvelle histoire", share: "Partager", premium: "Premium ↗", trial: "7 jours gratuits" },
+  en: { loading: "Today's story is loading...", share_text: "Islamic history of the day", lesson_label: "LESSON OF THE DAY", nav_home: "Today", nav_history: "History", nav_premium: "Premium", history_title: "History", locked: "🔒 Subscribe to access all past stories", new_story: "New story", share: "Share", premium: "Premium ↗", trial: "7 free days" },
+  ar: { loading: "...جاري تحميل قصة اليوم", share_text: "قصة تاريخ إسلامي اليوم", lesson_label: "درس اليوم", nav_home: "اليوم", nav_history: "السجل", nav_premium: "مميز", history_title: "السجل", locked: "🔒 اشترك للوصول إلى جميع القصص السابقة", new_story: "قصة جديدة", share: "مشاركة", premium: "مميز ↗", trial: "7 أيام مجانية" },
+  es: { loading: "La historia de hoy está llegando...", share_text: "Historia islámica del día", lesson_label: "LECCIÓN DEL DÍA", nav_home: "Hoy", nav_history: "Historial", nav_premium: "Premium", history_title: "Historial", locked: "🔒 Suscríbete para acceder a todas las historias pasadas", new_story: "Nueva historia", share: "Compartir", premium: "Premium ↗", trial: "7 días gratis" }
+};
+
+const prompts = {
+  fr: "Tu es un historien expert en histoire islamique. Génère une anecdote historique islamique fascinante et peu connue. Réponds UNIQUEMENT en JSON valide sans backticks: {\"title\":\"Titre accrocheur\",\"era\":\"Époque ex: VIIe siècle\",\"story\":\"Anecdote captivante de 120-150 mots, vivante et narrative\",\"lesson\":\"Leçon ou sagesse tirée de cette histoire en 1-2 phrases\"}",
+  en: "You are an expert historian in Islamic history. Generate a fascinating and little-known Islamic historical anecdote. Reply ONLY in valid JSON without backticks: {\"title\":\"Catchy title\",\"era\":\"Era ex: 7th century\",\"story\":\"Captivating anecdote of 120-150 words, vivid and narrative\",\"lesson\":\"Lesson or wisdom from this story in 1-2 sentences\"}",
+  ar: "أنت مؤرخ خبير في التاريخ الإسلامي. أنشئ قصة تاريخية إسلامية رائعة وغير معروفة. أجب فقط بـJSON صحيح بدون علامات اقتباس: {\"title\":\"عنوان جذاب\",\"era\":\"الحقبة مثال: القرن السابع\",\"story\":\"قصة رائعة من 120-150 كلمة، حية وسردية\",\"lesson\":\"درس أو حكمة من هذه القصة في 1-2 جملة\"}",
+  es: "Eres un historiador experto en historia islámica. Genera una anécdota histórica islámica fascinante y poco conocida. Responde SOLO en JSON válido sin backticks: {\"title\":\"Título atractivo\",\"era\":\"Época ej: siglo VII\",\"story\":\"Anécdota cautivadora de 120-150 palabras, vívida y narrativa\",\"lesson\":\"Lección o sabiduría de esta historia en 1-2 frases\"}"
+};
+
+function setLang(lang) {
+  currentLang = lang;
+  document.querySelectorAll('.lang-opt').forEach(b => b.classList.toggle('active', b.textContent.includes({fr:'FR',en:'EN',ar:'AR',es:'ES'}[lang])));
+  document.querySelector('.lang-btn').textContent = '🌐 ' + lang.toUpperCase();
+  document.getElementById('lang-panel').classList.remove('open');
+  applyTranslations();
+  generateStory();
+}
+
+function toggleLang() {
+  document.getElementById('lang-panel').classList.toggle('open');
+}
+
+function applyTranslations() {
+  const t = i18n[currentLang];
+  document.querySelectorAll('[data-key]').forEach(el => {
+    const key = el.dataset.key;
+    if (t[key]) el.textContent = t[key];
+  });
+  document.getElementById('history-title').textContent = t.history_title;
+  document.getElementById('locked-msg').textContent = t.locked;
+  document.getElementById('loading-text').textContent = t.loading;
+  document.querySelector('.trial-badge').textContent = '✦ ' + t.trial;
+}
+
+function getHijriDate() {
+  const now = new Date();
+  try {
+    return now.toLocaleDateString('ar-SA-u-ca-islamic', { year: 'numeric', month: 'long', day: 'numeric' });
+  } catch { return ''; }
+}
+
+function initDates() {
+  const now = new Date();
+  document.getElementById('greg-date').textContent = now.toLocaleDateString(currentLang === 'ar' ? 'ar' : 'fr', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  const hijri = getHijriDate();
+  if (hijri) document.getElementById('hijri-date').textContent = hijri;
+}
+
+async function generateStory() {
+  const t = i18n[currentLang];
+  document.getElementById('story-title').textContent = t.loading.split(' ')[0] + '...';
+  document.getElementById('story-era').textContent = '—';
+  document.getElementById('story-content').innerHTML = `<div class="loading-state"><div class="loading-ornament">☽</div><div class="loading-text">${t.loading}</div></div>`;
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-api-key': ANTHROPIC_KEY, 'anthropic-version': '2023-06-01' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 800,
+        messages: [{ role: 'user', content: prompts[currentLang] }]
+      })
+    });
+    const data = await res.json();
+    const text = data.content?.find(b => b.type === 'text')?.text || '';
+    const d = JSON.parse(text.replace(/```json|```/g, '').trim());
+    currentStory = d;
+
+    document.getElementById('story-title').textContent = d.title;
+    document.getElementById('story-era').textContent = d.era;
+
+    const isAr = currentLang === 'ar';
+    document.getElementById('story-content').innerHTML = `
+      <p class="story-text ${isAr ? 'arabic' : ''}">${d.story}</p>
+      <div class="divider-ornament">✦ ✦ ✦</div>
+      <div class="lesson-box">
+        <div class="lesson-label">${t.lesson_label}</div>
+        <div class="lesson-text ${isAr ? 'arabic' : ''}" style="font-size:${isAr?'15':'13'}px">${d.lesson}</div>
+      </div>
+    `;
+
+    saveToHistory(d);
+  } catch(e) {
+    document.getElementById('story-content').innerHTML = `<div class="loading-state"><div class="loading-text">Erreur de connexion. Vérifie ta clé API.</div></div>`;
+  }
+}
+
+function saveToHistory(story) {
+  const today = new Date().toLocaleDateString('fr');
+  const existing = history_items.findIndex(h => h.date === today && h.lang === currentLang);
+  if (existing >= 0) history_items[existing] = { date: today, lang: currentLang, ...story };
+  else history_items.unshift({ date: today, lang: currentLang, ...story });
+  if (history_items.length > 30) history_items = history_items.slice(0, 30);
+  localStorage.setItem('tarikh_history', JSON.stringify(history_items));
+}
+
+function renderHistory() {
+  const list = document.getElementById('history-list');
+  const recent = history_items.slice(0, 3);
+  list.innerHTML = recent.map(h => `
+    <div class="history-item">
+      <div class="history-date">${h.date} · ${h.era || ''}</div>
+      <div class="history-ttl">${h.title}</div>
+    </div>
+  `).join('');
+}
+
+function switchTab(tab) {
+  document.getElementById('main-view').style.display = tab === 'home' ? 'flex' : 'none';
+  document.getElementById('history-view').style.display = tab === 'history' ? 'flex' : 'none';
+  document.getElementById('history-view').classList.toggle('show', tab === 'history');
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('nav-' + tab)?.classList.add('active');
+  if (tab === 'history') renderHistory();
+}
+
+function shareStory() {
+  const t = i18n[currentLang];
+  const text = currentStory ? `${currentStory.title}\n\n${currentStory.story}\n\n— Tarikh, ${t.share_text}` : t.share_text;
+  if (navigator.share) { navigator.share({ title: 'Tarikh', text }); }
+  else { navigator.clipboard.writeText(text).then(() => alert('Copié !')); }
+}
+
+function showPremium() {
+  alert('Système de paiement Stripe à connecter.\nPrix : 2,99€/mois\n7 jours gratuits inclus.');
+}
+
+// INIT
+window.addEventListener('load', () => {
+  setTimeout(() => document.getElementById('splash').classList.add('hide'), 1800);
+  initDates();
+  applyTranslations();
+  generateStory();
+});
+</script>
+</body>
+</html>
