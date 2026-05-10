@@ -3,456 +3,530 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta name="theme-color" content="#1a0a00">
+<meta name="theme-color" content="#080400">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Tarikh">
-<meta name="description" content="Une anecdote historique islamique chaque jour">
-<link rel="manifest" href="manifest.json">
 <title>Tarikh — Histoire Islamique</title>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --gold: #c9a84c;
-  --gold-light: #e8c97a;
-  --gold-dark: #8a6f2e;
-  --bg-dark: #0d0600;
-  --bg-mid: #1a0e04;
-  --bg-card: #241508;
-  --text: #f5e6c8;
-  --text-muted: #9e8660;
-  --green: #2d6a4f;
-  --green-light: #52b788;
-  --radius: 16px;
-  --radius-lg: 24px;
+  --gold: #C9A84C;
+  --gold-dim: #8A6A28;
+  --gold-glow: rgba(201,168,76,0.15);
+  --bg: #080400;
+  --bg-1: #110800;
+  --bg-2: #1A0E04;
+  --bg-3: #221508;
+  --bg-4: #2C1C0A;
+  --text: #F2DEB8;
+  --text-2: #A8886A;
+  --text-3: #6B5038;
+  --border: rgba(201,168,76,0.12);
+  --border-2: rgba(201,168,76,0.25);
+  --r: 14px;
+  --r-lg: 22px;
+  --r-xl: 32px;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
 
-body {
-  font-family: 'DM Sans', sans-serif;
-  background: var(--bg-dark);
-  color: var(--text);
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-  overflow-x: hidden;
-}
+/* NOISE TEXTURE */
+body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E"); pointer-events: none; z-index: 0; opacity: 0.4; }
 
-.geometric-bg {
-  position: fixed; inset: 0; pointer-events: none; z-index: 0;
-  background:
-    radial-gradient(ellipse at 20% 20%, rgba(201,168,76,0.06) 0%, transparent 60%),
-    radial-gradient(ellipse at 80% 80%, rgba(201,168,76,0.04) 0%, transparent 60%);
-}
-
-.pattern {
-  position: fixed; inset: 0; pointer-events: none; z-index: 0; opacity: 0.03;
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9a84c' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
-
-.app { position: relative; z-index: 1; max-width: 430px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; }
+/* GLOW BG */
+.glow-1 { position: fixed; width: 600px; height: 600px; background: radial-gradient(circle, rgba(201,168,76,0.06) 0%, transparent 70%); top: -200px; left: -200px; pointer-events: none; z-index: 0; }
+.glow-2 { position: fixed; width: 400px; height: 400px; background: radial-gradient(circle, rgba(201,168,76,0.04) 0%, transparent 70%); bottom: 0; right: -100px; pointer-events: none; z-index: 0; }
 
 /* SPLASH */
-#splash {
-  position: fixed; inset: 0; z-index: 100;
-  background: var(--bg-dark);
-  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
-  transition: opacity 0.6s ease;
-}
-#splash.hide { opacity: 0; pointer-events: none; }
-.splash-logo { font-family: 'Amiri', serif; font-size: 48px; color: var(--gold); }
-.splash-sub { font-size: 13px; color: var(--text-muted); letter-spacing: 0.1em; }
-.splash-line { width: 60px; height: 1px; background: var(--gold-dark); margin: 8px 0; }
+#splash { position: fixed; inset: 0; z-index: 1000; background: var(--bg); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0; transition: opacity 0.8s ease, transform 0.8s ease; }
+#splash.hide { opacity: 0; transform: scale(1.05); pointer-events: none; }
+.splash-moon { font-size: 48px; margin-bottom: 20px; animation: float 3s ease-in-out infinite; }
+@keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+.splash-arabic { font-family: 'Amiri', serif; font-size: 64px; color: var(--gold); line-height: 1; letter-spacing: -2px; }
+.splash-divider { width: 1px; height: 32px; background: linear-gradient(to bottom, transparent, var(--gold-dim), transparent); margin: 16px auto; }
+.splash-en { font-size: 11px; letter-spacing: 0.2em; color: var(--text-2); font-weight: 500; text-transform: uppercase; }
+.splash-loader { margin-top: 48px; display: flex; gap: 6px; }
+.splash-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--gold-dim); animation: dotpulse 1.4s infinite; }
+.splash-dot:nth-child(2) { animation-delay: 0.2s; }
+.splash-dot:nth-child(3) { animation-delay: 0.4s; }
+@keyframes dotpulse { 0%,80%,100%{opacity:0.2;transform:scale(0.8)} 40%{opacity:1;transform:scale(1)} }
+
+/* APP */
+.app { position: relative; z-index: 1; max-width: 420px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; padding-bottom: 80px; }
 
 /* HEADER */
-header {
-  padding: 20px 20px 12px;
-  display: flex; align-items: center; justify-content: space-between;
-  border-bottom: 0.5px solid rgba(201,168,76,0.15);
-}
-.header-logo { font-family: 'Amiri', serif; font-size: 26px; color: var(--gold); }
-.header-right { display: flex; align-items: center; gap: 12px; }
-.lang-btn {
-  font-size: 12px; color: var(--text-muted); background: none;
-  border: 0.5px solid rgba(201,168,76,0.3); border-radius: 20px;
-  padding: 4px 10px; cursor: pointer; font-family: 'DM Sans', sans-serif;
-}
-.lang-btn:hover { color: var(--gold); border-color: var(--gold); }
-.streak { display: flex; align-items: center; gap: 4px; font-size: 12px; color: var(--gold); }
+header { padding: 20px 20px 16px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 50; background: linear-gradient(to bottom, var(--bg) 70%, transparent); }
+.h-brand { display: flex; align-items: center; gap: 10px; }
+.h-logo { font-family: 'Amiri', serif; font-size: 32px; color: var(--gold); line-height: 1; }
+.h-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--gold-dim); }
+.h-name { font-size: 12px; color: var(--text-2); letter-spacing: 0.1em; font-weight: 500; text-transform: uppercase; }
+.h-actions { display: flex; align-items: center; gap: 8px; }
+.h-btn { background: none; border: 0.5px solid var(--border-2); border-radius: 20px; padding: 5px 12px; font-size: 11px; color: var(--text-2); cursor: pointer; font-family: 'Inter', sans-serif; font-weight: 500; letter-spacing: 0.05em; transition: all 0.2s; }
+.h-btn:hover { color: var(--gold); border-color: var(--gold); }
+.h-btn.gold { background: var(--gold); color: var(--bg); border-color: var(--gold); font-weight: 600; }
+.h-btn.gold:hover { background: var(--gold-light); }
 
-/* LANG SELECTOR */
-#lang-panel {
-  display: none; padding: 16px 20px;
-  background: var(--bg-card); border-bottom: 0.5px solid rgba(201,168,76,0.1);
-}
-#lang-panel.open { display: flex; gap: 8px; flex-wrap: wrap; }
-.lang-opt {
-  padding: 6px 14px; border-radius: 20px; font-size: 13px; cursor: pointer;
-  border: 0.5px solid rgba(201,168,76,0.2); background: none; color: var(--text-muted);
-  font-family: 'DM Sans', sans-serif;
-}
-.lang-opt.active { background: var(--gold); color: var(--bg-dark); border-color: var(--gold); font-weight: 500; }
+/* LANG PANEL */
+#lang-panel { display: none; margin: 0 16px 12px; background: var(--bg-2); border: 0.5px solid var(--border); border-radius: var(--r); padding: 12px; gap: 8px; flex-wrap: wrap; }
+#lang-panel.open { display: flex; }
+.lang-chip { padding: 6px 14px; border-radius: 20px; font-size: 12px; cursor: pointer; border: 0.5px solid var(--border); background: none; color: var(--text-2); font-family: 'Inter', sans-serif; font-weight: 500; transition: all 0.15s; }
+.lang-chip:hover { color: var(--gold); border-color: var(--border-2); }
+.lang-chip.active { background: var(--gold); color: var(--bg); border-color: var(--gold); }
 
-/* DATE STRIP */
-.date-strip {
-  padding: 14px 20px 10px;
-  display: flex; align-items: center; justify-content: space-between;
-}
-.date-hijri { font-family: 'Amiri', serif; font-size: 13px; color: var(--gold); }
-.date-greg { font-size: 12px; color: var(--text-muted); }
+/* DATE BAR */
+.date-bar { padding: 0 20px 16px; display: flex; justify-content: space-between; align-items: center; }
+.date-hijri { font-family: 'Amiri', serif; font-size: 13px; color: var(--gold); opacity: 0.8; }
+.date-greg { font-size: 11px; color: var(--text-3); letter-spacing: 0.03em; }
 
-/* MAIN CARD */
-.story-card {
-  margin: 0 16px 16px;
-  background: var(--bg-card);
-  border: 0.5px solid rgba(201,168,76,0.2);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  flex: 1;
-}
-.card-header {
-  padding: 20px 20px 16px;
-  border-bottom: 0.5px solid rgba(201,168,76,0.1);
-  display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;
-}
-.era-badge {
-  font-size: 10px; font-weight: 500; letter-spacing: 0.08em;
-  background: rgba(201,168,76,0.12); color: var(--gold);
-  padding: 3px 10px; border-radius: 20px; white-space: nowrap;
-  border: 0.5px solid rgba(201,168,76,0.25);
-}
-.card-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 20px; font-weight: 700; line-height: 1.3;
-  color: var(--text); flex: 1;
-}
-.card-body { padding: 20px; }
-.story-text {
-  font-size: 15px; line-height: 1.8; color: var(--text);
-  font-family: 'DM Sans', sans-serif; font-weight: 300;
-}
-.story-text.arabic {
-  font-family: 'Amiri', serif; font-size: 17px; line-height: 2;
-  direction: rtl; text-align: right;
-}
-.divider-ornament {
-  text-align: center; color: var(--gold-dark); font-size: 18px;
-  margin: 16px 0; letter-spacing: 8px;
-}
-.lesson-box {
-  background: rgba(201,168,76,0.06);
-  border: 0.5px solid rgba(201,168,76,0.2);
-  border-radius: var(--radius); padding: 14px 16px; margin-top: 16px;
-}
-.lesson-label { font-size: 10px; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 6px; font-weight: 500; }
-.lesson-text { font-size: 13px; color: var(--text-muted); line-height: 1.6; font-style: italic; }
+/* SCROLL */
+.scroll { flex: 1; padding: 0 16px; display: flex; flex-direction: column; gap: 12px; }
 
-/* LOADING STATE */
-.loading-state { padding: 40px 20px; text-align: center; }
-.loading-ornament { font-family: 'Amiri', serif; font-size: 36px; color: var(--gold); animation: pulse 2s infinite; }
-.loading-text { font-size: 13px; color: var(--text-muted); margin-top: 12px; }
-@keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+/* RAPPEL CARD */
+.rappel-card { background: linear-gradient(135deg, rgba(201,168,76,0.08) 0%, rgba(201,168,76,0.03) 100%); border: 0.5px solid var(--border-2); border-radius: var(--r-lg); padding: 20px; position: relative; overflow: hidden; }
+.rappel-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(to right, transparent, var(--gold), transparent); opacity: 0.4; }
+.rappel-tag { display: flex; align-items: center; gap: 6px; margin-bottom: 14px; }
+.rappel-tag-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); }
+.rappel-tag-text { font-size: 10px; letter-spacing: 0.12em; color: var(--gold); font-weight: 600; text-transform: uppercase; }
+.rappel-quote { font-family: 'Playfair Display', serif; font-size: 16px; line-height: 1.75; color: var(--text); font-style: italic; margin-bottom: 12px; }
+.rappel-quote.arabic { font-family: 'Amiri', serif; font-size: 18px; direction: rtl; text-align: right; line-height: 2; }
+.rappel-source { font-size: 12px; color: var(--text-2); display: flex; align-items: center; gap: 6px; }
+.rappel-source::before { content: '—'; color: var(--gold-dim); }
+.rappel-source.arabic { direction: rtl; text-align: right; }
+
+/* STORY CARD */
+.story-card { background: var(--bg-2); border: 0.5px solid var(--border); border-radius: var(--r-xl); overflow: hidden; position: relative; }
+
+.story-top { padding: 22px 22px 18px; }
+.story-meta { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+.story-era { font-size: 10px; letter-spacing: 0.1em; color: var(--gold); font-weight: 600; text-transform: uppercase; background: var(--gold-glow); border: 0.5px solid var(--border-2); padding: 4px 10px; border-radius: 20px; }
+.story-period { font-size: 10px; color: var(--text-3); }
+
+.story-title { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; line-height: 1.25; color: var(--text); margin-bottom: 14px; }
+.story-teaser { font-size: 14px; line-height: 1.8; color: var(--text-2); font-weight: 300; }
+.story-teaser.arabic { font-family: 'Amiri', serif; font-size: 16px; direction: rtl; text-align: right; line-height: 2.1; }
+
+/* REVEAL */
+.reveal-zone { border-top: 0.5px solid var(--border); }
+.reveal-btn { width: 100%; padding: 14px 22px; background: none; border: none; color: var(--gold); font-size: 13px; font-weight: 500; cursor: pointer; font-family: 'Inter', sans-serif; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background 0.2s; letter-spacing: 0.03em; }
+.reveal-btn:hover { background: var(--gold-glow); }
+.reveal-icon { width: 20px; height: 20px; border-radius: 50%; border: 1px solid var(--gold-dim); display: flex; align-items: center; justify-content: center; font-size: 9px; transition: transform 0.3s; }
+.reveal-icon.up { transform: rotate(180deg); }
+
+.detail-panel { display: none; padding: 20px 22px 22px; border-top: 0.5px solid var(--border); }
+.detail-panel.show { display: block; }
+.detail-ornament { text-align: center; margin-bottom: 18px; display: flex; align-items: center; gap: 12px; }
+.detail-ornament-line { flex: 1; height: 0.5px; background: linear-gradient(to right, transparent, var(--border-2)); }
+.detail-ornament-line:last-child { background: linear-gradient(to left, transparent, var(--border-2)); }
+.detail-ornament-star { color: var(--gold-dim); font-size: 12px; letter-spacing: 4px; }
+.detail-text { font-size: 15px; line-height: 1.9; color: var(--text); font-weight: 300; margin-bottom: 18px; }
+.detail-text.arabic { font-family: 'Amiri', serif; font-size: 17px; direction: rtl; text-align: right; line-height: 2.2; }
+
+.lesson-card { background: var(--bg-3); border-radius: var(--r); padding: 16px 18px; border-left: 2px solid var(--gold); }
+.lesson-label { font-size: 9px; letter-spacing: 0.15em; color: var(--gold); font-weight: 700; text-transform: uppercase; margin-bottom: 8px; }
+.lesson-text { font-size: 13px; color: var(--text-2); line-height: 1.7; font-style: italic; }
+.lesson-text.arabic { font-family: 'Amiri', serif; font-size: 15px; direction: rtl; text-align: right; }
 
 /* ACTIONS */
-.card-actions {
-  padding: 16px 20px 20px;
-  display: flex; gap: 10px; border-top: 0.5px solid rgba(201,168,76,0.1);
-}
-.action-btn {
-  flex: 1; padding: 11px; border-radius: var(--radius); font-size: 13px;
-  font-weight: 500; cursor: pointer; border: 0.5px solid rgba(201,168,76,0.25);
-  background: none; color: var(--text-muted); font-family: 'DM Sans', sans-serif;
-  transition: all 0.2s;
-}
-.action-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(201,168,76,0.06); }
-.action-btn.primary {
-  background: var(--gold); color: var(--bg-dark); border-color: var(--gold); font-weight: 600;
-}
-.action-btn.primary:hover { background: var(--gold-light); }
+.story-actions { display: flex; gap: 8px; padding: 14px 22px; border-top: 0.5px solid var(--border); }
+.act { flex: 1; padding: 10px; border-radius: var(--r); font-size: 12px; font-weight: 500; cursor: pointer; border: 0.5px solid var(--border); background: none; color: var(--text-2); font-family: 'Inter', sans-serif; transition: all 0.2s; letter-spacing: 0.02em; }
+.act:hover { color: var(--gold); border-color: var(--border-2); background: var(--gold-glow); }
+.act.prem { background: var(--gold); color: var(--bg); border-color: var(--gold); font-weight: 600; }
+.act.prem:hover { background: var(--gold-light); }
+
+/* NEW BTN */
+.new-btn { width: 100%; padding: 13px; border-radius: var(--r); font-size: 13px; font-weight: 500; cursor: pointer; border: 0.5px solid var(--border); background: none; color: var(--text-3); font-family: 'Inter', sans-serif; display: flex; align-items: center; justify-content: center; gap: 8px; transition: all 0.2s; }
+.new-btn:hover { color: var(--text-2); border-color: var(--border-2); }
+
+/* PREMIUM STRIP */
+.prem-strip { background: linear-gradient(135deg, var(--bg-3), var(--bg-4)); border: 0.5px solid var(--border-2); border-radius: var(--r-lg); padding: 18px 20px; display: flex; align-items: center; gap: 16px; position: relative; overflow: hidden; }
+.prem-strip::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(to right, transparent, var(--gold), transparent); opacity: 0.3; }
+.prem-info { flex: 1; }
+.prem-title { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+.prem-sub { font-size: 11px; color: var(--text-2); line-height: 1.5; }
+.prem-sub span { color: var(--gold); }
+.prem-cta { background: var(--gold); color: var(--bg); border: none; padding: 10px 18px; border-radius: var(--r); font-size: 12px; font-weight: 700; cursor: pointer; white-space: nowrap; font-family: 'Inter', sans-serif; letter-spacing: 0.03em; transition: all 0.2s; }
+.prem-cta:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+/* LOADING */
+.loading-card { background: var(--bg-2); border: 0.5px solid var(--border); border-radius: var(--r-xl); padding: 56px 20px; text-align: center; }
+.load-moon { font-size: 36px; animation: pulse 2s infinite; display: block; margin-bottom: 16px; }
+@keyframes pulse { 0%,100%{opacity:0.2} 50%{opacity:1} }
+.load-text { font-size: 13px; color: var(--text-3); letter-spacing: 0.05em; }
+
+/* HISTORY */
+#history-view { display: none; flex: 1; padding: 0 16px; flex-direction: column; gap: 10px; }
+#history-view.show { display: flex; }
+.view-title { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--text); padding: 4px 0 8px; }
+.hist-item { background: var(--bg-2); border: 0.5px solid var(--border); border-radius: var(--r); padding: 14px 16px; cursor: pointer; transition: border-color 0.2s; }
+.hist-item:hover { border-color: var(--border-2); }
+.hist-date { font-size: 10px; color: var(--text-3); margin-bottom: 5px; letter-spacing: 0.05em; }
+.hist-title { font-size: 14px; font-weight: 500; color: var(--text); margin-bottom: 3px; }
+.hist-era { font-size: 11px; color: var(--gold); opacity: 0.7; }
+.locked-card { background: var(--bg-2); border: 0.5px solid var(--border-2); border-radius: var(--r-lg); padding: 32px 24px; text-align: center; margin-top: 4px; }
+.locked-icon { font-size: 32px; margin-bottom: 12px; }
+.locked-text { font-size: 13px; color: var(--text-2); line-height: 1.7; margin-bottom: 18px; }
+.locked-cta { background: var(--gold); color: var(--bg); border: none; padding: 12px 28px; border-radius: var(--r); font-size: 13px; font-weight: 700; cursor: pointer; font-family: 'Inter', sans-serif; }
 
 /* BOTTOM NAV */
-.bottom-nav {
-  display: flex; padding: 12px 20px 24px;
-  border-top: 0.5px solid rgba(201,168,76,0.1);
-  gap: 8px;
-}
-.nav-item {
-  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px;
-  padding: 8px; border-radius: var(--radius); cursor: pointer;
-  background: none; border: none; color: var(--text-muted); font-family: 'DM Sans', sans-serif;
-}
-.nav-item.active { color: var(--gold); background: rgba(201,168,76,0.08); }
-.nav-icon { font-size: 20px; }
-.nav-label { font-size: 10px; font-weight: 500; }
+.bottom-nav { position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%; max-width: 420px; display: flex; padding: 10px 16px 24px; background: linear-gradient(to top, var(--bg) 60%, transparent); gap: 4px; z-index: 50; }
+.nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 8px 4px; border-radius: var(--r); cursor: pointer; background: none; border: none; color: var(--text-3); font-family: 'Inter', sans-serif; transition: all 0.2s; }
+.nav-item.active { color: var(--gold); background: var(--gold-glow); }
+.nav-icon { font-size: 18px; line-height: 1; }
+.nav-label { font-size: 9px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
 
-/* FREEMIUM BANNER */
-.freemium-banner {
-  margin: 0 16px 16px;
-  background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(201,168,76,0.06));
-  border: 0.5px solid rgba(201,168,76,0.3);
-  border-radius: var(--radius-lg); padding: 16px 20px;
-  display: flex; align-items: center; justify-content: space-between; gap: 12px;
-}
-.banner-text { font-size: 13px; color: var(--text); line-height: 1.5; }
-.banner-text span { color: var(--gold); font-weight: 500; }
-.banner-btn {
-  background: var(--gold); color: var(--bg-dark); border: none;
-  padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600;
-  cursor: pointer; white-space: nowrap; font-family: 'DM Sans', sans-serif;
-}
-
-/* TRIAL badge */
-.trial-badge {
-  display: inline-flex; align-items: center; gap: 4px;
-  background: rgba(82,183,136,0.15); color: var(--green-light);
-  border: 0.5px solid rgba(82,183,136,0.3);
-  font-size: 11px; padding: 3px 10px; border-radius: 20px; font-weight: 500;
-}
-
-/* HISTORY VIEW */
-#history-view { display: none; flex-direction: column; flex: 1; padding: 0 16px 16px; }
-#history-view.show { display: flex; }
-.history-title { font-family: 'Playfair Display', serif; font-size: 20px; padding: 16px 0 12px; color: var(--text); }
-.history-item {
-  background: var(--bg-card); border: 0.5px solid rgba(201,168,76,0.15);
-  border-radius: var(--radius); padding: 14px 16px; margin-bottom: 10px; cursor: pointer;
-}
-.history-item:hover { border-color: rgba(201,168,76,0.35); }
-.history-date { font-size: 11px; color: var(--text-muted); margin-bottom: 4px; }
-.history-ttl { font-size: 14px; font-weight: 500; color: var(--text); }
-.locked-msg { text-align: center; padding: 24px; color: var(--text-muted); font-size: 14px; }
-
-/* UTILS */
-.hidden { display: none !important; }
+/* PREMIUM MODAL */
+#prem-modal { display: none; position: fixed; inset: 0; z-index: 200; background: rgba(0,0,0,0.8); backdrop-filter: blur(8px); align-items: flex-end; justify-content: center; padding: 0; }
+#prem-modal.show { display: flex; }
+.modal-sheet { background: var(--bg-1); border-radius: 28px 28px 0 0; border: 0.5px solid var(--border-2); border-bottom: none; padding: 8px 24px 40px; width: 100%; max-width: 420px; position: relative; }
+.modal-handle { width: 36px; height: 4px; border-radius: 2px; background: var(--bg-4); margin: 12px auto 24px; }
+.modal-close { position: absolute; top: 20px; right: 20px; background: var(--bg-3); border: none; color: var(--text-2); width: 28px; height: 28px; border-radius: 50%; cursor: pointer; font-size: 14px; display: flex; align-items: center; justify-content: center; }
+.modal-badge { background: var(--gold-glow); border: 0.5px solid var(--border-2); border-radius: 20px; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; margin-bottom: 16px; }
+.modal-badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); }
+.modal-badge-text { font-size: 10px; color: var(--gold); font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
+.modal-title { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: var(--text); margin-bottom: 6px; line-height: 1.2; }
+.modal-sub { font-size: 14px; color: var(--text-2); margin-bottom: 24px; line-height: 1.5; }
+.modal-features { display: flex; flex-direction: column; gap: 12px; margin-bottom: 28px; }
+.feat { display: flex; align-items: center; gap: 12px; }
+.feat-icon { width: 36px; height: 36px; border-radius: 10px; background: var(--bg-3); border: 0.5px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0; }
+.feat-info { flex: 1; }
+.feat-title { font-size: 13px; font-weight: 500; color: var(--text); margin-bottom: 2px; }
+.feat-sub { font-size: 12px; color: var(--text-2); }
+.modal-price { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.price-main { font-size: 36px; font-weight: 700; color: var(--text); font-family: 'Playfair Display', serif; }
+.price-per { font-size: 13px; color: var(--text-2); }
+.price-trial { background: rgba(82,183,136,0.12); color: #52B788; border-radius: 20px; padding: 3px 10px; font-size: 11px; font-weight: 600; }
+.modal-cta { width: 100%; padding: 16px; background: var(--gold); color: var(--bg); border: none; border-radius: var(--r); font-size: 15px; font-weight: 700; cursor: pointer; font-family: 'Inter', sans-serif; letter-spacing: 0.03em; margin-bottom: 12px; transition: all 0.2s; }
+.modal-cta:hover { background: var(--gold-light); transform: translateY(-1px); }
+.modal-note { text-align: center; font-size: 11px; color: var(--text-3); }
 </style>
 </head>
 <body>
 
-<div class="geometric-bg"></div>
-<div class="pattern"></div>
+<div class="glow-1"></div>
+<div class="glow-2"></div>
 
 <div id="splash">
-  <div class="splash-logo">طارق</div>
-  <div class="splash-line"></div>
-  <div class="splash-sub">TARIKH · HISTOIRE ISLAMIQUE</div>
+  <div class="splash-moon">☽</div>
+  <div class="splash-arabic">تاريخ</div>
+  <div class="splash-divider"></div>
+  <div class="splash-en">Tarikh · Islamic History</div>
+  <div class="splash-loader">
+    <div class="splash-dot"></div>
+    <div class="splash-dot"></div>
+    <div class="splash-dot"></div>
+  </div>
 </div>
 
 <div class="app">
   <header>
-    <div class="header-logo">طارق</div>
-    <div class="header-right">
-      <div class="trial-badge">✦ 7 jours gratuits</div>
-      <button class="lang-btn" onclick="toggleLang()">🌐 FR</button>
+    <div class="h-brand">
+      <div class="h-logo">تاريخ</div>
+      <div class="h-dot"></div>
+      <div class="h-name">Tarikh</div>
+    </div>
+    <div class="h-actions">
+      <button class="h-btn" onclick="toggleLang()" id="lang-display">🌐 FR</button>
+      <button class="h-btn gold" onclick="showPremium()">Premium</button>
     </div>
   </header>
 
   <div id="lang-panel">
-    <button class="lang-opt active" onclick="setLang('fr')">🇫🇷 Français</button>
-    <button class="lang-opt" onclick="setLang('en')">🇬🇧 English</button>
-    <button class="lang-opt" onclick="setLang('ar')">🇸🇦 العربية</button>
-    <button class="lang-opt" onclick="setLang('es')">🇪🇸 Español</button>
+    <button class="lang-chip active" onclick="setLang('fr')">🇫🇷 Français</button>
+    <button class="lang-chip" onclick="setLang('en')">🇬🇧 English</button>
+    <button class="lang-chip" onclick="setLang('ar')">🇸🇦 العربية</button>
+    <button class="lang-chip" onclick="setLang('es')">🇪🇸 Español</button>
+    <button class="lang-chip" onclick="setLang('id')">🇮🇩 Bahasa</button>
+    <button class="lang-chip" onclick="setLang('ur')">🇵🇰 اردو</button>
+  </div>
+
+  <div class="date-bar">
+    <div class="date-hijri" id="hijri-date">☽</div>
+    <div class="date-greg" id="greg-date"></div>
   </div>
 
   <div id="main-view" style="display:flex;flex-direction:column;flex:1">
-    <div class="date-strip">
-      <div class="date-hijri" id="hijri-date">— Hijri</div>
-      <div class="date-greg" id="greg-date"></div>
-    </div>
-
-    <div class="story-card">
-      <div class="card-header">
-        <div class="card-title" id="story-title">Chargement...</div>
-        <div class="era-badge" id="story-era">—</div>
+    <div class="scroll" id="scroll">
+      <div class="loading-card" id="rappel-section">
+        <span class="load-moon">✦</span>
+        <div class="load-text" id="load-rappel">Rappel du jour...</div>
       </div>
-      <div class="card-body">
-        <div id="story-content" class="loading-state">
-          <div class="loading-ornament">☽</div>
-          <div class="loading-text" id="loading-text">L'histoire du jour arrive...</div>
+      <div class="loading-card" id="story-section">
+        <span class="load-moon">☽</span>
+        <div class="load-text" id="load-story">L'histoire du jour arrive...</div>
+      </div>
+      <div class="prem-strip">
+        <div class="prem-info">
+          <div class="prem-title" id="strip-title">Accès illimité</div>
+          <div class="prem-sub" id="strip-sub"><span>7 jours gratuits</span> · Sans pub · 4,99€/mois</div>
         </div>
+        <button class="prem-cta" onclick="showPremium()" id="strip-btn">Essayer</button>
       </div>
-      <div class="card-actions">
-        <button class="action-btn" onclick="shareStory()">Partager</button>
-        <button class="action-btn" onclick="generateStory()">Nouvelle histoire</button>
-        <button class="action-btn primary" onclick="showPremium()">Premium ↗</button>
-      </div>
-    </div>
-
-    <div class="freemium-banner">
-      <div class="banner-text">
-        <span>7 jours gratuits</span> — Accède à toutes les histoires, toutes les langues, sans pub.
-      </div>
-      <button class="banner-btn" onclick="showPremium()">2,99€/mois</button>
     </div>
   </div>
 
   <div id="history-view">
-    <div class="history-title" id="history-title">Historique</div>
-    <div id="history-list"></div>
-    <div class="locked-msg" id="locked-msg">🔒 Abonnez-vous pour accéder à toutes les histoires passées</div>
+    <div class="view-title" id="hist-title">Historique</div>
+    <div id="hist-list"></div>
+    <div class="locked-card">
+      <div class="locked-icon">🔒</div>
+      <div class="locked-text" id="locked-text">Accède à toutes les histoires passées avec Premium. Plus de 365 anecdotes méconnues à explorer.</div>
+      <button class="locked-cta" onclick="showPremium()">Débloquer — 4,99€/mois</button>
+    </div>
   </div>
 
   <div class="bottom-nav">
     <button class="nav-item active" id="nav-home" onclick="switchTab('home')">
       <span class="nav-icon">☽</span>
-      <span class="nav-label" data-key="nav_home">Aujourd'hui</span>
+      <span class="nav-label" id="nl-home">Aujourd'hui</span>
     </button>
     <button class="nav-item" id="nav-history" onclick="switchTab('history')">
       <span class="nav-icon">📜</span>
-      <span class="nav-label" data-key="nav_history">Historique</span>
+      <span class="nav-label" id="nl-history">Historique</span>
     </button>
-    <button class="nav-item" id="nav-premium" onclick="showPremium()">
+    <button class="nav-item" id="nav-prem" onclick="showPremium()">
       <span class="nav-icon">✦</span>
-      <span class="nav-label" data-key="nav_premium">Premium</span>
+      <span class="nav-label" id="nl-prem">Premium</span>
     </button>
   </div>
 </div>
 
+<!-- PREMIUM MODAL -->
+<div id="prem-modal" onclick="closePremIfOutside(event)">
+  <div class="modal-sheet" id="modal-sheet">
+    <div class="modal-handle"></div>
+    <button class="modal-close" onclick="closePremium()">✕</button>
+    <div class="modal-badge"><div class="modal-badge-dot"></div><div class="modal-badge-text">Premium</div></div>
+    <div class="modal-title" id="modal-title">Explore 1400 ans d'histoire</div>
+    <div class="modal-sub" id="modal-sub">Rejoins des milliers de lecteurs qui redécouvrent la civilisation islamique chaque jour.</div>
+    <div class="modal-features">
+      <div class="feat"><div class="feat-icon">📜</div><div class="feat-info"><div class="feat-title" id="f1t">Histoires illimitées</div><div class="feat-sub" id="f1s">Accès à tout l'historique, jamais de limite</div></div></div>
+      <div class="feat"><div class="feat-icon">🌍</div><div class="feat-info"><div class="feat-title" id="f2t">6 langues</div><div class="feat-sub" id="f2s">FR · EN · AR · ES · ID · UR</div></div></div>
+      <div class="feat"><div class="feat-icon">🔔</div><div class="feat-info"><div class="feat-title" id="f3t">Rappels quotidiens</div><div class="feat-sub" id="f3s">Histoire et citation chaque matin</div></div></div>
+      <div class="feat"><div class="feat-icon">🚫</div><div class="feat-info"><div class="feat-title" id="f4t">Zéro publicité</div><div class="feat-sub" id="f4s">Lecture pure, sans interruption</div></div></div>
+    </div>
+    <div class="modal-price">
+      <div class="price-main">4,99€</div>
+      <div class="price-per" id="price-per">/mois</div>
+      <div class="price-trial" id="price-trial">7 jours gratuits</div>
+    </div>
+    <button class="modal-cta" id="modal-cta" onclick="subscribe()">Commencer gratuitement →</button>
+    <div class="modal-note" id="modal-note">Résiliable à tout moment · Paiement sécurisé</div>
+  </div>
+</div>
+
 <script>
-const ANTHROPIC_KEY = 'REMPLACE_PAR_TA_CLE_API';
-
-let currentLang = 'fr';
+let lang = 'fr';
 let currentStory = null;
-let history_items = JSON.parse(localStorage.getItem('tarikh_history') || '[]');
+let detailOpen = false;
+let historyItems = JSON.parse(localStorage.getItem('tarikh_v4') || '[]');
 
-const i18n = {
-  fr: { loading: "L'histoire du jour arrive...", share_text: "Histoire islamique du jour", lesson_label: "LEÇON DU JOUR", nav_home: "Aujourd'hui", nav_history: "Historique", nav_premium: "Premium", history_title: "Historique", locked: "🔒 Abonnez-vous pour accéder à toutes les histoires passées", new_story: "Nouvelle histoire", share: "Partager", premium: "Premium ↗", trial: "7 jours gratuits" },
-  en: { loading: "Today's story is loading...", share_text: "Islamic history of the day", lesson_label: "LESSON OF THE DAY", nav_home: "Today", nav_history: "History", nav_premium: "Premium", history_title: "History", locked: "🔒 Subscribe to access all past stories", new_story: "New story", share: "Share", premium: "Premium ↗", trial: "7 free days" },
-  ar: { loading: "...جاري تحميل قصة اليوم", share_text: "قصة تاريخ إسلامي اليوم", lesson_label: "درس اليوم", nav_home: "اليوم", nav_history: "السجل", nav_premium: "مميز", history_title: "السجل", locked: "🔒 اشترك للوصول إلى جميع القصص السابقة", new_story: "قصة جديدة", share: "مشاركة", premium: "مميز ↗", trial: "7 أيام مجانية" },
-  es: { loading: "La historia de hoy está llegando...", share_text: "Historia islámica del día", lesson_label: "LECCIÓN DEL DÍA", nav_home: "Hoy", nav_history: "Historial", nav_premium: "Premium", history_title: "Historial", locked: "🔒 Suscríbete para acceder a todas las historias pasadas", new_story: "Nueva historia", share: "Compartir", premium: "Premium ↗", trial: "7 días gratis" }
+const T = {
+  fr: { loading_r:"Rappel du jour...", loading_s:"L'histoire du jour arrive...", rappel_tag:"RAPPEL DU JOUR", lesson:"CE QUE L'HISTOIRE NOUS APPREND", reveal:"Lire l'histoire complète", hide:"Réduire", share:"Partager", next:"↻ Autre histoire", prem:"Premium ↗", nl_home:"Aujourd'hui", nl_hist:"Historique", nl_prem:"Premium", hist_title:"Historique", locked:"Accède à toutes les histoires passées avec Premium.", strip_title:"Accès illimité", strip_sub:"<span>7 jours gratuits</span> · Sans pub · 4,99€/mois", strip_btn:"Essayer", modal_title:"Explore 1400 ans d'histoire", modal_sub:"Rejoins des milliers de lecteurs qui redécouvrent la civilisation islamique chaque jour.", f1t:"Histoires illimitées", f1s:"Accès à tout l'historique, jamais de limite", f2t:"6 langues", f2s:"FR · EN · AR · ES · ID · UR", f3t:"Rappels quotidiens", f3s:"Histoire et citation chaque matin", f4t:"Zéro publicité", f4s:"Lecture pure, sans interruption", price_per:"/mois", price_trial:"7 jours gratuits", modal_cta:"Commencer gratuitement →", modal_note:"Résiliable à tout moment · Paiement sécurisé" },
+  en: { loading_r:"Daily reminder loading...", loading_s:"Today's story is coming...", rappel_tag:"DAILY REMINDER", lesson:"WHAT HISTORY TEACHES US", reveal:"Read full story", hide:"Collapse", share:"Share", next:"↻ New story", prem:"Premium ↗", nl_home:"Today", nl_hist:"History", nl_prem:"Premium", hist_title:"History", locked:"Access all past stories with Premium.", strip_title:"Unlimited access", strip_sub:"<span>7 days free</span> · No ads · €4.99/month", strip_btn:"Try free", modal_title:"Explore 1400 years of history", modal_sub:"Join thousands of readers rediscovering Islamic civilization every day.", f1t:"Unlimited stories", f1s:"Access full archive, no limits", f2t:"6 languages", f2s:"FR · EN · AR · ES · ID · UR", f3t:"Daily reminders", f3s:"Story and quote every morning", f4t:"Zero ads", f4s:"Pure reading, no interruptions", price_per:"/month", price_trial:"7 days free", modal_cta:"Start for free →", modal_note:"Cancel anytime · Secure payment" },
+  ar: { loading_r:"...جاري تحميل التذكير", loading_s:"...جاري تحميل قصة اليوم", rappel_tag:"تذكير اليوم", lesson:"ما تعلمنا من التاريخ", reveal:"اقرأ القصة كاملة", hide:"تصغير", share:"مشاركة", next:"↻ قصة أخرى", prem:"مميز ↗", nl_home:"اليوم", nl_hist:"السجل", nl_prem:"مميز", hist_title:"السجل", locked:"احصل على جميع القصص مع Premium.", strip_title:"وصول غير محدود", strip_sub:"<span>7 أيام مجانية</span> · بدون إعلانات", strip_btn:"جرّب", modal_title:"استكشف 1400 عام من التاريخ", modal_sub:"انضم إلى آلاف القراء الذين يعيدون اكتشاف الحضارة الإسلامية.", f1t:"قصص غير محدودة", f1s:"الوصول إلى الأرشيف الكامل", f2t:"6 لغات", f2s:"عربي · فرنسي · إنجليزي · إسباني", f3t:"تذكيرات يومية", f3s:"قصة واقتباس كل صباح", f4t:"بدون إعلانات", f4s:"قراءة نقية بدون انقطاع", price_per:"/شهر", price_trial:"7 أيام مجانية", modal_cta:"ابدأ مجاناً →", modal_note:"إلغاء في أي وقت · دفع آمن" },
+  es: { loading_r:"Cargando recordatorio...", loading_s:"La historia de hoy llega...", rappel_tag:"RECORDATORIO DEL DÍA", lesson:"LO QUE LA HISTORIA NOS ENSEÑA", reveal:"Leer historia completa", hide:"Reducir", share:"Compartir", next:"↻ Otra historia", prem:"Premium ↗", nl_home:"Hoy", nl_hist:"Historial", nl_prem:"Premium", hist_title:"Historial", locked:"Accede a todas las historias con Premium.", strip_title:"Acceso ilimitado", strip_sub:"<span>7 días gratis</span> · Sin anuncios · 4,99€/mes", strip_btn:"Probar", modal_title:"Explora 1400 años de historia", modal_sub:"Únete a miles de lectores que redescubren la civilización islámica cada día.", f1t:"Historias ilimitadas", f1s:"Acceso al archivo completo", f2t:"6 idiomas", f2s:"FR · EN · AR · ES · ID · UR", f3t:"Recordatorios diarios", f3s:"Historia y cita cada mañana", f4t:"Sin publicidad", f4s:"Lectura pura, sin interrupciones", price_per:"/mes", price_trial:"7 días gratis", modal_cta:"Empezar gratis →", modal_note:"Cancela cuando quieras · Pago seguro" },
+  id: { loading_r:"Memuat pengingat...", loading_s:"Kisah hari ini akan hadir...", rappel_tag:"PENGINGAT HARI INI", lesson:"APA YANG SEJARAH AJARKAN", reveal:"Baca kisah lengkap", hide:"Tutup", share:"Bagikan", next:"↻ Kisah lain", prem:"Premium ↗", nl_home:"Hari ini", nl_hist:"Riwayat", nl_prem:"Premium", hist_title:"Riwayat", locked:"Akses semua kisah dengan Premium.", strip_title:"Akses tak terbatas", strip_sub:"<span>7 hari gratis</span> · Tanpa iklan", strip_btn:"Coba", modal_title:"Jelajahi 1400 tahun sejarah", modal_sub:"Bergabunglah dengan ribuan pembaca yang menemukan kembali peradaban Islam.", f1t:"Kisah tak terbatas", f1s:"Akses arsip lengkap", f2t:"6 bahasa", f2s:"ID · AR · FR · EN · ES · UR", f3t:"Pengingat harian", f3s:"Kisah dan kutipan setiap pagi", f4t:"Tanpa iklan", f4s:"Membaca murni, tanpa gangguan", price_per:"/bulan", price_trial:"7 hari gratis", modal_cta:"Mulai gratis →", modal_note:"Batalkan kapan saja · Pembayaran aman" },
+  ur: { loading_r:"یاد دہانی لوڈ ہو رہی ہے...", loading_s:"آج کی کہانی آ رہی ہے...", rappel_tag:"آج کی یاد دہانی", lesson:"تاریخ ہمیں کیا سکھاتی ہے", reveal:"پوری کہانی پڑھیں", hide:"بند کریں", share:"شیئر کریں", next:"↻ دوسری کہانی", prem:"پریمیم ↗", nl_home:"آج", nl_hist:"تاریخ", nl_prem:"پریمیم", hist_title:"تاریخ", locked:"پریمیم کے ساتھ تمام کہانیاں دیکھیں۔", strip_title:"لامحدود رسائی", strip_sub:"<span>7 دن مفت</span> · اشتہارات نہیں", strip_btn:"آزمائیں", modal_title:"1400 سال کی تاریخ دریافت کریں", modal_sub:"ہزاروں قارئین کے ساتھ شامل ہوں۔", f1t:"لامحدود کہانیاں", f1s:"مکمل آرکائیو تک رسائی", f2t:"6 زبانیں", f2s:"اردو · عربی · انگریزی · فرانسیسی", f3t:"روزانہ یاد دہانی", f3s:"ہر صبح کہانی اور اقتباس", f4t:"کوئی اشتہار نہیں", f4s:"خالص مطالعہ", price_per:"/ماہ", price_trial:"7 دن مفت", modal_cta:"مفت شروع کریں →", modal_note:"کسی بھی وقت منسوخ کریں" }
 };
 
-const prompts = {
-  fr: "Tu es un historien expert en histoire islamique. Génère une anecdote historique islamique fascinante et peu connue. Réponds UNIQUEMENT en JSON valide sans backticks: {\"title\":\"Titre accrocheur\",\"era\":\"Époque ex: VIIe siècle\",\"story\":\"Anecdote captivante de 120-150 mots, vivante et narrative\",\"lesson\":\"Leçon ou sagesse tirée de cette histoire en 1-2 phrases\"}",
-  en: "You are an expert historian in Islamic history. Generate a fascinating and little-known Islamic historical anecdote. Reply ONLY in valid JSON without backticks: {\"title\":\"Catchy title\",\"era\":\"Era ex: 7th century\",\"story\":\"Captivating anecdote of 120-150 words, vivid and narrative\",\"lesson\":\"Lesson or wisdom from this story in 1-2 sentences\"}",
-  ar: "أنت مؤرخ خبير في التاريخ الإسلامي. أنشئ قصة تاريخية إسلامية رائعة وغير معروفة. أجب فقط بـJSON صحيح بدون علامات اقتباس: {\"title\":\"عنوان جذاب\",\"era\":\"الحقبة مثال: القرن السابع\",\"story\":\"قصة رائعة من 120-150 كلمة، حية وسردية\",\"lesson\":\"درس أو حكمة من هذه القصة في 1-2 جملة\"}",
-  es: "Eres un historiador experto en historia islámica. Genera una anécdota histórica islámica fascinante y poco conocida. Responde SOLO en JSON válido sin backticks: {\"title\":\"Título atractivo\",\"era\":\"Época ej: siglo VII\",\"story\":\"Anécdota cautivadora de 120-150 palabras, vívida y narrativa\",\"lesson\":\"Lección o sabiduría de esta historia en 1-2 frases\"}"
+const STORY_PROMPTS = {
+  fr: `Tu es un historien expert en civilisation islamique. Génère UNE anecdote historique islamique méconnue et fascinante, de 610 après J.C. jusqu'à aujourd'hui. UNIQUEMENT des faits historiques vérifiables. Zéro théologie. Thèmes : savants, explorateurs, batailles, inventions, dynasties, villes, diplomatie, arts, sciences, commerce, personnages oubliés. Réponds UNIQUEMENT en JSON valide sans backticks : {"title":"Titre accrocheur max 10 mots","era":"ex: IXe siècle · Empire Abbasside","period":"610–1200 ou 1200–1800 ou 1800–aujourd'hui","teaser":"2-3 phrases qui intriguent sans tout dévoiler, comme un teaser de film","story":"Histoire complète 200-240 mots, narrative, vivante, détails concrets et surprenants","lesson":"Ce que révèle cette histoire en 1-2 phrases"}`,
+  en: `You are an expert historian in Islamic civilization. Generate ONE little-known and fascinating Islamic historical anecdote from 610 AD to today. ONLY verifiable historical facts. No theology. Themes: scholars, explorers, battles, inventions, dynasties, cities, arts, sciences, forgotten figures. Reply ONLY in valid JSON without backticks: {"title":"Catchy title max 10 words","era":"ex: 9th century · Abbasid Empire","period":"610–1200 or 1200–1800 or 1800–today","teaser":"2-3 sentences that intrigue like a movie trailer","story":"Complete story 200-240 words, vivid, narrative, concrete surprising details","lesson":"What this story reveals in 1-2 sentences"}`,
+  ar: `أنت مؤرخ خبير في الحضارة الإسلامية. أنشئ قصة تاريخية إسلامية مجهولة ورائعة من 610م حتى اليوم. حقائق تاريخية موثقة فقط. لا علم كلام. أجب فقط بـJSON صحيح بدون علامات: {"title":"عنوان جذاب","era":"الحقبة","period":"610–1200 أو 1200–1800 أو 1800–اليوم","teaser":"2-3 جمل تثير الفضول","story":"قصة كاملة 200-240 كلمة سردية وحية","lesson":"ما تكشفه القصة في 1-2 جملة"}`,
+  es: `Eres un historiador experto en civilización islámica. Genera UNA anécdota histórica islámica poco conocida desde 610 d.C. hasta hoy. SOLO hechos verificables. Sin teología. Responde SOLO en JSON sin backticks: {"title":"Título atractivo máx 10 palabras","era":"ej: siglo IX · Imperio Abasí","period":"610–1200 o 1200–1800 o 1800–hoy","teaser":"2-3 frases que intriguen como tráiler","story":"Historia completa 200-240 palabras vívida y narrativa","lesson":"Lo que revela en 1-2 frases"}`,
+  id: `Kamu adalah sejarawan ahli peradaban Islam. Buat SATU kisah sejarah Islam yang kurang dikenal dari tahun 610 M hingga sekarang. HANYA fakta sejarah yang dapat diverifikasi. Tanpa teologi. Balas HANYA dalam JSON valid tanpa backticks: {"title":"Judul menarik maks 10 kata","era":"mis: Abad ke-9 · Kekaisaran Abbasiyah","period":"610–1200 atau 1200–1800 atau 1800–sekarang","teaser":"2-3 kalimat yang membuat penasaran","story":"Kisah lengkap 200-240 kata yang hidup","lesson":"Apa yang kisah ini ungkapkan dalam 1-2 kalimat"}`,
+  ur: `آپ اسلامی تہذیب کے ماہر مورخ ہیں۔ 610 عیسوی سے آج تک کا ایک نامعلوم دلچسپ اسلامی تاریخی واقعہ بتائیں۔ صرف تاریخی حقائق۔ کوئی عقیدہ نہیں۔ صرف JSON میں جواب دیں: {"title":"دلچسپ عنوان","era":"مثال: نویں صدی","period":"610–1200 یا 1200–1800 یا 1800–آج","teaser":"2-3 جملے جو تجسس پیدا کریں","story":"200-240 الفاظ کی مکمل کہانی","lesson":"1-2 جملوں میں سبق"}`
 };
 
-function setLang(lang) {
-  currentLang = lang;
-  document.querySelectorAll('.lang-opt').forEach(b => b.classList.toggle('active', b.textContent.includes({fr:'FR',en:'EN',ar:'AR',es:'ES'}[lang])));
-  document.querySelector('.lang-btn').textContent = '🌐 ' + lang.toUpperCase();
-  document.getElementById('lang-panel').classList.remove('open');
-  applyTranslations();
-  generateStory();
-}
+const RAPPEL_PROMPTS = {
+  fr: `Génère une citation ou sagesse d'un savant, philosophe, poète, scientifique ou personnage historique musulman réel (pas de théologie, uniquement pensée, science, sagesse humaine universelle). Réponds UNIQUEMENT en JSON sans backticks : {"quote":"Citation courte et profonde (1-2 phrases max)","source":"Nom · siècle · domaine"}`,
+  en: `Generate a quote from a real Muslim scholar, philosopher, poet or scientist (no theology, only thought, science, universal human wisdom). Reply ONLY in JSON without backticks: {"quote":"Short profound quote (1-2 sentences max)","source":"Name · century · field"}`,
+  ar: `أنشئ اقتباسًا من عالم أو فيلسوف أو شاعر أو عالِم مسلم حقيقي. أجب فقط بـJSON: {"quote":"اقتباس قصير وعميق","source":"الاسم · القرن · المجال"}`,
+  es: `Genera una cita de un sabio, filósofo, poeta o científico musulmán real. Responde SOLO en JSON: {"quote":"Cita corta y profunda (máx 1-2 frases)","source":"Nombre · siglo · campo"}`,
+  id: `Buat kutipan dari seorang sarjana, filsuf, penyair atau ilmuwan Muslim nyata. Balas HANYA dalam JSON: {"quote":"Kutipan singkat dan mendalam (maks 1-2 kalimat)","source":"Nama · abad · bidang"}`,
+  ur: `ایک حقیقی مسلمان عالم یا فلسفی کا اقتباس بنائیں۔ صرف JSON میں جواب دیں: {"quote":"مختصر اور گہرا اقتباس","source":"نام · صدی · شعبہ"}`
+};
 
-function toggleLang() {
-  document.getElementById('lang-panel').classList.toggle('open');
-}
-
-function applyTranslations() {
-  const t = i18n[currentLang];
-  document.querySelectorAll('[data-key]').forEach(el => {
-    const key = el.dataset.key;
-    if (t[key]) el.textContent = t[key];
+async function callAPI(prompt) {
+  const res = await fetch('/api/generate', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt })
   });
-  document.getElementById('history-title').textContent = t.history_title;
-  document.getElementById('locked-msg').textContent = t.locked;
-  document.getElementById('loading-text').textContent = t.loading;
-  document.querySelector('.trial-badge').textContent = '✦ ' + t.trial;
+  const data = await res.json();
+  const text = data.content?.find(b => b.type === 'text')?.text || '';
+  return JSON.parse(text.replace(/```json|```/g, '').trim());
 }
 
-function getHijriDate() {
-  const now = new Date();
-  try {
-    return now.toLocaleDateString('ar-SA-u-ca-islamic', { year: 'numeric', month: 'long', day: 'numeric' });
-  } catch { return ''; }
+function toggleLang() { document.getElementById('lang-panel').classList.toggle('open'); }
+
+function setLang(l) {
+  lang = l;
+  document.querySelectorAll('.lang-chip').forEach(b => b.classList.toggle('active', b.textContent.includes({fr:'FR',en:'EN',ar:'AR',es:'ES',id:'ID',ur:'UR'}[l])));
+  document.getElementById('lang-display').textContent = '🌐 ' + l.toUpperCase();
+  document.getElementById('lang-panel').classList.remove('open');
+  updateLabels();
+  generateAll();
+}
+
+function updateLabels() {
+  const t = T[lang];
+  document.getElementById('nl-home').textContent = t.nl_home;
+  document.getElementById('nl-history').textContent = t.nl_hist;
+  document.getElementById('nl-prem').textContent = t.nl_prem;
+  document.getElementById('hist-title').textContent = t.hist_title;
+  document.getElementById('locked-text').textContent = t.locked;
+  document.getElementById('strip-title').textContent = t.strip_title;
+  document.getElementById('strip-sub').innerHTML = t.strip_sub;
+  document.getElementById('strip-btn').textContent = t.strip_btn;
+  document.getElementById('load-rappel').textContent = t.loading_r;
+  document.getElementById('load-story').textContent = t.loading_s;
+  document.getElementById('modal-title').textContent = t.modal_title;
+  document.getElementById('modal-sub').textContent = t.modal_sub;
+  document.getElementById('f1t').textContent = t.f1t;
+  document.getElementById('f1s').textContent = t.f1s;
+  document.getElementById('f2t').textContent = t.f2t;
+  document.getElementById('f2s').textContent = t.f2s;
+  document.getElementById('f3t').textContent = t.f3t;
+  document.getElementById('f3s').textContent = t.f3s;
+  document.getElementById('f4t').textContent = t.f4t;
+  document.getElementById('f4s').textContent = t.f4s;
+  document.getElementById('price-per').textContent = t.price_per;
+  document.getElementById('price-trial').textContent = t.price_trial;
+  document.getElementById('modal-cta').textContent = t.modal_cta;
+  document.getElementById('modal-note').textContent = t.modal_note;
 }
 
 function initDates() {
   const now = new Date();
-  document.getElementById('greg-date').textContent = now.toLocaleDateString(currentLang === 'ar' ? 'ar' : 'fr', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
-  const hijri = getHijriDate();
-  if (hijri) document.getElementById('hijri-date').textContent = hijri;
+  document.getElementById('greg-date').textContent = now.toLocaleDateString(lang === 'ar' || lang === 'ur' ? 'ar' : lang === 'id' ? 'id' : 'fr', { weekday: 'long', day: 'numeric', month: 'long' });
+  try { document.getElementById('hijri-date').textContent = now.toLocaleDateString('ar-SA-u-ca-islamic', { year: 'numeric', month: 'long', day: 'numeric' }); } catch { }
 }
 
-async function generateStory() {
-  const t = i18n[currentLang];
-  document.getElementById('story-title').textContent = t.loading.split(' ')[0] + '...';
-  document.getElementById('story-era').textContent = '—';
-  document.getElementById('story-content').innerHTML = `<div class="loading-state"><div class="loading-ornament">☽</div><div class="loading-text">${t.loading}</div></div>`;
-
+async function generateRappel() {
+  const t = T[lang];
+  const isAr = lang === 'ar' || lang === 'ur';
+  document.getElementById('rappel-section').innerHTML = `<span class="load-moon">✦</span><div class="load-text">${t.loading_r}</div>`;
   try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-api-key': ANTHROPIC_KEY, 'anthropic-version': '2023-06-01' },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 800,
-        messages: [{ role: 'user', content: prompts[currentLang] }]
-      })
-    });
-    const data = await res.json();
-    const text = data.content?.find(b => b.type === 'text')?.text || '';
-    const d = JSON.parse(text.replace(/```json|```/g, '').trim());
-    currentStory = d;
-
-    document.getElementById('story-title').textContent = d.title;
-    document.getElementById('story-era').textContent = d.era;
-
-    const isAr = currentLang === 'ar';
-    document.getElementById('story-content').innerHTML = `
-      <p class="story-text ${isAr ? 'arabic' : ''}">${d.story}</p>
-      <div class="divider-ornament">✦ ✦ ✦</div>
-      <div class="lesson-box">
-        <div class="lesson-label">${t.lesson_label}</div>
-        <div class="lesson-text ${isAr ? 'arabic' : ''}" style="font-size:${isAr?'15':'13'}px">${d.lesson}</div>
-      </div>
-    `;
-
-    saveToHistory(d);
+    const d = await callAPI(RAPPEL_PROMPTS[lang]);
+    document.getElementById('rappel-section').innerHTML = `
+      <div class="rappel-card">
+        <div class="rappel-tag"><div class="rappel-tag-dot"></div><div class="rappel-tag-text">${t.rappel_tag}</div></div>
+        <div class="rappel-quote ${isAr ? 'arabic' : ''}">"${d.quote}"</div>
+        <div class="rappel-source ${isAr ? 'arabic' : ''}">${d.source}</div>
+      </div>`;
   } catch(e) {
-    document.getElementById('story-content').innerHTML = `<div class="loading-state"><div class="loading-text">Erreur de connexion. Vérifie ta clé API.</div></div>`;
+    document.getElementById('rappel-section').innerHTML = `<div class="rappel-card"><div class="rappel-tag"><div class="rappel-tag-dot"></div><div class="rappel-tag-text">${t.rappel_tag}</div></div><div class="rappel-quote">Erreur de connexion</div></div>`;
   }
 }
 
-function saveToHistory(story) {
+async function generateStory() {
+  const t = T[lang];
+  const isAr = lang === 'ar' || lang === 'ur';
+  detailOpen = false;
+  document.getElementById('story-section').innerHTML = `<span class="load-moon">☽</span><div class="load-text">${t.loading_s}</div>`;
+  try {
+    const d = await callAPI(STORY_PROMPTS[lang]);
+    currentStory = d;
+    saveHistory(d);
+    document.getElementById('story-section').innerHTML = `
+      <div class="story-card">
+        <div class="story-top">
+          <div class="story-meta">
+            <div class="story-era">${d.era}</div>
+            <div class="story-period">${d.period}</div>
+          </div>
+          <div class="story-title">${d.title}</div>
+          <div class="story-teaser ${isAr ? 'arabic' : ''}">${d.teaser}</div>
+        </div>
+        <div class="reveal-zone">
+          <button class="reveal-btn" id="reveal-btn" onclick="toggleDetail()">
+            <span id="reveal-text">${t.reveal}</span>
+            <div class="reveal-icon" id="reveal-icon">▼</div>
+          </button>
+          <div class="detail-panel" id="detail-panel">
+            <div class="detail-ornament">
+              <div class="detail-ornament-line"></div>
+              <div class="detail-ornament-star">✦ ✦ ✦</div>
+              <div class="detail-ornament-line"></div>
+            </div>
+            <p class="detail-text ${isAr ? 'arabic' : ''}">${d.story}</p>
+            <div class="lesson-card">
+              <div class="lesson-label">${t.lesson}</div>
+              <div class="lesson-text ${isAr ? 'arabic' : ''}">${d.lesson}</div>
+            </div>
+          </div>
+        </div>
+        <div class="story-actions">
+          <button class="act" onclick="shareStory()">${t.share}</button>
+          <button class="act" onclick="generateStory()">${t.next}</button>
+          <button class="act prem" onclick="showPremium()">${t.prem}</button>
+        </div>
+      </div>`;
+  } catch(e) {
+    document.getElementById('story-section').innerHTML = `<div class="loading-card"><span class="load-moon">☽</span><div class="load-text">Erreur de connexion. Vérifie ta connexion.</div></div>`;
+  }
+}
+
+async function generateAll() {
+  initDates();
+  generateRappel();
+  generateStory();
+}
+
+function toggleDetail() {
+  detailOpen = !detailOpen;
+  document.getElementById('detail-panel').classList.toggle('show', detailOpen);
+  document.getElementById('reveal-icon').classList.toggle('up', detailOpen);
+  document.getElementById('reveal-text').textContent = detailOpen ? T[lang].hide : T[lang].reveal;
+  if (detailOpen) setTimeout(() => document.getElementById('detail-panel').scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 100);
+}
+
+function saveHistory(story) {
   const today = new Date().toLocaleDateString('fr');
-  const existing = history_items.findIndex(h => h.date === today && h.lang === currentLang);
-  if (existing >= 0) history_items[existing] = { date: today, lang: currentLang, ...story };
-  else history_items.unshift({ date: today, lang: currentLang, ...story });
-  if (history_items.length > 30) history_items = history_items.slice(0, 30);
-  localStorage.setItem('tarikh_history', JSON.stringify(history_items));
+  historyItems = historyItems.filter(h => !(h.date === today && h.lang === lang));
+  historyItems.unshift({ date: today, lang, ...story });
+  if (historyItems.length > 10) historyItems = historyItems.slice(0, 10);
+  localStorage.setItem('tarikh_v4', JSON.stringify(historyItems));
 }
 
 function renderHistory() {
-  const list = document.getElementById('history-list');
-  const recent = history_items.slice(0, 3);
-  list.innerHTML = recent.map(h => `
-    <div class="history-item">
-      <div class="history-date">${h.date} · ${h.era || ''}</div>
-      <div class="history-ttl">${h.title}</div>
-    </div>
-  `).join('');
+  const t = T[lang];
+  const recent = historyItems.slice(0, 3);
+  document.getElementById('hist-list').innerHTML = recent.length
+    ? recent.map(h => `<div class="hist-item"><div class="hist-date">${h.date}</div><div class="hist-title">${h.title}</div><div class="hist-era">${h.era || ''}</div></div>`).join('')
+    : '';
 }
 
 function switchTab(tab) {
-  document.getElementById('main-view').style.display = tab === 'home' ? 'flex' : 'none';
-  document.getElementById('history-view').style.display = tab === 'history' ? 'flex' : 'none';
-  document.getElementById('history-view').classList.toggle('show', tab === 'history');
+  const mv = document.getElementById('main-view');
+  const hv = document.getElementById('history-view');
+  mv.style.display = tab === 'home' ? 'flex' : 'none';
+  hv.style.display = tab === 'history' ? 'flex' : 'none';
+  hv.classList.toggle('show', tab === 'history');
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-  document.getElementById('nav-' + tab)?.classList.add('active');
+  document.getElementById(tab === 'home' ? 'nav-home' : 'nav-history')?.classList.add('active');
   if (tab === 'history') renderHistory();
 }
 
+function showPremium() { document.getElementById('prem-modal').classList.add('show'); }
+function closePremium() { document.getElementById('prem-modal').classList.remove('show'); }
+function closePremIfOutside(e) { if (e.target === document.getElementById('prem-modal')) closePremium(); }
+function subscribe() { alert('Connecte Stripe ici pour encaisser les paiements.\n\n✦ 4,99€/mois\n✦ 7 jours gratuits\n✦ Sans pub\n✦ Accès illimité'); }
+
 function shareStory() {
-  const t = i18n[currentLang];
-  const text = currentStory ? `${currentStory.title}\n\n${currentStory.story}\n\n— Tarikh, ${t.share_text}` : t.share_text;
-  if (navigator.share) { navigator.share({ title: 'Tarikh', text }); }
-  else { navigator.clipboard.writeText(text).then(() => alert('Copié !')); }
+  const text = currentStory ? `${currentStory.title}\n\n${currentStory.teaser}\n\n— Tarikh App · Histoire Islamique` : 'Tarikh — Histoire Islamique';
+  if (navigator.share) navigator.share({ title: 'Tarikh', text });
+  else navigator.clipboard.writeText(text).then(() => alert('Copié !'));
 }
 
-function showPremium() {
-  alert('Système de paiement Stripe à connecter.\nPrix : 2,99€/mois\n7 jours gratuits inclus.');
-}
-
-// INIT
 window.addEventListener('load', () => {
-  setTimeout(() => document.getElementById('splash').classList.add('hide'), 1800);
-  initDates();
-  applyTranslations();
-  generateStory();
+  setTimeout(() => document.getElementById('splash').classList.add('hide'), 2000);
+  updateLabels();
+  generateAll();
 });
 </script>
 </body>
