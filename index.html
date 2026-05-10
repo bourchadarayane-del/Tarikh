@@ -515,7 +515,7 @@ function switchTab(tab) {
 function showPremium() { document.getElementById('prem-modal').classList.add('show'); }
 function closePremium() { document.getElementById('prem-modal').classList.remove('show'); }
 function closePremIfOutside(e) { if (e.target === document.getElementById('prem-modal')) closePremium(); }
-function subscribe() { alert('Connecte Stripe ici pour encaisser les paiements.\n\n✦ 4,99€/mois\n✦ 7 jours gratuits\n✦ Sans pub\n✦ Accès illimité'); }
+function subscribe() { window.open('https://buy.stripe.com/4gM00jeg49qJ5RO8HB3ks02', '_blank'); }
 
 function shareStory() {
   const text = currentStory ? `${currentStory.title}\n\n${currentStory.teaser}\n\n— Tarikh App · Histoire Islamique` : 'Tarikh — Histoire Islamique';
