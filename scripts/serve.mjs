@@ -4,6 +4,7 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import zlib from 'node:zlib';
 import { loadEnv } from './env.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -51,7 +52,16 @@ http.createServer(async (req, res) => {
     if (!file.startsWith(www)) return send(res, 403, 'Forbidden');
     if (!fs.existsSync(file) && fs.existsSync(file + '.html')) file += '.html';
     if (!fs.existsSync(file) || fs.statSync(file).isDirectory()) return send(res, 404, 'Not found');
-    res.writeHead(200, { 'content-type': types[path.extname(file)] || 'application/octet-stream', 'cache-control': 'no-cache' });
+    const ext = path.extname(file);
+    const headers = { 'content-type': types[ext] || 'application/octet-stream', 'cache-control': 'no-cache' };
+    // Compression comme sur Vercel (brotli/gzip) pour les textes, afin que les mesures soient réalistes.
+    if (['.html', '.js', '.css', '.json', '.svg', '.webmanifest', '.txt'].includes(ext)) {
+      const accept = String(req.headers['accept-encoding'] || '');
+      const raw = fs.readFileSync(file);
+      if (/\bbr\b/.test(accept)) { res.writeHead(200, { ...headers, 'content-encoding': 'br', vary: 'Accept-Encoding' }); return res.end(zlib.brotliCompressSync(raw)); }
+      if (/\bgzip\b/.test(accept)) { res.writeHead(200, { ...headers, 'content-encoding': 'gzip', vary: 'Accept-Encoding' }); return res.end(zlib.gzipSync(raw)); }
+    }
+    res.writeHead(200, headers);
     fs.createReadStream(file).pipe(res);
   } catch (err) {
     console.error(err);

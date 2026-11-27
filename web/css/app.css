@@ -58,7 +58,7 @@ a { color: var(--gold); }
 /* ---------- En-tête et navigation ---------- */
 .app-header {
   position: sticky; top: 0; z-index: 20; height: calc(var(--header-h) + var(--sat)); padding: var(--sat) calc(12px + var(--sar)) 0 calc(12px + var(--sal));
-  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; background: rgba(8, 4, 0, .92); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line);
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; background: rgba(8, 4, 0, .97); border-bottom: 1px solid var(--line);
 }
 .app-header > :first-child { justify-self: start; }
 .app-header > :last-child { justify-self: end; }
@@ -72,7 +72,7 @@ main { padding: 14px calc(14px + var(--sar)) calc(var(--tabbar-h) + var(--sab) +
 .view { display: flex; flex-direction: column; gap: 14px; }
 .tabbar {
   position: fixed; inset-inline: 0; bottom: 0; z-index: 20; height: calc(var(--tabbar-h) + var(--sab)); padding: 0 var(--sar) var(--sab) var(--sal);
-  display: grid; grid-template-columns: repeat(3, 1fr); background: rgba(8, 4, 0, .96); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-top: 1px solid var(--line);
+  display: grid; grid-template-columns: repeat(3, 1fr); background: rgba(8, 4, 0, .98); border-top: 1px solid var(--line);
 }
 .tab { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-height: 48px; color: var(--muted); text-decoration: none; font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; }
 .tab-ico { font-size: 1.3rem; line-height: 1.2; filter: grayscale(1); opacity: .7; }
