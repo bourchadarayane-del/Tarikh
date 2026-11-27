@@ -1076,7 +1076,7 @@
       "Al-Biruni"
     ],
     "answer": 3,
-    "explain": "Al-Biruni mengukur jari-jari Bumi dengan ketepatan yang mengagumkan dan menulis buku yang terperinci tentang India."
+    "explain": "Al-Biruni menghitung jari-jari Bumi dengan metode yang cerdik, dengan hasil yang mendekati nilai modern, dan menulis buku yang terperinci tentang India."
   },
   {
     "id": "q084",
@@ -1107,7 +1107,7 @@
   {
     "id": "q086",
     "cat": "sciences",
-    "q": "Di kota manakah Baitul Hikmah (Rumah Kebijaksanaan), sebuah pusat besar penerjemahan dan ilmu, berada?",
+    "q": "Di kota manakah Baitul Hikmah (Rumah Kebijaksanaan), perpustakaan Abbasiyah termasyhur yang terkait dengan gerakan penerjemahan, berada?",
     "options": [
       "Bagdad",
       "Kordoba",
@@ -1115,7 +1115,7 @@
       "Damaskus"
     ],
     "answer": 0,
-    "explain": "Baitul Hikmah berkembang di Bagdad masa Abbasiyah, tempat para ilmuwan menerjemahkan dan mengkaji karya-karya dari tradisi Yunani, Persia, dan India."
+    "explain": "Baitul Hikmah berada di Bagdad masa Abbasiyah, tempat para ilmuwan menerjemahkan dan mengkaji karya-karya dari tradisi Yunani, Persia, dan India."
   },
   {
     "id": "q087",
@@ -1375,7 +1375,7 @@
       "Syajarat ad-Durr"
     ],
     "answer": 1,
-    "explain": "Fatimah al-Fihri mendirikan al-Qarawiyyin di Fez, Maroko, pada tahun 859. Ia sering disebut sebagai universitas tertua yang masih beroperasi."
+    "explain": "Menurut riwayat, Fatimah al-Fihri mendirikan al-Qarawiyyin di Fez, Maroko, pada tahun 859. Ia sering disebut sebagai universitas tertua yang masih beroperasi."
   },
   {
     "id": "q107",

@@ -1076,7 +1076,7 @@
       "Al-Birouni"
     ],
     "answer": 3,
-    "explain": "Al-Birouni a mesuré le rayon de la Terre avec une précision remarquable et a écrit un livre détaillé sur l'Inde."
+    "explain": "Al-Birouni a calculé le rayon de la Terre par une méthode ingénieuse, avec un résultat proche de la valeur moderne, et a écrit un livre détaillé sur l'Inde."
   },
   {
     "id": "q084",
@@ -1107,7 +1107,7 @@
   {
     "id": "q086",
     "cat": "sciences",
-    "q": "Dans quelle ville se trouvait la Maison de la Sagesse (Bayt al-Hikma), grand centre de traduction et de savoir ?",
+    "q": "Dans quelle ville se trouvait la Maison de la Sagesse (Bayt al-Hikma), la célèbre bibliothèque abbasside liée au mouvement de traduction ?",
     "options": [
       "Bagdad",
       "Cordoue",
@@ -1115,7 +1115,7 @@
       "Damas"
     ],
     "answer": 0,
-    "explain": "La Maison de la Sagesse a prospéré dans la Bagdad abbasside, où des savants traduisaient et étudiaient des ouvrages des traditions grecque, perse et indienne."
+    "explain": "La Maison de la Sagesse se trouvait dans la Bagdad abbasside, où des savants traduisaient et étudiaient des ouvrages des traditions grecque, perse et indienne."
   },
   {
     "id": "q087",
@@ -1375,7 +1375,7 @@
       "Chajar ad-Dourr"
     ],
     "answer": 1,
-    "explain": "Fatima al-Fihri a fondé al-Qarawiyyin à Fès, au Maroc, en 859. Elle est souvent présentée comme la plus ancienne université encore en activité."
+    "explain": "Selon la tradition, Fatima al-Fihri a fondé al-Qarawiyyin à Fès, au Maroc, en 859. Elle est souvent présentée comme la plus ancienne université encore en activité."
   },
   {
     "id": "q107",

@@ -1076,7 +1076,7 @@
       "Al-Biruni"
     ],
     "answer": 3,
-    "explain": "Al-Biruni midió el radio de la Tierra con notable precisión y escribió un libro detallado sobre la India."
+    "explain": "Al-Biruni calculó el radio de la Tierra con un método ingenioso, con un resultado cercano al valor moderno, y escribió un libro detallado sobre la India."
   },
   {
     "id": "q084",
@@ -1107,7 +1107,7 @@
   {
     "id": "q086",
     "cat": "sciences",
-    "q": "¿En qué ciudad estaba la Casa de la Sabiduría (Bayt al-Hikma), gran centro de traducción y de saber?",
+    "q": "¿En qué ciudad estaba la Casa de la Sabiduría (Bayt al-Hikma), la célebre biblioteca abasí vinculada al movimiento de traducción?",
     "options": [
       "Bagdad",
       "Córdoba",
@@ -1115,7 +1115,7 @@
       "Damasco"
     ],
     "answer": 0,
-    "explain": "La Casa de la Sabiduría floreció en el Bagdad abasí, donde los sabios tradujeron y estudiaron obras de las tradiciones griega, persa e india."
+    "explain": "La Casa de la Sabiduría estaba en el Bagdad abasí, donde los sabios tradujeron y estudiaron obras de las tradiciones griega, persa e india."
   },
   {
     "id": "q087",
@@ -1375,7 +1375,7 @@
       "Shajar al-Durr"
     ],
     "answer": 1,
-    "explain": "Fátima al-Fihri fundó al-Qarawiyyin en Fez, Marruecos, en 859. A menudo se la describe como la universidad más antigua todavía en actividad."
+    "explain": "Según la tradición, Fátima al-Fihri fundó al-Qarawiyyin en Fez, Marruecos, en 859. A menudo se la describe como la universidad más antigua todavía en actividad."
   },
   {
     "id": "q107",

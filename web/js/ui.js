@@ -54,7 +54,8 @@ export function openSheet({ title, render, onClose, wide = false }) {
   document.body.classList.add('sheet-open');
   requestAnimationFrame(() => sheet.classList.add('open'));
   try { render(body); } catch (err) { console.error(err); body.append(h('p.muted', t('common.error'))); }
-  $('sheet-close').focus({ preventScroll: true });
+  sheet.setAttribute('tabindex', '-1');
+  sheet.focus({ preventScroll: true }); // le lecteur d'écran annonce le titre ; pas d'anneau de focus parasite au toucher
   return body;
 }
 

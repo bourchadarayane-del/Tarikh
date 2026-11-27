@@ -1076,7 +1076,7 @@
       "Al-Biruni"
     ],
     "answer": 3,
-    "explain": "Al-Biruni measured the radius of the Earth with remarkable accuracy and wrote a detailed book about India."
+    "explain": "Al-Biruni worked out the radius of the Earth by an ingenious method, with a result close to the modern value, and wrote a detailed book about India."
   },
   {
     "id": "q084",
@@ -1107,7 +1107,7 @@
   {
     "id": "q086",
     "cat": "sciences",
-    "q": "In which city was the House of Wisdom (Bayt al-Hikma), a great centre of translation and learning?",
+    "q": "In which city was the House of Wisdom (Bayt al-Hikma), the famous Abbasid library linked to the translation movement?",
     "options": [
       "Baghdad",
       "Cordoba",
@@ -1115,7 +1115,7 @@
       "Damascus"
     ],
     "answer": 0,
-    "explain": "The House of Wisdom flourished in Abbasid Baghdad, where scholars translated and studied works from Greek, Persian and Indian traditions."
+    "explain": "The House of Wisdom was in Abbasid Baghdad, where scholars translated and studied works from Greek, Persian and Indian traditions."
   },
   {
     "id": "q087",
@@ -1375,7 +1375,7 @@
       "Shajar al-Durr"
     ],
     "answer": 1,
-    "explain": "Fatima al-Fihri founded al-Qarawiyyin in Fez, Morocco, in 859. It is often described as the oldest university still in activity."
+    "explain": "According to tradition, Fatima al-Fihri founded al-Qarawiyyin in Fez, Morocco, in 859. It is often described as the oldest university still in activity."
   },
   {
     "id": "q107",
