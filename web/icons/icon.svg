@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="100%" height="100%">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="70%"><stop offset="0" stop-color="#2A1B04"/><stop offset="1" stop-color="#080400"/></radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E8D08A"/><stop offset="1" stop-color="#B8963C"/></linearGradient>
+    <mask id="crescent"><rect width="1024" height="1024" fill="black"/><circle cx="512" cy="330" r="215" fill="white"/><circle cx="585" cy="286" r="180" fill="black"/></mask>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <g transform="translate(512 512) scale(1) translate(-512 -512)">
+    <rect width="1024" height="1024" fill="url(#gold)" mask="url(#crescent)"/>
+    <text x="512" y="830" text-anchor="middle" font-family="Amiri, serif" font-weight="700" font-size="330" fill="url(#gold)" direction="rtl">تاريخ</text>
+  </g>
+</svg>

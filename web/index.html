@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https:; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://checkout.stripe.com">
+  <title>Tarikh – Histoire Islamique</title>
+  <meta name="description" content="Tarikh : chaque jour, une histoire vraie de la civilisation islamique, un hadith authentique et des outils pratiques (horaires de prière, Qibla, tasbih, calendrier hégirien).">
+  <meta name="theme-color" content="#080400">
+  <meta name="color-scheme" content="dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Tarikh">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="canonical" href="https://tarikh-topaz.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tarikh – Histoire Islamique">
+  <meta property="og:description" content="Chaque jour, une histoire vraie de la civilisation islamique, un hadith authentique et des outils pratiques.">
+  <meta property="og:image" content="https://tarikh-topaz.vercel.app/icons/og-image.png">
+  <meta property="og:url" content="https://tarikh-topaz.vercel.app/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/amiri-arabic-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/app.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Tarikh – Histoire Islamique","applicationCategory":"EducationalApplication","operatingSystem":"iOS, Web","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"inLanguage":["fr","en","ar","es","id","ur"]}</script>
+</head>
+<body data-tab="today">
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Aller au contenu</a>
+
+  <!-- Écran de démarrage : horloge aux chiffres arabes (2,5 s) -->
+  <div id="splash" role="img" aria-label="Tarikh">
+    <svg class="clock" viewBox="0 0 200 200" width="180" height="180" aria-hidden="true">
+      <circle cx="100" cy="100" r="92" fill="none" stroke="#9B7E3A" stroke-width="1.5"/>
+      <circle cx="100" cy="100" r="84" fill="none" stroke="#C9A84C" stroke-width="3"/>
+      <g class="clock-num" fill="#C9A84C" font-size="17" text-anchor="middle" dominant-baseline="central">
+        <text x="100" y="32">١٢</text><text x="134" y="41">١</text><text x="159" y="66">٢</text>
+        <text x="168" y="100">٣</text><text x="159" y="134">٤</text><text x="134" y="159">٥</text>
+        <text x="100" y="168">٦</text><text x="66" y="159">٧</text><text x="41" y="134">٨</text>
+        <text x="32" y="100">٩</text><text x="41" y="66">١٠</text><text x="66" y="41">١١</text>
+      </g>
+      <line class="hand hand-hour" x1="100" y1="100" x2="100" y2="58" stroke="#C9A84C" stroke-width="5" stroke-linecap="round"/>
+      <line class="hand hand-min" x1="100" y1="100" x2="100" y2="38" stroke="#E8D9A8" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="100" cy="100" r="5" fill="#C9A84C"/>
+    </svg>
+    <div class="splash-logo" lang="ar" dir="rtl">تاريخ</div>
+    <div class="splash-sub">TARIKH</div>
+  </div>
+
+  <header class="app-header">
+    <button id="btn-settings" class="icon-btn" type="button" data-i18n-aria="settings.title" aria-label="Paramètres">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+    </button>
+    <div class="logo" lang="ar" dir="rtl" aria-label="Tarikh">تاريخ</div>
+    <button id="btn-premium" class="pill-btn" type="button" data-i18n="premium.cta.short">Premium</button>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="view-today" class="view" aria-labelledby="tab-today"></section>
+    <section id="view-calendar" class="view" aria-labelledby="tab-calendar" hidden></section>
+    <section id="view-premium" class="view" aria-labelledby="tab-premium" hidden></section>
+  </main>
+
+  <nav class="tabbar" aria-label="Navigation">
+    <a id="tab-today" class="tab" href="#/today" aria-current="page"><span class="tab-ico" aria-hidden="true">☽</span><span class="tab-label" data-i18n="tab.today">Aujourd'hui</span></a>
+    <a id="tab-calendar" class="tab" href="#/calendar"><span class="tab-ico" aria-hidden="true">🗓</span><span class="tab-label" data-i18n="tab.calendar">Calendrier</span></a>
+    <a id="tab-premium" class="tab" href="#/premium"><span class="tab-ico" id="tab-premium-ico" aria-hidden="true">✦</span><span class="tab-label" id="tab-premium-label" data-i18n="tab.premium">Premium</span></a>
+  </nav>
+
+  <div id="sheet-backdrop" class="backdrop" hidden></div>
+  <div id="sheet" class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" hidden>
+    <div id="sheet-head" class="sheet-head">
+      <span class="sheet-grip" aria-hidden="true"></span>
+      <h2 id="sheet-title" class="sheet-title"></h2>
+      <button id="sheet-close" class="icon-btn" type="button" data-i18n-aria="common.close" aria-label="Fermer">×</button>
+    </div>
+    <div id="sheet-body" class="sheet-body"></div>
+  </div>
+
+  <div id="onboarding" class="onboarding" role="dialog" aria-modal="true" hidden></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><p style="padding:24px;color:#C9A84C;font-family:sans-serif">Tarikh a besoin de JavaScript pour fonctionner. / Tarikh needs JavaScript to run.</p></noscript>
+
+  <script src="config.js"></script>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>
