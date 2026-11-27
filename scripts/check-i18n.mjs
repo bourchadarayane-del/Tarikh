@@ -32,7 +32,7 @@ for (const f of files) {
   for (const m of src.matchAll(/\bt\(\s*`([a-zA-Z0-9_.-]+\.)\$\{/g)) prefixes.add(m[1]);
   for (const m of src.matchAll(/premiumCta\(\s*'([a-zA-Z0-9_.-]+)'/g)) used.add(m[1]);
   for (const m of src.matchAll(/data-i18n(?:-aria|-ph)?="([a-zA-Z0-9_.-]+)"/g)) used.add(m[1]);
-  for (const m of src.matchAll(/'((?:ob|quiz|premium|streak|ramadan)\.[a-zA-Z0-9_.]+)'/g)) used.add(m[1]);
+  for (const m of src.matchAll(/'((?:ob|quiz|premium|streak|ramadan)\.[a-zA-Z0-9_.]*[a-zA-Z0-9])'/g)) used.add(m[1]);
 }
 for (const k of used) if (!(k in dict.fr)) errors.push(`code: clé utilisée mais absente ${k}`);
 for (const p of prefixes) if (!ref.some((k) => k.startsWith(p))) errors.push(`code: aucune clé pour la famille ${p}*`);

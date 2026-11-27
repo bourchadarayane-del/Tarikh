@@ -1,0 +1,389 @@
+{
+  "umrah": {
+    "title": "Umrah langkah demi langkah",
+    "intro": "Umrah adalah kunjungan ke Baitullah di Makkah. Umrah dapat dilaksanakan hampir kapan saja sepanjang tahun dan hanya memerlukan beberapa jam. Ia terdiri atas empat amalan, selalu dalam urutan yang sama: berihram di miqat, tawaf mengelilingi Ka'bah, sa'i antara Shafa dan Marwah, lalu mencukur atau memendekkan rambut.\n\nPanduan ini hanyalah ringkasan. Ia tidak menggantikan pembimbing yang mumpuni, juga tidak menggantikan arahan petugas yang berwenang di lokasi, yang harus selalu Anda ikuti. Apabila mazhab-mazhab fikih berbeda pendapat tentang suatu perincian, kami menyebutkan praktik yang umum: tanyakanlah keadaan Anda kepada ulama yang Anda percayai.",
+    "chapters": [
+      {
+        "id": "preparation",
+        "title": "Sebelum berangkat",
+        "body": "Perjalanan yang baik dimulai dari rumah. Awalilah dengan niat: Anda bepergian hanya karena Allah, bukan agar dilihat atau dipuji. Bertobatlah dengan sungguh-sungguh, lunasilah utang-utang Anda sebisa mungkin, dan mintalah maaf kepada orang-orang yang mungkin pernah Anda zalimi. Biayailah perjalanan ini dengan harta yang halal.\n\nKemudian pelajarilah manasik sebelum berangkat. Jemaah yang tahu apa yang harus dikerjakan akan tenang, dan dapat menyerahkan hatinya untuk beribadah alih-alih merasa cemas. Bacalah panduan ini beberapa kali dan, jika memungkinkan, ikutilah bimbingan bersama seorang guru.\n\nTerakhir, siapkan fisik dan dokumen Anda: biasakan berjalan kaki secara teratur pada minggu-minggu sebelumnya, periksa visa, izin, dan vaksinasi Anda, serta bawalah barang secukupnya. Anda akan banyak berjalan, sering kali dalam cuaca panas dan di tengah keramaian.",
+        "steps": [
+          "Ikhlaskan niat Anda: perjalanan ini hanya karena Allah.",
+          "Bertobatlah, lunasi utang, dan mintalah maaf kepada orang-orang di sekitar Anda.",
+          "Pelajari empat amalan umrah beserta urutannya.",
+          "Periksa paspor, visa, izin, dan vaksinasi yang diwajibkan.",
+          "Cari tahu miqat mana yang ada di rute Anda dan kapan Anda akan tiba di sana.",
+          "Berlatihlah dengan berjalan kaki dan bawalah barang yang ringan serta nyaman."
+        ],
+        "duas": []
+      },
+      {
+        "id": "miqat-ihram",
+        "title": "Miqat dan ihram",
+        "body": "Miqat adalah batas yang tidak boleh dilewati jemaah kecuali dalam keadaan ihram. Jumlahnya ada lima: Dzulhulaifah bagi yang datang dari Madinah, al-Juhfah, Qarnul Manazil, Yalamlam, dan Dzatu Irq. Di pesawat, awak kabin biasanya mengumumkan miqat: bersiaplah sebelum saat itu tiba.\n\nDianjurkan mandi (ghusl) sebelum berihram. Laki-laki mengenakan dua helai kain tak berjahit, satu dililitkan di pinggang dan satu diselempangkan di bahu; perempuan mengenakan pakaian sehari-hari yang menutup aurat. Lalu berniatlah di dalam hati dan ucapkan talbiyah. Laki-laki mengucapkannya dengan suara keras, perempuan dengan suara pelan.\n\nIhram adalah keadaannya, bukan kainnya. Selama berihram Anda tidak boleh memotong rambut atau kuku, memakai wewangian, berburu, melangsungkan akad nikah, atau melakukan hubungan suami istri. Laki-laki tidak mengenakan pakaian yang dijahit mengikuti bentuk tubuh dan tidak menutup kepala; perempuan tidak mengenakan cadar (niqab) atau sarung tangan (Sahih al-Bukhari 1838). Hindari pula pertengkaran (Al-Qur'an 2:197).",
+        "steps": [
+          "Sebelum miqat, potonglah kuku dan mandilah (ghusl) jika bisa.",
+          "Laki-laki: kenakan dua helai kain ihram. Perempuan: tetap mengenakan pakaian biasa yang menutup aurat.",
+          "Laki-laki boleh memakai wewangian di badan, bukan di kain, sebelum berniat; sesudahnya tidak boleh sama sekali.",
+          "Di miqat, niatkan umrah di dalam hati dan ucapkan: Labbayka Allahumma 'umrah.",
+          "Perbanyaklah mengulang talbiyah dalam perjalanan menuju Makkah.",
+          "Mulai saat ini, patuhilah semua larangan ihram.",
+          "Hentikan talbiyah ketika Anda memulai tawaf."
+        ],
+        "duas": [
+          {
+            "ar": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+            "tr": "Labbayka Allahumma labbayk, labbayka la sharika laka labbayk, inna al-hamda wa an-ni'mata laka wa al-mulk, la sharika lak",
+            "t": "Aku penuhi panggilan-Mu, ya Allah, aku penuhi panggilan-Mu. Aku penuhi panggilan-Mu, tiada sekutu bagi-Mu, aku penuhi panggilan-Mu. Sesungguhnya segala puji dan segala nikmat adalah milik-Mu, begitu pula seluruh kerajaan. Tiada sekutu bagi-Mu.",
+            "source": "Talbiyah — Sahih al-Bukhari 1549; Sahih Muslim 1184"
+          }
+        ]
+      },
+      {
+        "id": "tawaf",
+        "title": "Tawaf mengelilingi Ka'bah",
+        "body": "Tawaf adalah tujuh putaran mengelilingi Ka'bah, dengan posisi Ka'bah di sebelah kiri Anda. Anda harus dalam keadaan berwudu. Setiap putaran dimulai dan berakhir di Hajar Aswad: menghadaplah kepadanya, ucapkan takbir, dan cium atau sentuhlah ia hanya jika hal itu mudah; jika tidak, cukup berisyarat ke arahnya. Banyak jemaah mengucapkan « Bismillah, Allahu akbar » di sana, sebagaimana diriwayatkan dari sahabat Ibnu Umar. Berjalanlah di luar dinding setengah lingkaran (Hijir), jangan melintas di dalamnya.\n\nPada tawaf kedatangan ini, laki-laki membuka bahu kanan (idhtiba') dan berjalan cepat dengan langkah pendek pada tiga putaran pertama (raml). Perempuan berjalan seperti biasa.\n\nTidak ada doa wajib tertentu untuk setiap putaran: Anda boleh memanjatkan doa apa saja, dalam bahasa apa saja, berzikir kepada Allah, atau membaca Al-Qur'an. Hanya di antara Rukun Yamani dan Hajar Aswad terdapat doa tertentu yang diriwayatkan: Al-Qur'an 2:201. Setelah itu, salatlah dua rakaat di belakang Maqam Ibrahim (Al-Qur'an 2:125), lalu minumlah air Zamzam.",
+        "steps": [
+          "Pastikan Anda mempunyai wudu. Laki-laki membuka bahu kanan (idhtiba').",
+          "Mulailah sejajar dengan Hajar Aswad: menghadaplah kepadanya, ucapkan takbir, dan berisyaratlah ke arahnya jika Anda tidak dapat menjangkaunya.",
+          "Berjalanlah tujuh putaran dengan Ka'bah di sebelah kiri Anda, melewati sisi luar Hijir.",
+          "Laki-laki berjalan cepat pada tiga putaran pertama (raml), lalu berjalan biasa.",
+          "Sentuhlah Rukun Yamani jika mudah; di antara rukun itu dan Hajar Aswad bacalah Al-Qur'an 2:201.",
+          "Selama berputar, panjatkan doa apa saja yang Anda inginkan.",
+          "Setelah putaran ketujuh, laki-laki menutup kembali bahunya; salatlah dua rakaat di belakang Maqam Ibrahim, atau di mana saja di dalam masjid jika sedang padat.",
+          "Minumlah air Zamzam dan berdoalah."
+        ],
+        "duas": [
+          {
+            "ar": "اللَّهُ أَكْبَرُ",
+            "tr": "Allahu akbar",
+            "t": "Allah Mahabesar.",
+            "source": "Takbir ketika sejajar dengan Hajar Aswad — Sahih al-Bukhari 1613"
+          },
+          {
+            "ar": "رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا حَسَنَةࣰ وَفِي ٱلۡأٓخِرَةِ حَسَنَةࣰ وَقِنَا عَذَابَ ٱلنَّارِ",
+            "tr": "Rabbana atina fi ad-dunya hasanatan wa fi al-akhirati hasanatan wa qina 'adhab an-nar",
+            "t": "Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari azab neraka.",
+            "source": "Al-Qur'an 2:201 — dibaca di antara Rukun Yamani dan Hajar Aswad: Sunan Abi Dawud 1892 (hasan)"
+          }
+        ]
+      },
+      {
+        "id": "say",
+        "title": "Sa'i antara Shafa dan Marwah",
+        "body": "Setelah tawaf, pergilah ke Shafa. Sa'i adalah tujuh lintasan di antara kedua bukit itu: dari Shafa ke Marwah terhitung satu lintasan, dari Marwah kembali ke Shafa terhitung lintasan kedua, dan seterusnya. Dengan demikian Anda selesai di Marwah.\n\nKetika mendekati Shafa untuk pertama kali, bacalah awal Al-Qur'an 2:158, sebagaimana dilakukan Nabi Muhammad ﷺ (Sahih Muslim 1218). Naiklah sedikit, menghadaplah ke Ka'bah, angkat kedua tangan, agungkan dan esakan Allah dengan lafaz di bawah ini, lalu panjatkan doa Anda sendiri. Hal ini dilakukan tiga kali. Lakukan hal yang sama di Marwah setiap kali Anda tiba di sana.\n\nDi antara dua lampu hijau, laki-laki mempercepat langkah; perempuan berjalan seperti biasa. Seperti halnya tawaf, tidak ada doa khusus yang ditetapkan untuk setiap lintasan. Berwudu dianjurkan, dan orang yang lanjut usia atau sakit boleh memakai kursi roda.",
+        "steps": [
+          "Pergilah ke Shafa dan bacalah awal Al-Qur'an 2:158 ketika mendekatinya, hanya pada kali pertama ini.",
+          "Di atas Shafa, menghadaplah ke Ka'bah, angkat kedua tangan, bacalah zikir Shafa dan berdoalah, tiga kali.",
+          "Berjalanlah ke Marwah; laki-laki mempercepat langkah di antara lampu hijau.",
+          "Di atas Marwah, menghadaplah ke Ka'bah dan ulangi zikir serta doa itu.",
+          "Kembalilah ke Shafa: itulah lintasan kedua.",
+          "Lanjutkan hingga lintasan ketujuh, yang berakhir di Marwah."
+        ],
+        "duas": [
+          {
+            "ar": "إِنَّ ٱلصَّفَا وَٱلۡمَرۡوَةَ مِن شَعَآئِرِ ٱللَّهِ",
+            "tr": "Inna as-Safa wa al-Marwata min sha'a'iri Allah",
+            "t": "Sesungguhnya Shafa dan Marwah termasuk syiar-syiar Allah.",
+            "source": "Al-Qur'an 2:158 (kalimat pembuka) — dibaca ketika mendekati Shafa: Sahih Muslim 1218"
+          },
+          {
+            "ar": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ أَنْجَزَ وَعْدَهُ وَنَصَرَ عَبْدَهُ وَهَزَمَ الأَحْزَابَ وَحْدَهُ",
+            "tr": "La ilaha illa Allahu wahdahu la sharika lah, lahu al-mulku wa lahu al-hamd, wa huwa 'ala kulli shay'in qadir. La ilaha illa Allahu wahdah, anjaza wa'dah, wa nasara 'abdah, wa hazama al-ahzaba wahdah",
+            "t": "Tiada tuhan selain Allah semata, tiada sekutu bagi-Nya. Milik-Nya segala kerajaan dan milik-Nya segala puji, dan Dia Mahakuasa atas segala sesuatu. Tiada tuhan selain Allah semata; Dia menepati janji-Nya, menolong hamba-Nya, dan mengalahkan golongan-golongan yang bersekutu seorang diri.",
+            "source": "Zikir di atas Shafa dan Marwah — Sahih Muslim 1218"
+          }
+        ]
+      },
+      {
+        "id": "halq-taqsir",
+        "title": "Mencukur atau memendekkan rambut",
+        "body": "Amalan terakhir umrah adalah mencukur kepala (halq) atau memendekkan rambut (taqshir). Bagi laki-laki, mencukur seluruh kepala lebih utama; jika memilih memendekkan, praktik yang umum adalah memendekkan rambut di seluruh kepala, bukan hanya beberapa helai. Perempuan tidak pernah mencukur habis: mereka mengumpulkan rambutnya lalu memotong ujungnya kira-kira sepanjang satu ruas ujung jari.\n\nLaki-laki yang berumrah tidak lama sebelum haji (tamattu') sering memilih memendekkan saja pada saat ini, agar masih ada rambut yang dapat dicukur pada hari kesepuluh.\n\nGunakanlah jasa tukang cukur di luar masjid, jangan memotong rambut di area sa'i, dan perempuan hendaknya memotong rambutnya di tempat tertutup. Dengan amalan ini umrah Anda sempurna, dan semua larangan ihram pun berakhir.",
+        "steps": [
+          "Tinggalkan area sa'i setelah lintasan ketujuh selesai.",
+          "Laki-laki: cukurlah kepala, atau pendekkan rambut di seluruh kepala.",
+          "Perempuan: potonglah ujung rambut sepanjang satu ruas ujung jari, di tempat tertutup.",
+          "Kini Anda telah keluar dari ihram: umrah Anda telah sempurna."
+        ],
+        "duas": []
+      },
+      {
+        "id": "after",
+        "title": "Setelah umrah",
+        "body": "Umrah Anda telah selesai: bersyukurlah kepada Allah, yang telah mengizinkan Anda sampai ke rumah-Nya. Semua yang dilarang selama ihram kini diperbolehkan kembali, dan Anda boleh mengenakan pakaian sehari-hari.\n\nManfaatkan sebaik-baiknya hari-hari Anda yang tersisa di Makkah. Kerjakanlah salat lima waktu di Masjidil Haram sesering mungkin, lakukan tawaf sunah ketika tidak terlalu padat, bacalah Al-Qur'an, dan berdoalah untuk diri Anda, keluarga Anda, dan seluruh kaum muslimin. Bersikaplah lembut kepada sesama jemaah serta bersabarlah menghadapi rasa lelah dan keramaian.\n\nBanyak jemaah juga pergi ke Madinah untuk salat di Masjid Nabawi. Kunjungan ini merupakan amal yang penuh berkah, tetapi bukan bagian dari umrah. Sepulang ke rumah, berusahalah menjaga kebiasaan baik yang Anda peroleh di sana.",
+        "steps": [
+          "Bersyukurlah kepada Allah dan kenakan kembali pakaian sehari-hari Anda.",
+          "Salatlah di Masjidil Haram sesering mungkin.",
+          "Lakukan tawaf sunah, bacalah Al-Qur'an, dan perbanyaklah doa.",
+          "Jagalah kebiasaan baik selama perjalanan ini setelah Anda tiba di rumah."
+        ],
+        "duas": []
+      }
+    ]
+  },
+  "hajj": {
+    "title": "Haji hari demi hari",
+    "intro": "Haji adalah rukun Islam yang kelima. Ibadah ini wajib sekali seumur hidup atas setiap muslim dewasa yang mampu menempuh perjalanannya (Al-Qur'an 3:97). Rangkaian manasik utamanya berlangsung dari tanggal 8 hingga 13 Zulhijah, di antara Makkah, Mina, Arafah, dan Muzdalifah.\n\nAda tiga cara melaksanakannya. Dalam tamattu', Anda mengerjakan umrah secara lengkap pada bulan-bulan haji, keluar dari ihram, lalu berihram lagi untuk haji pada tanggal 8. Dalam qiran, Anda menggabungkan umrah dan haji dalam satu ihram, tanpa keluar dari ihram di antara keduanya. Dalam ifrad, Anda berihram untuk haji saja. Hewan sembelihan (hadyu) wajib bagi tamattu' dan qiran (Al-Qur'an 2:196), tidak bagi ifrad. Ketiganya sah; para ulama berbeda pendapat tentang mana yang paling utama, dan kebanyakan jemaah yang datang dari jauh melaksanakan tamattu'.\n\nPanduan ini hanyalah ringkasan. Ia tidak menggantikan pembimbing yang mumpuni, juga tidak menggantikan arahan petugas yang berwenang di lokasi dan arahan rombongan Anda, yang mengatur pergerakan dan jadwal demi keselamatan semua orang. Apabila mazhab-mazhab fikih berbeda pendapat tentang suatu perincian, kami menyebutkan praktik yang umum: tanyakanlah keadaan Anda kepada ulama yang Anda percayai.",
+    "chapters": [
+      {
+        "id": "day-8-tarwiyah",
+        "title": "8 Zulhijah: hari Tarwiyah, di Mina",
+        "body": "Ibadah haji dimulai pada tanggal 8 Zulhijah, yang disebut hari Tarwiyah. Jemaah yang melaksanakan tamattu' berihram lagi, kali ini untuk haji, dari tempat ia menginap di Makkah: mandi, mengenakan pakaian ihram, berniat, lalu bertalbiyah. Mereka yang melaksanakan qiran atau ifrad masih dalam keadaan ihram sejak dari miqat.\n\nSemua jemaah kemudian berangkat ke Mina, sebuah lembah penuh tenda yang berjarak beberapa kilometer dari Makkah. Di sana Anda mengerjakan salat Zuhur, Asar, Magrib, Isya, lalu Subuh tanggal 9, masing-masing pada waktunya; salat yang empat rakaat diringkas menjadi dua rakaat, tanpa dijamak.\n\nSiang dan malam di Mina ini adalah sunah dan merupakan waktu untuk bersiap. Beristirahatlah, ulangi talbiyah, bacalah Al-Qur'an, dan siapkan hati Anda untuk esok hari, hari teragung dalam ibadah haji.",
+        "steps": [
+          "Tamattu': mandilah dan kenakan ihram di tempat Anda menginap di Makkah.",
+          "Niatkan haji di dalam hati dan ucapkan: Labbayka Allahumma hajjan.",
+          "Berangkatlah ke Mina bersama rombongan Anda sambil mengulang talbiyah.",
+          "Kerjakan salat Zuhur, Asar, Magrib, dan Isya di Mina, masing-masing pada waktunya, dengan meringkas salat yang empat rakaat.",
+          "Bermalamlah di Mina dan salat Subuh di sana."
+        ],
+        "duas": [
+          {
+            "ar": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+            "tr": "Labbayka Allahumma labbayk, labbayka la sharika laka labbayk, inna al-hamda wa an-ni'mata laka wa al-mulk, la sharika lak",
+            "t": "Aku penuhi panggilan-Mu, ya Allah, aku penuhi panggilan-Mu. Aku penuhi panggilan-Mu, tiada sekutu bagi-Mu, aku penuhi panggilan-Mu. Sesungguhnya segala puji dan segala nikmat adalah milik-Mu, begitu pula seluruh kerajaan. Tiada sekutu bagi-Mu.",
+            "source": "Talbiyah — Sahih al-Bukhari 1549; Sahih Muslim 1184"
+          }
+        ]
+      },
+      {
+        "id": "day-9-arafat",
+        "title": "9 Zulhijah: Arafah, lalu Muzdalifah",
+        "body": "Wukuf di Arafah adalah rukun haji yang paling pokok: siapa yang terlewat darinya berarti terlewat hajinya. Nabi Muhammad ﷺ mengajarkan bahwa haji itu adalah Arafah (Jami' at-Tirmidzi 889).\n\nSetelah matahari terbit, tinggalkan Mina menuju Arafah dan pastikan Anda berada di dalam batas-batasnya, yang ditandai dengan papan penunjuk. Setelah khotbah, salat Zuhur dan Asar dikerjakan dengan dijamak dan diringkas, pada waktu Zuhur. Lalu tibalah inti ibadah haji: sejak tengah hari hingga matahari terbenam, menghadaplah ke kiblat dan berdoalah kepada Allah, mohonlah ampunan, dan doakan orang-orang yang Anda cintai. Tidak ada bacaan yang diwajibkan. Jangan beranjak sebelum matahari terbenam.\n\nSetelah matahari terbenam, berangkatlah dengan tenang ke Muzdalifah. Di sana Anda mengerjakan salat Magrib dan Isya dengan dijamak, Isya diringkas, lalu beristirahat malam itu di alam terbuka. Di sana Anda boleh mengumpulkan kerikil-kerikil kecil untuk melontar jumrah.",
+        "steps": [
+          "Setelah matahari terbit, berangkatlah dari Mina ke Arafah sambil mengulang talbiyah.",
+          "Pastikan Anda berada di dalam batas-batas Arafah.",
+          "Kerjakan salat Zuhur dan Asar dengan dijamak dan diringkas pada waktu Zuhur.",
+          "Isilah waktu siang hingga sore dengan doa, zikir, dan tobat, sambil menghadap kiblat.",
+          "Tetaplah di Arafah sampai matahari benar-benar terbenam.",
+          "Berangkatlah dengan tenang ke Muzdalifah dan kerjakan salat Magrib dan Isya dengan dijamak di sana.",
+          "Kumpulkan kerikil kecil, seukuran biji kacang arab, lalu tidurlah.",
+          "Salat Subuh, berdoalah menghadap kiblat, dan berangkatlah ke Mina sebelum matahari terbit."
+        ],
+        "duas": []
+      },
+      {
+        "id": "day-10-nahr",
+        "title": "10 Zulhijah: hari penyembelihan kurban",
+        "body": "Tanggal 10 adalah hari raya Iduladha dan hari tersibuk dalam ibadah haji. Ada empat amalan yang dikerjakan, idealnya dalam urutan berikut. Pertama, di Mina, lontarkan tujuh kerikil satu per satu ke Jumrah Aqabah, tugu yang terbesar, sambil bertakbir pada setiap lontaran; talbiyah berhenti di sini (Sahih al-Bukhari 1685). Kedua, penyembelihan hadyu, yang wajib bagi tamattu' dan qiran, dan sering kali diurus melalui kupon resmi. Ketiga, laki-laki mencukur atau memendekkan rambut dan perempuan memotong rambut sepanjang satu ruas ujung jari. Keempat, di Makkah, tawaf ifadah, salah satu rukun haji, dilanjutkan dengan sa'i haji bagi yang masih berkewajiban mengerjakannya.\n\nSetelah melontar dan bercukur, larangan-larangan ihram gugur, kecuali hubungan suami istri, yang baru halal setelah tawaf ifadah. Mazhab-mazhab berbeda pendapat tentang perinciannya: tanyakanlah keadaan Anda kepada ulama yang Anda percayai.\n\nJika urutannya berubah, tidak mengapa: demikianlah jawaban Nabi Muhammad ﷺ kepada orang-orang yang bertanya pada hari itu (Sahih al-Bukhari 83).",
+        "steps": [
+          "Di Mina, lontarkan tujuh kerikil satu per satu ke Jumrah Aqabah, sambil mengucapkan Allahu akbar pada setiap lontaran.",
+          "Hentikan talbiyah ketika Anda mulai melontar.",
+          "Sembelihlah hadyu, atau pastikan penyembelihan itu dilaksanakan atas nama Anda (tamattu' dan qiran).",
+          "Laki-laki mencukur atau memendekkan rambut di seluruh kepala; perempuan memotong rambut sepanjang satu ruas ujung jari.",
+          "Kenakan kembali pakaian biasa: semuanya diperbolehkan lagi kecuali hubungan suami istri.",
+          "Pergilah ke Makkah untuk tawaf ifadah, tanpa idhtiba' dan tanpa raml, lalu salat dua rakaat.",
+          "Kerjakan sa'i haji jika Anda masih berkewajiban mengerjakannya.",
+          "Kembalilah ke Mina untuk bermalam di sana."
+        ],
+        "duas": [
+          {
+            "ar": "اللَّهُ أَكْبَرُ",
+            "tr": "Allahu akbar",
+            "t": "Allah Mahabesar.",
+            "source": "Takbir pada setiap lontaran kerikil — Sahih al-Bukhari 1751"
+          }
+        ]
+      },
+      {
+        "id": "days-11-13-tashriq",
+        "title": "11–13 Zulhijah: hari-hari Tasyrik",
+        "body": "Hari-hari Tasyrik dihabiskan di Mina. Inilah hari-hari untuk berzikir mengingat Allah (Al-Qur'an 2:203), dan malam-malamnya pun dilewatkan di sana.\n\nSetiap hari, setelah tengah hari, Anda melontar ketiga jumrah secara berurutan: yang kecil, yang tengah, lalu Jumrah Aqabah, masing-masing dengan tujuh kerikil, sambil bertakbir pada setiap lontaran. Setelah jumrah pertama dan setelah jumrah kedua, menepilah, menghadaplah ke kiblat, dan berdoalah panjang dengan mengangkat tangan; setelah jumrah ketiga, pergilah tanpa berhenti (Sahih al-Bukhari 1751).\n\nAnda boleh meninggalkan Mina pada tanggal 12 setelah melontar, sebelum matahari terbenam; siapa yang tetap tinggal melontar lagi pada tanggal 13. Keduanya diperbolehkan (Al-Qur'an 2:203). Ikutilah jadwal yang diberikan kepada rombongan Anda. Jika Anda lemah atau sakit, atau mengenai waktu melontar yang tepat, tanyakanlah keadaan Anda kepada ulama yang Anda percayai.",
+        "steps": [
+          "Bermalamlah di Mina pada malam tanggal 11 dan 12.",
+          "Setiap hari setelah tengah hari, bawalah 21 kerikil ke tempat jumrah.",
+          "Lontarlah jumrah yang kecil dengan tujuh kerikil, lalu menepilah dan berdoalah.",
+          "Lontarlah jumrah yang tengah dengan tujuh kerikil, lalu menepilah dan berdoalah.",
+          "Lontarlah Jumrah Aqabah dengan tujuh kerikil lalu pergilah tanpa berhenti.",
+          "Pada tanggal 12, tinggalkan Mina sebelum matahari terbenam jika Anda ingin berangkat lebih awal.",
+          "Jika tidak, bermalamlah dan lontarlah ketiga jumrah itu lagi pada tanggal 13."
+        ],
+        "duas": []
+      },
+      {
+        "id": "farewell-tawaf",
+        "title": "Tawaf wada'",
+        "body": "Apabila seluruh manasik telah selesai dan Anda hendak meninggalkan Makkah, hal terakhir yang Anda kerjakan adalah tawaf perpisahan (tawaf wada'). Orang-orang diperintahkan agar menjadikan Baitullah sebagai persinggahan terakhir mereka; hanya perempuan yang sedang haid yang diberi keringanan untuk tidak mengerjakannya (Sahih al-Bukhari 1755; Sahih Muslim 1328).\n\nIni adalah tawaf biasa sebanyak tujuh putaran dengan pakaian sehari-hari, tanpa idhtiba' dan tanpa raml, dilanjutkan dengan salat dua rakaat. Tidak ada sa'i sesudahnya. Kerjakanlah setelah barang bawaan Anda siap dan keberangkatan Anda sudah dekat; menunggu sebentar untuk kendaraan atau teman serombongan tidaklah mengapa.\n\nTinggalkan Masjidil Haram dengan hati yang penuh syukur. Mohonlah kepada Allah agar menerima haji Anda, mengampuni Anda, dan mengizinkan Anda datang kembali. Lalu berusahalah pulang ke rumah sebagai pribadi yang lebih baik daripada ketika berangkat.",
+        "steps": [
+          "Selesaikan dahulu seluruh manasik Anda dan siapkan barang bawaan.",
+          "Kerjakan tujuh putaran mengelilingi Ka'bah dengan pakaian biasa.",
+          "Salatlah dua rakaat setelah tawaf.",
+          "Berdoalah agar Allah menerima haji Anda, lalu tinggalkan Makkah tanpa menunda-nunda.",
+          "Perempuan yang sedang haid berangkat tanpa mengerjakan tawaf ini."
+        ],
+        "duas": []
+      }
+    ]
+  },
+  "mistakes": [
+    {
+      "title": "Berdesakan demi mencium Hajar Aswad",
+      "body": "Mencium Hajar Aswad hukumnya sunah; menyakiti seorang muslim hukumnya haram. Jika kerumunan sedang padat, cukup berisyarat ke arah Hajar Aswad dan ucapkan takbir: tawaf Anda tetap sempurna dan tidak ada yang tersakiti."
+    },
+    {
+      "title": "Meyakini bahwa setiap putaran mempunyai doa wajib tersendiri",
+      "body": "Sebagian buku saku mencantumkan satu doa untuk setiap putaran. Hal semacam itu tidak diwajibkan: tidak ada doa wajib tertentu untuk putaran-putaran tawaf ataupun lintasan-lintasan sa'i. Berbicaralah kepada Allah dengan kata-kata Anda sendiri, dalam bahasa Anda sendiri."
+    },
+    {
+      "title": "Meninggalkan Arafah sebelum matahari terbenam",
+      "body": "Nabi Muhammad ﷺ tetap berada di Arafah sampai matahari terbenam (Sahih Muslim 1218). Jangan bergegas menuju bus pada sore hari: inilah jam-jam paling berharga dalam seluruh rangkaian haji."
+    },
+    {
+      "title": "Mendaki Jabal Rahmah karena mengira hal itu wajib",
+      "body": "Seluruh padang Arafah adalah tempat wukuf. Mendaki bukit itu bukan bagian dari ibadah haji dan tidak mendatangkan pahala tambahan; berdesakan di sana melelahkan dan berbahaya. Tetaplah di tempat Anda dapat berdoa dengan tenang."
+    },
+    {
+      "title": "Wukuf di luar batas Arafah",
+      "body": "Sebagian jemaah menempati lokasi tepat di luar Arafah tanpa menyadarinya. Karena wukuf adalah rukun haji yang paling pokok, carilah papan penanda batas dan bertanyalah kepada pembimbing Anda jika ada keraguan sedikit pun."
+    },
+    {
+      "title": "Mengumpulkan kerikil yang terlalu besar",
+      "body": "Kerikilnya kecil, kira-kira seukuran biji kacang arab. Batu besar, sandal, atau benda lain bukan bagian dari ibadah ini dan dapat melukai orang. Melontar jumrah adalah bentuk ketaatan kepada Allah yang dikerjakan dengan tenang, bukan luapan kemarahan."
+    },
+    {
+      "title": "Sibuk memotret alih-alih beribadah",
+      "body": "Satu foto kenang-kenangan hanya perlu beberapa detik; merekam seluruh tawaf atau siaran langsung dari Arafah akan merenggut kekhusyukan hati Anda. Simpanlah ponsel selama manasik dan jagalah keikhlasan niat Anda."
+    },
+    {
+      "title": "Mengabaikan miqat ketika naik pesawat",
+      "body": "Pesawat melintasi miqat di udara. Kenakan kain ihram sebelum naik pesawat atau pada awal penerbangan, dan berniatlah ketika miqat diumumkan, atau sedikit sebelumnya. Jika Anda telah melewatinya tanpa berihram, tanyakanlah keadaan Anda kepada ulama yang Anda percayai."
+    },
+    {
+      "title": "Membiarkan bahu kanan terbuka sepanjang waktu",
+      "body": "Idhtiba' hanya untuk laki-laki dan hanya selama tawaf kedatangan. Sebelum dan sesudahnya, termasuk ketika salat dan sa'i, kedua bahu ditutup."
+    },
+    {
+      "title": "Menghitung perjalanan pulang-pergi sebagai satu lintasan sa'i",
+      "body": "Shafa ke Marwah adalah satu lintasan dan Marwah ke Shafa adalah lintasan berikutnya. Sa'i terdiri atas tujuh lintasan dan berakhir di Marwah. Menghitung setiap perjalanan pulang-pergi sebagai satu lintasan berarti berjalan empat belas lintasan."
+    },
+    {
+      "title": "Memaksakan diri salat tepat di belakang Maqam Ibrahim",
+      "body": "Salat di jalur orang-orang yang sedang tawaf menghalangi mereka dan membahayakan diri Anda. Ketika sedang padat, salat dua rakaat itu dapat dikerjakan di mana saja di dalam masjid."
+    },
+    {
+      "title": "Bertengkar dan kehilangan kesabaran",
+      "body": "Cuaca panas, antrean, dan rasa lelah menguji semua orang. Al-Qur'an melarang perkataan keji, perbuatan fasik, dan pertengkaran selama haji (2:197). Mengalahlah, tersenyumlah, maafkanlah: akhlak yang baik adalah bagian dari ibadah haji Anda."
+    }
+  ],
+  "checklist": [
+    {
+      "id": "passport",
+      "group": "documents",
+      "label": "Paspor yang masih berlaku sekurang-kurangnya enam bulan"
+    },
+    {
+      "id": "visa-permit",
+      "group": "documents",
+      "label": "Visa haji atau umrah dan izin resmi"
+    },
+    {
+      "id": "tickets-bookings",
+      "group": "documents",
+      "label": "Tiket pesawat dan bukti pemesanan penginapan"
+    },
+    {
+      "id": "id-copies",
+      "group": "documents",
+      "label": "Salinan cetak dan digital semua dokumen"
+    },
+    {
+      "id": "emergency-contacts",
+      "group": "documents",
+      "label": "Kartu berisi kontak rombongan, hotel, dan nomor darurat"
+    },
+    {
+      "id": "money-card",
+      "group": "documents",
+      "label": "Sedikit uang tunai mata uang setempat dan kartu bank"
+    },
+    {
+      "id": "ihram-garments",
+      "group": "clothing",
+      "label": "Laki-laki: dua setel kain ihram"
+    },
+    {
+      "id": "modest-clothing",
+      "group": "clothing",
+      "label": "Perempuan: pakaian yang longgar, menutup aurat, dan nyaman"
+    },
+    {
+      "id": "sandals",
+      "group": "clothing",
+      "label": "Sandal nyaman yang sudah biasa dipakai"
+    },
+    {
+      "id": "ihram-belt",
+      "group": "clothing",
+      "label": "Sabuk ihram atau kantong untuk uang dan dokumen"
+    },
+    {
+      "id": "small-bag",
+      "group": "clothing",
+      "label": "Tas kecil untuk alas kaki dan kerikil"
+    },
+    {
+      "id": "umbrella",
+      "group": "clothing",
+      "label": "Payung berwarna terang untuk menahan terik matahari"
+    },
+    {
+      "id": "vaccinations",
+      "group": "health",
+      "label": "Vaksinasi yang diwajibkan beserta sertifikatnya"
+    },
+    {
+      "id": "medication",
+      "group": "health",
+      "label": "Obat-obatan rutin beserta resepnya"
+    },
+    {
+      "id": "unscented-toiletries",
+      "group": "health",
+      "label": "Sabun dan perlengkapan mandi tanpa pewangi untuk ihram"
+    },
+    {
+      "id": "water-bottle",
+      "group": "health",
+      "label": "Botol minum isi ulang"
+    },
+    {
+      "id": "masks-sanitizer",
+      "group": "health",
+      "label": "Masker dan cairan pembersih tangan tanpa pewangi"
+    },
+    {
+      "id": "first-aid",
+      "group": "health",
+      "label": "Kotak P3K kecil dengan plester untuk kaki lecet"
+    },
+    {
+      "id": "sincere-intention",
+      "group": "spiritual",
+      "label": "Perbarui niat Anda: hanya karena Allah"
+    },
+    {
+      "id": "repentance-debts",
+      "group": "spiritual",
+      "label": "Bertobat, melunasi utang, dan meminta maaf"
+    },
+    {
+      "id": "learn-rites",
+      "group": "spiritual",
+      "label": "Mempelajari manasik beserta urutannya"
+    },
+    {
+      "id": "talbiyah-memorised",
+      "group": "spiritual",
+      "label": "Menghafal talbiyah"
+    },
+    {
+      "id": "dua-list",
+      "group": "spiritual",
+      "label": "Menulis daftar doa pribadi untuk di Arafah"
+    },
+    {
+      "id": "quran-dhikr",
+      "group": "spiritual",
+      "label": "Al-Qur'an saku atau aplikasi untuk tilawah dan zikir"
+    }
+  ]
+}
