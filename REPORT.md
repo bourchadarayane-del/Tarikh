@@ -28,6 +28,7 @@ Trois choses importantes à savoir tout de suite :
 | 6 langues, sens d'écriture droite-à-gauche pour l'arabe et l'ourdou | OK |
 | Mode hors-ligne (rechargement sans réseau, outils, histoire) | OK |
 | Aucun secret dans git | OK (`npm run check:secrets`) |
+| Lighthouse mobile (serveur local compressé, réseau 4G simulé) | Performance 92, Accessibilité 100, Bonnes pratiques 100, SEO 100 (le score PWA n'existe plus dans Lighthouse 12) |
 
 ### Ce qui n'a PAS pu être vérifié ici
 
@@ -39,7 +40,6 @@ Trois choses importantes à savoir tout de suite :
 | Génération IA réelle | Pas de clé Anthropic | Partie 5-d : lancer `/api/generate` une fois |
 | Notifications push (APNs) | Pas de certificat | Partie 5-e |
 | Comparaison des horaires avec Aladhan | `api.aladhan.com` bloqué par le réseau d'ici | `node scripts/compare-aladhan.mjs` chez vous |
-| Score Lighthouse PWA | Lighthouse non installé ici | Chrome > Outils de développement > Lighthouse, sur le site déployé |
 | Cause de l'erreur 403 de Vercel | Mon accès à votre équipe Vercel n'était pas autorisé | Partie 5-d, étape 4 |
 
 ---
