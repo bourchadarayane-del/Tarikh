@@ -88,7 +88,7 @@ Projet Xcode Capacitor avec : permissions expliquées en 6 langues, manifeste de
 | Sujet | Décision | Pourquoi |
 |---|---|---|
 | Technique web | JavaScript simple, sans framework, assemblé par `esbuild` | Appli légère (environ 2,3 Mo, polices comprises) et rapide en réseau lent ; rien à apprendre de plus |
-| Une seule branche et une seule PR | `feature/tarikh-app-v1`, 13 commits séparés par sujet | Le dépôt était vide : plusieurs PR empilées auraient été plus difficiles à relire et à fusionner |
+| Une seule branche et une seule PR | `feature/tarikh-app-v1`, commits séparés par sujet | Le dépôt était vide : plusieurs PR empilées auraient été plus difficiles à relire et à fusionner |
 | Bundle ID | `com.bourchadarayane.tarikh` | Comme proposé. Pour le changer : `capacitor.config.ts`, puis Xcode |
 | Gestionnaire iOS | CocoaPods | Le plugin OneSignal n'est pas fiable avec Swift Package Manager |
 | iPhone uniquement | Pas de version iPad | Évite les captures et la mise en page iPad pour une première version |
