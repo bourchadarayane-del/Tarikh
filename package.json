@@ -4,20 +4,25 @@
   "private": true,
   "description": "Tarikh – daily Islamic history app (web PWA + iOS via Capacitor)",
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "node scripts/build.mjs",
     "dev": "node scripts/build.mjs && node scripts/serve.mjs",
     "serve": "node scripts/serve.mjs",
-    "lint": "node scripts/check-syntax.mjs",
-    "test": "node scripts/check-syntax.mjs && node --test tests/",
+    "lint": "node scripts/check-syntax.mjs && node scripts/check-i18n.mjs",
+    "test": "node scripts/check-syntax.mjs && node scripts/check-i18n.mjs && node scripts/check-secrets.mjs && node --test tests/*.test.mjs && bash scripts/test-sql.sh",
     "test:e2e": "node scripts/build.mjs && node tests/e2e/run.mjs",
     "check:secrets": "node scripts/check-secrets.mjs",
     "seed:build": "node scripts/build-seed.mjs",
     "icons": "node scripts/make-icons.mjs",
     "screenshots": "node scripts/build.mjs && node scripts/make-screenshots.mjs",
     "ios:sync": "node scripts/build.mjs && npx cap sync ios",
-    "ios:open": "npx cap open ios"
+    "ios:open": "npx cap open ios",
+    "test:sql": "bash scripts/test-sql.sh",
+    "ios:configure": "node scripts/configure-ios.mjs",
+    "ios:build": "bash scripts/build-ios.sh"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.119.2",
