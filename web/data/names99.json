@@ -1,0 +1,1289 @@
+[
+  {
+    "n": 1,
+    "ar": "الرَّحْمَٰنُ",
+    "tr": "Ar-Rahman",
+    "m": {
+      "fr": "Le Tout Miséricordieux",
+      "en": "The Most Merciful",
+      "ar": "الواسع الرحمة بجميع خلقه",
+      "es": "El Compasivo",
+      "id": "Maha Pengasih",
+      "ur": "بے حد مہربان"
+    }
+  },
+  {
+    "n": 2,
+    "ar": "الرَّحِيمُ",
+    "tr": "Ar-Rahim",
+    "m": {
+      "fr": "Le Très Miséricordieux",
+      "en": "The Bestower of Mercy",
+      "ar": "الدائم الرحمة بالمؤمنين",
+      "es": "El Misericordioso",
+      "id": "Maha Penyayang",
+      "ur": "نہایت رحم والا"
+    }
+  },
+  {
+    "n": 3,
+    "ar": "الْمَلِكُ",
+    "tr": "Al-Malik",
+    "m": {
+      "fr": "Le Souverain",
+      "en": "The King",
+      "ar": "المالك المتصرف في كل شيء",
+      "es": "El Rey Soberano",
+      "id": "Maha Raja",
+      "ur": "حقیقی بادشاہ"
+    }
+  },
+  {
+    "n": 4,
+    "ar": "الْقُدُّوسُ",
+    "tr": "Al-Quddus",
+    "m": {
+      "fr": "Le Très Saint",
+      "en": "The Most Holy",
+      "ar": "المنزَّه عن كل نقص",
+      "es": "El Santísimo",
+      "id": "Maha Suci",
+      "ur": "ہر عیب سے پاک"
+    }
+  },
+  {
+    "n": 5,
+    "ar": "السَّلَامُ",
+    "tr": "As-Salam",
+    "m": {
+      "fr": "La Source de paix",
+      "en": "The Source of Peace",
+      "ar": "السالم من كل عيب، واهب السلام",
+      "es": "La Fuente de Paz",
+      "id": "Maha Pemberi Kesejahteraan",
+      "ur": "سلامتی دینے والا"
+    }
+  },
+  {
+    "n": 6,
+    "ar": "الْمُؤْمِنُ",
+    "tr": "Al-Mu'min",
+    "m": {
+      "fr": "Celui qui donne la sécurité",
+      "en": "The Giver of Security",
+      "ar": "واهب الأمن لعباده",
+      "es": "El Dador de Seguridad",
+      "id": "Maha Pemberi Keamanan",
+      "ur": "امن دینے والا"
+    }
+  },
+  {
+    "n": 7,
+    "ar": "الْمُهَيْمِنُ",
+    "tr": "Al-Muhaymin",
+    "m": {
+      "fr": "Le Gardien de toute chose",
+      "en": "The Guardian over all",
+      "ar": "الرقيب الحافظ لكل شيء",
+      "es": "El Custodio de todo",
+      "id": "Maha Mengawasi dan Memelihara",
+      "ur": "نگہبان و محافظ"
+    }
+  },
+  {
+    "n": 8,
+    "ar": "الْعَزِيزُ",
+    "tr": "Al-Aziz",
+    "m": {
+      "fr": "Le Puissant, l'Invincible",
+      "en": "The Almighty",
+      "ar": "الغالب الذي لا يُغلب",
+      "es": "El Poderoso, el Invencible",
+      "id": "Maha Perkasa",
+      "ur": "سب پر غالب"
+    }
+  },
+  {
+    "n": 9,
+    "ar": "الْجَبَّارُ",
+    "tr": "Al-Jabbar",
+    "m": {
+      "fr": "Celui qui contraint et répare",
+      "en": "The Compeller, the Restorer",
+      "ar": "الذي تنفذ مشيئته ويجبر الكسر",
+      "es": "El Irresistible, el que repara",
+      "id": "Maha Gagah, kehendak-Nya pasti terlaksana",
+      "ur": "زبردست، بگڑی بنانے والا"
+    }
+  },
+  {
+    "n": 10,
+    "ar": "الْمُتَكَبِّرُ",
+    "tr": "Al-Mutakabbir",
+    "m": {
+      "fr": "Le Suprême en grandeur",
+      "en": "The Supreme in Greatness",
+      "ar": "المتعالي عن صفات الخلق",
+      "es": "El Supremo en grandeza",
+      "id": "Maha Memiliki Kebesaran",
+      "ur": "بڑائی والا"
+    }
+  },
+  {
+    "n": 11,
+    "ar": "الْخَالِقُ",
+    "tr": "Al-Khaliq",
+    "m": {
+      "fr": "Le Créateur",
+      "en": "The Creator",
+      "ar": "موجد الأشياء من العدم",
+      "es": "El Creador",
+      "id": "Maha Pencipta",
+      "ur": "پیدا کرنے والا"
+    }
+  },
+  {
+    "n": 12,
+    "ar": "الْبَارِئُ",
+    "tr": "Al-Bari'",
+    "m": {
+      "fr": "Celui qui donne l'existence",
+      "en": "The Maker",
+      "ar": "الذي أبرز الخلق إلى الوجود",
+      "es": "El Hacedor",
+      "id": "Maha Mengadakan",
+      "ur": "وجود بخشنے والا"
+    }
+  },
+  {
+    "n": 13,
+    "ar": "الْمُصَوِّرُ",
+    "tr": "Al-Musawwir",
+    "m": {
+      "fr": "Celui qui façonne les formes",
+      "en": "The Fashioner of forms",
+      "ar": "الذي يعطي كل مخلوق صورته",
+      "es": "El Formador",
+      "id": "Maha Membentuk Rupa",
+      "ur": "صورت بنانے والا"
+    }
+  },
+  {
+    "n": 14,
+    "ar": "الْغَفَّارُ",
+    "tr": "Al-Ghaffar",
+    "m": {
+      "fr": "Celui qui pardonne sans cesse",
+      "en": "The Ever-Forgiving",
+      "ar": "الذي يغفر الذنوب مرة بعد مرة",
+      "es": "El que perdona una y otra vez",
+      "id": "Maha Pengampun, berulang kali",
+      "ur": "بار بار بخشنے والا"
+    }
+  },
+  {
+    "n": 15,
+    "ar": "الْقَهَّارُ",
+    "tr": "Al-Qahhar",
+    "m": {
+      "fr": "Le Dominateur suprême",
+      "en": "The All-Prevailing",
+      "ar": "الذي خضع له كل شيء",
+      "es": "El Dominador supremo",
+      "id": "Maha Menundukkan",
+      "ur": "سب کو قابو میں رکھنے والا"
+    }
+  },
+  {
+    "n": 16,
+    "ar": "الْوَهَّابُ",
+    "tr": "Al-Wahhab",
+    "m": {
+      "fr": "Le Donateur généreux",
+      "en": "The Bestower",
+      "ar": "الكثير العطاء بلا مقابل",
+      "es": "El Dadivoso",
+      "id": "Maha Pemberi Karunia",
+      "ur": "بہت عطا کرنے والا"
+    }
+  },
+  {
+    "n": 17,
+    "ar": "الرَّزَّاقُ",
+    "tr": "Ar-Razzaq",
+    "m": {
+      "fr": "Le Pourvoyeur",
+      "en": "The Provider",
+      "ar": "الذي يرزق جميع الخلق",
+      "es": "El Proveedor",
+      "id": "Maha Pemberi Rezeki",
+      "ur": "رزق دینے والا"
+    }
+  },
+  {
+    "n": 18,
+    "ar": "الْفَتَّاحُ",
+    "tr": "Al-Fattah",
+    "m": {
+      "fr": "Celui qui ouvre et tranche",
+      "en": "The Opener, the Judge",
+      "ar": "الذي يفتح أبواب الخير ويحكم بالحق",
+      "es": "El que abre y juzga",
+      "id": "Maha Pembuka Rahmat",
+      "ur": "کھولنے والا، فیصلہ کرنے والا"
+    }
+  },
+  {
+    "n": 19,
+    "ar": "الْعَلِيمُ",
+    "tr": "Al-Alim",
+    "m": {
+      "fr": "L'Omniscient",
+      "en": "The All-Knowing",
+      "ar": "الذي يعلم كل شيء",
+      "es": "El Omnisciente",
+      "id": "Maha Mengetahui",
+      "ur": "سب کچھ جاننے والا"
+    }
+  },
+  {
+    "n": 20,
+    "ar": "الْقَابِضُ",
+    "tr": "Al-Qabid",
+    "m": {
+      "fr": "Celui qui restreint",
+      "en": "The Withholder",
+      "ar": "الذي يضيّق الرزق بحكمته",
+      "es": "El que restringe",
+      "id": "Maha Menyempitkan",
+      "ur": "تنگی کرنے والا"
+    }
+  },
+  {
+    "n": 21,
+    "ar": "الْبَاسِطُ",
+    "tr": "Al-Basit",
+    "m": {
+      "fr": "Celui qui étend ses dons",
+      "en": "The Extender",
+      "ar": "الذي يوسّع الرزق بفضله",
+      "es": "El que da con largueza",
+      "id": "Maha Melapangkan",
+      "ur": "فراخی دینے والا"
+    }
+  },
+  {
+    "n": 22,
+    "ar": "الْخَافِضُ",
+    "tr": "Al-Khafid",
+    "m": {
+      "fr": "Celui qui abaisse",
+      "en": "The One who lowers",
+      "ar": "الذي يخفض من يشاء",
+      "es": "El que rebaja",
+      "id": "Maha Merendahkan",
+      "ur": "پست کرنے والا"
+    }
+  },
+  {
+    "n": 23,
+    "ar": "الرَّافِعُ",
+    "tr": "Ar-Rafi'",
+    "m": {
+      "fr": "Celui qui élève",
+      "en": "The Exalter",
+      "ar": "الذي يرفع من يشاء",
+      "es": "El que eleva",
+      "id": "Maha Meninggikan",
+      "ur": "بلند کرنے والا"
+    }
+  },
+  {
+    "n": 24,
+    "ar": "الْمُعِزُّ",
+    "tr": "Al-Mu'izz",
+    "m": {
+      "fr": "Celui qui donne l'honneur",
+      "en": "The Giver of Honour",
+      "ar": "واهب العزة لمن يشاء",
+      "es": "El que honra",
+      "id": "Maha Memuliakan",
+      "ur": "عزت دینے والا"
+    }
+  },
+  {
+    "n": 25,
+    "ar": "الْمُذِلُّ",
+    "tr": "Al-Mudhill",
+    "m": {
+      "fr": "Celui qui humilie",
+      "en": "The One who humbles",
+      "ar": "الذي يذل من يشاء",
+      "es": "El que humilla",
+      "id": "Maha Menghinakan",
+      "ur": "ذلت دینے والا"
+    }
+  },
+  {
+    "n": 26,
+    "ar": "السَّمِيعُ",
+    "tr": "As-Sami'",
+    "m": {
+      "fr": "Celui qui entend tout",
+      "en": "The All-Hearing",
+      "ar": "الذي يسمع كل شيء",
+      "es": "El que todo lo oye",
+      "id": "Maha Mendengar",
+      "ur": "سب کچھ سننے والا"
+    }
+  },
+  {
+    "n": 27,
+    "ar": "الْبَصِيرُ",
+    "tr": "Al-Basir",
+    "m": {
+      "fr": "Celui qui voit tout",
+      "en": "The All-Seeing",
+      "ar": "الذي يرى كل شيء",
+      "es": "El que todo lo ve",
+      "id": "Maha Melihat",
+      "ur": "سب کچھ دیکھنے والا"
+    }
+  },
+  {
+    "n": 28,
+    "ar": "الْحَكَمُ",
+    "tr": "Al-Hakam",
+    "m": {
+      "fr": "Le Juge",
+      "en": "The Judge",
+      "ar": "الذي يفصل بين الخلق بالحق",
+      "es": "El Juez",
+      "id": "Maha Menetapkan Hukum",
+      "ur": "فیصلہ فرمانے والا"
+    }
+  },
+  {
+    "n": 29,
+    "ar": "الْعَدْلُ",
+    "tr": "Al-Adl",
+    "m": {
+      "fr": "Le Juste",
+      "en": "The Utterly Just",
+      "ar": "الذي لا يظلم أحدًا",
+      "es": "El Justo",
+      "id": "Maha Adil",
+      "ur": "سراپا عدل"
+    }
+  },
+  {
+    "n": 30,
+    "ar": "اللَّطِيفُ",
+    "tr": "Al-Latif",
+    "m": {
+      "fr": "Le Subtil, le Bienveillant",
+      "en": "The Subtle, the Kind",
+      "ar": "الرفيق بعباده العالم بالخفايا",
+      "es": "El Sutil, el Benévolo",
+      "id": "Maha Lembut",
+      "ur": "نہایت مہربان، باریک بیں"
+    }
+  },
+  {
+    "n": 31,
+    "ar": "الْخَبِيرُ",
+    "tr": "Al-Khabir",
+    "m": {
+      "fr": "Le Parfaitement Informé",
+      "en": "The All-Aware",
+      "ar": "العالم ببواطن الأمور",
+      "es": "El Bien Informado",
+      "id": "Maha Teliti",
+      "ur": "ہر چیز کی خبر رکھنے والا"
+    }
+  },
+  {
+    "n": 32,
+    "ar": "الْحَلِيمُ",
+    "tr": "Al-Halim",
+    "m": {
+      "fr": "Le Clément, qui ne se hâte pas de punir",
+      "en": "The Forbearing",
+      "ar": "ذو الصفح والأناة",
+      "es": "El Indulgente, que no se apresura a castigar",
+      "id": "Maha Penyantun",
+      "ur": "بردبار"
+    }
+  },
+  {
+    "n": 33,
+    "ar": "الْعَظِيمُ",
+    "tr": "Al-Azim",
+    "m": {
+      "fr": "L'Immense",
+      "en": "The Magnificent",
+      "ar": "ذو العظمة والكبرياء",
+      "es": "El Grandioso",
+      "id": "Maha Agung",
+      "ur": "عظمت والا"
+    }
+  },
+  {
+    "n": 34,
+    "ar": "الْغَفُورُ",
+    "tr": "Al-Ghafur",
+    "m": {
+      "fr": "Celui qui pardonne beaucoup",
+      "en": "The All-Forgiving",
+      "ar": "الواسع المغفرة",
+      "es": "El Perdonador",
+      "id": "Maha Pengampun",
+      "ur": "بہت بخشنے والا"
+    }
+  },
+  {
+    "n": 35,
+    "ar": "الشَّكُورُ",
+    "tr": "Ash-Shakur",
+    "m": {
+      "fr": "Le Très Reconnaissant",
+      "en": "The Most Appreciative",
+      "ar": "الذي يثيب على العمل القليل",
+      "es": "El Agradecido",
+      "id": "Maha Mensyukuri",
+      "ur": "قدر دان"
+    }
+  },
+  {
+    "n": 36,
+    "ar": "الْعَلِيُّ",
+    "tr": "Al-Ali",
+    "m": {
+      "fr": "Le Très-Haut",
+      "en": "The Most High",
+      "ar": "الذي له العلو المطلق",
+      "es": "El Altísimo",
+      "id": "Maha Tinggi",
+      "ur": "بلند مرتبہ"
+    }
+  },
+  {
+    "n": 37,
+    "ar": "الْكَبِيرُ",
+    "tr": "Al-Kabir",
+    "m": {
+      "fr": "Le Très Grand",
+      "en": "The Most Great",
+      "ar": "الذي هو أكبر من كل شيء",
+      "es": "El Grande",
+      "id": "Maha Besar",
+      "ur": "سب سے بڑا"
+    }
+  },
+  {
+    "n": 38,
+    "ar": "الْحَفِيظُ",
+    "tr": "Al-Hafiz",
+    "m": {
+      "fr": "Celui qui préserve",
+      "en": "The Preserver",
+      "ar": "الذي يحفظ خلقه وأعمالهم",
+      "es": "El Preservador",
+      "id": "Maha Menjaga",
+      "ur": "حفاظت کرنے والا"
+    }
+  },
+  {
+    "n": 39,
+    "ar": "الْمُقِيتُ",
+    "tr": "Al-Muqit",
+    "m": {
+      "fr": "Le Nourricier",
+      "en": "The Sustainer",
+      "ar": "الذي يوصل إلى كل مخلوق قوته",
+      "es": "El Sustentador",
+      "id": "Maha Pemberi Kecukupan",
+      "ur": "روزی پہنچانے والا"
+    }
+  },
+  {
+    "n": 40,
+    "ar": "الْحَسِيبُ",
+    "tr": "Al-Hasib",
+    "m": {
+      "fr": "Celui qui suffit et tient compte",
+      "en": "The Reckoner, the Sufficient",
+      "ar": "الكافي والمحاسب لعباده",
+      "es": "El que basta y toma cuenta",
+      "id": "Maha Mencukupi dan Menghisab",
+      "ur": "کافی، حساب لینے والا"
+    }
+  },
+  {
+    "n": 41,
+    "ar": "الْجَلِيلُ",
+    "tr": "Al-Jalil",
+    "m": {
+      "fr": "Le Majestueux",
+      "en": "The Majestic",
+      "ar": "ذو الجلال والعظمة",
+      "es": "El Majestuoso",
+      "id": "Maha Luhur",
+      "ur": "بزرگی والا"
+    }
+  },
+  {
+    "n": 42,
+    "ar": "الْكَرِيمُ",
+    "tr": "Al-Karim",
+    "m": {
+      "fr": "Le Généreux",
+      "en": "The Most Generous",
+      "ar": "الكثير الخير والعطاء",
+      "es": "El Generoso",
+      "id": "Maha Pemurah",
+      "ur": "بہت کرم کرنے والا"
+    }
+  },
+  {
+    "n": 43,
+    "ar": "الرَّقِيبُ",
+    "tr": "Ar-Raqib",
+    "m": {
+      "fr": "L'Observateur vigilant",
+      "en": "The Watchful",
+      "ar": "الذي لا يغيب عنه شيء",
+      "es": "El Vigilante",
+      "id": "Maha Mengawasi",
+      "ur": "ہر حال پر نظر رکھنے والا"
+    }
+  },
+  {
+    "n": 44,
+    "ar": "الْمُجِيبُ",
+    "tr": "Al-Mujib",
+    "m": {
+      "fr": "Celui qui exauce",
+      "en": "The Responsive",
+      "ar": "الذي يجيب دعاء الداعين",
+      "es": "El que responde",
+      "id": "Maha Mengabulkan",
+      "ur": "دعا قبول کرنے والا"
+    }
+  },
+  {
+    "n": 45,
+    "ar": "الْوَاسِعُ",
+    "tr": "Al-Wasi'",
+    "m": {
+      "fr": "Celui qui embrasse tout",
+      "en": "The All-Encompassing",
+      "ar": "الذي وسع كل شيء رحمةً وعلمًا",
+      "es": "El que todo lo abarca",
+      "id": "Maha Luas",
+      "ur": "وسعت والا"
+    }
+  },
+  {
+    "n": 46,
+    "ar": "الْحَكِيمُ",
+    "tr": "Al-Hakim",
+    "m": {
+      "fr": "Le Sage",
+      "en": "The All-Wise",
+      "ar": "الذي يضع كل شيء في موضعه",
+      "es": "El Sabio",
+      "id": "Maha Bijaksana",
+      "ur": "حکمت والا"
+    }
+  },
+  {
+    "n": 47,
+    "ar": "الْوَدُودُ",
+    "tr": "Al-Wadud",
+    "m": {
+      "fr": "Le Très Aimant",
+      "en": "The Most Loving",
+      "ar": "المحب لعباده الصالحين",
+      "es": "El Amoroso",
+      "id": "Maha Mencintai",
+      "ur": "بہت محبت کرنے والا"
+    }
+  },
+  {
+    "n": 48,
+    "ar": "الْمَجِيدُ",
+    "tr": "Al-Majid",
+    "m": {
+      "fr": "Le Très Glorieux",
+      "en": "The Most Glorious",
+      "ar": "الواسع المجد والكرم",
+      "es": "El Glorioso",
+      "id": "Maha Mulia",
+      "ur": "بڑی شان والا"
+    }
+  },
+  {
+    "n": 49,
+    "ar": "الْبَاعِثُ",
+    "tr": "Al-Ba'ith",
+    "m": {
+      "fr": "Celui qui ressuscite",
+      "en": "The Resurrector",
+      "ar": "الذي يبعث الخلق بعد الموت",
+      "es": "El Resucitador",
+      "id": "Maha Membangkitkan",
+      "ur": "مُردوں کو اٹھانے والا"
+    }
+  },
+  {
+    "n": 50,
+    "ar": "الشَّهِيدُ",
+    "tr": "Ash-Shahid",
+    "m": {
+      "fr": "Le Témoin",
+      "en": "The Witness",
+      "ar": "المطلع على كل شيء",
+      "es": "El Testigo",
+      "id": "Maha Menyaksikan",
+      "ur": "ہر چیز کا گواہ"
+    }
+  },
+  {
+    "n": 51,
+    "ar": "الْحَقُّ",
+    "tr": "Al-Haqq",
+    "m": {
+      "fr": "Le Vrai",
+      "en": "The Truth",
+      "ar": "الثابت وجوده بلا شك",
+      "es": "La Verdad",
+      "id": "Maha Benar",
+      "ur": "سچا، برحق"
+    }
+  },
+  {
+    "n": 52,
+    "ar": "الْوَكِيلُ",
+    "tr": "Al-Wakil",
+    "m": {
+      "fr": "Le Garant, à qui l'on s'en remet",
+      "en": "The Trustee",
+      "ar": "الذي تُوكل إليه الأمور",
+      "es": "El Protector en quien se confía",
+      "id": "Maha Mewakili, tempat bertawakal",
+      "ur": "کارساز"
+    }
+  },
+  {
+    "n": 53,
+    "ar": "الْقَوِيُّ",
+    "tr": "Al-Qawi",
+    "m": {
+      "fr": "Le Fort",
+      "en": "The All-Strong",
+      "ar": "الكامل القوة",
+      "es": "El Fuerte",
+      "id": "Maha Kuat",
+      "ur": "قوت والا"
+    }
+  },
+  {
+    "n": 54,
+    "ar": "الْمَتِينُ",
+    "tr": "Al-Matin",
+    "m": {
+      "fr": "L'Inébranlable",
+      "en": "The Firm",
+      "ar": "الشديد الذي لا يلحقه ضعف",
+      "es": "El Firme",
+      "id": "Maha Kokoh",
+      "ur": "نہایت مضبوط"
+    }
+  },
+  {
+    "n": 55,
+    "ar": "الْوَلِيُّ",
+    "tr": "Al-Wali",
+    "m": {
+      "fr": "L'Allié protecteur",
+      "en": "The Protecting Friend",
+      "ar": "الناصر المتولي أمور عباده",
+      "es": "El Amigo protector",
+      "id": "Maha Melindungi",
+      "ur": "مددگار دوست"
+    }
+  },
+  {
+    "n": 56,
+    "ar": "الْحَمِيدُ",
+    "tr": "Al-Hamid",
+    "m": {
+      "fr": "Le Digne de louange",
+      "en": "The Praiseworthy",
+      "ar": "المستحق للحمد والثناء",
+      "es": "El Digno de alabanza",
+      "id": "Maha Terpuji",
+      "ur": "تعریف کے لائق"
+    }
+  },
+  {
+    "n": 57,
+    "ar": "الْمُحْصِي",
+    "tr": "Al-Muhsi",
+    "m": {
+      "fr": "Celui qui dénombre tout",
+      "en": "The One who counts all things",
+      "ar": "الذي أحصى كل شيء عددًا",
+      "es": "El que todo lo cuenta",
+      "id": "Maha Menghitung",
+      "ur": "ہر چیز کو شمار کرنے والا"
+    }
+  },
+  {
+    "n": 58,
+    "ar": "الْمُبْدِئُ",
+    "tr": "Al-Mubdi'",
+    "m": {
+      "fr": "Celui qui commence la création",
+      "en": "The Originator",
+      "ar": "الذي بدأ الخلق أول مرة",
+      "es": "El Iniciador",
+      "id": "Maha Memulai",
+      "ur": "پہلی بار پیدا کرنے والا"
+    }
+  },
+  {
+    "n": 59,
+    "ar": "الْمُعِيدُ",
+    "tr": "Al-Mu'id",
+    "m": {
+      "fr": "Celui qui recrée",
+      "en": "The Restorer",
+      "ar": "الذي يعيد الخلق بعد فنائه",
+      "es": "El que restaura la creación",
+      "id": "Maha Mengembalikan",
+      "ur": "دوبارہ پیدا کرنے والا"
+    }
+  },
+  {
+    "n": 60,
+    "ar": "الْمُحْيِي",
+    "tr": "Al-Muhyi",
+    "m": {
+      "fr": "Celui qui donne la vie",
+      "en": "The Giver of Life",
+      "ar": "واهب الحياة",
+      "es": "El que da la vida",
+      "id": "Maha Menghidupkan",
+      "ur": "زندگی دینے والا"
+    }
+  },
+  {
+    "n": 61,
+    "ar": "الْمُمِيتُ",
+    "tr": "Al-Mumit",
+    "m": {
+      "fr": "Celui qui donne la mort",
+      "en": "The Bringer of Death",
+      "ar": "الذي يقدّر الموت على خلقه",
+      "es": "El que da la muerte",
+      "id": "Maha Mematikan",
+      "ur": "موت دینے والا"
+    }
+  },
+  {
+    "n": 62,
+    "ar": "الْحَيُّ",
+    "tr": "Al-Hayy",
+    "m": {
+      "fr": "Le Vivant",
+      "en": "The Ever-Living",
+      "ar": "الحي الذي لا يموت",
+      "es": "El Viviente",
+      "id": "Maha Hidup",
+      "ur": "ہمیشہ زندہ"
+    }
+  },
+  {
+    "n": 63,
+    "ar": "الْقَيُّومُ",
+    "tr": "Al-Qayyum",
+    "m": {
+      "fr": "Celui qui subsiste par Lui-même",
+      "en": "The Self-Subsisting, Sustainer of all",
+      "ar": "القائم بنفسه المقيم لغيره",
+      "es": "El que subsiste por Sí mismo",
+      "id": "Maha Berdiri Sendiri",
+      "ur": "سب کو قائم رکھنے والا"
+    }
+  },
+  {
+    "n": 64,
+    "ar": "الْوَاجِدُ",
+    "tr": "Al-Wajid",
+    "m": {
+      "fr": "Celui à qui rien ne manque",
+      "en": "The Finder, who lacks nothing",
+      "ar": "الغني الذي لا يفتقر إلى شيء",
+      "es": "El que todo lo encuentra",
+      "id": "Maha Menemukan",
+      "ur": "ہر چیز کو پانے والا"
+    }
+  },
+  {
+    "n": 65,
+    "ar": "الْمَاجِدُ",
+    "tr": "Al-Maajid",
+    "m": {
+      "fr": "Le Noble",
+      "en": "The Noble",
+      "ar": "العظيم الشرف والكرم",
+      "es": "El Noble",
+      "id": "Maha Mulia lagi Luhur",
+      "ur": "بزرگی اور شرف والا"
+    }
+  },
+  {
+    "n": 66,
+    "ar": "الْوَاحِدُ",
+    "tr": "Al-Wahid",
+    "m": {
+      "fr": "L'Unique",
+      "en": "The One",
+      "ar": "المنفرد الذي لا شريك له",
+      "es": "El Único",
+      "id": "Maha Esa",
+      "ur": "ایک، اکیلا"
+    }
+  },
+  {
+    "n": 67,
+    "ar": "الْأَحَدُ",
+    "tr": "Al-Ahad",
+    "m": {
+      "fr": "L'Un, sans pareil",
+      "en": "The Only One, without equal",
+      "ar": "الذي لا مثيل له",
+      "es": "El Uno, sin igual",
+      "id": "Maha Tunggal",
+      "ur": "یکتا، بے مثل"
+    }
+  },
+  {
+    "n": 68,
+    "ar": "الصَّمَدُ",
+    "tr": "As-Samad",
+    "m": {
+      "fr": "Le Refuge dont tous dépendent",
+      "en": "The Eternal Refuge",
+      "ar": "الذي يقصده الخلق في حوائجهم",
+      "es": "El Refugio eterno",
+      "id": "Tempat bergantung segala sesuatu",
+      "ur": "سب کا سہارا"
+    }
+  },
+  {
+    "n": 69,
+    "ar": "الْقَادِرُ",
+    "tr": "Al-Qadir",
+    "m": {
+      "fr": "Le Capable de tout",
+      "en": "The All-Able",
+      "ar": "الذي يقدر على كل شيء",
+      "es": "El Capaz de todo",
+      "id": "Maha Kuasa",
+      "ur": "قدرت والا"
+    }
+  },
+  {
+    "n": 70,
+    "ar": "الْمُقْتَدِرُ",
+    "tr": "Al-Muqtadir",
+    "m": {
+      "fr": "Celui dont le pouvoir est parfait",
+      "en": "The Perfect in Power",
+      "ar": "التام القدرة الذي لا يعجزه شيء",
+      "es": "El Omnipotente",
+      "id": "Maha Berkuasa atas segalanya",
+      "ur": "پوری قدرت والا"
+    }
+  },
+  {
+    "n": 71,
+    "ar": "الْمُقَدِّمُ",
+    "tr": "Al-Muqaddim",
+    "m": {
+      "fr": "Celui qui avance",
+      "en": "The One who brings forward",
+      "ar": "الذي يقدّم ما يشاء",
+      "es": "El que adelanta",
+      "id": "Maha Mendahulukan",
+      "ur": "آگے کرنے والا"
+    }
+  },
+  {
+    "n": 72,
+    "ar": "الْمُؤَخِّرُ",
+    "tr": "Al-Mu'akhkhir",
+    "m": {
+      "fr": "Celui qui retarde",
+      "en": "The One who delays",
+      "ar": "الذي يؤخّر ما يشاء",
+      "es": "El que retrasa",
+      "id": "Maha Mengakhirkan",
+      "ur": "پیچھے کرنے والا"
+    }
+  },
+  {
+    "n": 73,
+    "ar": "الْأَوَّلُ",
+    "tr": "Al-Awwal",
+    "m": {
+      "fr": "Le Premier",
+      "en": "The First",
+      "ar": "الذي ليس قبله شيء",
+      "es": "El Primero",
+      "id": "Maha Awal",
+      "ur": "سب سے پہلا"
+    }
+  },
+  {
+    "n": 74,
+    "ar": "الْآخِرُ",
+    "tr": "Al-Akhir",
+    "m": {
+      "fr": "Le Dernier",
+      "en": "The Last",
+      "ar": "الذي ليس بعده شيء",
+      "es": "El Último",
+      "id": "Maha Akhir",
+      "ur": "سب کے بعد باقی"
+    }
+  },
+  {
+    "n": 75,
+    "ar": "الظَّاهِرُ",
+    "tr": "Az-Zahir",
+    "m": {
+      "fr": "L'Apparent",
+      "en": "The Manifest",
+      "ar": "الذي ليس فوقه شيء",
+      "es": "El Manifiesto",
+      "id": "Maha Nyata",
+      "ur": "ظاہر، سب پر غالب"
+    }
+  },
+  {
+    "n": 76,
+    "ar": "الْبَاطِنُ",
+    "tr": "Al-Batin",
+    "m": {
+      "fr": "Le Caché",
+      "en": "The Hidden",
+      "ar": "الذي ليس دونه شيء",
+      "es": "El Oculto",
+      "id": "Maha Tersembunyi",
+      "ur": "نگاہوں سے پوشیدہ"
+    }
+  },
+  {
+    "n": 77,
+    "ar": "الْوَالِي",
+    "tr": "Al-Waali",
+    "m": {
+      "fr": "Le Maître qui régit tout",
+      "en": "The Ruler of all affairs",
+      "ar": "المالك المدبّر لأمور الخلق",
+      "es": "El Gobernante de todo",
+      "id": "Maha Memerintah",
+      "ur": "سب کا مالک و منتظم"
+    }
+  },
+  {
+    "n": 78,
+    "ar": "الْمُتَعَالِي",
+    "tr": "Al-Muta'ali",
+    "m": {
+      "fr": "L'Exalté",
+      "en": "The Most Exalted",
+      "ar": "المنزَّه عن صفات المخلوقين",
+      "es": "El Exaltado",
+      "id": "Maha Tinggi di atas segala sesuatu",
+      "ur": "بہت بلند و برتر"
+    }
+  },
+  {
+    "n": 79,
+    "ar": "الْبَرُّ",
+    "tr": "Al-Barr",
+    "m": {
+      "fr": "Le Bienfaisant",
+      "en": "The Source of Goodness",
+      "ar": "الواسع الإحسان إلى عباده",
+      "es": "El Benefactor",
+      "id": "Maha Pemberi Kebaikan",
+      "ur": "بڑا احسان کرنے والا"
+    }
+  },
+  {
+    "n": 80,
+    "ar": "التَّوَّابُ",
+    "tr": "At-Tawwab",
+    "m": {
+      "fr": "Celui qui accueille le repentir",
+      "en": "The Accepter of Repentance",
+      "ar": "الذي يقبل توبة عباده",
+      "es": "El que acepta el arrepentimiento",
+      "id": "Maha Penerima Tobat",
+      "ur": "توبہ قبول کرنے والا"
+    }
+  },
+  {
+    "n": 81,
+    "ar": "الْمُنْتَقِمُ",
+    "tr": "Al-Muntaqim",
+    "m": {
+      "fr": "Celui qui punit les injustes",
+      "en": "The One who requites wrongdoers",
+      "ar": "الذي يعاقب الظالمين بعدله",
+      "es": "El que castiga a los injustos",
+      "id": "Maha Pemberi Balasan",
+      "ur": "ظالموں سے بدلہ لینے والا"
+    }
+  },
+  {
+    "n": 82,
+    "ar": "الْعَفُوُّ",
+    "tr": "Al-Afuw",
+    "m": {
+      "fr": "Celui qui efface les fautes",
+      "en": "The Pardoner",
+      "ar": "الذي يمحو الذنوب ويتجاوز عنها",
+      "es": "El que borra las faltas",
+      "id": "Maha Pemaaf",
+      "ur": "معاف کرنے والا"
+    }
+  },
+  {
+    "n": 83,
+    "ar": "الرَّءُوفُ",
+    "tr": "Ar-Ra'uf",
+    "m": {
+      "fr": "Le Très Compatissant",
+      "en": "The Most Kind",
+      "ar": "الشديد الرحمة بعباده",
+      "es": "El Muy Bondadoso",
+      "id": "Maha Belas Kasih",
+      "ur": "نہایت شفیق"
+    }
+  },
+  {
+    "n": 84,
+    "ar": "مَالِكُ الْمُلْكِ",
+    "tr": "Malik-ul-Mulk",
+    "m": {
+      "fr": "Le Maître de la Royauté",
+      "en": "Owner of all Sovereignty",
+      "ar": "الذي يملك الملك كله",
+      "es": "El Dueño de la Soberanía",
+      "id": "Pemilik segala kerajaan",
+      "ur": "ساری بادشاہت کا مالک"
+    }
+  },
+  {
+    "n": 85,
+    "ar": "ذُو الْجَلَالِ وَالْإِكْرَامِ",
+    "tr": "Dhul-Jalali wal-Ikram",
+    "m": {
+      "fr": "Plein de Majesté et de Générosité",
+      "en": "Lord of Majesty and Honour",
+      "ar": "صاحب العظمة والكرم",
+      "es": "Señor de la Majestad y la Generosidad",
+      "id": "Pemilik keagungan dan kemuliaan",
+      "ur": "عظمت اور بزرگی والا"
+    }
+  },
+  {
+    "n": 86,
+    "ar": "الْمُقْسِطُ",
+    "tr": "Al-Muqsit",
+    "m": {
+      "fr": "L'Équitable",
+      "en": "The Equitable",
+      "ar": "الذي يعدل في حكمه",
+      "es": "El Equitativo",
+      "id": "Maha Pemberi Keadilan",
+      "ur": "عدل و انصاف کرنے والا"
+    }
+  },
+  {
+    "n": 87,
+    "ar": "الْجَامِعُ",
+    "tr": "Al-Jami'",
+    "m": {
+      "fr": "Le Rassembleur",
+      "en": "The Gatherer",
+      "ar": "الذي يجمع الناس ليوم الحساب",
+      "es": "El que reúne",
+      "id": "Maha Mengumpulkan",
+      "ur": "سب کو جمع کرنے والا"
+    }
+  },
+  {
+    "n": 88,
+    "ar": "الْغَنِيُّ",
+    "tr": "Al-Ghani",
+    "m": {
+      "fr": "Celui qui se suffit à Lui-même",
+      "en": "The Self-Sufficient",
+      "ar": "الذي لا يحتاج إلى أحد",
+      "es": "El Autosuficiente",
+      "id": "Maha Kaya",
+      "ur": "بے نیاز، کسی کا محتاج نہیں"
+    }
+  },
+  {
+    "n": 89,
+    "ar": "الْمُغْنِي",
+    "tr": "Al-Mughni",
+    "m": {
+      "fr": "Celui qui enrichit",
+      "en": "The Enricher",
+      "ar": "الذي يغني من يشاء من عباده",
+      "es": "El Enriquecedor",
+      "id": "Maha Pemberi Kekayaan",
+      "ur": "غنی کرنے والا"
+    }
+  },
+  {
+    "n": 90,
+    "ar": "الْمَانِعُ",
+    "tr": "Al-Mani'",
+    "m": {
+      "fr": "Celui qui empêche et protège",
+      "en": "The Preventer",
+      "ar": "الذي يمنع ما يشاء بحكمته",
+      "es": "El que impide",
+      "id": "Maha Mencegah",
+      "ur": "روکنے والا"
+    }
+  },
+  {
+    "n": 91,
+    "ar": "الضَّارُّ",
+    "tr": "Ad-Darr",
+    "m": {
+      "fr": "Celui qui décrète l'épreuve",
+      "en": "The One who decrees hardship",
+      "ar": "الذي لا يقع ضرٌّ إلا بإذنه",
+      "es": "El que decreta la adversidad",
+      "id": "Maha Menentukan mudarat",
+      "ur": "جس کے حکم سے ہی نقصان پہنچے"
+    }
+  },
+  {
+    "n": 92,
+    "ar": "النَّافِعُ",
+    "tr": "An-Nafi'",
+    "m": {
+      "fr": "Celui qui accorde le bienfait",
+      "en": "The One who grants benefit",
+      "ar": "الذي لا يحصل نفع إلا بإذنه",
+      "es": "El que concede el beneficio",
+      "id": "Maha Pemberi Manfaat",
+      "ur": "نفع پہنچانے والا"
+    }
+  },
+  {
+    "n": 93,
+    "ar": "النُّورُ",
+    "tr": "An-Nur",
+    "m": {
+      "fr": "La Lumière",
+      "en": "The Light",
+      "ar": "منوّر السماوات والأرض",
+      "es": "La Luz",
+      "id": "Maha Pemberi Cahaya",
+      "ur": "نور، روشنی دینے والا"
+    }
+  },
+  {
+    "n": 94,
+    "ar": "الْهَادِي",
+    "tr": "Al-Hadi",
+    "m": {
+      "fr": "Le Guide",
+      "en": "The Guide",
+      "ar": "الذي يهدي من يشاء",
+      "es": "El Guía",
+      "id": "Maha Pemberi Petunjuk",
+      "ur": "ہدایت دینے والا"
+    }
+  },
+  {
+    "n": 95,
+    "ar": "الْبَدِيعُ",
+    "tr": "Al-Badi'",
+    "m": {
+      "fr": "Le Créateur sans modèle",
+      "en": "The Incomparable Originator",
+      "ar": "الذي خلق على غير مثال سابق",
+      "es": "El Originador sin modelo previo",
+      "id": "Maha Pencipta tanpa contoh",
+      "ur": "بے مثال پیدا کرنے والا"
+    }
+  },
+  {
+    "n": 96,
+    "ar": "الْبَاقِي",
+    "tr": "Al-Baqi",
+    "m": {
+      "fr": "Le Permanent",
+      "en": "The Everlasting",
+      "ar": "الدائم الذي لا يفنى",
+      "es": "El que permanece para siempre",
+      "id": "Maha Kekal",
+      "ur": "ہمیشہ باقی رہنے والا"
+    }
+  },
+  {
+    "n": 97,
+    "ar": "الْوَارِثُ",
+    "tr": "Al-Warith",
+    "m": {
+      "fr": "L'Héritier de tout",
+      "en": "The Inheritor of all",
+      "ar": "الباقي بعد فناء الخلق",
+      "es": "El Heredero de todo",
+      "id": "Maha Mewarisi",
+      "ur": "سب کا وارث"
+    }
+  },
+  {
+    "n": 98,
+    "ar": "الرَّشِيدُ",
+    "tr": "Ar-Rashid",
+    "m": {
+      "fr": "Celui qui dirige avec sagesse",
+      "en": "The Guide to the Right Path",
+      "ar": "الذي يرشد الخلق إلى مصالحهم",
+      "es": "El que guía con rectitud",
+      "id": "Maha Membimbing ke jalan yang benar",
+      "ur": "سیدھی راہ دکھانے والا"
+    }
+  },
+  {
+    "n": 99,
+    "ar": "الصَّبُورُ",
+    "tr": "As-Sabur",
+    "m": {
+      "fr": "Le Très Patient",
+      "en": "The Most Patient",
+      "ar": "الذي لا يعاجل العصاة بالعقوبة",
+      "es": "El Paciente",
+      "id": "Maha Sabar",
+      "ur": "بڑا صبر والا"
+    }
+  }
+]

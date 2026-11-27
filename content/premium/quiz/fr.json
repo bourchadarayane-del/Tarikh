@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "q001",
+    "cat": "prophets",
+    "q": "Selon le Coran, qui est le premier être humain créé par Dieu ?",
+    "options": [
+      "Nouh (Noé)",
+      "Adam",
+      "Ibrahim (Abraham)",
+      "Idris"
+    ],
+    "answer": 1,
+    "explain": "Adam (paix sur lui) est le premier être humain et le père de l'humanité. Le Coran raconte sa création en 2:30-37."
+  },
+  {
+    "id": "q002",
+    "cat": "prophets",
+    "q": "Quel prophète (paix sur lui) a construit l'arche sur l'ordre de Dieu ?",
+    "options": [
+      "Moussa (Moïse)",
+      "Younous (Jonas)",
+      "Nouh (Noé)",
+      "Houd"
+    ],
+    "answer": 2,
+    "explain": "Nouh (paix sur lui) a reçu l'ordre de construire l'arche avant le déluge, comme le raconte le Coran (11:37)."
+  },
+  {
+    "id": "q003",
+    "cat": "prophets",
+    "q": "Quel prophète (paix sur lui) a été avalé par un grand poisson ?",
+    "options": [
+      "Ayyoub (Job)",
+      "Youssouf (Joseph)",
+      "Ilyas (Élie)",
+      "Younous (Jonas)"
+    ],
+    "answer": 3,
+    "explain": "Younous (paix sur lui) a été avalé par un grand poisson, a invoqué Dieu du fond des ténèbres et a été sauvé (37:139-144)."
+  },
+  {
+    "id": "q004",
+    "cat": "prophets",
+    "q": "Quel fils a aidé Ibrahim (paix sur lui) à élever les fondations de la Kaaba ?",
+    "options": [
+      "Ishaq (Isaac)",
+      "Yaqoub (Jacob)",
+      "Ismaïl (Ismaël)",
+      "Lout (Loth)"
+    ],
+    "answer": 2,
+    "explain": "Le Coran dit qu'Ibrahim et Ismaïl (paix sur eux) ont élevé ensemble les fondations de la Maison (2:127)."
+  },
+  {
+    "id": "q005",
+    "cat": "prophets",
+    "q": "Quel prophète (paix sur lui) a été jeté dans un puits par ses frères lorsqu'il était enfant ?",
+    "options": [
+      "Yahya (Jean)",
+      "Youssouf (Joseph)",
+      "Haroun (Aaron)",
+      "Dawoud (David)"
+    ],
+    "answer": 1,
+    "explain": "Youssouf (paix sur lui) a été jeté dans un puits par ses frères jaloux. Son histoire occupe la sourate Youssouf, la 12e sourate (12:15)."
+  },
+  {
+    "id": "q006",
+    "cat": "prophets",
+    "q": "À quel prophète (paix sur lui) la Tawrat (Torah) a-t-elle été révélée ?",
+    "options": [
+      "Issa (Jésus)",
+      "Dawoud (David)",
+      "Ibrahim (Abraham)",
+      "Moussa (Moïse)"
+    ],
+    "answer": 3,
+    "explain": "La Tawrat a été donnée à Moussa (paix sur lui), qui a fait sortir d'Égypte les Enfants d'Israël."
+  },
+  {
+    "id": "q007",
+    "cat": "prophets",
+    "q": "Quel prophète (paix sur lui) a reçu le Zabour (les Psaumes) ?",
+    "options": [
+      "Dawoud (David)",
+      "Soulayman (Salomon)",
+      "Moussa (Moïse)",
+      "Zakariya (Zacharie)"
+    ],
+    "answer": 0,
+    "explain": "Le Coran affirme que Dieu a donné le Zabour à Dawoud (paix sur lui) (4:163 et 17:55)."
+  },
+  {
+    "id": "q008",
+    "cat": "prophets",
+    "q": "Quel prophète (paix sur lui) a reçu l'Injil (l'Évangile) ?",
+    "options": [
+      "Issa (Jésus)",
+      "Yahya (Jean)",
+      "Moussa (Moïse)",
+      "Younous (Jonas)"
+    ],
+    "answer": 0,
+    "explain": "L'Injil a été donné à Issa, fils de Maryam (paix sur eux), comme le dit le Coran en 5:46."
+  },
+  {
+    "id": "q009",
+    "cat": "prophets",
+    "q": "Quel prophète était le frère de Moussa (paix sur lui) et l'a aidé dans sa mission ?",
+    "options": [
+      "Youcha (Josué)",
+      "Chouayb",
+      "Ilyas (Élie)",
+      "Haroun (Aaron)"
+    ],
+    "answer": 3,
+    "explain": "Moussa a demandé à Dieu de lui donner son frère Haroun comme soutien (20:29-32). Paix sur eux deux."
+  },
+  {
+    "id": "q010",
+    "cat": "prophets",
+    "q": "Quel prophète (paix sur lui), éprouvé par une longue épreuve, est célèbre pour sa patience et pour avoir invoqué son Seigneur, « le plus Miséricordieux des miséricordieux » ?",
+    "options": [
+      "Ayyoub (Job)",
+      "Haroun (Aaron)",
+      "Lout (Loth)",
+      "Salih"
+    ],
+    "answer": 0,
+    "explain": "Ayyoub (paix sur lui) est resté patient dans l'épreuve et a invoqué son Seigneur, qui l'a soulagé (21:83-84)."
+  },
+  {
+    "id": "q011",
+    "cat": "prophets",
+    "q": "Quel prophète (paix sur lui) a été envoyé au peuple de 'Ad ?",
+    "options": [
+      "Salih",
+      "Chouayb",
+      "Houd",
+      "Lout (Loth)"
+    ],
+    "answer": 2,
+    "explain": "Houd (paix sur lui) a été envoyé au peuple de 'Ad pour l'appeler à n'adorer que Dieu (7:65)."
+  },
+  {
+    "id": "q012",
+    "cat": "prophets",
+    "q": "La chamelle donnée comme signe au peuple de Thamoud est liée à quel prophète (paix sur lui) ?",
+    "options": [
+      "Houd",
+      "Salih",
+      "Nouh (Noé)",
+      "Younous (Jonas)"
+    ],
+    "answer": 1,
+    "explain": "Salih (paix sur lui) a été envoyé aux Thamoud, et la chamelle était pour eux un signe de Dieu (7:73)."
+  },
+  {
+    "id": "q013",
+    "cat": "prophets",
+    "q": "Quel prophète (paix sur lui) a été jeté dans un feu par son peuple, feu que Dieu a rendu frais et sans danger pour lui ?",
+    "options": [
+      "Moussa (Moïse)",
+      "Ibrahim (Abraham)",
+      "Yahya (Jean)",
+      "Houd"
+    ],
+    "answer": 1,
+    "explain": "Quand son peuple a jeté Ibrahim (paix sur lui) dans le feu, Dieu a ordonné au feu d'être pour lui fraîcheur et salut (21:68-69)."
+  },
+  {
+    "id": "q014",
+    "cat": "prophets",
+    "q": "Selon le Coran, quel prophète (paix sur lui) a compris les paroles d'une fourmi qui avertissait les autres fourmis ?",
+    "options": [
+      "Younous (Jonas)",
+      "Issa (Jésus)",
+      "Soulayman (Salomon)",
+      "Youssouf (Joseph)"
+    ],
+    "answer": 2,
+    "explain": "Soulayman (paix sur lui) a entendu une fourmi avertir les autres à l'approche de son armée ; il a souri et remercié Dieu (27:18-19)."
+  },
+  {
+    "id": "q015",
+    "cat": "prophets",
+    "q": "Quel prophète (paix sur lui) était le père de Yahya (Jean) ?",
+    "options": [
+      "Imran",
+      "Yaqoub (Jacob)",
+      "Ayyoub (Job)",
+      "Zakariya (Zacharie)"
+    ],
+    "answer": 3,
+    "explain": "Zakariya (paix sur lui) a demandé un enfant dans sa vieillesse et a reçu la bonne nouvelle de la naissance de Yahya (19:7)."
+  },
+  {
+    "id": "q016",
+    "cat": "seerah",
+    "q": "Dans quelle ville le Prophète Muhammad ﷺ est-il né ?",
+    "options": [
+      "Médine",
+      "La Mecque",
+      "Taïf",
+      "Jérusalem"
+    ],
+    "answer": 1,
+    "explain": "Le Prophète Muhammad ﷺ est né à La Mecque, dans la tribu de Quraych."
+  },
+  {
+    "id": "q017",
+    "cat": "seerah",
+    "q": "Où le Prophète Muhammad ﷺ a-t-il reçu la première révélation ?",
+    "options": [
+      "Dans la grotte de Thawr",
+      "Dans la grotte de Hira",
+      "Sur le mont Ouhoud",
+      "Dans la plaine d'Arafat"
+    ],
+    "answer": 1,
+    "explain": "La première révélation est venue dans la grotte de Hira, sur la Montagne de la Lumière, près de La Mecque, où il avait l'habitude de se retirer."
+  },
+  {
+    "id": "q018",
+    "cat": "seerah",
+    "q": "Quel ange a apporté la révélation au Prophète Muhammad ﷺ ?",
+    "options": [
+      "Mikaïl (Michel)",
+      "Jibril (Gabriel)",
+      "Israfil",
+      "Malik"
+    ],
+    "answer": 1,
+    "explain": "L'ange Jibril (paix sur lui) a apporté le Coran au Prophète Muhammad ﷺ."
+  },
+  {
+    "id": "q019",
+    "cat": "seerah",
+    "q": "Quel est le premier mot du Coran révélé au Prophète Muhammad ﷺ ?",
+    "options": [
+      "Qoul (Dis)",
+      "Qoum (Lève-toi)",
+      "Iqra (Lis)",
+      "Sabbih (Glorifie)"
+    ],
+    "answer": 2,
+    "explain": "La première révélation commence par le mot « Iqra », qui signifie lis ou récite (96:1)."
+  },
+  {
+    "id": "q020",
+    "cat": "seerah",
+    "q": "Qui était la première épouse du Prophète Muhammad ﷺ ?",
+    "options": [
+      "Khadija bint Khouwaylid",
+      "Aïcha bint Abi Bakr",
+      "Hafsa bint Omar",
+      "Sawda bint Zam'a"
+    ],
+    "answer": 0,
+    "explain": "Khadija, commerçante respectée de La Mecque, a été sa première épouse. Il n'a épousé aucune autre femme tant qu'elle était en vie."
+  },
+  {
+    "id": "q021",
+    "cat": "seerah",
+    "q": "En quelle année de l'ère commune l'Hégire, l'émigration de La Mecque à Médine, a-t-elle eu lieu ?",
+    "options": [
+      "622",
+      "570",
+      "610",
+      "632"
+    ],
+    "answer": 0,
+    "explain": "L'Hégire a eu lieu en 622. Cette année est devenue plus tard l'an 1 du calendrier musulman."
+  },
+  {
+    "id": "q022",
+    "cat": "seerah",
+    "q": "Comment s'appelait la ville de Médine avant l'Hégire ?",
+    "options": [
+      "Khaybar",
+      "Tabouk",
+      "Taïf",
+      "Yathrib"
+    ],
+    "answer": 3,
+    "explain": "La ville s'appelait Yathrib. Après l'installation du Prophète Muhammad ﷺ, elle a été connue sous le nom de Médine, « la Ville »."
+  },
+  {
+    "id": "q023",
+    "cat": "seerah",
+    "q": "Dans quelle grotte le Prophète Muhammad ﷺ s'est-il abrité pendant l'Hégire ?",
+    "options": [
+      "La grotte de Thawr",
+      "La grotte de Hira",
+      "Une grotte du mont Ouhoud",
+      "Une grotte du mont Safa"
+    ],
+    "answer": 0,
+    "explain": "Il s'est caché dans la grotte de Thawr avec son compagnon Abou Bakr pendant que les Quraych les cherchaient. Le Coran évoque ce moment en 9:40."
+  },
+  {
+    "id": "q024",
+    "cat": "seerah",
+    "q": "En quelle année de l'Hégire la bataille de Badr a-t-elle eu lieu ?",
+    "options": [
+      "L'an 2",
+      "L'an 1",
+      "L'an 5",
+      "L'an 8"
+    ],
+    "answer": 0,
+    "explain": "La bataille de Badr a eu lieu pendant le Ramadan de l'an 2 de l'Hégire. C'est la première grande bataille des musulmans."
+  },
+  {
+    "id": "q025",
+    "cat": "seerah",
+    "q": "Comment s'appelait le grand-père qui a pris soin du Prophète Muhammad ﷺ après la mort de sa mère ?",
+    "options": [
+      "Abou Lahab",
+      "Abou Soufyan",
+      "Abd al-Mouttalib",
+      "Waraqa ibn Nawfal"
+    ],
+    "answer": 2,
+    "explain": "Son grand-père Abd al-Mouttalib, l'un des chefs de La Mecque, s'est occupé de lui. Après la mort de ce grand-père, son oncle Abou Talib l'a recueilli."
+  },
+  {
+    "id": "q026",
+    "cat": "seerah",
+    "q": "Comment s'appelait la mère du Prophète Muhammad ﷺ ?",
+    "options": [
+      "Halima as-Sa'diyya",
+      "Fatima bint Asad",
+      "Oumm Ayman",
+      "Amina bint Wahb"
+    ],
+    "answer": 3,
+    "explain": "Sa mère s'appelait Amina bint Wahb. Elle est morte alors qu'il était encore un jeune enfant. Halima as-Sa'diyya était sa nourrice."
+  },
+  {
+    "id": "q027",
+    "cat": "seerah",
+    "q": "À quelle tribu appartenait le Prophète Muhammad ﷺ ?",
+    "options": [
+      "Aws",
+      "Khazraj",
+      "Thaqif",
+      "Quraych"
+    ],
+    "answer": 3,
+    "explain": "Il appartenait à Quraych, la tribu de La Mecque, dans le clan des Banou Hachim."
+  },
+  {
+    "id": "q028",
+    "cat": "seerah",
+    "q": "Comment s'appelle la trêve conclue entre les musulmans et les Quraych en l'an 6 de l'Hégire ?",
+    "options": [
+      "Le serment d'Aqaba",
+      "La charte de Médine",
+      "Le traité de Houdaybiya",
+      "Le pacte des Vertueux (Hilf al-Foudoul)"
+    ],
+    "answer": 2,
+    "explain": "Le traité de Houdaybiya a été conclu en l'an 6 de l'Hégire, près de La Mecque. Il a ouvert une période de paix pendant laquelle l'islam s'est largement répandu."
+  },
+  {
+    "id": "q029",
+    "cat": "seerah",
+    "q": "En quelle année de l'Hégire la conquête de La Mecque a-t-elle eu lieu ?",
+    "options": [
+      "L'an 2",
+      "L'an 4",
+      "L'an 8",
+      "L'an 6"
+    ],
+    "answer": 2,
+    "explain": "Les musulmans sont entrés à La Mecque en l'an 8 de l'Hégire (630). Le Prophète Muhammad ﷺ a pardonné à ses habitants."
+  },
+  {
+    "id": "q030",
+    "cat": "seerah",
+    "q": "Avant la prophétie, quel surnom les habitants de La Mecque donnaient-ils au Prophète Muhammad ﷺ ?",
+    "options": [
+      "Al-Hakim (le Sage)",
+      "Al-Karim (le Généreux)",
+      "Ach-Chouja (le Courageux)",
+      "Al-Amin (le Digne de confiance)"
+    ],
+    "answer": 3,
+    "explain": "On l'appelait al-Amin, le Digne de confiance, en raison de son honnêteté. Les gens lui confiaient leurs objets de valeur."
+  },
+  {
+    "id": "q031",
+    "cat": "companions",
+    "q": "Qui a été le premier muezzin de l'islam ?",
+    "options": [
+      "Salman al-Farisi",
+      "Anas ibn Malik",
+      "Bilal ibn Rabah",
+      "Zayd ibn Haritha"
+    ],
+    "answer": 2,
+    "explain": "Bilal ibn Rabah, esclave affranchi d'origine abyssine, a été choisi par le Prophète Muhammad ﷺ pour lancer l'appel à la prière."
+  },
+  {
+    "id": "q032",
+    "cat": "companions",
+    "q": "Quel compagnon a voyagé avec le Prophète Muhammad ﷺ pendant l'Hégire ?",
+    "options": [
+      "Bilal ibn Rabah",
+      "Mous'ab ibn Oumayr",
+      "Khalid ibn al-Walid",
+      "Abou Bakr"
+    ],
+    "answer": 3,
+    "explain": "Abou Bakr a été son compagnon de route de La Mecque à Médine et il est resté avec lui dans la grotte de Thawr."
+  },
+  {
+    "id": "q033",
+    "cat": "companions",
+    "q": "Quel compagnon a proposé de creuser un fossé pour défendre Médine ?",
+    "options": [
+      "Bilal ibn Rabah",
+      "Abou Ayyoub al-Ansari",
+      "Salman al-Farisi",
+      "Mous'ab ibn Oumayr"
+    ],
+    "answer": 2,
+    "explain": "Salman al-Farisi, originaire de Perse, a proposé de creuser un fossé. C'est pourquoi la bataille de l'an 5 de l'Hégire s'appelle la bataille du Fossé."
+  },
+  {
+    "id": "q034",
+    "cat": "companions",
+    "q": "Quel compagnon est connu sous le titre d'« Épée de Dieu » (Sayf Allah) ?",
+    "options": [
+      "Khalid ibn al-Walid",
+      "Bilal ibn Rabah",
+      "Zayd ibn Thabit",
+      "Anas ibn Malik"
+    ],
+    "answer": 0,
+    "explain": "Khalid ibn al-Walid, célèbre chef militaire, est connu sous le nom de Sayf Allah, l'Épée de Dieu."
+  },
+  {
+    "id": "q035",
+    "cat": "companions",
+    "q": "Qui a été la première personne à croire au message du Prophète Muhammad ﷺ ?",
+    "options": [
+      "Omar ibn al-Khattab",
+      "Khadija bint Khouwaylid",
+      "Khalid ibn al-Walid",
+      "Abou Soufyan"
+    ],
+    "answer": 1,
+    "explain": "Son épouse Khadija a été la première à croire en lui. Elle l'a réconforté et soutenu dès la toute première révélation."
+  },
+  {
+    "id": "q036",
+    "cat": "companions",
+    "q": "Sous quel calife le calendrier hégirien a-t-il été adopté, avec l'année de l'Hégire comme point de départ ?",
+    "options": [
+      "Omar ibn al-Khattab",
+      "Haroun ar-Rachid",
+      "Abd al-Malik ibn Marwan",
+      "Omar ibn Abd al-Aziz"
+    ],
+    "answer": 0,
+    "explain": "Le calendrier hégirien a été mis en place pendant le califat d'Omar ibn al-Khattab, quelques années après la mort du Prophète Muhammad ﷺ."
+  },
+  {
+    "id": "q037",
+    "cat": "companions",
+    "q": "Quel compagnon, scribe de la révélation, a été chargé de rassembler le Coran en un seul recueil écrit ?",
+    "options": [
+      "Bilal ibn Rabah",
+      "Khalid ibn al-Walid",
+      "Salman al-Farisi",
+      "Zayd ibn Thabit"
+    ],
+    "answer": 3,
+    "explain": "Zayd ibn Thabit, l'un des scribes du Prophète Muhammad ﷺ, a rassemblé le Coran écrit en un seul recueil pendant le califat d'Abou Bakr."
+  },
+  {
+    "id": "q038",
+    "cat": "companions",
+    "q": "Quel compagnon a été envoyé à Yathrib avant l'Hégire pour enseigner l'islam à ses habitants ?",
+    "options": [
+      "Mous'ab ibn Oumayr",
+      "Khalid ibn al-Walid",
+      "Anas ibn Malik",
+      "Abou Ayyoub al-Ansari"
+    ],
+    "answer": 0,
+    "explain": "Mous'ab ibn Oumayr a été envoyé à Yathrib après le premier serment d'Aqaba. Beaucoup de ses habitants ont embrassé l'islam grâce à lui."
+  },
+  {
+    "id": "q039",
+    "cat": "companions",
+    "q": "Lors de quelle bataille Hamza, l'oncle du Prophète Muhammad ﷺ, a-t-il été tué ?",
+    "options": [
+      "Badr",
+      "Le Fossé",
+      "Hounayn",
+      "Ouhoud"
+    ],
+    "answer": 3,
+    "explain": "Hamza ibn Abd al-Mouttalib est tombé en martyr à la bataille d'Ouhoud, en l'an 3 de l'Hégire."
+  },
+  {
+    "id": "q040",
+    "cat": "companions",
+    "q": "Qui est considérée comme la première martyre de l'islam ?",
+    "options": [
+      "Oumm Ayman",
+      "Soumayya bint Khayyat",
+      "Halima as-Sa'diyya",
+      "Oumm Salama"
+    ],
+    "answer": 1,
+    "explain": "Soumayya bint Khayyat, la mère de Ammar ibn Yasir, a été tuée à La Mecque parce qu'elle refusait de renoncer à sa foi."
+  },
+  {
+    "id": "q041",
+    "cat": "companions",
+    "q": "Quel compagnon a pris la parole au nom des émigrés musulmans devant le Négus, le roi d'Abyssinie ?",
+    "options": [
+      "Bilal ibn Rabah",
+      "Ja'far ibn Abi Talib",
+      "Zayd ibn Thabit",
+      "Anas ibn Malik"
+    ],
+    "answer": 1,
+    "explain": "Ja'far ibn Abi Talib a présenté l'islam au Négus, qui a ensuite laissé les musulmans vivre en sécurité sur sa terre."
+  },
+  {
+    "id": "q042",
+    "cat": "companions",
+    "q": "Quelle fille du Prophète Muhammad ﷺ a épousé Ali ibn Abi Talib ?",
+    "options": [
+      "Fatima",
+      "Zaynab",
+      "Rouqayya",
+      "Oumm Koulthoum"
+    ],
+    "answer": 0,
+    "explain": "Fatima a épousé Ali ibn Abi Talib à Médine. Ils sont les parents d'al-Hasan et d'al-Housayn."
+  },
+  {
+    "id": "q043",
+    "cat": "companions",
+    "q": "Quel nom donne-t-on aux habitants de Médine qui ont accueilli et aidé les émigrés de La Mecque ?",
+    "options": [
+      "Les Mouhajiroun (les Émigrés)",
+      "Les Quraych",
+      "Les Tabi'oun (les Successeurs)",
+      "Les Ansar (les Auxiliaires)"
+    ],
+    "answer": 3,
+    "explain": "Les musulmans de Médine sont appelés les Ansar, les Auxiliaires. Ceux qui ont émigré de La Mecque sont appelés les Mouhajiroun."
+  },
+  {
+    "id": "q044",
+    "cat": "companions",
+    "q": "Qui a dormi dans le lit du Prophète Muhammad ﷺ la nuit où il a quitté La Mecque pour l'Hégire ?",
+    "options": [
+      "Zayd ibn Haritha",
+      "Bilal ibn Rabah",
+      "Ali ibn Abi Talib",
+      "Anas ibn Malik"
+    ],
+    "answer": 2,
+    "explain": "Le jeune Ali ibn Abi Talib a pris sa place dans le lit cette nuit-là, puis il est resté pour rendre les biens que les gens lui avaient confiés."
+  },
+  {
+    "id": "q045",
+    "cat": "companions",
+    "q": "Chez qui le Prophète Muhammad ﷺ a-t-il habité à Médine pendant la construction de sa mosquée ?",
+    "options": [
+      "Salman al-Farisi",
+      "Abou Ayyoub al-Ansari",
+      "Khalid ibn al-Walid",
+      "Mous'ab ibn Oumayr"
+    ],
+    "answer": 1,
+    "explain": "Il a habité chez Abou Ayyoub al-Ansari jusqu'à ce que sa mosquée et ses chambres soient construites."
+  },
+  {
+    "id": "q046",
+    "cat": "quran",
+    "q": "Combien de sourates le Coran contient-il ?",
+    "options": [
+      "114",
+      "99",
+      "110",
+      "120"
+    ],
+    "answer": 0,
+    "explain": "Le Coran compte 114 sourates, d'al-Fatiha à an-Nas."
+  },
+  {
+    "id": "q047",
+    "cat": "quran",
+    "q": "Quelle est la plus longue sourate du Coran ?",
+    "options": [
+      "Al-Imran",
+      "An-Nisa",
+      "Ya-Sin",
+      "Al-Baqara"
+    ],
+    "answer": 3,
+    "explain": "Al-Baqara, la 2e sourate, est la plus longue du Coran."
+  },
+  {
+    "id": "q048",
+    "cat": "quran",
+    "q": "Quelle est la plus courte sourate du Coran ?",
+    "options": [
+      "Al-Ikhlas",
+      "Al-Kawthar",
+      "Al-Falaq",
+      "Al-Fatiha"
+    ],
+    "answer": 1,
+    "explain": "Al-Kawthar, la 108e sourate, est la plus courte : elle ne compte que trois courts versets."
+  },
+  {
+    "id": "q049",
+    "cat": "quran",
+    "q": "Quelle sourate ouvre le Coran ?",
+    "options": [
+      "Al-Baqara",
+      "Al-Ikhlas",
+      "Al-Fatiha",
+      "Al-Alaq"
+    ],
+    "answer": 2,
+    "explain": "Al-Fatiha, « l'Ouverture », est la première sourate du Coran ; elle est récitée dans chaque prière."
+  },
+  {
+    "id": "q050",
+    "cat": "quran",
+    "q": "Quelle sourate est placée en dernier dans le Coran ?",
+    "options": [
+      "Al-Falaq",
+      "Al-Ikhlas",
+      "An-Nas",
+      "An-Nasr"
+    ],
+    "answer": 2,
+    "explain": "An-Nas, la 114e sourate, clôt le Coran."
+  },
+  {
+    "id": "q051",
+    "cat": "quran",
+    "q": "En combien de parties (juz') le Coran est-il divisé ?",
+    "options": [
+      "7",
+      "30",
+      "60",
+      "114"
+    ],
+    "answer": 1,
+    "explain": "Le Coran est divisé en 30 juz', ce qui permet de le lire facilement en entier en un mois."
+  },
+  {
+    "id": "q052",
+    "cat": "quran",
+    "q": "Durant quel mois la révélation du Coran a-t-elle commencé ?",
+    "options": [
+      "Ramadan",
+      "Rajab",
+      "Mouharram",
+      "Dhoul-Hijja"
+    ],
+    "answer": 0,
+    "explain": "Le Coran dit qu'il a été descendu pendant le mois de Ramadan (2:185)."
+  },
+  {
+    "id": "q053",
+    "cat": "quran",
+    "q": "Dans quelle sourate se trouve Ayat al-Koursi, le verset du Trône ?",
+    "options": [
+      "Al-Imran",
+      "Al-Baqara",
+      "Al-Kahf",
+      "Al-Moulk"
+    ],
+    "answer": 1,
+    "explain": "Ayat al-Koursi est le verset 255 de la sourate al-Baqara (2:255)."
+  },
+  {
+    "id": "q054",
+    "cat": "quran",
+    "q": "Quelle est la seule sourate qui ne commence pas par la basmala ?",
+    "options": [
+      "At-Tawba",
+      "Al-Anfal",
+      "Younous",
+      "Al-Moulk"
+    ],
+    "answer": 0,
+    "explain": "At-Tawba, la 9e sourate, est la seule qui ne s'ouvre pas par « Au nom de Dieu, le Tout Miséricordieux, le Très Miséricordieux »."
+  },
+  {
+    "id": "q055",
+    "cat": "quran",
+    "q": "Dans quelle sourate la basmala apparaît-elle deux fois ?",
+    "options": [
+      "An-Nahl",
+      "Al-Ankabout",
+      "Saba",
+      "An-Naml"
+    ],
+    "answer": 3,
+    "explain": "Dans la sourate an-Naml, la basmala figure en ouverture, puis dans la lettre de Soulayman, paix sur lui (27:30)."
+  },
+  {
+    "id": "q056",
+    "cat": "quran",
+    "q": "Quelle sourate du Coran porte le nom de la mère de Issa (paix sur lui) ?",
+    "options": [
+      "An-Nisa",
+      "Maryam",
+      "Al-Imran",
+      "An-Nour"
+    ],
+    "answer": 1,
+    "explain": "La 19e sourate porte le nom de Maryam, la mère de Issa (paix sur eux). Elle est la seule femme citée par son nom dans le Coran."
+  },
+  {
+    "id": "q057",
+    "cat": "quran",
+    "q": "Sur combien d'années environ le Coran a-t-il été révélé ?",
+    "options": [
+      "Environ 23 ans",
+      "Environ 3 ans",
+      "Environ 10 ans",
+      "Environ 40 ans"
+    ],
+    "answer": 0,
+    "explain": "Le Coran a été révélé peu à peu pendant environ 23 ans, d'abord à La Mecque puis à Médine."
+  },
+  {
+    "id": "q058",
+    "cat": "quran",
+    "q": "Combien de versets la sourate al-Fatiha compte-t-elle ?",
+    "options": [
+      "3",
+      "5",
+      "10",
+      "7"
+    ],
+    "answer": 3,
+    "explain": "Al-Fatiha compte sept versets. Elle est récitée dans chaque unité de la prière."
+  },
+  {
+    "id": "q059",
+    "cat": "quran",
+    "q": "Comment appelle-t-on les sourates révélées avant l'Hégire ?",
+    "options": [
+      "Médinoises (madani)",
+      "Mouhkam",
+      "Mecquoises (makki)",
+      "Moufassal"
+    ],
+    "answer": 2,
+    "explain": "Les sourates révélées avant l'Hégire sont dites mecquoises, et celles révélées après sont dites médinoises."
+  },
+  {
+    "id": "q060",
+    "cat": "quran",
+    "q": "Quel est le plus long verset du Coran ?",
+    "options": [
+      "Ayat al-Koursi (2:255)",
+      "Le verset de la lumière (24:35)",
+      "Le verset de la dette (2:282)",
+      "Le premier verset d'al-Fatiha"
+    ],
+    "answer": 2,
+    "explain": "Le plus long verset est le verset 282 d'al-Baqara. Il apprend à mettre ses dettes par écrit et à prendre des témoins."
+  },
+  {
+    "id": "q061",
+    "cat": "history",
+    "q": "Quelle ville était la capitale du califat omeyyade ?",
+    "options": [
+      "Bagdad",
+      "Damas",
+      "Le Caire",
+      "Médine"
+    ],
+    "answer": 1,
+    "explain": "Les Omeyyades ont gouverné depuis Damas, en Syrie, de 661 à 750."
+  },
+  {
+    "id": "q062",
+    "cat": "history",
+    "q": "Quel calife abbasside a fondé la ville de Bagdad en 762 ?",
+    "options": [
+      "Haroun ar-Rachid",
+      "Al-Mansour",
+      "Al-Ma'moun",
+      "Al-Mou'tasim"
+    ],
+    "answer": 1,
+    "explain": "Le calife al-Mansour a fondé Bagdad en 762 sur les rives du Tigre. Elle est devenue l'une des plus grandes villes du monde."
+  },
+  {
+    "id": "q063",
+    "cat": "history",
+    "q": "Qui a pris et détruit Bagdad en 1258 ?",
+    "options": [
+      "Les Mongols",
+      "Les Croisés",
+      "Les Seldjoukides",
+      "Les Ottomans"
+    ],
+    "answer": 0,
+    "explain": "L'armée mongole conduite par Houlagou a pris Bagdad en 1258, ce qui a mis fin au califat abbasside de Bagdad."
+  },
+  {
+    "id": "q064",
+    "cat": "history",
+    "q": "Quel sultan ottoman a pris Constantinople en 1453 ?",
+    "options": [
+      "Mehmed II",
+      "Soliman le Magnifique",
+      "Sélim Ier",
+      "Osman Ier"
+    ],
+    "answer": 0,
+    "explain": "Mehmed II, surnommé « le Conquérant », a pris Constantinople en 1453. La ville est devenue la capitale ottomane, Istanbul."
+  },
+  {
+    "id": "q065",
+    "cat": "history",
+    "q": "Qui commandait l'armée musulmane qui est passée d'Afrique du Nord à la péninsule Ibérique en 711 ?",
+    "options": [
+      "Oqba ibn Nafi",
+      "Khalid ibn al-Walid",
+      "Salah ad-Din (Saladin)",
+      "Tariq ibn Ziyad"
+    ],
+    "answer": 3,
+    "explain": "Tariq ibn Ziyad a traversé le détroit en 711. Le rocher de Gibraltar porte son nom : Jabal Tariq, « la montagne de Tariq »."
+  },
+  {
+    "id": "q066",
+    "cat": "history",
+    "q": "Qui a repris Jérusalem aux Croisés en 1187 ?",
+    "options": [
+      "Baybars",
+      "Nour ad-Din Zangi",
+      "Salah ad-Din (Saladin)",
+      "Mehmed II"
+    ],
+    "answer": 2,
+    "explain": "Salah ad-Din al-Ayyoubi a repris Jérusalem en 1187, après sa victoire à la bataille de Hattin."
+  },
+  {
+    "id": "q067",
+    "cat": "history",
+    "q": "Quelle ville, dernier royaume musulman d'al-Andalus, est tombée en 1492 ?",
+    "options": [
+      "Cordoue",
+      "Grenade",
+      "Séville",
+      "Tolède"
+    ],
+    "answer": 1,
+    "explain": "Le royaume nasride de Grenade est tombé en 1492, ce qui a mis fin à près de huit siècles de présence musulmane dans une partie de la péninsule Ibérique."
+  },
+  {
+    "id": "q068",
+    "cat": "history",
+    "q": "Qui a vaincu les Mongols à la bataille d'Aïn Jalout en 1260 ?",
+    "options": [
+      "Les Mamelouks d'Égypte",
+      "Les Ottomans",
+      "Les Seldjoukides",
+      "Les Almohades"
+    ],
+    "answer": 0,
+    "explain": "Les Mamelouks d'Égypte ont arrêté l'avancée des Mongols à Aïn Jalout, en Palestine, en 1260."
+  },
+  {
+    "id": "q069",
+    "cat": "history",
+    "q": "Quelle dynastie a pris la tête du califat en 750, puis a fait de Bagdad sa capitale ?",
+    "options": [
+      "Les Ottomans",
+      "Les Mamelouks",
+      "Les Almoravides",
+      "Les Abbassides"
+    ],
+    "answer": 3,
+    "explain": "Les Abbassides ont remplacé les Omeyyades en 750 et ont fondé Bagdad en 762."
+  },
+  {
+    "id": "q070",
+    "cat": "history",
+    "q": "Quel prince omeyyade s'est réfugié en al-Andalus et a fondé l'émirat de Cordoue en 756 ?",
+    "options": [
+      "Tariq ibn Ziyad",
+      "Haroun ar-Rachid",
+      "Salah ad-Din (Saladin)",
+      "Abd al-Rahman Ier"
+    ],
+    "answer": 3,
+    "explain": "Abd al-Rahman Ier, survivant de la famille omeyyade, a gagné al-Andalus et a fondé l'émirat de Cordoue en 756."
+  },
+  {
+    "id": "q071",
+    "cat": "history",
+    "q": "La dynastie ottomane tire son nom de son fondateur. Qui était-il ?",
+    "options": [
+      "Mehmed II",
+      "Timour (Tamerlan)",
+      "Alp Arslan",
+      "Osman Ier"
+    ],
+    "answer": 3,
+    "explain": "Osman Ier a fondé l'État ottoman en Anatolie vers 1300. Le mot « ottoman » vient de son nom."
+  },
+  {
+    "id": "q072",
+    "cat": "history",
+    "q": "Qui a fondé l'Empire moghol en Inde en 1526 ?",
+    "options": [
+      "Akbar",
+      "Shah Jahan",
+      "Babour",
+      "Aurangzeb"
+    ],
+    "answer": 2,
+    "explain": "Babour a fondé l'Empire moghol après sa victoire à la bataille de Panipat en 1526."
+  },
+  {
+    "id": "q073",
+    "cat": "history",
+    "q": "Quel sultan ottoman du XVIe siècle est surnommé « le Magnifique » et « le Législateur » ?",
+    "options": [
+      "Mehmed II",
+      "Soliman Ier",
+      "Osman Ier",
+      "Abdülhamid II"
+    ],
+    "answer": 1,
+    "explain": "Soliman Ier a régné de 1520 à 1566, à l'apogée de l'Empire ottoman. On l'appelle « Kanouni », le Législateur."
+  },
+  {
+    "id": "q074",
+    "cat": "history",
+    "q": "Mansa Moussa, célèbre pour son pèlerinage à La Mecque en 1324, régnait sur quel empire ?",
+    "options": [
+      "L'empire songhaï",
+      "L'empire du Ghana",
+      "L'empire du Mali",
+      "L'empire du Kanem"
+    ],
+    "answer": 2,
+    "explain": "Mansa Moussa régnait sur l'empire du Mali, en Afrique de l'Ouest. Son pèlerinage de 1324 a fait connaître au loin la richesse du Mali."
+  },
+  {
+    "id": "q075",
+    "cat": "history",
+    "q": "Quel sultan seldjoukide a remporté la bataille de Manzikert contre les Byzantins en 1071 ?",
+    "options": [
+      "Salah ad-Din (Saladin)",
+      "Baybars",
+      "Alp Arslan",
+      "Osman Ier"
+    ],
+    "answer": 2,
+    "explain": "Alp Arslan a battu l'armée byzantine à Manzikert en 1071, ce qui a ouvert l'Anatolie aux Turcs."
+  },
+  {
+    "id": "q076",
+    "cat": "sciences",
+    "q": "Quelle branche des mathématiques tire son nom du livre « al-Jabr » d'al-Khwarizmi ?",
+    "options": [
+      "La géométrie",
+      "L'algèbre",
+      "La trigonométrie",
+      "L'arithmétique"
+    ],
+    "answer": 1,
+    "explain": "Le mot algèbre vient de « al-jabr », dans le titre du livre qu'al-Khwarizmi a écrit à Bagdad au IXe siècle."
+  },
+  {
+    "id": "q077",
+    "cat": "sciences",
+    "q": "Le mot « algorithme » vient de la forme latine du nom de quel savant ?",
+    "options": [
+      "Al-Khwarizmi",
+      "Al-Kindi",
+      "Al-Birouni",
+      "Al-Battani"
+    ],
+    "answer": 0,
+    "explain": "« Algorithme » vient de « Algoritmi », la forme latine du nom du mathématicien al-Khwarizmi."
+  },
+  {
+    "id": "q078",
+    "cat": "sciences",
+    "q": "Qui a écrit le « Canon de la médecine » (al-Qanoun fi al-Tibb) ?",
+    "options": [
+      "Al-Razi (Rhazès)",
+      "Al-Zahrawi",
+      "Ibn Sina (Avicenne)",
+      "Ibn al-Nafis"
+    ],
+    "answer": 2,
+    "explain": "Ibn Sina a écrit le Canon de la médecine au XIe siècle. Il a servi à enseigner la médecine pendant des siècles, dans le monde musulman comme en Europe."
+  },
+  {
+    "id": "q079",
+    "cat": "sciences",
+    "q": "Quel savant a écrit le « Livre de l'optique » et expliqué que nous voyons parce que la lumière entre dans l'œil ?",
+    "options": [
+      "Al-Khwarizmi",
+      "Ibn al-Haytham",
+      "Ibn Khaldoun",
+      "Al-Idrisi"
+    ],
+    "answer": 1,
+    "explain": "Ibn al-Haytham, qui a vécu aux Xe et XIe siècles, a écrit le Livre de l'optique (Kitab al-Manazir) en s'appuyant sur des expériences rigoureuses."
+  },
+  {
+    "id": "q080",
+    "cat": "sciences",
+    "q": "Le savant andalou al-Zahrawi est célèbre comme pionnier dans quel domaine ?",
+    "options": [
+      "L'astronomie",
+      "La chirurgie",
+      "La géographie",
+      "L'algèbre"
+    ],
+    "answer": 1,
+    "explain": "Al-Zahrawi, qui vivait près de Cordoue au Xe siècle, a décrit des opérations chirurgicales et de nombreux instruments dans son encyclopédie al-Tasrif."
+  },
+  {
+    "id": "q081",
+    "cat": "sciences",
+    "q": "Quel médecin a écrit un célèbre traité qui distingue la variole de la rougeole ?",
+    "options": [
+      "Al-Kindi",
+      "Al-Farabi",
+      "Al-Idrisi",
+      "Al-Razi (Rhazès)"
+    ],
+    "answer": 3,
+    "explain": "Al-Razi, grand médecin des IXe et Xe siècles, a écrit un traité sur la variole et la rougeole qui décrit avec soin les deux maladies."
+  },
+  {
+    "id": "q082",
+    "cat": "sciences",
+    "q": "Quel médecin du XIIIe siècle a décrit le passage du sang du cœur vers les poumons ?",
+    "options": [
+      "Al-Khwarizmi",
+      "Al-Birouni",
+      "Ibn al-Nafis",
+      "Ibn Khaldoun"
+    ],
+    "answer": 2,
+    "explain": "Ibn al-Nafis a décrit la circulation pulmonaire du sang au XIIIe siècle, bien avant qu'elle ne soit connue en Europe."
+  },
+  {
+    "id": "q083",
+    "cat": "sciences",
+    "q": "Quel savant du XIe siècle a calculé le rayon de la Terre et écrit une grande étude sur l'Inde ?",
+    "options": [
+      "Ibn Rochd (Averroès)",
+      "Jabir ibn Hayyan",
+      "Al-Zahrawi",
+      "Al-Birouni"
+    ],
+    "answer": 3,
+    "explain": "Al-Birouni a mesuré le rayon de la Terre avec une précision remarquable et a écrit un livre détaillé sur l'Inde."
+  },
+  {
+    "id": "q084",
+    "cat": "sciences",
+    "q": "Quel géographe a dessiné au XIIe siècle une célèbre carte du monde pour le roi Roger II de Sicile ?",
+    "options": [
+      "Ibn Battouta",
+      "Ibn Khaldoun",
+      "Al-Idrisi",
+      "Al-Khwarizmi"
+    ],
+    "answer": 2,
+    "explain": "Al-Idrisi a achevé sa carte du monde et le livre qui l'accompagne en 1154, à la cour de Roger II, en Sicile."
+  },
+  {
+    "id": "q085",
+    "cat": "sciences",
+    "q": "Jabir ibn Hayyan est surtout connu pour ses travaux dans quel domaine ?",
+    "options": [
+      "L'optique",
+      "La chirurgie",
+      "La chimie",
+      "La géographie"
+    ],
+    "answer": 2,
+    "explain": "Jabir ibn Hayyan est l'un des grands noms des débuts de la chimie (alchimie) ; de nombreux ouvrages lui sont attribués."
+  },
+  {
+    "id": "q086",
+    "cat": "sciences",
+    "q": "Dans quelle ville se trouvait la Maison de la Sagesse (Bayt al-Hikma), grand centre de traduction et de savoir ?",
+    "options": [
+      "Bagdad",
+      "Cordoue",
+      "Le Caire",
+      "Damas"
+    ],
+    "answer": 0,
+    "explain": "La Maison de la Sagesse a prospéré dans la Bagdad abbasside, où des savants traduisaient et étudiaient des ouvrages des traditions grecque, perse et indienne."
+  },
+  {
+    "id": "q087",
+    "cat": "sciences",
+    "q": "Qui a écrit la « Mouqaddima », célèbre ouvrage sur l'histoire et la société ?",
+    "options": [
+      "Ibn Khaldoun",
+      "Ibn Battouta",
+      "Ibn Rochd (Averroès)",
+      "Al-Ghazali"
+    ],
+    "answer": 0,
+    "explain": "Ibn Khaldoun, né à Tunis en 1332, a écrit la Mouqaddima. Il est considéré comme un précurseur de la sociologie et de l'étude moderne de l'histoire."
+  },
+  {
+    "id": "q088",
+    "cat": "sciences",
+    "q": "À quoi servait l'astrolabe, instrument perfectionné par les savants musulmans ?",
+    "options": [
+      "À mesurer la température",
+      "À peser l'or et l'argent",
+      "À moudre le grain",
+      "À observer la position du soleil et des étoiles"
+    ],
+    "answer": 3,
+    "explain": "L'astrolabe servait à observer le soleil et les étoiles, ce qui aidait à connaître l'heure et à s'orienter."
+  },
+  {
+    "id": "q089",
+    "cat": "sciences",
+    "q": "Pour quoi l'ingénieur al-Jazari, qui a terminé son célèbre livre en 1206, est-il connu ?",
+    "options": [
+      "Des machines ingénieuses et des horloges à eau",
+      "Une carte du monde",
+      "Un traité sur la variole",
+      "Un livre d'algèbre"
+    ],
+    "answer": 0,
+    "explain": "Al-Jazari a écrit le Livre de la connaissance des procédés mécaniques ingénieux, qui décrit des horloges à eau, des pompes et des automates."
+  },
+  {
+    "id": "q090",
+    "cat": "sciences",
+    "q": "Sous quel nom latin le savant andalou Ibn Rochd est-il connu en Europe ?",
+    "options": [
+      "Avicenne",
+      "Alhazen",
+      "Rhazès",
+      "Averroès"
+    ],
+    "answer": 3,
+    "explain": "Ibn Rochd de Cordoue est connu sous le nom d'Averroès. Ses commentaires d'Aristote ont été très lus dans l'Europe médiévale."
+  },
+  {
+    "id": "q091",
+    "cat": "pillars",
+    "q": "Combien de piliers l'islam compte-t-il ?",
+    "options": [
+      "Trois",
+      "Cinq",
+      "Quatre",
+      "Sept"
+    ],
+    "answer": 1,
+    "explain": "L'islam compte cinq piliers : l'attestation de foi, la prière, la zakat, le jeûne du Ramadan et le pèlerinage à La Mecque."
+  },
+  {
+    "id": "q092",
+    "cat": "pillars",
+    "q": "Quel est le premier pilier de l'islam ?",
+    "options": [
+      "La prière (salat)",
+      "Le jeûne (sawm)",
+      "Le pèlerinage (hajj)",
+      "L'attestation de foi (chahada)"
+    ],
+    "answer": 3,
+    "explain": "Le premier pilier est la chahada : attester qu'il n'y a de dieu que Dieu et que Muhammad ﷺ est Son Messager."
+  },
+  {
+    "id": "q093",
+    "cat": "pillars",
+    "q": "Combien y a-t-il de prières obligatoires par jour ?",
+    "options": [
+      "Deux",
+      "Trois",
+      "Cinq",
+      "Sept"
+    ],
+    "answer": 2,
+    "explain": "Il y a cinq prières obligatoires par jour : Fajr, Dhouhr, Asr, Maghrib et Icha."
+  },
+  {
+    "id": "q094",
+    "cat": "pillars",
+    "q": "Comment s'appelle la prière de l'aube ?",
+    "options": [
+      "Dhouhr",
+      "Fajr",
+      "Asr",
+      "Icha"
+    ],
+    "answer": 1,
+    "explain": "Fajr est la prière de l'aube, la première des cinq prières quotidiennes."
+  },
+  {
+    "id": "q095",
+    "cat": "pillars",
+    "q": "Combien d'unités obligatoires (rak'at) la prière du Fajr compte-t-elle ?",
+    "options": [
+      "Une",
+      "Deux",
+      "Trois",
+      "Quatre"
+    ],
+    "answer": 1,
+    "explain": "La prière obligatoire du Fajr compte deux rak'at."
+  },
+  {
+    "id": "q096",
+    "cat": "pillars",
+    "q": "Quel mois du calendrier musulman est le Ramadan ?",
+    "options": [
+      "Le neuvième",
+      "Le premier",
+      "Le septième",
+      "Le douzième"
+    ],
+    "answer": 0,
+    "explain": "Le Ramadan est le neuvième mois du calendrier hégirien. C'est le mois du jeûne."
+  },
+  {
+    "id": "q097",
+    "cat": "pillars",
+    "q": "Pendant le Ramadan, à quel moment le jeûne de chaque journée commence-t-il ?",
+    "options": [
+      "À l'aube",
+      "Au lever du soleil",
+      "À midi",
+      "À minuit"
+    ],
+    "answer": 0,
+    "explain": "Le jeûne commence à l'aube, quand apparaît la première lueur, comme l'explique le Coran en 2:187."
+  },
+  {
+    "id": "q098",
+    "cat": "pillars",
+    "q": "Comment s'appelle le repas qui rompt le jeûne, le soir ?",
+    "options": [
+      "Le souhour",
+      "La walima",
+      "La aqiqa",
+      "L'iftar"
+    ],
+    "answer": 3,
+    "explain": "L'iftar est le repas de rupture du jeûne. Le souhour est le repas pris avant l'aube."
+  },
+  {
+    "id": "q099",
+    "cat": "pillars",
+    "q": "Quel est le taux habituel de la zakat sur l'épargne, comme l'argent, l'or et l'argent métal ?",
+    "options": [
+      "2,5 %",
+      "1 %",
+      "5 %",
+      "15 %"
+    ],
+    "answer": 0,
+    "explain": "La zakat sur l'épargne est de 2,5 %, soit un quarantième, lorsque le montant minimum a été détenu pendant une année lunaire complète."
+  },
+  {
+    "id": "q100",
+    "cat": "pillars",
+    "q": "Durant quel mois le Hajj a-t-il lieu ?",
+    "options": [
+      "Ramadan",
+      "Dhoul-Hijja",
+      "Mouharram",
+      "Chawwal"
+    ],
+    "answer": 1,
+    "explain": "Le Hajj a lieu en Dhoul-Hijja, le douzième et dernier mois du calendrier hégirien."
+  },
+  {
+    "id": "q101",
+    "cat": "pillars",
+    "q": "Combien de fois les pèlerins tournent-ils autour de la Kaaba lors d'un tawaf ?",
+    "options": [
+      "Trois",
+      "Cinq",
+      "Sept",
+      "Neuf"
+    ],
+    "answer": 2,
+    "explain": "Un tawaf se compose de sept tours autour de la Kaaba."
+  },
+  {
+    "id": "q102",
+    "cat": "pillars",
+    "q": "Entre quelles deux collines les pèlerins marchent-ils pendant le sa'i ?",
+    "options": [
+      "Ouhoud et Thawr",
+      "Arafat et Mina",
+      "Safa et Marwa",
+      "Hira et Thawr"
+    ],
+    "answer": 2,
+    "explain": "Les pèlerins font sept trajets entre Safa et Marwa, que le Coran compte parmi les symboles de Dieu (2:158)."
+  },
+  {
+    "id": "q103",
+    "cat": "pillars",
+    "q": "Quel jour de Dhoul-Hijja les pèlerins se tiennent-ils à Arafat ?",
+    "options": [
+      "Le 9",
+      "Le 1er",
+      "Le 10",
+      "Le 13"
+    ],
+    "answer": 0,
+    "explain": "La station à Arafat a lieu le 9 Dhoul-Hijja. C'est le cœur du Hajj."
+  },
+  {
+    "id": "q104",
+    "cat": "pillars",
+    "q": "Combien de fois dans sa vie le Hajj est-il obligatoire pour le musulman qui en a la capacité ?",
+    "options": [
+      "Trois fois",
+      "Chaque année",
+      "Tous les cinq ans",
+      "Une fois"
+    ],
+    "answer": 3,
+    "explain": "Le Hajj est obligatoire une fois dans la vie pour ceux qui ont la capacité de faire le voyage (3:97)."
+  },
+  {
+    "id": "q105",
+    "cat": "pillars",
+    "q": "Vers quelle ville les premiers musulmans priaient-ils avant que la qibla ne devienne la Kaaba ?",
+    "options": [
+      "Médine",
+      "Damas",
+      "Taïf",
+      "Jérusalem"
+    ],
+    "answer": 3,
+    "explain": "Les premiers musulmans priaient en direction de Jérusalem. La qibla a ensuite été tournée vers la Mosquée sacrée de La Mecque (2:144)."
+  },
+  {
+    "id": "q106",
+    "cat": "civilisation",
+    "q": "Qui a fondé à Fès, au IXe siècle, la mosquée al-Qarawiyyin, devenue une université célèbre ?",
+    "options": [
+      "Rabia al-Adawiyya",
+      "Fatima al-Fihri",
+      "Zoubayda bint Ja'far",
+      "Chajar ad-Dourr"
+    ],
+    "answer": 1,
+    "explain": "Fatima al-Fihri a fondé al-Qarawiyyin à Fès, au Maroc, en 859. Elle est souvent présentée comme la plus ancienne université encore en activité."
+  },
+  {
+    "id": "q107",
+    "cat": "civilisation",
+    "q": "Dans quelle ville d'al-Andalus se trouve la grande mosquée célèbre pour sa forêt de colonnes et ses arcs rouges et blancs ?",
+    "options": [
+      "Séville",
+      "Cordoue",
+      "Grenade",
+      "Tolède"
+    ],
+    "answer": 1,
+    "explain": "La Grande Mosquée de Cordoue a été commencée au VIIIe siècle, quand Cordoue était la capitale d'al-Andalus."
+  },
+  {
+    "id": "q108",
+    "cat": "civilisation",
+    "q": "Dans quelle ville se trouve le palais de l'Alhambra ?",
+    "options": [
+      "Grenade",
+      "Cordoue",
+      "Marrakech",
+      "Fès"
+    ],
+    "answer": 0,
+    "explain": "L'Alhambra se dresse à Grenade, dans le sud de l'Espagne. C'était le palais des souverains nasrides."
+  },
+  {
+    "id": "q109",
+    "cat": "civilisation",
+    "q": "Quel empereur moghol a fait construire le Taj Mahal ?",
+    "options": [
+      "Akbar",
+      "Babour",
+      "Aurangzeb",
+      "Shah Jahan"
+    ],
+    "answer": 3,
+    "explain": "Shah Jahan a fait construire le Taj Mahal à Agra au XVIIe siècle, en mémoire de son épouse Mumtaz Mahal."
+  },
+  {
+    "id": "q110",
+    "cat": "civilisation",
+    "q": "Dans quelle ville le grand voyageur Ibn Battouta est-il né ?",
+    "options": [
+      "Fès",
+      "Tunis",
+      "Le Caire",
+      "Tanger"
+    ],
+    "answer": 3,
+    "explain": "Ibn Battouta est né à Tanger, au Maroc, en 1304. Il a voyagé pendant près de trente ans à travers l'Afrique, l'Asie et l'Europe."
+  },
+  {
+    "id": "q111",
+    "cat": "civilisation",
+    "q": "Tombouctou, célèbre centre de savoir et de manuscrits, se trouve dans quel pays actuel ?",
+    "options": [
+      "L'Égypte",
+      "Le Maroc",
+      "Le Mali",
+      "Le Soudan"
+    ],
+    "answer": 2,
+    "explain": "Tombouctou se trouve au Mali. Ses mosquées et ses écoles attiraient des étudiants et des savants de toute l'Afrique de l'Ouest."
+  },
+  {
+    "id": "q112",
+    "cat": "civilisation",
+    "q": "Dans quelle ville se trouve al-Azhar, l'une des plus anciennes universités du monde ?",
+    "options": [
+      "Bagdad",
+      "Le Caire",
+      "Damas",
+      "Kairouan"
+    ],
+    "answer": 1,
+    "explain": "Al-Azhar a été fondée au Caire au Xe siècle et reste aujourd'hui un grand centre de savoir."
+  },
+  {
+    "id": "q113",
+    "cat": "civilisation",
+    "q": "Dans quelle ville se trouve le Dôme du Rocher ?",
+    "options": [
+      "Jérusalem",
+      "Damas",
+      "Médine",
+      "Le Caire"
+    ],
+    "answer": 0,
+    "explain": "Le Dôme du Rocher se trouve à Jérusalem. Il a été achevé à la fin du VIIe siècle sous le calife omeyyade Abd al-Malik."
+  },
+  {
+    "id": "q114",
+    "cat": "civilisation",
+    "q": "Quel architecte ottoman a conçu la mosquée Süleymaniye d'Istanbul ?",
+    "options": [
+      "Al-Jazari",
+      "Ulugh Beg",
+      "Mimar Sinan",
+      "Ibn Khaldoun"
+    ],
+    "answer": 2,
+    "explain": "Mimar Sinan, architecte en chef de l'Empire ottoman au XVIe siècle, a conçu la Süleymaniye à Istanbul et la Selimiye à Edirne."
+  },
+  {
+    "id": "q115",
+    "cat": "civilisation",
+    "q": "Dans le monde musulman médiéval, qu'était un « bimaristan » ?",
+    "options": [
+      "Une bibliothèque",
+      "Un observatoire",
+      "Un marché couvert",
+      "Un hôpital"
+    ],
+    "answer": 3,
+    "explain": "Un bimaristan était un hôpital. Des villes comme Bagdad, Damas et Le Caire avaient de grands hôpitaux où l'on soignait les malades."
+  },
+  {
+    "id": "q116",
+    "cat": "civilisation",
+    "q": "Quel est le premier mois du calendrier hégirien ?",
+    "options": [
+      "Mouharram",
+      "Ramadan",
+      "Rajab",
+      "Chawwal"
+    ],
+    "answer": 0,
+    "explain": "Mouharram est le premier des douze mois du calendrier hégirien, qui suit la lune."
+  },
+  {
+    "id": "q117",
+    "cat": "civilisation",
+    "q": "Dans une mosquée, qu'est-ce que le mihrab ?",
+    "options": [
+      "La chaire utilisée pour le sermon du vendredi",
+      "La niche qui indique la direction de La Mecque",
+      "La tour utilisée pour l'appel à la prière",
+      "La fontaine utilisée pour les ablutions"
+    ],
+    "answer": 1,
+    "explain": "Le mihrab est une niche dans le mur qui indique la qibla, la direction de La Mecque. La chaire s'appelle le minbar et la tour le minaret."
+  },
+  {
+    "id": "q118",
+    "cat": "civilisation",
+    "q": "La Grande Mosquée de Kairouan, l'une des plus anciennes d'Afrique, se trouve dans quel pays ?",
+    "options": [
+      "La Tunisie",
+      "Le Maroc",
+      "L'Égypte",
+      "La Syrie"
+    ],
+    "answer": 0,
+    "explain": "Kairouan se trouve en Tunisie. Sa Grande Mosquée remonte à la fondation de la ville par Oqba ibn Nafi en 670."
+  },
+  {
+    "id": "q119",
+    "cat": "civilisation",
+    "q": "L'écriture coufique, l'un des plus anciens styles de la calligraphie arabe, tire son nom de quelle ville ?",
+    "options": [
+      "Cordoue",
+      "Konya",
+      "Koufa",
+      "Kaboul"
+    ],
+    "answer": 2,
+    "explain": "L'écriture coufique tire son nom de Koufa, en Irak. Beaucoup de copies anciennes du Coran ont été écrites dans ce style anguleux."
+  },
+  {
+    "id": "q120",
+    "cat": "civilisation",
+    "q": "Dans la civilisation islamique, qu'est-ce qu'un « waqf » ?",
+    "options": [
+      "Une caravane de commerce",
+      "Un style de calligraphie",
+      "Une fondation pieuse de bienfaisance",
+      "Un impôt sur les récoltes"
+    ],
+    "answer": 2,
+    "explain": "Un waqf est un bien réservé au bien commun, comme une école, un hôpital ou une fontaine. Ses revenus continuent de servir les gens au fil du temps."
+  }
+]

@@ -1,0 +1,389 @@
+{
+  "umrah": {
+    "title": "Umrah step by step",
+    "intro": "Umrah is the visit to the Sacred House in Makkah. It can be performed at almost any time of the year and takes only a few hours. It is made of four acts, always in the same order: entering ihram at the miqat, tawaf around the Kaaba, sa'y between Safa and Marwa, then shaving or trimming the hair.\n\nThis guide is a summary. It does not replace a qualified teacher, nor the instructions of the authorities on site, which you should always follow. Where the schools of law differ on a detail, we give the common practice: ask a scholar you trust for your case.",
+    "chapters": [
+      {
+        "id": "preparation",
+        "title": "Before you leave",
+        "body": "A good journey starts at home. Begin with your intention: you are travelling for Allah alone, not to be seen or praised. Repent sincerely, pay back your debts as far as you can, and ask forgiveness from the people you may have wronged. Pay for the trip with lawful money.\n\nThen learn the rites before you go. A pilgrim who knows what to do is calm, and can give his heart to worship instead of worrying. Read this guide several times and, if possible, attend a class with a teacher.\n\nFinally, prepare your body and your papers: walk regularly in the weeks before, check your visa, permit and vaccinations, and pack lightly. You will walk a lot, often in heat and in a crowd.",
+        "steps": [
+          "Make your intention sincere: this journey is for Allah alone.",
+          "Repent, settle your debts and ask forgiveness from those around you.",
+          "Learn the four acts of Umrah and their order.",
+          "Check your passport, visa, permit and required vaccinations.",
+          "Find out which miqat is on your route and when you will reach it.",
+          "Train by walking and pack light, comfortable things."
+        ],
+        "duas": []
+      },
+      {
+        "id": "miqat-ihram",
+        "title": "The miqat and ihram",
+        "body": "The miqat is the boundary that a pilgrim must not cross without being in ihram. There are five: Dhul-Hulayfah for those coming from Madinah, al-Juhfah, Qarn al-Manazil, Yalamlam and Dhat Irq. On a plane, the crew usually announces the miqat: be ready before that moment.\n\nIt is recommended to take a full bath (ghusl) before ihram. Men wear two unstitched cloths, one around the waist and one over the shoulders; women wear their ordinary modest clothes. Then make the intention in your heart and say the talbiyah. Men say it aloud, women quietly.\n\nIhram is the state, not the cloth. In it you must not cut hair or nails, use perfume, hunt, contract a marriage or have marital relations. Men do not wear clothes tailored to the body or cover their head; women do not wear the face veil (niqab) or gloves (Sahih al-Bukhari 1838). Avoid quarrels too (Qur'an 2:197).",
+        "steps": [
+          "Before the miqat, trim your nails and take a bath (ghusl) if you can.",
+          "Men: put on the two ihram cloths. Women: keep ordinary modest clothing.",
+          "Men may perfume the body, not the cloths, before the intention; never after.",
+          "At the miqat, intend Umrah in your heart and say: Labbayka Allahumma 'umrah.",
+          "Repeat the talbiyah often on the way to Makkah.",
+          "From now on, respect everything that ihram forbids.",
+          "Stop the talbiyah when you begin the tawaf."
+        ],
+        "duas": [
+          {
+            "ar": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+            "tr": "Labbayka Allahumma labbayk, labbayka la sharika laka labbayk, inna al-hamda wa an-ni'mata laka wa al-mulk, la sharika lak",
+            "t": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Truly all praise and all blessing are Yours, and all sovereignty. You have no partner.",
+            "source": "The talbiyah — Sahih al-Bukhari 1549; Sahih Muslim 1184"
+          }
+        ]
+      },
+      {
+        "id": "tawaf",
+        "title": "Tawaf around the Kaaba",
+        "body": "Tawaf is seven circuits around the Kaaba, keeping it on your left. You need to be in a state of ablution. Each circuit begins and ends at the Black Stone: face it, say the takbir, and kiss or touch it only if this is easy; otherwise simply point towards it. Many pilgrims say « Bismillah, Allahu akbar » there, as reported from the companion Ibn Umar. Walk around the semicircular wall (the Hijr), not through it.\n\nIn this arrival tawaf, men uncover the right shoulder (idtiba) and walk briskly with short steps in the first three circuits (raml). Women walk normally.\n\nThere is no fixed obligatory supplication for each circuit: you may make any dua, in any language, remember Allah or recite the Qur'an. Only between the Yemeni corner and the Black Stone is a precise supplication reported: Qur'an 2:201. Afterwards, pray two rak'at behind Maqam Ibrahim (Qur'an 2:125), then drink Zamzam water.",
+        "steps": [
+          "Make sure you have ablution. Men uncover the right shoulder (idtiba).",
+          "Start level with the Black Stone: face it, say the takbir, point to it if you cannot reach it.",
+          "Walk seven circuits with the Kaaba on your left, passing outside the Hijr.",
+          "Men walk briskly in the first three circuits (raml), then normally.",
+          "Touch the Yemeni corner if it is easy; between it and the Black Stone recite Qur'an 2:201.",
+          "During the circuits, make any dua you wish.",
+          "After the seventh circuit, men cover the shoulder again; pray two rak'at behind Maqam Ibrahim, or anywhere in the mosque if it is crowded.",
+          "Drink Zamzam water and make dua."
+        ],
+        "duas": [
+          {
+            "ar": "اللَّهُ أَكْبَرُ",
+            "tr": "Allahu akbar",
+            "t": "Allah is the Greatest.",
+            "source": "Takbir when level with the Black Stone — Sahih al-Bukhari 1613"
+          },
+          {
+            "ar": "رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا حَسَنَةࣰ وَفِي ٱلۡأٓخِرَةِ حَسَنَةࣰ وَقِنَا عَذَابَ ٱلنَّارِ",
+            "tr": "Rabbana atina fi ad-dunya hasanatan wa fi al-akhirati hasanatan wa qina 'adhab an-nar",
+            "t": "Our Lord, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire.",
+            "source": "Qur'an 2:201 — recited between the Yemeni corner and the Black Stone: Sunan Abi Dawud 1892 (hasan)"
+          }
+        ]
+      },
+      {
+        "id": "say",
+        "title": "Sa'y between Safa and Marwa",
+        "body": "After the tawaf, go to Safa. Sa'y is seven legs between the two hills: from Safa to Marwa is one leg, from Marwa back to Safa is the second, and so on. You therefore finish at Marwa.\n\nWhen approaching Safa for the first time, recite the opening of Qur'an 2:158, as the Prophet Muhammad ﷺ did (Sahih Muslim 1218). Climb a little, face the Kaaba, raise your hands, proclaim the greatness and oneness of Allah with the words below, then make your own dua. This is done three times. Do the same at Marwa on each arrival.\n\nBetween the two green lights, men quicken their pace; women walk normally. As in tawaf, no particular supplication is imposed for each leg. Ablution is recommended, and the elderly or ill may use a wheelchair.",
+        "steps": [
+          "Go to Safa and recite the opening of Qur'an 2:158 as you approach, this first time only.",
+          "On Safa, face the Kaaba, raise your hands, say the dhikr of Safa and make dua, three times.",
+          "Walk to Marwa; men quicken their pace between the green lights.",
+          "On Marwa, face the Kaaba and repeat the dhikr and dua.",
+          "Go back to Safa: that is the second leg.",
+          "Continue until the seventh leg, which ends at Marwa."
+        ],
+        "duas": [
+          {
+            "ar": "إِنَّ ٱلصَّفَا وَٱلۡمَرۡوَةَ مِن شَعَآئِرِ ٱللَّهِ",
+            "tr": "Inna as-Safa wa al-Marwata min sha'a'iri Allah",
+            "t": "Indeed, Safa and Marwa are among the symbols of Allah.",
+            "source": "Qur'an 2:158 (opening words) — recited on approaching Safa: Sahih Muslim 1218"
+          },
+          {
+            "ar": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ أَنْجَزَ وَعْدَهُ وَنَصَرَ عَبْدَهُ وَهَزَمَ الأَحْزَابَ وَحْدَهُ",
+            "tr": "La ilaha illa Allahu wahdahu la sharika lah, lahu al-mulku wa lahu al-hamd, wa huwa 'ala kulli shay'in qadir. La ilaha illa Allahu wahdah, anjaza wa'dah, wa nasara 'abdah, wa hazama al-ahzaba wahdah",
+            "t": "There is no god but Allah alone, He has no partner. His is the sovereignty and His is the praise, and He has power over all things. There is no god but Allah alone; He fulfilled His promise, gave victory to His servant and defeated the confederates alone.",
+            "source": "Dhikr on Safa and Marwa — Sahih Muslim 1218"
+          }
+        ]
+      },
+      {
+        "id": "halq-taqsir",
+        "title": "Shaving or trimming the hair",
+        "body": "The last act of Umrah is to shave the head (halq) or shorten the hair (taqsir). For men, shaving the whole head is better; if they trim instead, the common practice is to shorten the hair of the whole head, not just a few strands. Women never shave: they gather their hair and cut from its end about the length of a fingertip.\n\nA man who performs Umrah shortly before Hajj (tamattu) often chooses to trim now, so that hair remains to be shaved on the tenth day.\n\nUse the barbers outside the mosque rather than cutting hair in the sa'y area, and women should cut their hair in private. With this act the Umrah is complete, and all the restrictions of ihram come to an end.",
+        "steps": [
+          "Leave the sa'y area once the seventh leg is finished.",
+          "Men: shave the head, or shorten the hair of the whole head.",
+          "Women: cut a fingertip's length from the end of the hair, in private.",
+          "You are now out of ihram: your Umrah is complete."
+        ],
+        "duas": []
+      },
+      {
+        "id": "after",
+        "title": "After the Umrah",
+        "body": "Your Umrah is finished: thank Allah, who allowed you to reach His House. Everything that ihram had forbidden is permitted again, and you may put on your usual clothes.\n\nMake good use of your remaining days in Makkah. Pray the five prayers in the Sacred Mosque as often as you can, perform extra tawaf when it is not too crowded, read the Qur'an and make dua for yourself, your family and all Muslims. Be gentle with other pilgrims and patient with tiredness and crowds.\n\nMany pilgrims also travel to Madinah to pray in the Prophet's Mosque. This visit is a blessed deed in itself, but it is not a part of Umrah. Back home, try to keep the good habits you gained there.",
+        "steps": [
+          "Thank Allah and change back into your usual clothes.",
+          "Pray in the Sacred Mosque as often as you can.",
+          "Perform extra tawaf, read the Qur'an and make much dua.",
+          "Keep the good habits of the journey once you are home."
+        ],
+        "duas": []
+      }
+    ]
+  },
+  "hajj": {
+    "title": "Hajj day by day",
+    "intro": "Hajj is the fifth pillar of Islam. It is an obligation once in a lifetime for every adult Muslim who is able to make the journey (Qur'an 3:97). Its main rites take place from the 8th to the 13th of Dhul-Hijjah, between Makkah, Mina, Arafat and Muzdalifah.\n\nThere are three ways to perform it. In tamattu, you perform a full Umrah during the months of Hajj, leave ihram, then enter ihram again for Hajj on the 8th. In qiran, you join Umrah and Hajj in a single ihram, without leaving it in between. In ifrad, you enter ihram for Hajj alone. A sacrifice is due for tamattu and qiran (Qur'an 2:196), not for ifrad. All three are valid; scholars differ on which is best, and most pilgrims coming from far away perform tamattu.\n\nThis guide is a summary. It does not replace a qualified teacher, nor the instructions of the authorities on site and of your group, which organise movements and timings for everyone's safety. Where the schools of law differ on a detail, we give the common practice: ask a scholar you trust for your case.",
+    "chapters": [
+      {
+        "id": "day-8-tarwiyah",
+        "title": "8 Dhul-Hijjah: the day of Tarwiyah, in Mina",
+        "body": "The Hajj begins on the 8th of Dhul-Hijjah, called the day of Tarwiyah. The pilgrim who is performing tamattu enters ihram again, this time for Hajj, from the place where he is staying in Makkah: bath, ihram garments, intention, then the talbiyah. Those performing qiran or ifrad are still in ihram since the miqat.\n\nEveryone then goes to Mina, a valley of tents a few kilometres from Makkah. There you pray Dhuhr, Asr, Maghrib, Isha and then Fajr of the 9th, each at its own time; the four-rak'at prayers are shortened to two, without being combined.\n\nThis day and night in Mina are a sunnah and a time of preparation. Rest, repeat the talbiyah, read the Qur'an and get your heart ready for tomorrow, the greatest day of the Hajj.",
+        "steps": [
+          "Tamattu: take a bath and put on ihram where you are staying in Makkah.",
+          "Intend Hajj in your heart and say: Labbayka Allahumma hajjan.",
+          "Go to Mina with your group, repeating the talbiyah.",
+          "Pray Dhuhr, Asr, Maghrib and Isha in Mina, each at its time, the four-rak'at prayers shortened.",
+          "Spend the night in Mina and pray Fajr there."
+        ],
+        "duas": [
+          {
+            "ar": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+            "tr": "Labbayka Allahumma labbayk, labbayka la sharika laka labbayk, inna al-hamda wa an-ni'mata laka wa al-mulk, la sharika lak",
+            "t": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Truly all praise and all blessing are Yours, and all sovereignty. You have no partner.",
+            "source": "The talbiyah — Sahih al-Bukhari 1549; Sahih Muslim 1184"
+          }
+        ]
+      },
+      {
+        "id": "day-9-arafat",
+        "title": "9 Dhul-Hijjah: Arafat, then Muzdalifah",
+        "body": "Standing at Arafat is the pillar of Hajj: whoever misses it has missed the Hajj. The Prophet Muhammad ﷺ taught that the Hajj is Arafat (Jami' at-Tirmidhi 889).\n\nAfter sunrise, leave Mina for Arafat and check that you are inside its boundaries, marked by signs. After the sermon, Dhuhr and Asr are prayed together and shortened, at the time of Dhuhr. Then comes the heart of the Hajj: from midday until sunset, face the qiblah and call upon Allah, ask forgiveness, and pray for those you love. There is no imposed text. Do not leave before sunset.\n\nAfter sunset, go calmly to Muzdalifah. There you pray Maghrib and Isha together, Isha shortened, then you rest for the night in the open air. You may gather there the small pebbles for the stoning.",
+        "steps": [
+          "After sunrise, go from Mina to Arafat, repeating the talbiyah.",
+          "Check that you are inside the boundaries of Arafat.",
+          "Pray Dhuhr and Asr combined and shortened at the time of Dhuhr.",
+          "Spend the afternoon in dua, dhikr and repentance, facing the qiblah.",
+          "Stay in Arafat until the sun has fully set.",
+          "Go calmly to Muzdalifah and pray Maghrib and Isha combined there.",
+          "Gather small pebbles, the size of a chickpea, then sleep.",
+          "Pray Fajr, make dua facing the qiblah, and leave for Mina before sunrise."
+        ],
+        "duas": []
+      },
+      {
+        "id": "day-10-nahr",
+        "title": "10 Dhul-Hijjah: the day of sacrifice",
+        "body": "The 10th is the day of Eid and the busiest day of the Hajj. Four acts are performed, ideally in this order. First, in Mina, throw seven pebbles one by one at Jamrat al-Aqaba, the largest pillar, saying the takbir with each; the talbiyah stops here (Sahih al-Bukhari 1685). Second, the sacrifice, due for tamattu and qiran, often arranged through an official voucher. Third, men shave or trim and women cut a fingertip's length. Fourth, in Makkah, tawaf al-ifadah, a pillar of the Hajj, followed by the sa'y of Hajj for those who still owe it.\n\nAfter the stoning and the shaving, the restrictions of ihram are lifted, except marital relations, which become lawful after tawaf al-ifadah. The schools differ on the details: ask a scholar you trust for your case.\n\nIf the order changes, there is no harm: the Prophet Muhammad ﷺ said so to those who asked that day (Sahih al-Bukhari 83).",
+        "steps": [
+          "In Mina, throw seven pebbles one by one at Jamrat al-Aqaba, saying Allahu akbar with each.",
+          "Stop the talbiyah when you begin the stoning.",
+          "Offer the sacrifice, or make sure it is done on your behalf (tamattu and qiran).",
+          "Men shave or trim the whole head; women cut a fingertip's length.",
+          "Change into ordinary clothes: all is permitted again except marital relations.",
+          "Go to Makkah for tawaf al-ifadah, without idtiba or raml, and pray two rak'at.",
+          "Perform the sa'y of Hajj if you still owe it.",
+          "Return to Mina to spend the night there."
+        ],
+        "duas": [
+          {
+            "ar": "اللَّهُ أَكْبَرُ",
+            "tr": "Allahu akbar",
+            "t": "Allah is the Greatest.",
+            "source": "Takbir with each pebble — Sahih al-Bukhari 1751"
+          }
+        ]
+      },
+      {
+        "id": "days-11-13-tashriq",
+        "title": "11–13 Dhul-Hijjah: the days of Tashriq",
+        "body": "The days of Tashriq are spent in Mina. They are days of remembering Allah (Qur'an 2:203), and the nights are spent there too.\n\nEach day, after midday, you stone the three jamarat in order: the small one, the middle one, then Jamrat al-Aqaba, with seven pebbles each, saying the takbir with every throw. After the first and after the second, step aside, face the qiblah and make a long dua with raised hands; after the third, leave without stopping (Sahih al-Bukhari 1751).\n\nYou may leave Mina on the 12th after the stoning, before sunset; whoever stays stones again on the 13th. Both are allowed (Qur'an 2:203). Follow the timetable given to your group. If you are weak or ill, or about the exact time of stoning, ask a scholar you trust for your case.",
+        "steps": [
+          "Spend the nights of the 11th and 12th in Mina.",
+          "Each day after midday, take 21 pebbles to the jamarat.",
+          "Stone the small jamrah with seven pebbles, then step aside and make dua.",
+          "Stone the middle jamrah with seven pebbles, then step aside and make dua.",
+          "Stone Jamrat al-Aqaba with seven pebbles and leave without stopping.",
+          "On the 12th, leave Mina before sunset if you wish to leave early.",
+          "Otherwise, stay the night and stone the three jamarat again on the 13th."
+        ],
+        "duas": []
+      },
+      {
+        "id": "farewell-tawaf",
+        "title": "The farewell tawaf",
+        "body": "When all the rites are finished and you are about to leave Makkah, the last thing you do is the farewell tawaf (tawaf al-wada). People were commanded to make the House their last stop; only the woman in her menses was excused from it (Sahih al-Bukhari 1755; Sahih Muslim 1328).\n\nIt is an ordinary tawaf of seven circuits in everyday clothes, without idtiba or raml, followed by two rak'at. There is no sa'y after it. Do it once your luggage is ready and your departure is near; a short wait for transport or for your companions does no harm.\n\nLeave the Sacred Mosque with a grateful heart. Ask Allah to accept your Hajj, to forgive you, and to let you come back. Then try to return home a better person than the one who left.",
+        "steps": [
+          "Finish all your rites and prepare your luggage first.",
+          "Perform seven circuits around the Kaaba in ordinary clothes.",
+          "Pray two rak'at after the tawaf.",
+          "Make dua that Allah accepts your Hajj, then leave Makkah without delay.",
+          "A woman in her menses leaves without this tawaf."
+        ],
+        "duas": []
+      }
+    ]
+  },
+  "mistakes": [
+    {
+      "title": "Pushing to kiss the Black Stone",
+      "body": "Kissing the Black Stone is a sunnah; harming a Muslim is forbidden. If the crowd is dense, simply point towards the Stone and say the takbir: your tawaf is complete and nobody gets hurt."
+    },
+    {
+      "title": "Believing each circuit has its own required dua",
+      "body": "Some booklets give one supplication per circuit. Nothing of the kind is required: there is no fixed obligatory dua for the circuits of tawaf or the legs of sa'y. Speak to Allah with your own words, in your own language."
+    },
+    {
+      "title": "Leaving Arafat before sunset",
+      "body": "The Prophet Muhammad ﷺ stayed at Arafat until the sun had set (Sahih Muslim 1218). Do not rush to the buses in the late afternoon: these are the most precious hours of the whole Hajj."
+    },
+    {
+      "title": "Climbing Jabal ar-Rahmah thinking it is required",
+      "body": "The whole plain of Arafat is a place of standing. Climbing the hill is not part of the Hajj and brings no extra reward; the crush there is tiring and dangerous. Stay where you can pray in peace."
+    },
+    {
+      "title": "Standing outside the boundaries of Arafat",
+      "body": "Some pilgrims settle just outside Arafat without noticing. Since the standing is the pillar of the Hajj, look for the boundary signs and ask your guide if you are in any doubt."
+    },
+    {
+      "title": "Collecting pebbles that are too large",
+      "body": "The pebbles are small, about the size of a chickpea. Big stones, shoes or other objects are not part of the rite and can injure people. Stoning is an act of obedience to Allah, done calmly, not an outburst of anger."
+    },
+    {
+      "title": "Photographing instead of worshipping",
+      "body": "A souvenir photo takes a few seconds; filming the whole tawaf or posting live from Arafat takes your heart away. Put the phone away during the rites and protect the sincerity of your intention."
+    },
+    {
+      "title": "Neglecting the miqat when flying",
+      "body": "The plane crosses the miqat in the air. Put on the ihram cloths before boarding or early in the flight, and make the intention when the miqat is announced, or a little before. If you passed it without ihram, ask a scholar you trust for your case."
+    },
+    {
+      "title": "Keeping the right shoulder uncovered all the time",
+      "body": "Idtiba is only for men and only during the arrival tawaf. Before it and after it, including during prayer and sa'y, both shoulders are covered."
+    },
+    {
+      "title": "Counting a round trip as one leg of sa'y",
+      "body": "Safa to Marwa is one leg and Marwa to Safa is another. Sa'y is seven legs and ends at Marwa. Counting each round trip as one would mean walking fourteen legs."
+    },
+    {
+      "title": "Insisting on praying right behind Maqam Ibrahim",
+      "body": "Praying in the path of those making tawaf blocks them and puts you at risk. When it is crowded, the two rak'at can be prayed anywhere in the mosque."
+    },
+    {
+      "title": "Arguing and losing patience",
+      "body": "Heat, queues and tiredness test everyone. The Qur'an forbids obscenity, wrongdoing and quarrelling during Hajj (2:197). Give way, smile, forgive: good character is part of your pilgrimage."
+    }
+  ],
+  "checklist": [
+    {
+      "id": "passport",
+      "group": "documents",
+      "label": "Passport valid for at least six months"
+    },
+    {
+      "id": "visa-permit",
+      "group": "documents",
+      "label": "Hajj or Umrah visa and official permit"
+    },
+    {
+      "id": "tickets-bookings",
+      "group": "documents",
+      "label": "Flight tickets and accommodation bookings"
+    },
+    {
+      "id": "id-copies",
+      "group": "documents",
+      "label": "Paper and digital copies of all documents"
+    },
+    {
+      "id": "emergency-contacts",
+      "group": "documents",
+      "label": "Card with your group, hotel and emergency contacts"
+    },
+    {
+      "id": "money-card",
+      "group": "documents",
+      "label": "Some local cash and a bank card"
+    },
+    {
+      "id": "ihram-garments",
+      "group": "clothing",
+      "label": "Men: two sets of ihram cloths"
+    },
+    {
+      "id": "modest-clothing",
+      "group": "clothing",
+      "label": "Women: loose, modest, comfortable clothing"
+    },
+    {
+      "id": "sandals",
+      "group": "clothing",
+      "label": "Comfortable sandals already worn in"
+    },
+    {
+      "id": "ihram-belt",
+      "group": "clothing",
+      "label": "Ihram belt or pouch for money and papers"
+    },
+    {
+      "id": "small-bag",
+      "group": "clothing",
+      "label": "Small bag for shoes and pebbles"
+    },
+    {
+      "id": "umbrella",
+      "group": "clothing",
+      "label": "Light-coloured umbrella against the sun"
+    },
+    {
+      "id": "vaccinations",
+      "group": "health",
+      "label": "Required vaccinations and certificate"
+    },
+    {
+      "id": "medication",
+      "group": "health",
+      "label": "Usual medication with prescription"
+    },
+    {
+      "id": "unscented-toiletries",
+      "group": "health",
+      "label": "Unscented soap and toiletries for ihram"
+    },
+    {
+      "id": "water-bottle",
+      "group": "health",
+      "label": "Reusable water bottle"
+    },
+    {
+      "id": "masks-sanitizer",
+      "group": "health",
+      "label": "Face masks and unscented hand sanitiser"
+    },
+    {
+      "id": "first-aid",
+      "group": "health",
+      "label": "Small first-aid kit with blister plasters"
+    },
+    {
+      "id": "sincere-intention",
+      "group": "spiritual",
+      "label": "Renew your intention: for Allah alone"
+    },
+    {
+      "id": "repentance-debts",
+      "group": "spiritual",
+      "label": "Repent, settle debts and ask forgiveness"
+    },
+    {
+      "id": "learn-rites",
+      "group": "spiritual",
+      "label": "Learn the rites and their order"
+    },
+    {
+      "id": "talbiyah-memorised",
+      "group": "spiritual",
+      "label": "Memorise the talbiyah"
+    },
+    {
+      "id": "dua-list",
+      "group": "spiritual",
+      "label": "Write a list of personal duas for Arafat"
+    },
+    {
+      "id": "quran-dhikr",
+      "group": "spiritual",
+      "label": "Pocket Qur'an or app for reading and dhikr"
+    }
+  ]
+}

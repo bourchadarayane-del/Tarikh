@@ -1,0 +1,389 @@
+{
+  "umrah": {
+    "title": "La Omra pas à pas",
+    "intro": "La Omra est la visite de la Maison sacrée à La Mecque. Elle peut s'accomplir presque toute l'année et ne prend que quelques heures. Elle se compose de quatre actes, toujours dans le même ordre : l'entrée en ihram au miqat, le tawaf autour de la Kaaba, le sa'y entre Safa et Marwa, puis le rasage ou le raccourcissement des cheveux.\n\nCe guide est un résumé. Il ne remplace ni un enseignant qualifié ni les consignes des autorités sur place, qu'il faut toujours suivre. Quand les écoles juridiques divergent sur un détail, nous indiquons la pratique courante : demandez à un savant de confiance pour votre cas.",
+    "chapters": [
+      {
+        "id": "preparation",
+        "title": "Avant le départ",
+        "body": "Un bon voyage commence à la maison. Commencez par votre intention : vous partez pour Allah seul, non pour être vu ou félicité. Repentez-vous sincèrement, remboursez vos dettes autant que possible et demandez pardon aux personnes que vous avez pu léser. Financez le voyage avec de l'argent licite.\n\nEnsuite, apprenez les rites avant de partir. Le pèlerin qui sait ce qu'il doit faire est serein et peut donner son cœur à l'adoration au lieu de s'inquiéter. Relisez ce guide plusieurs fois et, si possible, suivez un cours avec un enseignant.\n\nEnfin, préparez votre corps et vos papiers : marchez régulièrement dans les semaines qui précèdent, vérifiez visa, permis et vaccins, et voyagez léger. Vous marcherez beaucoup, souvent sous la chaleur et dans la foule.",
+        "steps": [
+          "Rendez votre intention sincère : ce voyage est pour Allah seul.",
+          "Repentez-vous, réglez vos dettes et demandez pardon à votre entourage.",
+          "Apprenez les quatre actes de la Omra et leur ordre.",
+          "Vérifiez passeport, visa, permis et vaccins exigés.",
+          "Renseignez-vous sur le miqat de votre trajet et le moment où vous y arriverez.",
+          "Entraînez-vous à marcher et préparez un bagage léger et confortable."
+        ],
+        "duas": []
+      },
+      {
+        "id": "miqat-ihram",
+        "title": "Le miqat et l'ihram",
+        "body": "Le miqat est la limite à ne pas franchir sans être en ihram. Il y en a cinq : Dhul-Hulayfah pour ceux qui viennent de Médine, al-Juhfah, Qarn al-Manazil, Yalamlam et Dhat Irq. En avion, l'équipage annonce en général le miqat : soyez prêt avant.\n\nUn bain complet (ghusl) est recommandé avant l'ihram. Les hommes portent deux étoffes non cousues, l'une autour de la taille, l'autre sur les épaules ; les femmes gardent leurs vêtements pudiques habituels. Formulez ensuite l'intention dans votre cœur et prononcez la talbiyah, à voix haute pour les hommes, à voix basse pour les femmes.\n\nL'ihram est un état, pas un tissu. Sont alors interdits : couper cheveux ou ongles, se parfumer, chasser, conclure un mariage, avoir des relations conjugales. Les hommes ne portent pas de vêtements ajustés au corps et gardent la tête découverte ; les femmes ne portent ni voile de visage (niqab) ni gants (Sahih al-Bukhari 1838). Évitez aussi les disputes (Coran 2:197).",
+        "steps": [
+          "Avant le miqat, coupez vos ongles et prenez un bain (ghusl) si vous le pouvez.",
+          "Hommes : mettez les deux étoffes de l'ihram. Femmes : gardez une tenue pudique ordinaire.",
+          "Les hommes peuvent parfumer leur corps, pas les étoffes, avant l'intention ; jamais après.",
+          "Au miqat, formulez l'intention de la Omra dans votre cœur et dites : Labbayka Allahumma 'umrah.",
+          "Répétez souvent la talbiyah sur le chemin de La Mecque.",
+          "À partir de là, respectez tous les interdits de l'ihram.",
+          "Cessez la talbiyah au moment de commencer le tawaf."
+        ],
+        "duas": [
+          {
+            "ar": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+            "tr": "Labbayka Allahumma labbayk, labbayka la sharika laka labbayk, inna al-hamda wa an-ni'mata laka wa al-mulk, la sharika lak",
+            "t": "Me voici, ô Allah, me voici. Me voici, Tu n'as pas d'associé, me voici. Certes la louange et le bienfait T'appartiennent, ainsi que la royauté. Tu n'as pas d'associé.",
+            "source": "La talbiyah — Sahih al-Bukhari 1549 ; Sahih Muslim 1184"
+          }
+        ]
+      },
+      {
+        "id": "tawaf",
+        "title": "Le tawaf autour de la Kaaba",
+        "body": "Le tawaf, ce sont sept tours autour de la Kaaba, gardée à sa gauche. Les ablutions sont requises. Chaque tour commence et s'achève à la Pierre noire : faites-lui face, prononcez le takbir, et ne l'embrassez ou ne la touchez que si c'est facile ; sinon, faites-lui simplement signe. Beaucoup y disent « Bismillah, Allahu akbar », comme rapporté du compagnon Ibn Umar. Contournez le muret en demi-cercle (le Hijr), sans le traverser.\n\nLors de ce tawaf d'arrivée, les hommes découvrent l'épaule droite (idtiba) et pressent le pas, à petites foulées, durant les trois premiers tours (raml). Les femmes marchent normalement.\n\nIl n'existe aucune invocation fixe et obligatoire pour chaque tour : vous pouvez faire l'invocation de votre choix, dans n'importe quelle langue, évoquer Allah ou réciter le Coran. Une seule est rapportée, entre le coin yéménite et la Pierre noire : Coran 2:201. Ensuite, priez deux rak'at derrière le Maqam Ibrahim (Coran 2:125), puis buvez de l'eau de Zamzam.",
+        "steps": [
+          "Assurez-vous d'avoir vos ablutions. Les hommes découvrent l'épaule droite (idtiba).",
+          "Commencez à hauteur de la Pierre noire : faites-lui face, dites le takbir et faites un signe vers elle si vous ne pouvez l'atteindre.",
+          "Faites sept tours, la Kaaba à votre gauche, en passant à l'extérieur du Hijr.",
+          "Les hommes marchent d'un pas rapide pendant les trois premiers tours (raml), puis normalement.",
+          "Touchez le coin yéménite si c'est facile ; entre lui et la Pierre noire, récitez Coran 2:201.",
+          "Pendant les tours, faites les invocations de votre choix.",
+          "Après le septième tour, les hommes recouvrent l'épaule ; priez deux rak'at derrière le Maqam Ibrahim, ou ailleurs dans la mosquée s'il y a foule.",
+          "Buvez de l'eau de Zamzam et invoquez Allah."
+        ],
+        "duas": [
+          {
+            "ar": "اللَّهُ أَكْبَرُ",
+            "tr": "Allahu akbar",
+            "t": "Allah est le Plus Grand.",
+            "source": "Takbir à hauteur de la Pierre noire — Sahih al-Bukhari 1613"
+          },
+          {
+            "ar": "رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا حَسَنَةࣰ وَفِي ٱلۡأٓخِرَةِ حَسَنَةࣰ وَقِنَا عَذَابَ ٱلنَّارِ",
+            "tr": "Rabbana atina fi ad-dunya hasanatan wa fi al-akhirati hasanatan wa qina 'adhab an-nar",
+            "t": "Notre Seigneur, accorde-nous un bien ici-bas et un bien dans l'au-delà, et préserve-nous du châtiment du Feu.",
+            "source": "Coran 2:201 — récité entre le coin yéménite et la Pierre noire : Sunan Abi Dawud 1892 (hasan)"
+          }
+        ]
+      },
+      {
+        "id": "say",
+        "title": "Le sa'y entre Safa et Marwa",
+        "body": "Après le tawaf, rendez-vous à Safa. Le sa'y compte sept trajets entre les deux collines : de Safa à Marwa, c'est un trajet ; de Marwa à Safa, le deuxième, et ainsi de suite. On termine donc à Marwa.\n\nEn approchant de Safa pour la première fois, récitez le début de Coran 2:158, comme l'a fait le Prophète Muhammad ﷺ (Sahih Muslim 1218). Montez un peu, tournez-vous vers la Kaaba, levez les mains, proclamez la grandeur et l'unicité d'Allah avec les paroles ci-dessous, puis faites vos propres invocations. Cela se fait trois fois. Faites de même à Marwa à chaque arrivée.\n\nEntre les deux lumières vertes, les hommes pressent le pas ; les femmes marchent normalement. Comme pour le tawaf, aucune invocation particulière n'est imposée pour chaque trajet. Les ablutions sont recommandées, et les personnes âgées ou malades peuvent utiliser un fauteuil roulant.",
+        "steps": [
+          "Allez à Safa et récitez le début de Coran 2:158 en approchant, cette première fois seulement.",
+          "Sur Safa, face à la Kaaba, levez les mains, dites le dhikr de Safa et invoquez, trois fois.",
+          "Marchez vers Marwa ; les hommes pressent le pas entre les lumières vertes.",
+          "Sur Marwa, tournez-vous vers la Kaaba et répétez le dhikr et les invocations.",
+          "Revenez à Safa : c'est le deuxième trajet.",
+          "Continuez jusqu'au septième trajet, qui s'achève à Marwa."
+        ],
+        "duas": [
+          {
+            "ar": "إِنَّ ٱلصَّفَا وَٱلۡمَرۡوَةَ مِن شَعَآئِرِ ٱللَّهِ",
+            "tr": "Inna as-Safa wa al-Marwata min sha'a'iri Allah",
+            "t": "Certes, Safa et Marwa sont parmi les rites sacrés d'Allah.",
+            "source": "Coran 2:158 (premiers mots) — récité en approchant de Safa : Sahih Muslim 1218"
+          },
+          {
+            "ar": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ أَنْجَزَ وَعْدَهُ وَنَصَرَ عَبْدَهُ وَهَزَمَ الأَحْزَابَ وَحْدَهُ",
+            "tr": "La ilaha illa Allahu wahdahu la sharika lah, lahu al-mulku wa lahu al-hamd, wa huwa 'ala kulli shay'in qadir. La ilaha illa Allahu wahdah, anjaza wa'dah, wa nasara 'abdah, wa hazama al-ahzaba wahdah",
+            "t": "Il n'y a de divinité qu'Allah, Seul, sans associé. À Lui la royauté, à Lui la louange, et Il est capable de toute chose. Il n'y a de divinité qu'Allah, Seul ; Il a tenu Sa promesse, secouru Son serviteur et vaincu Seul les coalisés.",
+            "source": "Dhikr sur Safa et Marwa — Sahih Muslim 1218"
+          }
+        ]
+      },
+      {
+        "id": "halq-taqsir",
+        "title": "Rasage ou raccourcissement des cheveux",
+        "body": "Le dernier acte de la Omra consiste à se raser la tête (halq) ou à raccourcir les cheveux (taqsir). Pour les hommes, raser toute la tête est préférable ; s'ils raccourcissent, la pratique courante est de raccourcir les cheveux de toute la tête, et pas seulement quelques mèches. Les femmes ne se rasent jamais : elles rassemblent leurs cheveux et en coupent l'extrémité sur la longueur d'un bout de doigt environ.\n\nL'homme qui accomplit la Omra peu avant le Hajj (tamattu) choisit souvent de raccourcir à ce moment, afin qu'il reste des cheveux à raser le dixième jour.\n\nAllez chez les coiffeurs à l'extérieur de la mosquée plutôt que de couper des cheveux dans l'espace du sa'y, et les femmes coupent leurs cheveux à l'abri des regards. Par cet acte, la Omra est achevée et tous les interdits de l'ihram prennent fin.",
+        "steps": [
+          "Quittez l'espace du sa'y une fois le septième trajet terminé.",
+          "Hommes : rasez la tête, ou raccourcissez les cheveux de toute la tête.",
+          "Femmes : coupez la longueur d'un bout de doigt à l'extrémité des cheveux, à l'abri des regards.",
+          "Vous êtes désormais sorti de l'ihram : votre Omra est achevée."
+        ],
+        "duas": []
+      },
+      {
+        "id": "after",
+        "title": "Après la Omra",
+        "body": "Votre Omra est terminée : remerciez Allah, qui vous a permis d'atteindre Sa Maison. Tout ce que l'ihram interdisait redevient permis, et vous pouvez remettre vos vêtements habituels.\n\nProfitez bien des jours qui vous restent à La Mecque. Accomplissez les cinq prières à la Mosquée sacrée aussi souvent que possible, faites des tawaf supplémentaires quand l'affluence le permet, lisez le Coran et invoquez Allah pour vous, votre famille et tous les musulmans. Soyez doux avec les autres pèlerins et patient face à la fatigue et à la foule.\n\nBeaucoup de pèlerins se rendent aussi à Médine pour prier dans la Mosquée du Prophète. Cette visite est une œuvre bénie en elle-même, mais elle ne fait pas partie de la Omra. De retour chez vous, essayez de garder les bonnes habitudes acquises là-bas.",
+        "steps": [
+          "Remerciez Allah et remettez vos vêtements habituels.",
+          "Priez à la Mosquée sacrée aussi souvent que possible.",
+          "Faites des tawaf supplémentaires, lisez le Coran et multipliez les invocations.",
+          "Gardez les bonnes habitudes du voyage une fois rentré."
+        ],
+        "duas": []
+      }
+    ]
+  },
+  "hajj": {
+    "title": "Le Hajj jour après jour",
+    "intro": "Le Hajj est le cinquième pilier de l'islam. Il est obligatoire une fois dans la vie pour tout musulman adulte qui a les moyens de faire le voyage (Coran 3:97). Ses rites principaux se déroulent du 8 au 13 Dhul-Hijja, entre La Mecque, Mina, Arafat et Muzdalifah.\n\nIl existe trois manières de l'accomplir. Dans le tamattu, on accomplit une Omra complète pendant les mois du Hajj, on sort de l'ihram, puis on entre de nouveau en ihram pour le Hajj le 8. Dans le qiran, on réunit Omra et Hajj dans un seul ihram, sans en sortir entre les deux. Dans l'ifrad, on entre en ihram pour le Hajj seul. Un sacrifice est dû pour le tamattu et le qiran (Coran 2:196), pas pour l'ifrad. Les trois sont valides ; les savants divergent sur la meilleure, et la plupart des pèlerins venus de loin font le tamattu.\n\nCe guide est un résumé. Il ne remplace ni un enseignant qualifié ni les consignes des autorités sur place et de votre groupe, qui organisent les déplacements et les horaires pour la sécurité de tous. Quand les écoles juridiques divergent sur un détail, nous indiquons la pratique courante : demandez à un savant de confiance pour votre cas.",
+    "chapters": [
+      {
+        "id": "day-8-tarwiyah",
+        "title": "8 Dhul-Hijja : le jour de Tarwiyah, à Mina",
+        "body": "Le Hajj commence le 8 Dhul-Hijja, appelé jour de Tarwiyah. Le pèlerin qui accomplit le tamattu entre de nouveau en ihram, cette fois pour le Hajj, depuis l'endroit où il loge à La Mecque : bain, vêtements de l'ihram, intention, puis talbiyah. Ceux qui accomplissent le qiran ou l'ifrad sont toujours en ihram depuis le miqat.\n\nTous se rendent ensuite à Mina, une vallée de tentes à quelques kilomètres de La Mecque. On y prie Dhuhr, Asr, Maghrib, Isha puis le Fajr du 9, chacune à son heure ; les prières de quatre rak'at sont raccourcies à deux, sans être regroupées.\n\nCette journée et cette nuit à Mina sont une sunna et un temps de préparation. Reposez-vous, répétez la talbiyah, lisez le Coran et préparez votre cœur pour le lendemain, le plus grand jour du Hajj.",
+        "steps": [
+          "Tamattu : prenez un bain et mettez-vous en ihram là où vous logez à La Mecque.",
+          "Formulez l'intention du Hajj dans votre cœur et dites : Labbayka Allahumma hajjan.",
+          "Rendez-vous à Mina avec votre groupe en répétant la talbiyah.",
+          "Priez Dhuhr, Asr, Maghrib et Isha à Mina, chacune à son heure, en raccourcissant les prières de quatre rak'at.",
+          "Passez la nuit à Mina et priez-y le Fajr."
+        ],
+        "duas": [
+          {
+            "ar": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+            "tr": "Labbayka Allahumma labbayk, labbayka la sharika laka labbayk, inna al-hamda wa an-ni'mata laka wa al-mulk, la sharika lak",
+            "t": "Me voici, ô Allah, me voici. Me voici, Tu n'as pas d'associé, me voici. Certes la louange et le bienfait T'appartiennent, ainsi que la royauté. Tu n'as pas d'associé.",
+            "source": "La talbiyah — Sahih al-Bukhari 1549 ; Sahih Muslim 1184"
+          }
+        ]
+      },
+      {
+        "id": "day-9-arafat",
+        "title": "9 Dhul-Hijja : Arafat, puis Muzdalifah",
+        "body": "La station à Arafat est le pilier du Hajj : celui qui la manque a manqué le Hajj. Le Prophète Muhammad ﷺ a enseigné que le Hajj, c'est Arafat (Jami' at-Tirmidhi 889).\n\nAprès le lever du soleil, quittez Mina pour Arafat et vérifiez que vous êtes bien à l'intérieur de ses limites, indiquées par des panneaux. Après le sermon, Dhuhr et Asr sont priées ensemble et raccourcies, à l'heure du Dhuhr. Vient alors le cœur du Hajj : de midi jusqu'au coucher du soleil, tournez-vous vers la qibla et invoquez Allah, demandez pardon, priez pour ceux que vous aimez. Aucun texte n'est imposé. Ne partez pas avant le coucher du soleil.\n\nAprès le coucher du soleil, rendez-vous calmement à Muzdalifah. Vous y priez Maghrib et Isha ensemble, Isha raccourcie, puis vous vous reposez pour la nuit à ciel ouvert. Vous pouvez y ramasser les petits cailloux de la lapidation.",
+        "steps": [
+          "Après le lever du soleil, allez de Mina à Arafat en répétant la talbiyah.",
+          "Vérifiez que vous êtes à l'intérieur des limites d'Arafat.",
+          "Priez Dhuhr et Asr regroupées et raccourcies à l'heure du Dhuhr.",
+          "Passez l'après-midi en invocations, dhikr et repentir, tourné vers la qibla.",
+          "Restez à Arafat jusqu'au coucher complet du soleil.",
+          "Rendez-vous calmement à Muzdalifah et priez-y Maghrib et Isha regroupées.",
+          "Ramassez de petits cailloux, de la taille d'un pois chiche, puis dormez.",
+          "Priez le Fajr, invoquez face à la qibla et partez vers Mina avant le lever du soleil."
+        ],
+        "duas": []
+      },
+      {
+        "id": "day-10-nahr",
+        "title": "10 Dhul-Hijja : le jour du sacrifice",
+        "body": "Le 10, jour de l'Aïd, est la journée la plus chargée du Hajj. Quatre actes s'enchaînent, idéalement ainsi. D'abord, à Mina, lancez sept cailloux un à un sur Jamrat al-Aqaba, la plus grande stèle, avec le takbir à chaque jet ; la talbiyah s'arrête ici (Sahih al-Bukhari 1685). Ensuite, le sacrifice, dû pour le tamattu et le qiran, souvent réglé par un bon officiel. Puis les hommes se rasent ou raccourcissent leurs cheveux ; les femmes en coupent un bout de doigt. Enfin, à La Mecque, le tawaf al-ifadah, pilier du Hajj, suivi du sa'y s'il est encore dû.\n\nAprès la lapidation et le rasage, les interdits de l'ihram sont levés, sauf les relations conjugales, permises après le tawaf al-ifadah. Les écoles divergent sur les détails : demandez à un savant de confiance pour votre cas.\n\nSi l'ordre change, aucun mal : le Prophète Muhammad ﷺ l'a dit à ceux qui l'interrogeaient ce jour-là (Sahih al-Bukhari 83).",
+        "steps": [
+          "À Mina, lancez sept cailloux un à un sur Jamrat al-Aqaba en disant Allahu akbar à chaque jet.",
+          "Cessez la talbiyah en commençant la lapidation.",
+          "Offrez le sacrifice, ou assurez-vous qu'il est fait en votre nom (tamattu et qiran).",
+          "Les hommes rasent ou raccourcissent toute la tête ; les femmes coupent la longueur d'un bout de doigt.",
+          "Remettez des vêtements ordinaires : tout redevient permis, sauf les relations conjugales.",
+          "Allez à La Mecque pour le tawaf al-ifadah, sans idtiba ni raml, et priez deux rak'at.",
+          "Accomplissez le sa'y du Hajj si vous le devez encore.",
+          "Retournez à Mina pour y passer la nuit."
+        ],
+        "duas": [
+          {
+            "ar": "اللَّهُ أَكْبَرُ",
+            "tr": "Allahu akbar",
+            "t": "Allah est le Plus Grand.",
+            "source": "Takbir à chaque caillou — Sahih al-Bukhari 1751"
+          }
+        ]
+      },
+      {
+        "id": "days-11-13-tashriq",
+        "title": "11–13 Dhul-Hijja : les jours de Tashriq",
+        "body": "Les jours de Tashriq se passent à Mina. Ce sont des jours d'évocation d'Allah (Coran 2:203), et l'on y passe aussi les nuits.\n\nChaque jour, après midi, on lapide les trois jamarat dans l'ordre : la petite, la moyenne, puis Jamrat al-Aqaba, avec sept cailloux chacune, en disant le takbir à chaque jet. Après la première et après la deuxième, mettez-vous à l'écart, tournez-vous vers la qibla et invoquez longuement, les mains levées ; après la troisième, repartez sans vous arrêter (Sahih al-Bukhari 1751).\n\nVous pouvez quitter Mina le 12 après la lapidation, avant le coucher du soleil ; celui qui reste lapide de nouveau le 13. Les deux sont permis (Coran 2:203). Suivez l'horaire donné à votre groupe. Si vous êtes faible ou malade, ou pour l'heure exacte de la lapidation, demandez à un savant de confiance pour votre cas.",
+        "steps": [
+          "Passez les nuits du 11 et du 12 à Mina.",
+          "Chaque jour après midi, emportez 21 cailloux aux jamarat.",
+          "Lapidez la petite jamrah de sept cailloux, puis mettez-vous à l'écart et invoquez.",
+          "Lapidez la jamrah moyenne de sept cailloux, puis mettez-vous à l'écart et invoquez.",
+          "Lapidez Jamrat al-Aqaba de sept cailloux et repartez sans vous arrêter.",
+          "Le 12, quittez Mina avant le coucher du soleil si vous souhaitez partir plus tôt.",
+          "Sinon, restez la nuit et lapidez de nouveau les trois jamarat le 13."
+        ],
+        "duas": []
+      },
+      {
+        "id": "farewell-tawaf",
+        "title": "Le tawaf d'adieu",
+        "body": "Quand tous les rites sont terminés et que vous êtes sur le point de quitter La Mecque, la dernière chose à faire est le tawaf d'adieu (tawaf al-wada). Il a été ordonné aux gens de faire de la Maison leur dernière étape ; seule la femme en période de règles en a été dispensée (Sahih al-Bukhari 1755 ; Sahih Muslim 1328).\n\nC'est un tawaf ordinaire de sept tours, en vêtements de tous les jours, sans idtiba ni raml, suivi de deux rak'at. Il n'y a pas de sa'y après. Faites-le une fois vos bagages prêts et votre départ proche ; une courte attente pour le transport ou pour vos compagnons ne pose pas de problème.\n\nQuittez la Mosquée sacrée le cœur reconnaissant. Demandez à Allah d'accepter votre Hajj, de vous pardonner et de vous permettre de revenir. Puis efforcez-vous de rentrer chez vous meilleur que vous n'êtes parti.",
+        "steps": [
+          "Terminez d'abord tous vos rites et préparez vos bagages.",
+          "Faites sept tours autour de la Kaaba en vêtements ordinaires.",
+          "Priez deux rak'at après le tawaf.",
+          "Demandez à Allah d'accepter votre Hajj, puis quittez La Mecque sans tarder.",
+          "La femme en période de règles part sans faire ce tawaf."
+        ],
+        "duas": []
+      }
+    ]
+  },
+  "mistakes": [
+    {
+      "title": "Bousculer pour embrasser la Pierre noire",
+      "body": "Embrasser la Pierre noire est une sunna ; faire du mal à un musulman est interdit. Si la foule est dense, faites simplement un signe vers la Pierre en disant le takbir : votre tawaf est complet et personne n'est blessé."
+    },
+    {
+      "title": "Croire que chaque tour a son invocation obligatoire",
+      "body": "Certains livrets donnent une invocation par tour. Rien de tel n'est exigé : il n'y a pas d'invocation fixe et obligatoire pour les tours du tawaf ni pour les trajets du sa'y. Parlez à Allah avec vos propres mots, dans votre langue."
+    },
+    {
+      "title": "Quitter Arafat avant le coucher du soleil",
+      "body": "Le Prophète Muhammad ﷺ est resté à Arafat jusqu'au coucher du soleil (Sahih Muslim 1218). Ne vous précipitez pas vers les bus en fin d'après-midi : ce sont les heures les plus précieuses de tout le Hajj."
+    },
+    {
+      "title": "Gravir le Jabal ar-Rahmah en pensant que c'est requis",
+      "body": "Toute la plaine d'Arafat est un lieu de station. Gravir la colline ne fait pas partie du Hajj et n'apporte aucune récompense supplémentaire ; la bousculade y est épuisante et dangereuse. Restez là où vous pouvez invoquer en paix."
+    },
+    {
+      "title": "Stationner hors des limites d'Arafat",
+      "body": "Certains pèlerins s'installent juste à l'extérieur d'Arafat sans s'en rendre compte. Comme la station est le pilier du Hajj, repérez les panneaux de limite et interrogez votre guide au moindre doute."
+    },
+    {
+      "title": "Ramasser des cailloux trop gros",
+      "body": "Les cailloux sont petits, à peu près de la taille d'un pois chiche. Les grosses pierres, les chaussures ou d'autres objets ne font pas partie du rite et peuvent blesser. La lapidation est un acte d'obéissance à Allah, accompli calmement, pas un accès de colère."
+    },
+    {
+      "title": "Photographier au lieu d'adorer",
+      "body": "Une photo souvenir prend quelques secondes ; filmer tout le tawaf ou publier en direct depuis Arafat éloigne votre cœur. Rangez le téléphone pendant les rites et protégez la sincérité de votre intention."
+    },
+    {
+      "title": "Négliger le miqat en avion",
+      "body": "L'avion franchit le miqat en plein vol. Mettez les étoffes de l'ihram avant d'embarquer ou en début de vol, et formulez l'intention à l'annonce du miqat, ou un peu avant. Si vous l'avez franchi sans ihram, demandez à un savant de confiance pour votre cas."
+    },
+    {
+      "title": "Garder l'épaule droite découverte en permanence",
+      "body": "L'idtiba ne concerne que les hommes et seulement pendant le tawaf d'arrivée. Avant et après, y compris pendant la prière et le sa'y, les deux épaules sont couvertes."
+    },
+    {
+      "title": "Compter un aller-retour pour un seul trajet du sa'y",
+      "body": "De Safa à Marwa, c'est un trajet ; de Marwa à Safa, un autre. Le sa'y compte sept trajets et s'achève à Marwa. Compter chaque aller-retour pour un seul reviendrait à faire quatorze trajets."
+    },
+    {
+      "title": "Vouloir à tout prix prier juste derrière le Maqam Ibrahim",
+      "body": "Prier sur le passage de ceux qui font le tawaf les bloque et vous met en danger. En cas d'affluence, les deux rak'at peuvent être priées n'importe où dans la mosquée."
+    },
+    {
+      "title": "Se disputer et perdre patience",
+      "body": "La chaleur, les files d'attente et la fatigue éprouvent tout le monde. Le Coran interdit les propos indécents, la désobéissance et les disputes pendant le Hajj (2:197). Cédez le passage, souriez, pardonnez : le bon comportement fait partie de votre pèlerinage."
+    }
+  ],
+  "checklist": [
+    {
+      "id": "passport",
+      "group": "documents",
+      "label": "Passeport valable encore au moins six mois"
+    },
+    {
+      "id": "visa-permit",
+      "group": "documents",
+      "label": "Visa Hajj ou Omra et permis officiel"
+    },
+    {
+      "id": "tickets-bookings",
+      "group": "documents",
+      "label": "Billets d'avion et réservations d'hébergement"
+    },
+    {
+      "id": "id-copies",
+      "group": "documents",
+      "label": "Copies papier et numériques de tous les documents"
+    },
+    {
+      "id": "emergency-contacts",
+      "group": "documents",
+      "label": "Carte avec les coordonnées du groupe, de l'hôtel et des urgences"
+    },
+    {
+      "id": "money-card",
+      "group": "documents",
+      "label": "Un peu d'argent liquide local et une carte bancaire"
+    },
+    {
+      "id": "ihram-garments",
+      "group": "clothing",
+      "label": "Hommes : deux jeux d'étoffes d'ihram"
+    },
+    {
+      "id": "modest-clothing",
+      "group": "clothing",
+      "label": "Femmes : vêtements amples, pudiques et confortables"
+    },
+    {
+      "id": "sandals",
+      "group": "clothing",
+      "label": "Sandales confortables déjà portées"
+    },
+    {
+      "id": "ihram-belt",
+      "group": "clothing",
+      "label": "Ceinture d'ihram ou pochette pour l'argent et les papiers"
+    },
+    {
+      "id": "small-bag",
+      "group": "clothing",
+      "label": "Petit sac pour les chaussures et les cailloux"
+    },
+    {
+      "id": "umbrella",
+      "group": "clothing",
+      "label": "Parapluie clair contre le soleil"
+    },
+    {
+      "id": "vaccinations",
+      "group": "health",
+      "label": "Vaccins exigés et certificat"
+    },
+    {
+      "id": "medication",
+      "group": "health",
+      "label": "Médicaments habituels avec ordonnance"
+    },
+    {
+      "id": "unscented-toiletries",
+      "group": "health",
+      "label": "Savon et produits de toilette sans parfum pour l'ihram"
+    },
+    {
+      "id": "water-bottle",
+      "group": "health",
+      "label": "Gourde d'eau réutilisable"
+    },
+    {
+      "id": "masks-sanitizer",
+      "group": "health",
+      "label": "Masques et gel désinfectant sans parfum"
+    },
+    {
+      "id": "first-aid",
+      "group": "health",
+      "label": "Petite trousse de secours avec pansements pour ampoules"
+    },
+    {
+      "id": "sincere-intention",
+      "group": "spiritual",
+      "label": "Renouveler son intention : pour Allah seul"
+    },
+    {
+      "id": "repentance-debts",
+      "group": "spiritual",
+      "label": "Se repentir, régler ses dettes et demander pardon"
+    },
+    {
+      "id": "learn-rites",
+      "group": "spiritual",
+      "label": "Apprendre les rites et leur ordre"
+    },
+    {
+      "id": "talbiyah-memorised",
+      "group": "spiritual",
+      "label": "Mémoriser la talbiyah"
+    },
+    {
+      "id": "dua-list",
+      "group": "spiritual",
+      "label": "Écrire une liste d'invocations personnelles pour Arafat"
+    },
+    {
+      "id": "quran-dhikr",
+      "group": "spiritual",
+      "label": "Coran de poche ou application pour la lecture et le dhikr"
+    }
+  ]
+}
