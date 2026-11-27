@@ -4,7 +4,7 @@ import { h, clear, openSheet, closeSheet, toast } from '../ui.js';
 import { store } from '../store.js';
 import { METHODS } from '../prayer.js';
 import { getLocation, locationPicker } from '../location.js';
-import { notifSettings, notificationsSupported, requestNotificationPermission, rescheduleNotifications, setPushLanguage, NOTIF_PRAYERS } from '../notifications.js';
+import { notifSettings, notificationsSupported, requestNotificationPermission, rescheduleNotifications, setPushLanguage, pushConfigured, NOTIF_PRAYERS } from '../notifications.js';
 import { authAvailable, currentUser, sendCode, verifyCode, signOut } from '../auth.js';
 import { api } from '../api.js';
 import { isPremium, premium, refreshPremium, restore, manageSubscription, clearPremiumCache } from '../premium.js';
@@ -70,7 +70,7 @@ function notifSection(repaint) {
     n.enabled ? [
       ...NOTIF_PRAYERS.map((p) => sw(t('prayer.' + p), n.prayers[p], (e) => save({ prayers: { ...notifSettings().prayers, [p]: e.target.checked } }))),
       sw(t('notif.daily'), n.daily, (e) => save({ daily: e.target.checked })),
-      h('label.field', h('span', t('notif.dailyTime')), h('input.input', { type: 'time', value: n.dailyTime, onchange: (e) => save({ dailyTime: e.target.value || '08:00' }) })),
+      pushConfigured() ? null : h('label.field', h('span', t('notif.dailyTime')), h('input.input', { type: 'time', value: n.dailyTime, onchange: (e) => save({ dailyTime: e.target.value || '08:00' }) })),
       sw(t('notif.fasting'), n.fasting, (e) => save({ fasting: e.target.checked })),
       !getLocation() ? h('p.muted', t('notif.needLocation')) : null,
     ] : h('p.muted', t('notif.help')));

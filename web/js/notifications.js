@@ -14,16 +14,17 @@ export const notifSettings = () => ({
   ...store.get('notif', {}),
 });
 export const notificationsSupported = () => isNative();
+export const pushConfigured = () => !!(config.oneSignalAppId && oneSignalPlugin());
 
 async function plugin() { return (await import('@capacitor/local-notifications')).LocalNotifications; }
-const oneSignal = () => (typeof window !== 'undefined' && window.plugins && window.plugins.OneSignal) || null;
+const oneSignalPlugin = () => (typeof window !== 'undefined' && window.plugins && window.plugins.OneSignal) || null;
 
 export function initPush() {
-  const os = oneSignal();
+  const os = oneSignalPlugin();
   if (!os || !config.oneSignalAppId) return;
   try { os.initialize(config.oneSignalAppId); os.User.setLanguage(lang()); } catch (err) { console.warn('OneSignal', err); }
 }
-export function setPushLanguage() { try { oneSignal()?.User.setLanguage(lang()); } catch { /* ignore */ } }
+export function setPushLanguage() { try { oneSignalPlugin()?.User.setLanguage(lang()); } catch { /* ignore */ } }
 
 // Demande l'autorisation (une seule fenêtre iOS pour les rappels locaux et les push).
 export async function requestNotificationPermission() {
@@ -31,7 +32,7 @@ export async function requestNotificationPermission() {
   const ln = await plugin();
   let status = (await ln.checkPermissions()).display;
   if (status !== 'granted') status = (await ln.requestPermissions()).display;
-  if (status === 'granted') { try { await oneSignal()?.Notifications.requestPermission(false); } catch { /* ignore */ } }
+  if (status === 'granted') { try { await oneSignalPlugin()?.Notifications.requestPermission(false); } catch { /* ignore */ } }
   return status === 'granted';
 }
 
@@ -73,7 +74,9 @@ export async function rescheduleNotifications() {
     const settings = notifSettings();
     if (!settings.enabled || (await ln.checkPermissions()).display !== 'granted') return 0;
     const s = store.get('settings', {});
-    const list = buildSchedule(settings, store.get('location'), { method: s.method || 'mwl', asr: s.asr || 'standard', hijriAdjust: s.hijriAdjust || 0 });
+    // Si le push OneSignal est configuré, c'est lui qui annonce l'histoire du jour : pas de doublon avec le rappel local.
+    const effective = { ...settings, daily: settings.daily && !pushConfigured() };
+    const list = buildSchedule(effective, store.get('location'), { method: s.method || 'mwl', asr: s.asr || 'standard', hijriAdjust: s.hijriAdjust || 0 });
     if (list.length) {
       await ln.schedule({ notifications: list.map((n) => ({ id: n.id, title: n.title, body: n.body, schedule: { at: n.at, allowWhileIdle: true } })) });
     }
