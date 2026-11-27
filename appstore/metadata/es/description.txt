@@ -1,0 +1,40 @@
+Cada día, un relato breve y verídico de la historia islámica, acompañado de una enseñanza. Y junto a él, las herramientas cotidianas del musulmán, gratuitas y disponibles sin conexión.
+
+EL RELATO DEL DÍA
+El mismo relato nuevo para todos, cada día: ciencias, arquitectura, Compañeros, viajeros, mujeres sabias, dinastías… Cada relato termina con una enseñanza y va acompañado de un recordatorio: un hadiz auténtico con su referencia (al-Bujari, Muslim). Puedes escucharlo o compartirlo como imagen.
+
+Los relatos se redactan con ayuda de la IA y se verifican. Los hadices, duas y adhkar nunca se generan con IA: proceden de colecciones reconocidas.
+
+HERRAMIENTAS GRATUITAS, SIN CONEXIÓN
+• Horarios de oración calculados en el dispositivo: métodos MWL, Karachi, Kemenag/Singapur, UOIF, Umm al-Qura, Egipto, ISNA y Diyanet; Asr estándar o hanafí
+• Cuenta atrás hasta la próxima oración y notificaciones locales
+• Brújula de la Qibla con la distancia hasta la Kaaba
+• Tasbih con respuesta háptica (33, 99, 100 o libre)
+• Los 99 Nombres de Allah, con búsqueda
+• 45 duas: árabe, transliteración, traducción y fuente
+• Adhkar de la mañana, de la tarde, tras la oración y antes de dormir, con contadores
+• Calendario hijri con días de ayuno recomendados y días señalados
+• Calculadora de zakat y cuenta atrás para Ramadán
+• Seguimiento de las oraciones (30 días) y del ayuno (Ramadán, días por recuperar)
+• Contador de buenas acciones y racha diaria
+
+6 IDIOMAS
+Español, francés, inglés, árabe, indonesio y urdu (interfaz real de derecha a izquierda).
+
+PRIVACIDAD
+Sin cuenta. Sin anuncios. Sin rastreo. La ubicación se usa únicamente para los horarios de oración y la Qibla, y permanece en tu dispositivo.
+
+TARIKH PREMIUM
+• Los relatos de los 25 profetas, con referencias del Corán
+• Guía paso a paso de la Umrah y el Hajj: pasos, súplicas, errores frecuentes y lista de preparación
+• Cuestionario de 120 preguntas en 8 temas
+• Archivo de relatos y favoritos ilimitados
+• Explicación detallada de cada día señalado del calendario hijri
+
+SUSCRIPCIÓN
+Tarikh Premium: suscripción de 1 mes con renovación automática y 7 días de prueba gratuita para los nuevos suscriptores. El precio se muestra en la app. El pago se carga a tu cuenta de Apple al confirmar la compra. La suscripción se renueva automáticamente salvo que se cancele al menos 24 horas antes del final del periodo en curso. Gestiona o cancela la suscripción en los ajustes de tu cuenta del App Store. La parte no utilizada de una prueba gratuita se pierde al comprar una suscripción.
+
+Condiciones de uso: https://tarikh-topaz.vercel.app/terms
+Política de privacidad: https://tarikh-topaz.vercel.app/privacy
+
+Los relatos diarios se redactan con ayuda de la IA: en caso de duda, verifícalos con fuentes de los sabios.

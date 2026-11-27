@@ -1,0 +1,1 @@
+oración,horario,qibla,tasbih,hadiz,dua,hijri,ramadán,corán,zakat,adhkar,musulmán,islam,rezo,salat
