@@ -72,6 +72,7 @@ export async function shareImage(blob, { title, text, filename = 'tarikh.png' })
 
 export async function hideSplash() {
   if (!isNative()) return;
+  try { const { StatusBar, Style } = await import('@capacitor/status-bar'); await StatusBar.setStyle({ style: Style.Dark }); } catch { /* ignore */ }
   try { const { SplashScreen } = await import('@capacitor/splash-screen'); await SplashScreen.hide(); } catch { /* ignore */ }
 }
 export async function onResume(fn) {

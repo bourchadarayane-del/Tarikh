@@ -1,0 +1,4 @@
+/* Tarikh — en */
+"CFBundleDisplayName" = "Tarikh";
+"NSLocationWhenInUseUsageDescription" = "Your location is only used to compute prayer times and the Qibla direction. It stays on your device.";
+"NSMotionUsageDescription" = "Motion sensors are used to orient the Qibla compass.";

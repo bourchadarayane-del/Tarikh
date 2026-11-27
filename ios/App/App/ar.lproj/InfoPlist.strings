@@ -1,0 +1,4 @@
+/* Tarikh — ar */
+"CFBundleDisplayName" = "تاريخ";
+"NSLocationWhenInUseUsageDescription" = "يُستخدم موقعك فقط لحساب مواقيت الصلاة واتجاه القبلة، ويبقى على جهازك.";
+"NSMotionUsageDescription" = "تُستخدم مستشعرات الحركة لتوجيه بوصلة القبلة.";

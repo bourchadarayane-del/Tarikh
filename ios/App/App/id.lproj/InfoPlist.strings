@@ -1,0 +1,4 @@
+/* Tarikh — id */
+"CFBundleDisplayName" = "Tarikh";
+"NSLocationWhenInUseUsageDescription" = "Lokasi Anda hanya digunakan untuk menghitung waktu salat dan arah kiblat. Lokasi tetap tersimpan di perangkat Anda.";
+"NSMotionUsageDescription" = "Sensor gerak digunakan untuk mengarahkan kompas kiblat.";
