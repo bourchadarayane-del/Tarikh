@@ -128,9 +128,15 @@ Non fait, à envisager plus tard : widget iOS (demande Xcode pour créer la cibl
 
 ## 5. CE QUE JE DOIS FAIRE MOI-MÊME
 
+> **Version courte et à jour : [`docs/DEMAIN.md`](docs/DEMAIN.md).** Diagnostic en direct : https://tarikh-topaz.vercel.app/api/health (une fois la PR « diagnostic » fusionnée).
+
 Suivez l'ordre. Comptez une demi-journée, hors délais d'Apple.
 
-### a) Anthropic : remplacer la clé exposée
+### a) Anthropic : remplacer la clé exposée — FAIT (clé créée par vous, ajoutée dans Vercel par moi)
+
+À faire plus tard : supprimer l'ancienne clé exposée si ce n'est pas déjà fait, et recréer la nouvelle une fois tout installé (elle apparaît sur une capture d'écran partagée en conversation).
+
+Étapes d'origine, pour mémoire :
 
 1. Ouvrez https://console.anthropic.com > **API keys**.
 2. Sur la ligne de la clé « Tarikh » : **⋯** > **Delete** (ou Disable). Elle a été publiée : considérez-la comme volée.
