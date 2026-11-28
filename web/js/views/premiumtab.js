@@ -11,10 +11,12 @@ import { fmtDate } from '../i18n.js';
 export const legalUrl = (page) => `${isNative() ? config.siteUrl + '/' : ''}${page}.html`;
 const legalLink = (page, label) => h('a', { href: legalUrl(page), target: '_blank', rel: 'noopener', onclick: (e) => { if (isNative()) { e.preventDefault(); openUrl(legalUrl(page)); } } }, label);
 
-function paywall(root) {
+// `sheet` : écran ouvert dans une feuille par-dessus un onglet -> identifiants distincts (pas de doublon dans la page).
+function paywall(root, sheet = false) {
+  const sfx = sheet ? '-sheet' : '';
   const priceBox = h('div.price-box', loading());
-  const buy = h('button.btn.primary.block', { type: 'button', id: 'btn-subscribe', disabled: true }, t('premium.cta'));
-  const restoreBtn = h('button.btn.ghost.block', { type: 'button', id: 'btn-restore', onclick: async () => {
+  const buy = h('button.btn.primary.block', { type: 'button', id: 'btn-subscribe' + sfx, disabled: true }, t('premium.cta'));
+  const restoreBtn = h('button.btn.ghost.block', { type: 'button', id: 'btn-restore' + sfx, onclick: async () => {
     restoreBtn.disabled = true;
     try { const ok = await restore(); toast(ok ? t('premium.restored') : t('premium.nothingToRestore')); if (ok) closeSheet(); }
     catch { toast(t('common.error')); } finally { restoreBtn.disabled = false; }
@@ -36,7 +38,7 @@ function paywall(root) {
     const price = o.price || t('premium.webPrice');
     priceBox.append(
       o.trialDays ? h('p.label', t('premium.trial', { n: o.trialDays })) : null,
-      h('p.price', { id: 'premium-price' }, t('premium.perMonth', { price })),
+      h('p.price', { id: 'premium-price' + sfx }, t('premium.perMonth', { price })),
       h('p.muted', o.trialDays ? t('premium.thenRenews', { price }) : t('premium.renews', { price })));
     buy.textContent = o.trialDays ? t('premium.startTrial', { n: o.trialDays }) : t('premium.subscribe');
     buy.disabled = false;
@@ -71,5 +73,5 @@ export function renderPremiumTab(root) {
 
 export function openPaywall() {
   if (isPremium()) { location.hash = '#/premium'; return; }
-  openSheet({ title: t('premium.title'), render: (body) => paywall(body) });
+  openSheet({ title: t('premium.title'), render: (body) => paywall(body, true) });
 }

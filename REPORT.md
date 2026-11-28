@@ -23,6 +23,8 @@ Trois choses importantes à savoir tout de suite :
 | `npm install` | OK |
 | `npm test` (syntaxe, traductions, secrets, 27 tests, SQL) | 27 tests réussis sur 27 |
 | `npm run test:e2e` (appli pilotée dans Chromium) | 37 étapes réussies sur 37, aucune erreur console |
+| Parcours d'achat et de compte, serveurs simulés (connexion par code, paiement Stripe avec essai 7 jours, retour de Stripe, suppression du compte, jeton expiré) | 5 parcours sur 5 |
+| Mode iOS simulé : aucun mot « Stripe » ou « carte », aucun appel de paiement, « Gérer l'abonnement » ouvre les réglages Apple | 2 parcours sur 2 |
 | Schéma SQL + données + règles de sécurité sur un vrai Postgres 16 local | OK, exécuté deux fois (idempotent) |
 | Qibla : Paris 119°, Jakarta 295°, New York 58° | OK |
 | 6 langues, sens d'écriture droite-à-gauche pour l'arabe et l'ourdou | OK |

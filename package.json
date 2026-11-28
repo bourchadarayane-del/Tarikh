@@ -13,7 +13,7 @@
     "serve": "node scripts/serve.mjs",
     "lint": "node scripts/check-syntax.mjs && node scripts/check-i18n.mjs",
     "test": "node scripts/check-syntax.mjs && node scripts/check-i18n.mjs && node scripts/check-secrets.mjs && node --test tests/*.test.mjs && bash scripts/test-sql.sh",
-    "test:e2e": "node scripts/build.mjs && node tests/e2e/run.mjs",
+    "test:e2e": "node scripts/build.mjs && node tests/e2e/run.mjs && node tests/e2e/parcours.mjs",
     "check:secrets": "node scripts/check-secrets.mjs",
     "seed:build": "node scripts/build-seed.mjs",
     "icons": "node scripts/make-icons.mjs",

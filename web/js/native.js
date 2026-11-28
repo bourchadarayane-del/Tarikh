@@ -77,7 +77,7 @@ export async function hideSplash() {
 }
 export async function onResume(fn) {
   if (isNative()) {
-    try { const { App } = await import('@capacitor/app'); App.addListener('resume', fn); return; } catch { /* repli */ }
+    try { const { App } = await import('@capacitor/app'); Promise.resolve(App.addListener('resume', fn)).catch(() => {}); return; } catch { /* repli */ }
   }
   document.addEventListener('visibilitychange', () => { if (!document.hidden) fn(); });
 }
