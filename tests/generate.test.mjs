@@ -5,7 +5,7 @@ import { generateDailyStory, parseJson, validateStory, slugify, LANGS } from '..
 import { ensureDay, reminderRows, dayNumber } from '../api/_lib/daily.js';
 import { fakeDb } from './helpers/fakedb.mjs';
 
-const body = Array.from({ length: 4 }, (_, i) => `Paragraph ${i + 1} ` + 'word '.repeat(48)).join('\n\n');
+const body = Array.from({ length: 5 }, (_, i) => `Paragraph ${i + 1} ` + 'word '.repeat(78)).join('\n\n');
 const draft = (key = 'al-khwarizmi-algebra') => JSON.stringify({ topic_key: key, title: 'A title', era: '9th century', period: 'Abbasid Caliphate', teaser: 'A teaser.', story: body, lesson: 'A lesson.', claims: ['c1'] });
 const translation = JSON.stringify({ title: 'T', era: 'E', period: 'P', teaser: 'Te', story: 'a\n\nb\n\nc\n\nd', lesson: 'L' });
 function fakeCall({ verdicts = ['pass'], keys = [] } = {}) {

@@ -9,7 +9,7 @@ const COPY = {
 };
 
 export async function sendDailyPush({ fetchImpl = fetch } = {}) {
-  const appId = process.env.ONESIGNAL_APP_ID, key = process.env.ONESIGNAL_REST_API_KEY;
+  const appId = process.env.ONESIGNAL_APP_ID, key = process.env.ONESIGNAL_REST_API_KEY || process.env.ONESIGNAL_REST_KEY;
   if (!appId || !key) return { skipped: 'onesignal_not_configured' };
   const results = {};
   for (const [lang, [title, body]] of Object.entries(COPY)) {

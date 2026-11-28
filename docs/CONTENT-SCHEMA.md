@@ -36,9 +36,18 @@ Array of symbolic days of the Hijri year:
 `{ "after-prayer": [ item ], "morning": [ item ], "evening": [ item ], "sleep": [ item ] }`
 item = `{ "id": "...", "ar": "...", "tr": "...", "t": {6 langs}, "count": 33, "source": {6 langs} }`
 
-## Seed stories — `content/stories/<lang>.json`
+## Seed stories — `content/stories/<lang>.json`  (REVISED RULES, supersede rule 2 above for stories)
 Array of objects, same order and ids in every language:
-`{ "topic_key": "al-khwarizmi-algebra", "category": "sciences", "title": "...", "era": "IXe siècle", "period": "Califat abbasside", "teaser": "<1–2 sentences>", "story": "<180–230 words, 3–4 paragraphs>", "lesson": "<1–2 sentences>" }`
+`{ "topic_key": "omar-mukhtar-desert-lion", "category": "resistance", "title": "...", "era": "XXe siècle", "period": "Libye sous occupation italienne", "teaser": "<2 sentences that make one want to read>", "story": "<350–450 words, 5–6 paragraphs separated by \n\n>", "lesson": "<1–2 sentences>" }`
+Categories: companions, caliphates, sciences, medicine, architecture, women, discoveries, travellers, dynasties, art, institutions, **battles**, **resistance**, **modern**.
+
+Style: gripping. Open in the middle of a scene or with a striking fact; build tension; a turning point; an ending that lands; then the lesson, earned by the story. Concrete well-established details, short sentences, no lecturing.
+
+Wars and conflicts ARE welcome when they carry a human story and a moral (courage, mercy toward the defeated, honour, strategy, endurance, protecting civilians, rescue): battles and sieges of any period, resistance to occupation, and documented episodes of the 20th century and recent decades — events at least 10 years old with a settled historical record. Hard limits:
+- No ongoing conflict, no current politics, no taking sides in contemporary political disputes, no blaming a people, nation or religion, no dehumanising language, no graphic cruelty, no glorification of violence. Present adversaries fairly. Atrocities only soberly and briefly; focus on those who resisted, rescued, endured or rebuilt.
+- Casualty figures only when well established ("about", ranges) — otherwise omit.
+- Still no sectarian issues (Sunni–Shia, succession disputes, conflicts between Companions, theological quarrels) and no stories about the Prophets.
+- Accuracy rules 1 and 5 stay in force: no invented quotation or dialogue; legends flagged "tradition relates" / "is reported"; when unsure, drop the detail or the subject.
 
 ## Premium content — `content/premium/`
 

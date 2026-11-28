@@ -23,6 +23,8 @@ Trois choses importantes à savoir tout de suite :
 | `npm install` | OK |
 | `npm test` (syntaxe, traductions, secrets, 27 tests, SQL) | 27 tests réussis sur 27 |
 | `npm run test:e2e` (appli pilotée dans Chromium) | 37 étapes réussies sur 37, aucune erreur console |
+| Parcours d'achat et de compte, serveurs simulés (connexion par code, paiement Stripe avec essai 7 jours, retour de Stripe, suppression du compte, jeton expiré) | 5 parcours sur 5 |
+| Mode iOS simulé : aucun mot « Stripe » ou « carte », aucun appel de paiement, « Gérer l'abonnement » ouvre les réglages Apple | 2 parcours sur 2 |
 | Schéma SQL + données + règles de sécurité sur un vrai Postgres 16 local | OK, exécuté deux fois (idempotent) |
 | Qibla : Paris 119°, Jakarta 295°, New York 58° | OK |
 | 6 langues, sens d'écriture droite-à-gauche pour l'arabe et l'ourdou | OK |
@@ -49,13 +51,22 @@ Trois choses importantes à savoir tout de suite :
 
 - **Démarrage** : écran de 2,5 s avec horloge aux chiffres arabes (aiguilles centrées), puis accueil en 3 écrans (langue, ville, rappels).
 - **Aujourd'hui** : date grégorienne et hégirienne, série de jours, alerte de jeûne recommandé, horaires de prière avec compte à rebours, rappel du jour (hadith avec référence), histoire du jour, grille des outils.
-- **Histoire** : récit complet, leçon, partage en image (1080 × 1350), favori, écoute (synthèse vocale), mode lecture.
+- **Histoire** : récit complet de 350 à 450 mots, leçon, partage en image (1080 × 1350), favori, écoute (synthèse vocale), mode lecture.
 - **Outils gratuits** : tasbih (33/99/100/libre, vibration), Qibla (angle, distance, boussole en direct), 99 Noms avec recherche, 45 douaas, adhkar (après la prière, matin, soir, sommeil) avec compteurs, bonnes actions (jour, total, 30 jours), zakat, suivi des prières (30 jours), suivi du jeûne, compte à rebours du Ramadan, mosquées proches, Kaaba en direct, lien vers un lecteur du Coran.
 - **Calendrier** : mois hégirien, jeûnes en vert, jours symboliques en or, détail au clic.
 - **Premium** : 25 prophètes, guide Omra/Hajj, quiz de 120 questions, historique et favoris illimités, détail des jours symboliques.
 - **Paramètres** : langue, méthode de calcul, Asr standard ou hanafite, ville, ajustement hégirien, notifications, abonnement, restauration, compte facultatif, suppression du compte, export et effacement des données, pages légales, à propos avec la mention sur l'IA.
 - **6 langues** : 382 libellés d'interface et tous les contenus, en français, anglais, arabe, espagnol, indonésien, ourdou.
 - **Hors-ligne** : service worker sur le web ; fichiers embarqués dans l'app iOS.
+
+### Histoires du jour : bibliothèque de 54 histoires longues (mise à jour du 28 novembre)
+
+- **54 histoires de 350 à 450 mots** dans les 6 langues (avant : 30 de 200 mots), dont **19 histoires de conflits** : batailles (Badr, la Tranchée, Aïn Djalout, Constantinople 1453, Zallaqa, Yarmouk, Tariq, Gallipoli), résistance (Omar Al-Mokhtar, l'émir Abdelkader, Abd el-Krim, l'imam Shamil, Cut Nyak Dhien) et épisodes du XXe siècle (les Albanais et la *besa*, Derviš Korkut et la Haggadah de Sarajevo, Khudadad Khan, Noor Inayat Khan, la mosquée de Woking, le chemin de fer du Hedjaz). Une histoire de conflit pour deux autres, jamais deux de suite.
+- **Relecture indépendante des faits** de chaque histoire par un second lecteur : aucune erreur grave, une cinquantaine de formulations corrigées (chiffres, titres, légendes signalées comme telles).
+- **L'IA qui génère l'histoire du jour suit les mêmes règles** : récit de 350 à 450 mots, scène d'ouverture, tension, leçon méritée. Les guerres sont bienvenues quand elles portent une morale. Limites strictes : **aucun conflit en cours ni politique actuelle** (les faits changent chaque jour et l'IA pourrait se tromper), pas de blâme d'un peuple ou d'une religion, pas de cruauté détaillée, rien de sectaire, événements vieux d'au moins 10 ans. Le contrôle qualité automatique rejette l'histoire qui les enfreint.
+- **Résumé** (l'accroche de la carte du jour) réécrit pour chaque histoire. Il n'est plus répété en haut de l'écran de lecture.
+- À relire de votre côté : les histoires de conflit sont les plus sensibles. Parcourez `content/stories/fr.json` avant la soumission, en particulier Imam Shamil, Gallipoli, Constantinople 1453 et Cut Nyak Dhien.
+- Les arabophones et ourdouphones n'ont pas relu les traductions : à faire relire.
 
 ### Serveur (dossier `api/`)
 
@@ -78,7 +89,7 @@ Trois choses importantes à savoir tout de suite :
 
 ### iOS (`ios/`) et App Store (`appstore/`)
 
-Projet Xcode Capacitor avec : permissions expliquées en 6 langues, manifeste de confidentialité, notifications push, icône 1024 sans transparence, écran de lancement, portrait, iPhone uniquement, version 1.0.0 (build 1). Dossier `appstore/` : fiches en 6 langues, 24 captures d'écran, notes pour les relecteurs, réponses de confidentialité, guide de l'abonnement, checklist.
+Projet Xcode Capacitor avec : permissions expliquées en 6 langues, manifeste de confidentialité, notifications push, icône 1024 sans transparence, écran de lancement, portrait, iPhone uniquement, version 1.0.0 (build 1). Dossier `appstore/` : fiches en 6 langues, 72 captures d'écran (6 langues), notes pour les relecteurs, réponses de confidentialité, guide de l'abonnement, checklist.
 
 ---
 
@@ -128,9 +139,15 @@ Non fait, à envisager plus tard : widget iOS (demande Xcode pour créer la cibl
 
 ## 5. CE QUE JE DOIS FAIRE MOI-MÊME
 
+> **Version courte et à jour : [`docs/DEMAIN.md`](docs/DEMAIN.md).** Diagnostic en direct : https://tarikh-topaz.vercel.app/api/health (une fois la PR « diagnostic » fusionnée).
+
 Suivez l'ordre. Comptez une demi-journée, hors délais d'Apple.
 
-### a) Anthropic : remplacer la clé exposée
+### a) Anthropic : remplacer la clé exposée — FAIT (clé créée par vous, ajoutée dans Vercel par moi)
+
+À faire plus tard : supprimer l'ancienne clé exposée si ce n'est pas déjà fait, et recréer la nouvelle une fois tout installé (elle apparaît sur une capture d'écran partagée en conversation).
+
+Étapes d'origine, pour mémoire :
 
 1. Ouvrez https://console.anthropic.com > **API keys**.
 2. Sur la ligne de la clé « Tarikh » : **⋯** > **Delete** (ou Disable). Elle a été publiée : considérez-la comme volée.

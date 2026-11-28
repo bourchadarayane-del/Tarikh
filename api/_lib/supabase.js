@@ -6,7 +6,8 @@ let client = null;
 export function admin() {
   if (client) return client;
   const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  // Anciens noms acceptés (variables créées avant ce projet).
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SERVICE_KEY;
   if (!url || !key) throw Object.assign(new Error('supabase_not_configured'), { status: 503 });
   client = createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
   return client;
