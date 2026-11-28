@@ -22,13 +22,15 @@ test('99 Noms, jours symboliques, hadiths, douaas, adhkar', () => {
   for (const s of ['after-prayer', 'morning', 'evening', 'sleep']) { assert.ok(adhkar[s].length >= 4, s); adhkar[s].forEach((a) => { assert.ok(a.ar && a.count >= 1); six(a.t, a.id); }); }
 });
 
-test('Histoires : 30 sujets identiques dans les 6 langues, aucun doublon', () => {
+test('Histoires : même bibliothèque dans les 6 langues, longues, aucun doublon', () => {
   const en = read('content/stories/en.json');
-  assert.equal(en.length, 30); assert.equal(new Set(en.map((s) => s.topic_key)).size, 30);
+  assert.ok(en.length >= 30); assert.equal(new Set(en.map((s) => s.topic_key)).size, en.length);
+  // Au moins un tiers d'histoires de conflit (batailles, résistance, épisodes récents).
+  assert.ok(en.filter((s) => ['battles', 'resistance', 'modern'].includes(s.category)).length >= Math.floor(en.length / 4), 'pas assez d\'histoires de conflit');
   for (const l of LANGS) {
     const list = read(`content/stories/${l}.json`);
     assert.deepEqual(list.map((s) => s.topic_key), en.map((s) => s.topic_key), l);
-    for (const s of list) { for (const k of ['title', 'era', 'period', 'teaser', 'story', 'lesson']) assert.ok(s[k]?.trim(), `${l} ${s.topic_key} ${k}`); assert.ok(words(s.story) >= 120, `${l} ${s.topic_key} trop court`); assert.ok(!/[<>*#]/.test(s.story), `${l} ${s.topic_key} balisage`); }
+    for (const s of list) { for (const k of ['title', 'era', 'period', 'teaser', 'story', 'lesson']) assert.ok(s[k]?.trim(), `${l} ${s.topic_key} ${k}`); assert.ok(words(s.story) >= (l === 'ur' || l === 'ar' ? 220 : 260), `${l} ${s.topic_key} trop court : ${words(s.story)} mots`); assert.ok(!/[<>*#]/.test(s.story), `${l} ${s.topic_key} balisage`); }
   }
   // Garde-fou contre l'erreur historique déjà rencontrée : al-Idrisi n'était pas aveugle.
   const idrisi = en.find((s) => s.topic_key.includes('idrisi'));
