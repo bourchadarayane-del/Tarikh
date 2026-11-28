@@ -45,7 +45,7 @@ Cochez dans l'ordre. Les étapes de création de comptes sont détaillées dans 
 
 ## 6. Remplir la fiche (App Store Connect > Distribution)
 
-- [ ] Captures 6,9 pouces : glissez les 6 fichiers de `screenshots/fr/6.9/` (et ceux de `en/6.9/` dans la localisation anglaise). 6,5 pouces : `screenshots/<langue>/6.5/`.
+- [ ] Captures 6,9 pouces : dans chaque localisation, glissez les 6 fichiers de `screenshots/<langue>/6.9/` (fr, en, ar, es, id, ur). 6,5 pouces : `screenshots/<langue>/6.5/`.
 - [ ] Pour chaque langue : nom, sous-titre, texte promotionnel, description, mots-clés, nouveautés (copier depuis `metadata/<langue>/`).
 - [ ] URL d'assistance et de confidentialité, catégories, classification d'âge (`README.md` de ce dossier).
 - [ ] **Confidentialité de l'app** (`privacy-labels.md`).

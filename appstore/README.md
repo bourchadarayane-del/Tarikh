@@ -5,7 +5,7 @@ Tout ce qu'il faut copier dans App Store Connect se trouve ici.
 | Dossier / fichier | Contenu |
 |---|---|
 | `metadata/<langue>/` | Nom, sous-titre, texte promotionnel, description, mots-clés, nouveautés (fr, en, ar, es, id, ur) |
-| `screenshots/<langue>/6.9/` et `6.5/` | 6 captures par taille, en français et en anglais (générées par `npm run screenshots`) |
+| `screenshots/<langue>/6.9/` et `6.5/` | 6 captures par taille, dans les 6 langues (JPEG) (générées par `npm run screenshots`) |
 | `icon/AppIcon-1024.png` | Icône 1024 × 1024 sans transparence (déjà copiée dans le projet Xcode) |
 | `review-notes.md` | Notes pour les relecteurs Apple (à coller dans « App Review Information > Notes ») |
 | `privacy-labels.md` | Réponses exactes au questionnaire « App Privacy » |

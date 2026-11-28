@@ -80,7 +80,7 @@ Trois choses importantes à savoir tout de suite :
 
 ### iOS (`ios/`) et App Store (`appstore/`)
 
-Projet Xcode Capacitor avec : permissions expliquées en 6 langues, manifeste de confidentialité, notifications push, icône 1024 sans transparence, écran de lancement, portrait, iPhone uniquement, version 1.0.0 (build 1). Dossier `appstore/` : fiches en 6 langues, 24 captures d'écran, notes pour les relecteurs, réponses de confidentialité, guide de l'abonnement, checklist.
+Projet Xcode Capacitor avec : permissions expliquées en 6 langues, manifeste de confidentialité, notifications push, icône 1024 sans transparence, écran de lancement, portrait, iPhone uniquement, version 1.0.0 (build 1). Dossier `appstore/` : fiches en 6 langues, 72 captures d'écran (6 langues), notes pour les relecteurs, réponses de confidentialité, guide de l'abonnement, checklist.
 
 ---
 
