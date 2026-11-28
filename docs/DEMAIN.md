@@ -10,9 +10,11 @@
 
 ## Pour voir où on en est à tout moment
 
-Ouvrez https://tarikh-topaz.vercel.app/api/health (après avoir fusionné la PR « diagnostic »). La page liste, fonction par fonction, ce qui est prêt et ce qui manque, sans jamais afficher une valeur. Elle signale aussi une clé Supabase qui appartiendrait à l'ancien projet.
+Ouvrez https://tarikh-topaz.vercel.app/api/health (après avoir fusionné la PR #3, qui contient aussi la PR #2 « diagnostic »). La page liste, fonction par fonction, ce qui est prêt et ce qui manque, sans jamais afficher une valeur. Elle signale aussi une clé Supabase qui appartiendrait à l'ancien projet.
 
 ## Dans l'ordre
+
+**Avant tout : fusionner la PR #3** (54 histoires longues + diagnostic + tests + captures dans 6 langues), puis lancer un déploiement à la main dans Vercel (Deployments > Create Deployment, branche `main`).
 
 | # | Action | Où | Durée |
 |---|---|---|---|
