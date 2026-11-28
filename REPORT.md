@@ -40,7 +40,6 @@ Trois choses importantes à savoir tout de suite :
 | Génération IA réelle | Pas de clé Anthropic | Partie 5-d : lancer `/api/generate` une fois |
 | Notifications push (APNs) | Pas de certificat | Partie 5-e |
 | Comparaison des horaires avec Aladhan | `api.aladhan.com` bloqué par le réseau d'ici | `node scripts/compare-aladhan.mjs` chez vous |
-| Cause de l'erreur 403 de Vercel | Mon accès à votre équipe Vercel n'était pas autorisé | Partie 5-d, étape 4 |
 
 ---
 
@@ -140,17 +139,23 @@ Suivez l'ordre. Comptez une demi-journée, hors délais d'Apple.
 5. Vous la mettrez aussi dans Vercel à l'étape d.
 6. Conseil : **Settings > Limits** > fixez une limite de dépense mensuelle (par exemple 10 $).
 
-### b) Supabase
+### b) Supabase — FAIT par moi, il reste 3 réglages
 
-1. https://supabase.com/dashboard > votre projet. **Il est en pause** (statut « Inactive ») : cliquez **Restore project** et attendez quelques minutes.
-2. **SQL Editor** > **New query** > collez tout `supabase/schema.sql` > **Run**. Résultat attendu : « Success ».
-3. Nouvelle requête > collez `supabase/seed.sql` > **Run**. Le fichier fait 840 Ko : si l'éditeur refuse, exécutez un par un les 7 fichiers du dossier `supabase/seed/`, dans l'ordre des noms.
-4. Vérifiez : **Table Editor** > `prophets` doit contenir 150 lignes, `premium_content` 18 lignes.
-5. **Authentication > Sign In / Providers > Email** : activé. Désactivez « Confirm email » si vous voulez une connexion en une étape.
-6. **Authentication > Emails > Magic Link** : dans le modèle, ajoutez une ligne contenant `{{ .Token }}`, par exemple : `Votre code Tarikh : {{ .Token }}`. Sans cela, l'e-mail ne contient qu'un lien et le code ne s'affiche pas.
-7. **Authentication > URL Configuration** : Site URL `https://tarikh-topaz.vercel.app` ; Redirect URLs : ajoutez `https://tarikh-topaz.vercel.app/**` et `capacitor://localhost`.
-8. **Project Settings > API** : copiez l'URL du projet, la clé publique (« anon » ou « publishable ») et la clé secrète (« service_role » ou « secret ») dans `.env.local`. La clé secrète ne doit jamais aller dans le code.
-9. Un projet gratuit se remet en pause après environ une semaine sans activité. Le cron quotidien l'en empêchera une fois en place.
+L'ancien projet (`klcqcxbjvrblcwkrvkur`) ne pouvait plus être restauré sans abonnement Pro. J'ai créé à la place un projet gratuit **`tarikh`** (région Francfort, identifiant `rldqqwrvhwintqrwgope`, adresse `https://rldqqwrvhwintqrwgope.supabase.co`). Vous pouvez supprimer l'ancien dans le tableau de bord.
+
+Déjà fait dans le nouveau projet :
+- les 11 tables, les règles de sécurité (12 règles, protection activée partout) et la fonction `is_premium()` ;
+- la liste des 30 sujets d'histoires (anti-doublon) ;
+- l'URL et la clé publique ont été ajoutées dans Vercel (`SUPABASE_URL`, `SUPABASE_ANON_KEY`).
+
+Le contenu Premium (prophètes, guide Hajj, quiz) n'est **pas** dans la base : le serveur le lit directement dans ses fichiers (`api/_lib/premium-files.js`), toujours après vérification de l'abonnement. Si vous préférez qu'il vienne de la base, exécutez les 7 fichiers de `supabase/seed/`, le serveur les utilisera alors en priorité.
+
+À faire par vous (dans https://supabase.com/dashboard, projet `tarikh`) :
+1. **Project Settings > API** : copiez la clé **secrète** (« service_role » ou « secret ») → variable `SUPABASE_SERVICE_ROLE_KEY` dans Vercel et `.env.local`. Je ne peux pas la lire.
+2. **Authentication > Emails > Magic Link** : dans le modèle, ajoutez une ligne contenant `{{ .Token }}`, par exemple `Votre code Tarikh : {{ .Token }}`. Sans cela, l'e-mail ne contient qu'un lien et le code n'apparaît pas.
+3. **Authentication > URL Configuration** : Site URL `https://tarikh-topaz.vercel.app` ; Redirect URLs : `https://tarikh-topaz.vercel.app/**` et `capacitor://localhost`.
+
+Avertissements de sécurité de Supabase (normaux) : `is_premium()` doit rester appelable pour que les règles d'accès fonctionnent ; elle ne dit que le statut de la personne qui l'appelle. Trois tables n'ont volontairement aucune règle : elles sont fermées au public et seul le serveur y écrit.
 
 ### c) Stripe (web uniquement)
 
@@ -177,9 +182,9 @@ stripe listen --forward-to localhost:3000/api/stripe-webhook
 
 | Variable | Valeur | Secret ? |
 |---|---|---|
-| `PUBLIC_SITE_URL` | `https://tarikh-topaz.vercel.app` | Non |
-| `SUPABASE_URL` | `https://klcqcxbjvrblcwkrvkur.supabase.co` | Non |
-| `SUPABASE_ANON_KEY` | Clé publique Supabase | Non |
+| `PUBLIC_SITE_URL` | `https://tarikh-topaz.vercel.app` (**déjà ajoutée**) | Non |
+| `SUPABASE_URL` | `https://rldqqwrvhwintqrwgope.supabase.co` (**déjà ajoutée**) | Non |
+| `SUPABASE_ANON_KEY` | Clé publique Supabase (**déjà ajoutée**) | Non |
 | `SUPABASE_SERVICE_ROLE_KEY` | Clé secrète Supabase | **Oui** |
 | `ANTHROPIC_KEY` | Nouvelle clé (étape a) | **Oui** |
 | `CRON_SECRET` | Chaîne aléatoire de 32 caractères ou plus | **Oui** |
@@ -200,7 +205,7 @@ openssl rand -hex 32
 
 2. **Settings > Build and Deployment** : Framework Preset `Other` ; ne remplissez pas Build Command ni Output Directory (le fichier `vercel.json` s'en charge : `npm run build`, dossier `www`).
 3. **Settings > Functions** : laissez « Fluid Compute » activé (le cron peut durer jusqu'à 5 minutes).
-4. **Erreur 403** : **Settings > Deployment Protection**. Si « Vercel Authentication » est activé sur « All Deployments », le site demande une connexion Vercel et renvoie 401 ou 403 aux visiteurs. Choisissez « Only Preview Deployments » (ou désactivez). Je n'ai pas pu le constater moi-même.
+4. **Erreur 403 — corrigée par moi.** La cause était bien « Vercel Authentication », activée sur tous les déploiements sauf domaines personnalisés : tout visiteur du site `tarikh-topaz.vercel.app` devait se connecter à Vercel. Je l'ai limitée aux déploiements de prévisualisation (la production est publique). Vous pouvez le vérifier dans Settings > Deployment Protection.
 5. **Erreur 404** : elle venait du fichier d'accueil mal nommé. Le build produit maintenant `www/index.html`.
 6. Fusionnez la Pull Request sur GitHub : Vercel redéploie tout seul.
 7. Vérifiez le premier passage du cron sans attendre le lendemain :

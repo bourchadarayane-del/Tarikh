@@ -122,6 +122,9 @@ test('Statut et contenu Premium : vérification serveur, jamais sans abonnement 
   assert.equal(st.premium, true); assert.equal(st.source, 'apple'); assert.equal(st.status, 'trialing');
   const ok = await content(req('/api/premium-content?kind=prophets&lang=fr', { headers: h }));
   assert.equal(ok.status, 200); assert.equal((await ok.json()).data[0].slug, 'adam');
+  // Base vide pour une langue : repli sur les fichiers embarqués (25 prophètes, quiz, guide, jours).
+  for (const [kind, n] of [['prophets', 25], ['quiz', 120]]) { const r = await content(req(`/api/premium-content?kind=${kind}&lang=ur`, { headers: h })); assert.equal(r.status, 200); assert.equal((await r.json()).data.length, n, kind); }
+  for (const kind of ['hajj', 'days']) assert.equal((await content(req(`/api/premium-content?kind=${kind}&lang=ar`, { headers: h }))).status, 200, kind);
   assert.equal((await content(req('/api/premium-content?kind=quiz&lang=fr', { headers: { 'x-app-user-id': 'device-cccccccc' } }))).status, 402);
   // Abonnement expiré -> plus d'accès.
   db.state.subs[0].status = 'expired';
