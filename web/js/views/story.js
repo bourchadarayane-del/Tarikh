@@ -54,7 +54,6 @@ export function openStory(story, { today = false } = {}) {
       article.append(
         h('p.label', [story.era, story.period].filter(Boolean).join(' · ')),
         h('h3.title', story.title),
-        story.teaser ? h('p.quote', story.teaser) : null,
         h('div.story-text', paragraphs(story.story)),
         h('div.lesson', h('p.label', t('story.lesson')), h('p.quote', story.lesson)),
         h('div.actions', share, fav, listen, reading),
