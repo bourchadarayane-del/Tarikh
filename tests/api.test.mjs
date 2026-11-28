@@ -198,3 +198,24 @@ test('Cron et génération : protégés par CRON_SECRET', async () => {
   const again = await (await cron(req('/api/cron-daily?rescue=1', { headers: { authorization: `Bearer ${process.env.CRON_SECRET}` } }))).json();
   assert.ok(again.days.every((d) => d.story === 'exists')); assert.equal(db.state.stories.length, 12); assert.ok(again.push.skipped);
 });
+
+test('Diagnostic /api/health : liste ce qui manque, détecte une clé d\'un autre projet, ne révèle aucune valeur', async () => {
+  const { diagnose } = await import('../api/health.js');
+  const jwt = (ref) => `x.${Buffer.from(JSON.stringify({ ref, role: 'service_role' })).toString('base64url')}.y`;
+  const saved = { ...process.env };
+  try {
+    for (const k of ['SUPABASE_URL', 'SUPABASE_ANON_KEY', 'SUPABASE_SERVICE_ROLE_KEY', 'SUPABASE_SERVICE_KEY', 'ANTHROPIC_KEY', 'STRIPE_SECRET_KEY', 'STRIPE_WEBHOOK_SECRET', 'STRIPE_PRICE_ID', 'REVENUECAT_WEBHOOK_SECRET', 'REVENUECAT_SECRET_API_KEY', 'ONESIGNAL_REST_API_KEY', 'ONESIGNAL_REST_KEY', 'ONESIGNAL_APP_ID', 'PUBLIC_SITE_URL']) delete process.env[k];
+    const empty = await diagnose({ fetchImpl: async () => ({ ok: true, status: 200 }) });
+    assert.equal(empty.ok, false); assert.ok(empty.features.database.need.includes('SUPABASE_SERVICE_ROLE_KEY')); assert.deepEqual(empty.features.payments_web_stripe.need.sort(), ['STRIPE_PRICE_ID', 'STRIPE_SECRET_KEY', 'STRIPE_WEBHOOK_SECRET']);
+    process.env.SUPABASE_URL = 'https://newprojectref.supabase.co'; process.env.SUPABASE_ANON_KEY = 'anon-value';
+    process.env.SUPABASE_SERVICE_KEY = jwt('oldprojectref'); // ancien nom de variable, clé d'un autre projet
+    const wrong = await diagnose({ fetchImpl: async () => ({ ok: true, status: 200 }) });
+    assert.equal(wrong.features.database.ok, false); assert.match(wrong.features.database.problems.join(' '), /AUTRE projet/);
+    process.env.SUPABASE_SERVICE_ROLE_KEY = jwt('newprojectref');
+    const good = await diagnose({ fetchImpl: async () => ({ ok: true, status: 200 }) });
+    assert.equal(good.features.database.ok, true); assert.equal(good.supabase_project, 'newprojectref');
+    const nosql = await diagnose({ fetchImpl: async () => ({ ok: false, status: 404 }) });
+    assert.equal(nosql.database, 'schema_missing');
+    assert.ok(!JSON.stringify(good).includes('anon-value') && !JSON.stringify(good).includes('oldprojectref'));
+  } finally { for (const k of Object.keys(process.env)) if (!(k in saved)) delete process.env[k]; Object.assign(process.env, saved); }
+});

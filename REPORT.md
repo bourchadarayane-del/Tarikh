@@ -23,6 +23,8 @@ Trois choses importantes à savoir tout de suite :
 | `npm install` | OK |
 | `npm test` (syntaxe, traductions, secrets, 27 tests, SQL) | 27 tests réussis sur 27 |
 | `npm run test:e2e` (appli pilotée dans Chromium) | 37 étapes réussies sur 37, aucune erreur console |
+| Parcours d'achat et de compte, serveurs simulés (connexion par code, paiement Stripe avec essai 7 jours, retour de Stripe, suppression du compte, jeton expiré) | 5 parcours sur 5 |
+| Mode iOS simulé : aucun mot « Stripe » ou « carte », aucun appel de paiement, « Gérer l'abonnement » ouvre les réglages Apple | 2 parcours sur 2 |
 | Schéma SQL + données + règles de sécurité sur un vrai Postgres 16 local | OK, exécuté deux fois (idempotent) |
 | Qibla : Paris 119°, Jakarta 295°, New York 58° | OK |
 | 6 langues, sens d'écriture droite-à-gauche pour l'arabe et l'ourdou | OK |
@@ -78,7 +80,7 @@ Trois choses importantes à savoir tout de suite :
 
 ### iOS (`ios/`) et App Store (`appstore/`)
 
-Projet Xcode Capacitor avec : permissions expliquées en 6 langues, manifeste de confidentialité, notifications push, icône 1024 sans transparence, écran de lancement, portrait, iPhone uniquement, version 1.0.0 (build 1). Dossier `appstore/` : fiches en 6 langues, 24 captures d'écran, notes pour les relecteurs, réponses de confidentialité, guide de l'abonnement, checklist.
+Projet Xcode Capacitor avec : permissions expliquées en 6 langues, manifeste de confidentialité, notifications push, icône 1024 sans transparence, écran de lancement, portrait, iPhone uniquement, version 1.0.0 (build 1). Dossier `appstore/` : fiches en 6 langues, 72 captures d'écran (6 langues), notes pour les relecteurs, réponses de confidentialité, guide de l'abonnement, checklist.
 
 ---
 
@@ -128,9 +130,15 @@ Non fait, à envisager plus tard : widget iOS (demande Xcode pour créer la cibl
 
 ## 5. CE QUE JE DOIS FAIRE MOI-MÊME
 
+> **Version courte et à jour : [`docs/DEMAIN.md`](docs/DEMAIN.md).** Diagnostic en direct : https://tarikh-topaz.vercel.app/api/health (une fois la PR « diagnostic » fusionnée).
+
 Suivez l'ordre. Comptez une demi-journée, hors délais d'Apple.
 
-### a) Anthropic : remplacer la clé exposée
+### a) Anthropic : remplacer la clé exposée — FAIT (clé créée par vous, ajoutée dans Vercel par moi)
+
+À faire plus tard : supprimer l'ancienne clé exposée si ce n'est pas déjà fait, et recréer la nouvelle une fois tout installé (elle apparaît sur une capture d'écran partagée en conversation).
+
+Étapes d'origine, pour mémoire :
 
 1. Ouvrez https://console.anthropic.com > **API keys**.
 2. Sur la ligne de la clé « Tarikh » : **⋯** > **Delete** (ou Disable). Elle a été publiée : considérez-la comme volée.

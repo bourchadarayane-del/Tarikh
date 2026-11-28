@@ -18,7 +18,7 @@ Objectif : un abonnement mensuel `tarikh_premium_monthly` à 4,99 €, avec 7 jo
    - Description (anglais) : `Prophets, Hajj guide, quiz, unlimited archive`
 8. Localisation du **groupe** (page du groupe > Localisation) : nom `Tarikh Premium`, nom de l'app `Tarikh`.
 9. **Offre de lancement (essai gratuit)** : dans l'abonnement > « Prix de l'abonnement » > **+** > « Créer une offre de lancement » > tous les pays > date de début aujourd'hui, pas de date de fin > Type : **Gratuit** > Durée : **1 semaine** > Confirmer.
-10. **Informations de vérification** : capture d'écran de l'écran d'abonnement (utilisez `screenshots/fr/6.9/06.png` ou faites une capture de l'onglet Premium sur le simulateur) + note : `Unlocks the Prophets stories, the Umrah & Hajj guide, the quiz, the full archive and favourites.`
+10. **Informations de vérification** : capture d'écran de l'écran d'abonnement (utilisez `screenshots/fr/6.9/06.jpg` ou faites une capture de l'onglet Premium sur le simulateur) + note : `Unlocks the Prophets stories, the Umrah & Hajj guide, the quiz, the full archive and favourites.`
 11. L'état doit passer à **« Prêt à soumettre »**.
 12. Sur la page de la version de l'app (« Préparer la soumission »), section **Achats intégrés et abonnements** > sélectionnez `tarikh_premium_monthly`. Le premier abonnement doit être soumis **avec** une version de l'app.
 

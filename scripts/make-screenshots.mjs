@@ -1,6 +1,6 @@
-// Captures d'écran App Store générées automatiquement (Playwright) : 6 écrans × 2 langues × 2 tailles.
+// Captures d'écran App Store générées automatiquement (Playwright) : 6 écrans × 6 langues × 2 tailles (JPEG).
 // 6,9 pouces : 1320 × 2868   |   6,5 pouces : 1284 × 2778
-// Usage : npm run screenshots   (lance le build puis ce script) -> appstore/screenshots/<lang>/<taille>/
+// Usage : npm run screenshots   (lance le build puis ce script) -> appstore/screenshots/<lang>/<taille>/NN.jpg
 import { createRequire } from 'node:module';
 import { spawn } from 'node:child_process';
 import fs from 'node:fs';
@@ -18,25 +18,35 @@ const CAPTIONS = {
   fr: ["Une histoire vraie,\nchaque jour", 'Des récits vérifiés,\nune leçon à retenir', 'Vos horaires de prière,\nmême hors-ligne', 'La Qibla,\noù que vous soyez', 'Le calendrier hégirien\net les jours de jeûne', 'Les 25 prophètes,\nle Hajj, le quiz'],
   en: ['A true story,\nevery day', 'Fact-checked stories,\na lesson to keep', 'Your prayer times,\neven offline', 'The Qibla,\nwherever you are', 'The Hijri calendar\nand fasting days', 'The 25 prophets,\nHajj, the quiz'],
 };
-const CITY = { fr: { lat: 48.857, lon: 2.352, name: 'Paris', country: 'FR', source: 'city' }, en: { lat: 51.507, lon: -0.128, name: 'London', country: 'GB', source: 'city' } };
+CAPTIONS.ar = ['قصة حقيقية\nكل يوم', 'قصص موثّقة\nودرس يُحفظ', 'مواقيت صلاتك\nحتى دون إنترنت', 'القبلة\nأينما كنتَ', 'التقويم الهجري\nوأيام الصيام', 'الأنبياء الخمسة والعشرون\nوالحج والمسابقة'];
+CAPTIONS.es = ['Una historia real,\ncada día', 'Relatos verificados,\nuna lección que recordar', 'Tus horarios de oración,\nincluso sin conexión', 'La Qibla,\ndonde estés', 'El calendario hégira\ny los días de ayuno', 'Los 25 profetas,\nel Hajj, el quiz'];
+CAPTIONS.id = ['Satu kisah nyata,\nsetiap hari', 'Kisah terverifikasi,\nsatu pelajaran', 'Waktu salat Anda,\nbahkan tanpa internet', 'Kiblat,\ndi mana pun Anda berada', 'Kalender Hijriah\ndan hari puasa', '25 nabi,\nhaji, dan kuis'];
+CAPTIONS.ur = ['ہر روز\nایک سچا واقعہ', 'تصدیق شدہ واقعات\nاور ایک سبق', 'نماز کے اوقات\nانٹرنیٹ کے بغیر بھی', 'قبلہ\nآپ جہاں بھی ہوں', 'ہجری کیلنڈر\nاور روزوں کے دن', '25 انبیاء،\nحج اور کوئز'];
+const CITY = { fr: { lat: 48.857, lon: 2.352, name: 'Paris', country: 'FR', source: 'city' }, en: { lat: 51.507, lon: -0.128, name: 'London', country: 'GB', source: 'city' },
+  ar: { lat: 24.714, lon: 46.675, name: 'الرياض', country: 'SA', source: 'city' }, es: { lat: 40.417, lon: -3.704, name: 'Madrid', country: 'ES', source: 'city' },
+  id: { lat: -6.209, lon: 106.846, name: 'Jakarta', country: 'ID', source: 'city' }, ur: { lat: 24.861, lon: 67.01, name: 'کراچی', country: 'PK', source: 'city' },
+};
+const SETTINGS = { fr: ['uoif', 'standard'], en: ['mwl', 'standard'], ar: ['ummalqura', 'standard'], es: ['mwl', 'standard'], id: ['kemenag', 'standard'], ur: ['karachi', 'hanafi'] };
+const LOCALES = { fr: ['fr-FR', 'Europe/Paris'], en: ['en-GB', 'Europe/London'], ar: ['ar-SA', 'Asia/Riyadh'], es: ['es-ES', 'Europe/Madrid'], id: ['id-ID', 'Asia/Jakarta'], ur: ['ur-PK', 'Asia/Karachi'] };
+const RTL = new Set(['ar', 'ur']);
 
 const server = spawn(process.execPath, [path.join(root, 'scripts/serve.mjs'), String(PORT)], { stdio: 'ignore' });
 process.on('exit', () => { try { server.kill(); } catch { /* déjà arrêté */ } });
 for (let i = 0; i < 50; i++) { try { if ((await fetch(BASE + '/manifest.json')).ok) break; } catch { /* pas prêt */ } await new Promise((r) => setTimeout(r, 100)); }
 
 const browser = await chromium.launch();
-const fonts = `@font-face{font-family:PF;src:url("${b64('node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-normal.woff2', 'font/woff2')}") format("woff2");font-weight:700}`;
+const fonts = `@font-face{font-family:AR;src:url("${b64('node_modules/@fontsource/amiri/files/amiri-arabic-700-normal.woff2', 'font/woff2')}") format("woff2");font-weight:700}@font-face{font-family:NQ;src:url("${b64('node_modules/@fontsource/noto-nastaliq-urdu/files/noto-nastaliq-urdu-arabic-700-normal.woff2', 'font/woff2')}") format("woff2");font-weight:700}@font-face{font-family:PF;src:url("${b64('node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-normal.woff2', 'font/woff2')}") format("woff2");font-weight:700}`;
 
 async function capture(lang) {
-  const ctx = await browser.newContext({ viewport: { width: 393, height: 852 }, deviceScaleFactor: 3, locale: lang === 'fr' ? 'fr-FR' : 'en-GB', timezoneId: lang === 'fr' ? 'Europe/Paris' : 'Europe/London', isMobile: true, hasTouch: true });
-  await ctx.addInitScript(([l, city]) => {
+  const ctx = await browser.newContext({ viewport: { width: 393, height: 852 }, deviceScaleFactor: 3, locale: LOCALES[lang][0], timezoneId: LOCALES[lang][1], isMobile: true, hasTouch: true });
+  await ctx.addInitScript(([l, city, m, a]) => {
     const set = (k, v) => localStorage.setItem('tarikh:' + k, JSON.stringify(v));
     set('lang', l); set('onboarded', true); set('splashSeen', new Date().toDateString()); set('location', city);
-    set('settings', { method: l === 'fr' ? 'uoif' : 'mwl', asr: 'standard', hijriAdjust: 0 });
+    set('settings', { method: m, asr: a, hijriAdjust: 0, methodManual: true });
     const d = new Date(); const key = (x) => `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, '0')}-${String(x.getDate()).padStart(2, '0')}`;
     const y = new Date(d); y.setDate(d.getDate() - 1);
     set('streak', { last: key(y), count: 6, best: 12 }); set('deeds', { [key(d)]: 4 }); set('deeds:total', 87);
-  }, [lang, CITY[lang]]);
+  }, [lang, CITY[lang], ...SETTINGS[lang]]);
   await ctx.route('**/api/subscription-status*', (r) => r.fulfill({ json: { premium: false } }));
   const page = await ctx.newPage();
   const shots = [];
@@ -56,7 +66,7 @@ async function capture(lang) {
   await ctx.close();
 
   // 6. Prophètes (abonné, contenu servi par un faux serveur local)
-  const ctx2 = await browser.newContext({ viewport: { width: 393, height: 852 }, deviceScaleFactor: 3, locale: lang === 'fr' ? 'fr-FR' : 'en-GB', isMobile: true, hasTouch: true });
+  const ctx2 = await browser.newContext({ viewport: { width: 393, height: 852 }, deviceScaleFactor: 3, locale: LOCALES[lang][0], isMobile: true, hasTouch: true });
   await ctx2.addInitScript(([l]) => { const set = (k, v) => localStorage.setItem('tarikh:' + k, JSON.stringify(v)); set('lang', l); set('onboarded', true); set('splashSeen', new Date().toDateString()); set('prophetsRead', ['adam', 'idris', 'nuh', 'hud', 'salih', 'ibrahim']); }, [lang]);
   await ctx2.route('**/api/subscription-status*', (r) => r.fulfill({ json: { premium: true, source: 'apple', status: 'active' } }));
   await ctx2.route('**/api/premium-content*', (r) => r.fulfill({ json: { data: read(`content/premium/prophets/${lang}.json`) } }));
@@ -71,19 +81,19 @@ async function capture(lang) {
   return shots;
 }
 
-async function compose(shot, caption, [W, H], file) {
+async function compose(shot, caption, [W, H], file, lang) {
   const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   const phoneW = Math.round(W * 0.8), phoneH = Math.round(phoneW * (852 / 393));
   await page.setContent(`<!doctype html><html><head><meta charset="utf-8"><style>${fonts}
     html,body{margin:0;width:${W}px;height:${H}px;overflow:hidden;background:radial-gradient(ellipse at 50% 0%,#2a1c06 0%,#080400 60%)}
-    h1{font-family:PF,Georgia,serif;font-weight:700;color:#E8D9A8;font-size:${Math.round(W * 0.082)}px;line-height:1.16;text-align:center;margin:0;padding:${Math.round(H * 0.058)}px ${Math.round(W * 0.06)}px 0;white-space:pre-line}
+    h1{font-family:PF,AR,NQ,Georgia,serif;font-weight:700;color:#E8D9A8;font-size:${Math.round(W * 0.082)}px;line-height:1.16;text-align:center;margin:0;padding:${Math.round(H * 0.058)}px ${Math.round(W * 0.06)}px 0;white-space:pre-line}
     .rule{width:${Math.round(W * 0.1)}px;height:5px;background:#C9A84C;margin:${Math.round(H * 0.018)}px auto 0;border-radius:3px}
     .phone{position:absolute;left:50%;top:${Math.round(H * 0.235)}px;width:${phoneW}px;height:${phoneH}px;margin-left:${-phoneW / 2}px;border-radius:${Math.round(W * 0.075)}px;overflow:hidden;border:${Math.round(W * 0.008)}px solid #9B7E3A;box-shadow:0 40px 120px rgba(0,0,0,.7);box-sizing:border-box;background:#080400}
     .phone img{width:100%;display:block}</style></head>
-    <body><h1>${caption.replace(/&/g, '&amp;').replace(/</g, '&lt;')}</h1><div class="rule"></div><div class="phone"><img src="data:image/png;base64,${shot.toString('base64')}"></div></body></html>`);
-  await page.evaluate(async () => { await document.fonts.load('700 80px PF'); await document.fonts.ready; await Promise.all([...document.images].map((i) => i.decode())); });
+    <body dir="${RTL.has(lang) ? 'rtl' : 'ltr'}" lang="${lang}"><h1 style="${lang === 'ur' ? 'line-height:1.9;font-family:NQ,AR,serif' : lang === 'ar' ? 'font-family:AR,serif' : ''}">${caption.replace(/&/g, '&amp;').replace(/</g, '&lt;')}</h1><div class="rule"></div><div class="phone"><img src="data:image/png;base64,${shot.toString('base64')}"></div></body></html>`);
+  await page.evaluate(async () => { await document.fonts.load('700 80px PF'); await document.fonts.load('700 80px AR'); await document.fonts.load('700 80px NQ'); await document.fonts.ready; await Promise.all([...document.images].map((i) => i.decode())); });
   fs.mkdirSync(path.dirname(file), { recursive: true });
-  await page.screenshot({ path: file, type: 'png' });
+  await page.screenshot({ path: file, type: 'jpeg', quality: 92 });
   await page.close();
 }
 
@@ -91,8 +101,8 @@ for (const lang of Object.keys(CAPTIONS)) {
   const shots = await capture(lang);
   for (const [size, dims] of Object.entries(SIZES)) {
     for (let i = 0; i < shots.length; i++) {
-      const file = path.join(root, 'appstore/screenshots', lang, size, `${String(i + 1).padStart(2, '0')}.png`);
-      await compose(shots[i], CAPTIONS[lang][i], dims, file);
+      const file = path.join(root, 'appstore/screenshots', lang, size, `${String(i + 1).padStart(2, '0')}.jpg`);
+      await compose(shots[i], CAPTIONS[lang][i], dims, file, lang);
     }
   }
   console.log(`ok ${lang} : ${shots.length} écrans × ${Object.keys(SIZES).length} tailles`);
