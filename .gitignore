@@ -1,0 +1,39 @@
+# Dependencies and build output
+node_modules/
+www/
+dist/
+.vercel/
+
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.mobileprovision
+AuthKey_*.p8
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Tests
+test-results/
+playwright-report/
+tests/e2e/.out/
+
+# iOS (Capacitor): keep the Xcode project, ignore generated/derived files
+ios/App/Pods/
+ios/App/App/public/
+ios/App/App/capacitor.config.json
+ios/App/App/config.xml
+ios/capacitor-cordova-ios-plugins/
+ios/App/build/
+ios/App/output/
+ios/DerivedData/
+ios/App/*.xcworkspace/xcuserdata/
+ios/App/*.xcodeproj/xcuserdata/
+ios/App/*.xcodeproj/project.xcworkspace/xcuserdata/
+xcuserdata/

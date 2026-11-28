@@ -1,0 +1,40 @@
+Chaque jour, un récit vrai de l'histoire islamique, court et accompagné d'un enseignement. Et tout autour, les outils du quotidien du musulman, gratuits et utilisables hors ligne.
+
+LE RÉCIT DU JOUR
+Le même nouveau récit pour tous, chaque jour : sciences, architecture, Compagnons, voyageurs, femmes savantes, dynasties… Chaque récit se termine par un enseignement et s'accompagne d'un rappel : un hadith authentique avec sa référence (al-Bukhari, Muslim). Écoutez le récit ou partagez-le en image.
+
+Les récits sont rédigés avec l'assistance de l'IA, puis vérifiés. Les hadiths, douas et adhkar ne sont jamais générés par IA : ils proviennent de recueils reconnus.
+
+OUTILS GRATUITS, UTILISABLES HORS LIGNE
+• Horaires de prière calculés sur l'appareil : méthodes MWL, Karachi, Kemenag/Singapour, UOIF, Umm al-Qura, Égypte, ISNA, Diyanet ; Asr standard ou hanafite
+• Compte à rebours de la prochaine prière et notifications locales
+• Boussole de la Qibla avec la distance jusqu'à la Kaaba
+• Tasbih avec retour haptique (33, 99, 100 ou libre)
+• Les 99 Noms d'Allah, avec recherche
+• 45 douas : arabe, translittération, traduction et source
+• Adhkar du matin, du soir, après la prière et au coucher, avec compteurs
+• Calendrier hégirien avec jours de jeûne recommandés et jours particuliers
+• Calculateur de zakat et compte à rebours avant le Ramadan
+• Suivi des prières (30 jours) et du jeûne (Ramadan, jours à rattraper)
+• Compteur de bonnes actions et série quotidienne
+
+6 LANGUES
+Français, anglais, arabe, espagnol, indonésien et ourdou (vraie mise en page de droite à gauche).
+
+VIE PRIVÉE
+Aucun compte requis. Aucune publicité. Aucun suivi. La localisation ne sert qu'aux horaires de prière et à la Qibla, et reste sur l'appareil.
+
+TARIKH PREMIUM
+• Les récits des 25 prophètes, avec les références coraniques
+• Guide pas à pas de la Omra et du Hajj : étapes, invocations, erreurs fréquentes, liste de préparation
+• Quiz de 120 questions réparties en 8 thèmes
+• Archives des récits et favoris illimités
+• Explication détaillée de chaque jour particulier du calendrier hégirien
+
+ABONNEMENT
+Tarikh Premium : abonnement de 1 mois à renouvellement automatique, avec 7 jours d'essai gratuit pour les nouveaux abonnés. Le prix est indiqué dans l'app. Le paiement est débité de votre compte Apple à la confirmation de l'achat. L'abonnement se renouvelle automatiquement, sauf s'il est annulé au moins 24 heures avant la fin de la période en cours. Gérez ou annulez l'abonnement dans les réglages de votre compte App Store. Toute partie non utilisée d'un essai gratuit est perdue lors de l'achat d'un abonnement.
+
+Conditions d'utilisation : https://tarikh-topaz.vercel.app/terms
+Politique de confidentialité : https://tarikh-topaz.vercel.app/privacy
+
+Les récits quotidiens sont rédigés avec l'assistance de l'IA : en cas de doute, vérifiez-les auprès de sources savantes.

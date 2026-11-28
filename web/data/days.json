@@ -1,0 +1,347 @@
+[
+  {
+    "id": "new-year",
+    "month": 1,
+    "day": 1,
+    "endDay": null,
+    "kind": "gold",
+    "title": {
+      "fr": "Nouvel an de l'Hégire",
+      "en": "Islamic New Year",
+      "ar": "رأس السنة الهجرية",
+      "es": "Año Nuevo islámico",
+      "id": "Tahun Baru Hijriah",
+      "ur": "اسلامی نیا سال"
+    },
+    "short": {
+      "fr": "Le premier jour de Muharram ouvre l'année hégirienne, comptée à partir de l'émigration du Prophète Muhammad ﷺ vers Médine. Muharram est l'un des quatre mois sacrés.",
+      "en": "The first day of Muharram opens the Hijri year, counted from the emigration of the Prophet Muhammad ﷺ to Medina. Muharram is one of the four sacred months.",
+      "ar": "أول يوم من المحرم هو بداية السنة الهجرية التي تُحسب من هجرة النبي محمد ﷺ إلى المدينة. والمحرم أحد الأشهر الحرم الأربعة.",
+      "es": "El primer día de Muharram abre el año de la Hégira, contado desde la emigración del Profeta Muhammad ﷺ a Medina. Muharram es uno de los cuatro meses sagrados.",
+      "id": "Hari pertama Muharam membuka tahun Hijriah, yang dihitung sejak hijrah Nabi Muhammad ﷺ ke Madinah. Muharam adalah salah satu dari empat bulan haram.",
+      "ur": "محرم کا پہلا دن ہجری سال کا آغاز ہے، جس کا شمار نبی کریم حضرت محمد ﷺ کی مدینہ ہجرت سے ہوتا ہے۔ محرم چار حرمت والے مہینوں میں سے ایک ہے۔"
+    }
+  },
+  {
+    "id": "tasua",
+    "month": 1,
+    "day": 9,
+    "endDay": null,
+    "kind": "both",
+    "title": {
+      "fr": "Tasu'a (9 Muharram)",
+      "en": "Tasu'a (9 Muharram)",
+      "ar": "تاسوعاء (9 محرم)",
+      "es": "Tasu'a (9 de Muharram)",
+      "id": "Tasu'a (9 Muharam)",
+      "ur": "تاسوعاء (9 محرم)"
+    },
+    "short": {
+      "fr": "La veille d'Achoura. Il est recommandé de jeûner ce jour avec le dixième.",
+      "en": "The day before Ashura. It is recommended to fast it together with the tenth.",
+      "ar": "اليوم الذي يسبق عاشوراء. يُستحب صيامه مع اليوم العاشر.",
+      "es": "La víspera de Ashura. Se recomienda ayunar este día junto con el décimo.",
+      "id": "Sehari sebelum Asyura. Dianjurkan berpuasa pada hari ini bersama hari kesepuluh.",
+      "ur": "عاشوراء سے ایک دن پہلے کا دن۔ دسویں تاریخ کے ساتھ اس دن کا روزہ رکھنا بھی مستحب ہے۔"
+    }
+  },
+  {
+    "id": "ashura",
+    "month": 1,
+    "day": 10,
+    "endDay": null,
+    "kind": "both",
+    "title": {
+      "fr": "Achoura (10 Muharram)",
+      "en": "Ashura (10 Muharram)",
+      "ar": "عاشوراء (10 محرم)",
+      "es": "Ashura (10 de Muharram)",
+      "id": "Asyura (10 Muharam)",
+      "ur": "عاشوراء (10 محرم)"
+    },
+    "short": {
+      "fr": "Le jour où Allah a sauvé Moïse (paix sur lui) de Pharaon. Son jeûne est recommandé et expie les péchés de l'année écoulée.",
+      "en": "The day Allah saved Moses (peace be upon him) from Pharaoh. Fasting it is recommended and expiates the sins of the past year.",
+      "ar": "اليوم الذي نجّى الله فيه موسى عليه السلام من فرعون. صيامه مستحب ويكفّر ذنوب السنة الماضية.",
+      "es": "El día en que Allah salvó a Moisés (la paz sea con él) del Faraón. Ayunarlo es recomendable y expía los pecados del año pasado.",
+      "id": "Hari ketika Allah menyelamatkan Nabi Musa (alaihis salam) dari Firaun. Puasa pada hari ini dianjurkan dan menghapus dosa setahun yang lalu.",
+      "ur": "وہ دن جب اللہ نے حضرت موسیٰ علیہ السلام کو فرعون سے نجات دی۔ اس دن کا روزہ مستحب ہے اور گزشتہ سال کے گناہوں کا کفارہ ہے۔"
+    }
+  },
+  {
+    "id": "mawlid",
+    "month": 3,
+    "day": 12,
+    "endDay": null,
+    "kind": "gold",
+    "title": {
+      "fr": "Naissance du Prophète ﷺ (Mawlid)",
+      "en": "Birth of the Prophet ﷺ (Mawlid)",
+      "ar": "المولد النبوي",
+      "es": "Nacimiento del Profeta ﷺ (Mawlid)",
+      "id": "Maulid Nabi ﷺ",
+      "ur": "ولادتِ نبوی ﷺ (میلاد)"
+    },
+    "short": {
+      "fr": "Date traditionnellement associée à la naissance du Prophète Muhammad ﷺ. La date exacte n'est pas établie avec certitude, et les musulmans ont des avis différents sur le fait de marquer ce jour.",
+      "en": "The date traditionally associated with the birth of the Prophet Muhammad ﷺ. The exact date is not established with certainty, and Muslims differ on whether to mark it.",
+      "ar": "التاريخ المشهور لمولد النبي محمد ﷺ. لم يثبت التاريخ الدقيق على وجه اليقين، ويختلف المسلمون في إحياء هذا اليوم.",
+      "es": "La fecha tradicionalmente asociada al nacimiento del Profeta Muhammad ﷺ. La fecha exacta no está establecida con certeza, y los musulmanes difieren sobre si conmemorarla.",
+      "id": "Tanggal yang secara tradisi dikaitkan dengan kelahiran Nabi Muhammad ﷺ. Tanggal pastinya tidak diketahui dengan yakin, dan umat Islam berbeda pendapat tentang memperingatinya.",
+      "ur": "وہ تاریخ جو روایتی طور پر نبی کریم حضرت محمد ﷺ کی ولادت سے منسوب ہے۔ صحیح تاریخ یقین کے ساتھ ثابت نہیں، اور اس دن کو منانے کے بارے میں مسلمانوں کی آراء مختلف ہیں۔"
+    }
+  },
+  {
+    "id": "isra-miraj",
+    "month": 7,
+    "day": 27,
+    "endDay": null,
+    "kind": "gold",
+    "title": {
+      "fr": "Le Voyage nocturne et l'Ascension",
+      "en": "The Night Journey and Ascension",
+      "ar": "الإسراء والمعراج",
+      "es": "El Viaje Nocturno y la Ascensión",
+      "id": "Isra Mikraj",
+      "ur": "اسراء و معراج"
+    },
+    "short": {
+      "fr": "Le voyage nocturne du Prophète Muhammad ﷺ de La Mecque à Jérusalem, puis son ascension à travers les cieux. Le 27 Rajab est la date traditionnelle ; elle n'est pas établie avec certitude.",
+      "en": "The night journey of the Prophet Muhammad ﷺ from Mecca to Jerusalem and his ascension through the heavens. The 27th of Rajab is the traditional date; it is not established with certainty.",
+      "ar": "رحلة النبي محمد ﷺ ليلًا من مكة إلى بيت المقدس ثم عروجه إلى السماوات. ليلة 27 رجب هي التاريخ المشهور، لكنه لم يثبت على وجه اليقين.",
+      "es": "El viaje nocturno del Profeta Muhammad ﷺ de La Meca a Jerusalén y su ascensión a través de los cielos. El 27 de Rayab es la fecha tradicional; no está establecida con certeza.",
+      "id": "Perjalanan malam Nabi Muhammad ﷺ dari Makkah ke Baitul Maqdis, lalu naik melintasi langit. Tanggal 27 Rajab adalah tanggal yang masyhur secara tradisi, tetapi tidak dapat dipastikan.",
+      "ur": "نبی کریم حضرت محمد ﷺ کا راتوں رات مکہ سے بیت المقدس کا سفر اور پھر آسمانوں کی طرف عروج۔ 27 رجب روایتی تاریخ ہے، مگر یہ یقین کے ساتھ ثابت نہیں۔"
+    }
+  },
+  {
+    "id": "mid-shaban",
+    "month": 8,
+    "day": 15,
+    "endDay": null,
+    "kind": "gold",
+    "title": {
+      "fr": "Mi-Cha'ban",
+      "en": "Mid-Sha'ban",
+      "ar": "النصف من شعبان",
+      "es": "Mitad de Sha'ban",
+      "id": "Nisfu Syakban",
+      "ur": "نصف شعبان (شبِ برات)"
+    },
+    "short": {
+      "fr": "La nuit du milieu de Cha'ban, le mois qui précède Ramadan. Beaucoup de musulmans la consacrent à la prière et à l'invocation ; les savants ont des avis différents sur son mérite particulier.",
+      "en": "The middle night of Sha'ban, the month before Ramadan. Many Muslims devote it to prayer and supplication; scholars differ on its special merit.",
+      "ar": "ليلة منتصف شعبان، الشهر الذي يسبق رمضان. يحييها كثير من المسلمين بالصلاة والدعاء، وللعلماء أقوال مختلفة في فضلها الخاص.",
+      "es": "La noche de la mitad de Sha'ban, el mes anterior a Ramadán. Muchos musulmanes la dedican a la oración y la súplica; los sabios difieren sobre su mérito especial.",
+      "id": "Malam pertengahan Syakban, bulan sebelum Ramadan. Banyak muslim mengisinya dengan salat dan doa; para ulama berbeda pendapat tentang keutamaan khususnya.",
+      "ur": "شعبان کی درمیانی رات، جو رمضان سے پہلے کا مہینہ ہے۔ بہت سے مسلمان اسے نماز اور دعا میں گزارتے ہیں؛ اس کی خاص فضیلت کے بارے میں علماء کی آراء مختلف ہیں۔"
+    }
+  },
+  {
+    "id": "ramadan-start",
+    "month": 9,
+    "day": 1,
+    "endDay": null,
+    "kind": "both",
+    "title": {
+      "fr": "Début de Ramadan",
+      "en": "Beginning of Ramadan",
+      "ar": "بداية شهر رمضان",
+      "es": "Comienzo de Ramadán",
+      "id": "Awal Ramadan",
+      "ur": "رمضان کا آغاز"
+    },
+    "short": {
+      "fr": "Le premier jour du mois du jeûne, durant lequel le Coran a été révélé. Le jeûne est obligatoire de l'aube au coucher du soleil.",
+      "en": "The first day of the month of fasting, in which the Qur'an was sent down. Fasting is obligatory from dawn to sunset.",
+      "ar": "أول يوم من شهر الصيام الذي أُنزل فيه القرآن. الصيام فيه واجب من الفجر إلى غروب الشمس.",
+      "es": "El primer día del mes del ayuno, en el que fue revelado el Corán. El ayuno es obligatorio desde el alba hasta la puesta del sol.",
+      "id": "Hari pertama bulan puasa, bulan diturunkannya Al-Qur'an. Puasa wajib dijalankan dari terbit fajar hingga terbenam matahari.",
+      "ur": "روزوں کے مہینے کا پہلا دن، جس میں قرآن نازل ہوا۔ روزہ صبح صادق سے غروبِ آفتاب تک فرض ہے۔"
+    }
+  },
+  {
+    "id": "last-ten-nights",
+    "month": 9,
+    "day": 21,
+    "endDay": 30,
+    "kind": "gold",
+    "title": {
+      "fr": "Les dix dernières nuits de Ramadan",
+      "en": "The last ten nights of Ramadan",
+      "ar": "العشر الأواخر من رمضان",
+      "es": "Las diez últimas noches de Ramadán",
+      "id": "Sepuluh malam terakhir Ramadan",
+      "ur": "رمضان کا آخری عشرہ"
+    },
+    "short": {
+      "fr": "Les nuits les plus précieuses de Ramadan, durant lesquelles le Prophète Muhammad ﷺ redoublait d'adoration. Laylat al-Qadr se trouve parmi elles.",
+      "en": "The most precious nights of Ramadan, in which the Prophet Muhammad ﷺ increased his worship. Laylat al-Qadr is among them.",
+      "ar": "أثمن ليالي رمضان، وكان النبي محمد ﷺ يجتهد فيها في العبادة. وليلة القدر في إحدى هذه الليالي.",
+      "es": "Las noches más valiosas de Ramadán, en las que el Profeta Muhammad ﷺ aumentaba su adoración. Laylat al-Qadr está entre ellas.",
+      "id": "Malam-malam paling berharga di bulan Ramadan, saat Nabi Muhammad ﷺ menambah ibadahnya. Lailatul Qadar ada di antaranya.",
+      "ur": "رمضان کی سب سے قیمتی راتیں، جن میں نبی کریم حضرت محمد ﷺ عبادت میں اور زیادہ محنت فرماتے تھے۔ شبِ قدر انہی راتوں میں ہے۔"
+    }
+  },
+  {
+    "id": "laylat-al-qadr",
+    "month": 9,
+    "day": 27,
+    "endDay": null,
+    "kind": "gold",
+    "title": {
+      "fr": "Laylat al-Qadr (la Nuit du Destin)",
+      "en": "Laylat al-Qadr (Night of Decree)",
+      "ar": "ليلة القدر",
+      "es": "Laylat al-Qadr (la Noche del Decreto)",
+      "id": "Lailatul Qadar",
+      "ur": "شبِ قدر (لیلۃ القدر)"
+    },
+    "short": {
+      "fr": "La nuit où le Coran a été révélé, meilleure que mille mois. On la recherche dans les nuits impaires des dix dernières ; la 27e est la plus souvent citée, sans certitude.",
+      "en": "The night the Qur'an was sent down, better than a thousand months. It is sought in the odd nights of the last ten; the 27th is the most commonly cited, without certainty.",
+      "ar": "الليلة التي أُنزل فيها القرآن، وهي خير من ألف شهر. تُلتمس في الليالي الوتر من العشر الأواخر، وليلة 27 هي الأشهر ذكرًا من غير جزم.",
+      "es": "La noche en que fue revelado el Corán, mejor que mil meses. Se busca en las noches impares de las diez últimas; la del 27 es la más citada, sin certeza.",
+      "id": "Malam diturunkannya Al-Qur'an, lebih baik daripada seribu bulan. Malam ini dicari pada malam-malam ganjil di sepuluh malam terakhir; malam ke-27 paling sering disebut, tetapi tidak pasti.",
+      "ur": "وہ رات جس میں قرآن نازل ہوا، جو ہزار مہینوں سے بہتر ہے۔ اسے آخری عشرے کی طاق راتوں میں تلاش کیا جاتا ہے؛ 27ویں رات کا ذکر سب سے زیادہ ہوتا ہے، مگر یہ یقینی نہیں۔"
+    }
+  },
+  {
+    "id": "eid-al-fitr",
+    "month": 10,
+    "day": 1,
+    "endDay": null,
+    "kind": "gold",
+    "title": {
+      "fr": "Aïd al-Fitr",
+      "en": "Eid al-Fitr",
+      "ar": "عيد الفطر",
+      "es": "Eid al-Fitr",
+      "id": "Idulfitri",
+      "ur": "عید الفطر"
+    },
+    "short": {
+      "fr": "La fête qui clôt Ramadan : prière de l'Aïd, zakat al-fitr et joie. Il n'est pas permis de jeûner ce jour-là.",
+      "en": "The festival that ends Ramadan: Eid prayer, zakat al-fitr and joy. Fasting is not permitted on this day.",
+      "ar": "العيد الذي يُختم به رمضان: صلاة العيد وزكاة الفطر والفرح. ولا يجوز صيام هذا اليوم.",
+      "es": "La fiesta que cierra Ramadán: oración del Eid, zakat al-fitr y alegría. No está permitido ayunar ese día.",
+      "id": "Hari raya penutup Ramadan: salat Id, zakat fitrah, dan kegembiraan. Tidak boleh berpuasa pada hari ini.",
+      "ur": "رمضان کے اختتام کی عید: نمازِ عید، صدقۂ فطر اور خوشی۔ اس دن روزہ رکھنا جائز نہیں۔"
+    }
+  },
+  {
+    "id": "six-shawwal",
+    "month": 10,
+    "day": 2,
+    "endDay": 7,
+    "kind": "fast",
+    "title": {
+      "fr": "Les six jours de Chawwal",
+      "en": "Six days of Shawwal",
+      "ar": "صيام ستة أيام من شوال",
+      "es": "Los seis días de Shawwal",
+      "id": "Puasa enam hari Syawal",
+      "ur": "شوال کے چھ روزے"
+    },
+    "short": {
+      "fr": "Jeûner six jours de Chawwal après Ramadan équivaut à jeûner toute l'année. N'importe quels six jours du mois comptent, sauf le jour de l'Aïd ; la période affichée est seulement indicative.",
+      "en": "Fasting six days of Shawwal after Ramadan is like fasting the whole year. Any six days of the month count, except the day of Eid; the range shown is only indicative.",
+      "ar": "صيام ستة أيام من شوال بعد رمضان كصيام السنة كلها. تصح في أي ستة أيام من الشهر ما عدا يوم العيد، والمدة المعروضة للتوضيح فقط.",
+      "es": "Ayunar seis días de Shawwal después de Ramadán es como ayunar todo el año. Vale cualquier grupo de seis días del mes, salvo el día del Eid; el periodo mostrado es solo orientativo.",
+      "id": "Berpuasa enam hari di bulan Syawal setelah Ramadan seperti berpuasa setahun penuh. Enam hari mana pun di bulan ini boleh dipilih, kecuali hari Id; rentang yang ditampilkan hanya sebagai petunjuk.",
+      "ur": "رمضان کے بعد شوال کے چھ روزے رکھنا پورے سال کے روزوں کی طرح ہے۔ عید کے دن کے سوا مہینے کے کوئی بھی چھ دن ہو سکتے ہیں؛ دکھائی گئی تاریخیں صرف رہنمائی کے لیے ہیں۔"
+    }
+  },
+  {
+    "id": "dhul-hijja-nine",
+    "month": 12,
+    "day": 1,
+    "endDay": 8,
+    "kind": "fast",
+    "title": {
+      "fr": "Les premiers jours de Dhul-Hijja",
+      "en": "The first days of Dhul-Hijja",
+      "ar": "الأيام الأولى من ذي الحجة",
+      "es": "Los primeros días de Dhul-Hiyya",
+      "id": "Hari-hari pertama Zulhijah",
+      "ur": "ذوالحجہ کے ابتدائی دن"
+    },
+    "short": {
+      "fr": "Parmi les meilleurs jours de l'année pour les bonnes œuvres. Le jeûne, le rappel d'Allah et l'aumône y sont recommandés.",
+      "en": "Among the best days of the year for good deeds. Fasting, remembrance of Allah and charity are recommended.",
+      "ar": "من أفضل أيام السنة للعمل الصالح. يُستحب فيها الصيام وذكر الله والصدقة.",
+      "es": "Entre los mejores días del año para las buenas obras. Se recomiendan el ayuno, el recuerdo de Allah y la caridad.",
+      "id": "Termasuk hari-hari terbaik dalam setahun untuk beramal saleh. Dianjurkan berpuasa, berzikir kepada Allah, dan bersedekah.",
+      "ur": "نیک اعمال کے لیے سال کے بہترین دنوں میں سے۔ ان میں روزہ، اللہ کا ذکر اور صدقہ مستحب ہیں۔"
+    }
+  },
+  {
+    "id": "arafat",
+    "month": 12,
+    "day": 9,
+    "endDay": null,
+    "kind": "both",
+    "title": {
+      "fr": "Jour d'Arafat",
+      "en": "Day of Arafat",
+      "ar": "يوم عرفة",
+      "es": "Día de Arafat",
+      "id": "Hari Arafah",
+      "ur": "یومِ عرفہ"
+    },
+    "short": {
+      "fr": "Le jour central du Hajj. Pour ceux qui ne sont pas en pèlerinage, son jeûne expie les péchés de l'année écoulée et de l'année à venir.",
+      "en": "The central day of the Hajj. For those not on pilgrimage, fasting it expiates the sins of the past year and the coming year.",
+      "ar": "أعظم أيام الحج. وصيامه لغير الحاج يكفّر ذنوب السنة الماضية والسنة القادمة.",
+      "es": "El día central del Hayy. Para quienes no están en peregrinación, ayunarlo expía los pecados del año pasado y del año siguiente.",
+      "id": "Hari inti ibadah haji. Bagi yang tidak sedang berhaji, puasa pada hari ini menghapus dosa setahun yang lalu dan setahun yang akan datang.",
+      "ur": "حج کا مرکزی دن۔ جو لوگ حج پر نہیں ہیں ان کے لیے اس دن کا روزہ گزشتہ سال اور آنے والے سال کے گناہوں کا کفارہ ہے۔"
+    }
+  },
+  {
+    "id": "eid-al-adha",
+    "month": 12,
+    "day": 10,
+    "endDay": null,
+    "kind": "gold",
+    "title": {
+      "fr": "Aïd al-Adha",
+      "en": "Eid al-Adha",
+      "ar": "عيد الأضحى",
+      "es": "Eid al-Adha",
+      "id": "Iduladha",
+      "ur": "عید الاضحیٰ"
+    },
+    "short": {
+      "fr": "La fête du Sacrifice, en souvenir d'Abraham (paix sur lui) : prière de l'Aïd et sacrifice. Il n'est pas permis de jeûner ce jour-là.",
+      "en": "The Festival of Sacrifice, in memory of Abraham (peace be upon him): Eid prayer and sacrifice. Fasting is not permitted on this day.",
+      "ar": "عيد النحر، إحياءً لذكرى إبراهيم عليه السلام: صلاة العيد والأضحية. ولا يجوز صيام هذا اليوم.",
+      "es": "La Fiesta del Sacrificio, en recuerdo de Abraham (la paz sea con él): oración del Eid y sacrificio. No está permitido ayunar ese día.",
+      "id": "Hari Raya Kurban, mengenang Nabi Ibrahim (alaihis salam): salat Id dan penyembelihan kurban. Tidak boleh berpuasa pada hari ini.",
+      "ur": "قربانی کی عید، حضرت ابراہیم علیہ السلام کی یاد میں: نمازِ عید اور قربانی۔ اس دن روزہ رکھنا جائز نہیں۔"
+    }
+  },
+  {
+    "id": "tashriq",
+    "month": 12,
+    "day": 11,
+    "endDay": 13,
+    "kind": "gold",
+    "title": {
+      "fr": "Jours de Tachriq",
+      "en": "Days of Tashriq",
+      "ar": "أيام التشريق",
+      "es": "Días de Tashriq",
+      "id": "Hari-hari Tasyrik",
+      "ur": "ایامِ تشریق"
+    },
+    "short": {
+      "fr": "Trois jours où l'on mange, boit et se rappelle Allah, après l'Aïd al-Adha. Il n'est pas permis de les jeûner.",
+      "en": "Three days of eating, drinking and remembrance of Allah after Eid al-Adha. Fasting them is not permitted.",
+      "ar": "ثلاثة أيام بعد عيد الأضحى، هي أيام أكل وشرب وذكر لله. ولا يجوز صيامها.",
+      "es": "Tres días para comer, beber y recordar a Allah, después del Eid al-Adha. No está permitido ayunarlos.",
+      "id": "Tiga hari untuk makan, minum, dan berzikir kepada Allah setelah Iduladha. Tidak boleh berpuasa pada hari-hari ini.",
+      "ur": "عید الاضحیٰ کے بعد کے تین دن، جو کھانے پینے اور اللہ کے ذکر کے دن ہیں۔ ان دنوں میں روزہ رکھنا جائز نہیں۔"
+    }
+  }
+]

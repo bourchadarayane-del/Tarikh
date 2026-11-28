@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "q001",
+    "cat": "prophets",
+    "q": "Menurut Al-Qur'an, siapakah manusia pertama yang diciptakan Allah?",
+    "options": [
+      "Nuh",
+      "Adam",
+      "Ibrahim",
+      "Idris"
+    ],
+    "answer": 1,
+    "explain": "Adam alaihissalam adalah manusia pertama dan bapak seluruh umat manusia. Al-Qur'an mengisahkan penciptaannya dalam 2:30-37."
+  },
+  {
+    "id": "q002",
+    "cat": "prophets",
+    "q": "Nabi siapakah (alaihissalam) yang membuat bahtera atas perintah Allah?",
+    "options": [
+      "Musa",
+      "Yunus",
+      "Nuh",
+      "Hud"
+    ],
+    "answer": 2,
+    "explain": "Nuh alaihissalam diperintahkan membuat bahtera sebelum banjir besar, sebagaimana dikisahkan dalam Al-Qur'an (11:37)."
+  },
+  {
+    "id": "q003",
+    "cat": "prophets",
+    "q": "Nabi siapakah (alaihissalam) yang ditelan seekor ikan besar?",
+    "options": [
+      "Ayyub",
+      "Yusuf",
+      "Ilyas",
+      "Yunus"
+    ],
+    "answer": 3,
+    "explain": "Yunus alaihissalam ditelan seekor ikan besar, berdoa kepada Allah dari dalam kegelapan, lalu diselamatkan (37:139-144)."
+  },
+  {
+    "id": "q004",
+    "cat": "prophets",
+    "q": "Putra manakah yang membantu Ibrahim alaihissalam meninggikan fondasi Ka'bah?",
+    "options": [
+      "Ishaq",
+      "Ya'qub",
+      "Ismail",
+      "Luth"
+    ],
+    "answer": 2,
+    "explain": "Al-Qur'an menyebutkan bahwa Ibrahim dan Ismail alaihimassalam bersama-sama meninggikan fondasi Baitullah (2:127)."
+  },
+  {
+    "id": "q005",
+    "cat": "prophets",
+    "q": "Nabi siapakah (alaihissalam) yang semasa kecil dilemparkan ke dalam sumur oleh saudara-saudaranya?",
+    "options": [
+      "Yahya",
+      "Yusuf",
+      "Harun",
+      "Dawud"
+    ],
+    "answer": 1,
+    "explain": "Yusuf alaihissalam dilemparkan ke dalam sumur oleh saudara-saudaranya yang dengki. Kisahnya memenuhi Surah Yusuf, surah ke-12 (12:15)."
+  },
+  {
+    "id": "q006",
+    "cat": "prophets",
+    "q": "Kepada nabi siapakah (alaihissalam) Taurat diturunkan?",
+    "options": [
+      "Isa",
+      "Dawud",
+      "Ibrahim",
+      "Musa"
+    ],
+    "answer": 3,
+    "explain": "Taurat diberikan kepada Musa alaihissalam, yang memimpin Bani Israil keluar dari Mesir."
+  },
+  {
+    "id": "q007",
+    "cat": "prophets",
+    "q": "Nabi siapakah (alaihissalam) yang menerima Zabur?",
+    "options": [
+      "Dawud",
+      "Sulaiman",
+      "Musa",
+      "Zakaria"
+    ],
+    "answer": 0,
+    "explain": "Al-Qur'an menyatakan bahwa Allah memberikan Zabur kepada Dawud alaihissalam (4:163 dan 17:55)."
+  },
+  {
+    "id": "q008",
+    "cat": "prophets",
+    "q": "Nabi siapakah (alaihissalam) yang menerima Injil?",
+    "options": [
+      "Isa",
+      "Yahya",
+      "Musa",
+      "Yunus"
+    ],
+    "answer": 0,
+    "explain": "Injil diberikan kepada Isa putra Maryam alaihimassalam, sebagaimana disebutkan Al-Qur'an dalam 5:46."
+  },
+  {
+    "id": "q009",
+    "cat": "prophets",
+    "q": "Nabi siapakah yang merupakan saudara Musa alaihissalam dan membantunya dalam mengemban risalah?",
+    "options": [
+      "Yusya'",
+      "Syu'aib",
+      "Ilyas",
+      "Harun"
+    ],
+    "answer": 3,
+    "explain": "Musa memohon kepada Allah agar menjadikan saudaranya, Harun, sebagai pembantunya (20:29-32). Semoga keselamatan tercurah atas keduanya."
+  },
+  {
+    "id": "q010",
+    "cat": "prophets",
+    "q": "Nabi siapakah (alaihissalam) yang diuji dengan penderitaan panjang, lalu masyhur karena kesabarannya dan karena menyeru Tuhannya sebagai ‘Yang Maha Penyayang di antara semua penyayang’?",
+    "options": [
+      "Ayyub",
+      "Harun",
+      "Luth",
+      "Shalih"
+    ],
+    "answer": 0,
+    "explain": "Ayyub alaihissalam tetap sabar menjalani penderitaannya dan berdoa kepada Tuhannya, lalu Allah melenyapkan penderitaan itu (21:83-84)."
+  },
+  {
+    "id": "q011",
+    "cat": "prophets",
+    "q": "Nabi siapakah (alaihissalam) yang diutus kepada kaum 'Ad?",
+    "options": [
+      "Shalih",
+      "Syu'aib",
+      "Hud",
+      "Luth"
+    ],
+    "answer": 2,
+    "explain": "Hud alaihissalam diutus kepada kaum 'Ad untuk menyeru mereka agar menyembah Allah semata (7:65)."
+  },
+  {
+    "id": "q012",
+    "cat": "prophets",
+    "q": "Unta betina yang diberikan sebagai tanda bagi kaum Tsamud berkaitan dengan nabi siapakah (alaihissalam)?",
+    "options": [
+      "Hud",
+      "Shalih",
+      "Nuh",
+      "Yunus"
+    ],
+    "answer": 1,
+    "explain": "Shalih alaihissalam diutus kepada kaum Tsamud, dan unta betina itu adalah tanda dari Allah bagi mereka (7:73)."
+  },
+  {
+    "id": "q013",
+    "cat": "prophets",
+    "q": "Nabi siapakah (alaihissalam) yang dilemparkan ke dalam api oleh kaumnya, lalu Allah menjadikan api itu dingin dan aman baginya?",
+    "options": [
+      "Musa",
+      "Ibrahim",
+      "Yahya",
+      "Hud"
+    ],
+    "answer": 1,
+    "explain": "Ketika kaumnya melemparkan Ibrahim alaihissalam ke dalam api, Allah memerintahkan api itu agar menjadi dingin dan menyelamatkan baginya (21:68-69)."
+  },
+  {
+    "id": "q014",
+    "cat": "prophets",
+    "q": "Menurut Al-Qur'an, nabi siapakah (alaihissalam) yang memahami ucapan seekor semut yang memperingatkan semut-semut lain?",
+    "options": [
+      "Yunus",
+      "Isa",
+      "Sulaiman",
+      "Yusuf"
+    ],
+    "answer": 2,
+    "explain": "Sulaiman alaihissalam mendengar seekor semut memperingatkan kawan-kawannya ketika bala tentaranya mendekat, lalu ia tersenyum dan bersyukur kepada Allah (27:18-19)."
+  },
+  {
+    "id": "q015",
+    "cat": "prophets",
+    "q": "Nabi siapakah (alaihissalam) yang merupakan ayah Yahya?",
+    "options": [
+      "Imran",
+      "Ya'qub",
+      "Ayyub",
+      "Zakaria"
+    ],
+    "answer": 3,
+    "explain": "Zakaria alaihissalam berdoa memohon seorang anak pada usia tuanya dan diberi kabar gembira tentang Yahya (19:7)."
+  },
+  {
+    "id": "q016",
+    "cat": "seerah",
+    "q": "Di kota manakah Nabi Muhammad ﷺ dilahirkan?",
+    "options": [
+      "Madinah",
+      "Makkah",
+      "Thaif",
+      "Yerusalem"
+    ],
+    "answer": 1,
+    "explain": "Nabi Muhammad ﷺ dilahirkan di Makkah, dari suku Quraisy."
+  },
+  {
+    "id": "q017",
+    "cat": "seerah",
+    "q": "Di manakah Nabi Muhammad ﷺ menerima wahyu pertama?",
+    "options": [
+      "Di Gua Tsur",
+      "Di Gua Hira",
+      "Di Gunung Uhud",
+      "Di Padang Arafah"
+    ],
+    "answer": 1,
+    "explain": "Wahyu pertama turun di Gua Hira, di Jabal Nur dekat Makkah, tempat beliau biasa menyendiri."
+  },
+  {
+    "id": "q018",
+    "cat": "seerah",
+    "q": "Malaikat siapakah yang membawa wahyu kepada Nabi Muhammad ﷺ?",
+    "options": [
+      "Mikail",
+      "Jibril",
+      "Israfil",
+      "Malik"
+    ],
+    "answer": 1,
+    "explain": "Malaikat Jibril alaihissalam membawa Al-Qur'an kepada Nabi Muhammad ﷺ."
+  },
+  {
+    "id": "q019",
+    "cat": "seerah",
+    "q": "Apakah kata pertama Al-Qur'an yang diwahyukan kepada Nabi Muhammad ﷺ?",
+    "options": [
+      "Qul (Katakanlah)",
+      "Qum (Bangunlah)",
+      "Iqra (Bacalah)",
+      "Sabbih (Bertasbihlah)"
+    ],
+    "answer": 2,
+    "explain": "Wahyu pertama diawali dengan kata ‘Iqra’, yang berarti bacalah (96:1)."
+  },
+  {
+    "id": "q020",
+    "cat": "seerah",
+    "q": "Siapakah istri pertama Nabi Muhammad ﷺ?",
+    "options": [
+      "Khadijah binti Khuwailid",
+      "Aisyah binti Abu Bakar",
+      "Hafshah binti Umar",
+      "Saudah binti Zam'ah"
+    ],
+    "answer": 0,
+    "explain": "Khadijah, seorang saudagar terpandang di Makkah, adalah istri pertama beliau. Beliau tidak menikahi perempuan lain selama Khadijah masih hidup."
+  },
+  {
+    "id": "q021",
+    "cat": "seerah",
+    "q": "Pada tahun Masehi berapakah Hijrah, yaitu perpindahan dari Makkah ke Madinah, terjadi?",
+    "options": [
+      "622",
+      "570",
+      "610",
+      "632"
+    ],
+    "answer": 0,
+    "explain": "Hijrah terjadi pada tahun 622 M. Tahun itu kemudian menjadi tahun pertama kalender Islam."
+  },
+  {
+    "id": "q022",
+    "cat": "seerah",
+    "q": "Apakah nama kota Madinah sebelum Hijrah?",
+    "options": [
+      "Khaibar",
+      "Tabuk",
+      "Thaif",
+      "Yatsrib"
+    ],
+    "answer": 3,
+    "explain": "Kota itu dahulu bernama Yatsrib. Setelah Nabi Muhammad ﷺ menetap di sana, ia dikenal sebagai Madinah, ‘Kota’."
+  },
+  {
+    "id": "q023",
+    "cat": "seerah",
+    "q": "Di gua manakah Nabi Muhammad ﷺ berlindung ketika Hijrah?",
+    "options": [
+      "Gua Tsur",
+      "Gua Hira",
+      "Sebuah gua di Gunung Uhud",
+      "Sebuah gua di Bukit Shafa"
+    ],
+    "answer": 0,
+    "explain": "Beliau bersembunyi di Gua Tsur bersama sahabatnya, Abu Bakar, ketika kaum Quraisy mencari mereka. Al-Qur'an menyebut peristiwa ini dalam 9:40."
+  },
+  {
+    "id": "q024",
+    "cat": "seerah",
+    "q": "Pada tahun Hijriah berapakah Perang Badar terjadi?",
+    "options": [
+      "Tahun ke-2",
+      "Tahun ke-1",
+      "Tahun ke-5",
+      "Tahun ke-8"
+    ],
+    "answer": 0,
+    "explain": "Perang Badar terjadi pada bulan Ramadan tahun 2 H. Inilah pertempuran besar pertama kaum muslimin."
+  },
+  {
+    "id": "q025",
+    "cat": "seerah",
+    "q": "Siapakah nama kakek yang mengasuh Nabi Muhammad ﷺ setelah ibunda beliau wafat?",
+    "options": [
+      "Abu Lahab",
+      "Abu Sufyan",
+      "Abdul Muthalib",
+      "Waraqah bin Naufal"
+    ],
+    "answer": 2,
+    "explain": "Kakek beliau, Abdul Muthalib, seorang pemuka Makkah, mengasuh beliau. Setelah sang kakek wafat, paman beliau, Abu Thalib, yang merawat beliau."
+  },
+  {
+    "id": "q026",
+    "cat": "seerah",
+    "q": "Siapakah nama ibunda Nabi Muhammad ﷺ?",
+    "options": [
+      "Halimah as-Sa'diyah",
+      "Fatimah binti Asad",
+      "Ummu Aiman",
+      "Aminah binti Wahb"
+    ],
+    "answer": 3,
+    "explain": "Ibunda beliau adalah Aminah binti Wahb. Ia wafat ketika beliau masih kecil. Halimah as-Sa'diyah adalah ibu susu beliau."
+  },
+  {
+    "id": "q027",
+    "cat": "seerah",
+    "q": "Dari suku manakah Nabi Muhammad ﷺ berasal?",
+    "options": [
+      "Aus",
+      "Khazraj",
+      "Tsaqif",
+      "Quraisy"
+    ],
+    "answer": 3,
+    "explain": "Beliau berasal dari Quraisy, suku penduduk Makkah, dari kabilah Bani Hasyim."
+  },
+  {
+    "id": "q028",
+    "cat": "seerah",
+    "q": "Apakah nama perjanjian gencatan senjata yang disepakati kaum muslimin dan Quraisy pada tahun 6 H?",
+    "options": [
+      "Baiat Aqabah",
+      "Piagam Madinah",
+      "Perjanjian Hudaibiyah",
+      "Hilful Fudhul (Persekutuan Orang-Orang Mulia)"
+    ],
+    "answer": 2,
+    "explain": "Perjanjian Hudaibiyah disepakati pada tahun 6 H di dekat Makkah. Perjanjian itu menghadirkan masa damai, dan selama masa itu Islam tersebar luas."
+  },
+  {
+    "id": "q029",
+    "cat": "seerah",
+    "q": "Pada tahun Hijriah berapakah Fathu Makkah (Penaklukan Makkah) terjadi?",
+    "options": [
+      "Tahun ke-2",
+      "Tahun ke-4",
+      "Tahun ke-8",
+      "Tahun ke-6"
+    ],
+    "answer": 2,
+    "explain": "Kaum muslimin memasuki Makkah pada tahun 8 H (630 M). Nabi Muhammad ﷺ memaafkan penduduknya."
+  },
+  {
+    "id": "q030",
+    "cat": "seerah",
+    "q": "Sebelum kenabian, julukan apakah yang diberikan penduduk Makkah kepada Nabi Muhammad ﷺ?",
+    "options": [
+      "Al-Hakim (Yang Bijaksana)",
+      "Al-Karim (Yang Dermawan)",
+      "Asy-Syuja' (Yang Pemberani)",
+      "Al-Amin (Yang Tepercaya)"
+    ],
+    "answer": 3,
+    "explain": "Beliau dikenal sebagai al-Amin, Yang Tepercaya, karena kejujurannya. Orang-orang menitipkan barang berharga mereka kepada beliau."
+  },
+  {
+    "id": "q031",
+    "cat": "companions",
+    "q": "Siapakah muazin pertama dalam Islam?",
+    "options": [
+      "Salman al-Farisi",
+      "Anas bin Malik",
+      "Bilal bin Rabah",
+      "Zaid bin Haritsah"
+    ],
+    "answer": 2,
+    "explain": "Bilal bin Rabah, seorang bekas budak keturunan Habasyah yang telah dimerdekakan, dipilih oleh Nabi Muhammad ﷺ untuk mengumandangkan azan."
+  },
+  {
+    "id": "q032",
+    "cat": "companions",
+    "q": "Sahabat siapakah yang menyertai Nabi Muhammad ﷺ dalam perjalanan Hijrah?",
+    "options": [
+      "Bilal bin Rabah",
+      "Mush'ab bin Umair",
+      "Khalid bin Walid",
+      "Abu Bakar"
+    ],
+    "answer": 3,
+    "explain": "Abu Bakar menemani beliau dalam perjalanan dari Makkah ke Madinah dan tinggal bersama beliau di Gua Tsur."
+  },
+  {
+    "id": "q033",
+    "cat": "companions",
+    "q": "Sahabat siapakah yang mengusulkan penggalian parit untuk mempertahankan Madinah?",
+    "options": [
+      "Bilal bin Rabah",
+      "Abu Ayyub al-Anshari",
+      "Salman al-Farisi",
+      "Mush'ab bin Umair"
+    ],
+    "answer": 2,
+    "explain": "Salman al-Farisi, yang berasal dari Persia, mengusulkan penggalian parit itu. Itulah sebabnya pertempuran pada tahun 5 H disebut Perang Khandaq (Perang Parit)."
+  },
+  {
+    "id": "q034",
+    "cat": "companions",
+    "q": "Sahabat siapakah yang dikenal dengan gelar ‘Pedang Allah’ (Saifullah)?",
+    "options": [
+      "Khalid bin Walid",
+      "Bilal bin Rabah",
+      "Zaid bin Tsabit",
+      "Anas bin Malik"
+    ],
+    "answer": 0,
+    "explain": "Khalid bin Walid, seorang panglima yang masyhur, dikenal sebagai Saifullah, Pedang Allah."
+  },
+  {
+    "id": "q035",
+    "cat": "companions",
+    "q": "Siapakah orang pertama yang beriman kepada risalah Nabi Muhammad ﷺ?",
+    "options": [
+      "Umar bin Khattab",
+      "Khadijah binti Khuwailid",
+      "Khalid bin Walid",
+      "Abu Sufyan"
+    ],
+    "answer": 1,
+    "explain": "Istri beliau, Khadijah, adalah orang pertama yang beriman kepada beliau. Ia menenangkan dan mendukung beliau sejak wahyu yang pertama."
+  },
+  {
+    "id": "q036",
+    "cat": "companions",
+    "q": "Pada masa khalifah siapakah kalender Hijriah ditetapkan, dengan tahun Hijrah sebagai titik awalnya?",
+    "options": [
+      "Umar bin Khattab",
+      "Harun ar-Rasyid",
+      "Abdul Malik bin Marwan",
+      "Umar bin Abdul Aziz"
+    ],
+    "answer": 0,
+    "explain": "Kalender Hijriah ditetapkan pada masa kekhalifahan Umar bin Khattab, beberapa tahun setelah wafatnya Nabi Muhammad ﷺ."
+  },
+  {
+    "id": "q037",
+    "cat": "companions",
+    "q": "Sahabat siapakah, seorang penulis wahyu, yang diberi tugas menghimpun Al-Qur'an menjadi satu kumpulan tertulis?",
+    "options": [
+      "Bilal bin Rabah",
+      "Khalid bin Walid",
+      "Salman al-Farisi",
+      "Zaid bin Tsabit"
+    ],
+    "answer": 3,
+    "explain": "Zaid bin Tsabit, salah seorang juru tulis Nabi Muhammad ﷺ, menghimpun tulisan-tulisan Al-Qur'an menjadi satu kumpulan pada masa kekhalifahan Abu Bakar."
+  },
+  {
+    "id": "q038",
+    "cat": "companions",
+    "q": "Sahabat siapakah yang diutus ke Yatsrib sebelum Hijrah untuk mengajarkan Islam kepada penduduknya?",
+    "options": [
+      "Mush'ab bin Umair",
+      "Khalid bin Walid",
+      "Anas bin Malik",
+      "Abu Ayyub al-Anshari"
+    ],
+    "answer": 0,
+    "explain": "Mush'ab bin Umair diutus ke Yatsrib setelah Baiat Aqabah pertama. Banyak penduduknya menerima Islam melalui dirinya."
+  },
+  {
+    "id": "q039",
+    "cat": "companions",
+    "q": "Dalam pertempuran manakah Hamzah, paman Nabi Muhammad ﷺ, gugur?",
+    "options": [
+      "Badar",
+      "Khandaq",
+      "Hunain",
+      "Uhud"
+    ],
+    "answer": 3,
+    "explain": "Hamzah bin Abdul Muthalib gugur sebagai syahid dalam Perang Uhud, pada tahun 3 H."
+  },
+  {
+    "id": "q040",
+    "cat": "companions",
+    "q": "Siapakah yang dikenang sebagai syahid pertama dalam Islam?",
+    "options": [
+      "Ummu Aiman",
+      "Sumayyah binti Khayyat",
+      "Halimah as-Sa'diyah",
+      "Ummu Salamah"
+    ],
+    "answer": 1,
+    "explain": "Sumayyah binti Khayyat, ibunda Ammar bin Yasir, dibunuh di Makkah karena menolak meninggalkan imannya."
+  },
+  {
+    "id": "q041",
+    "cat": "companions",
+    "q": "Sahabat siapakah yang berbicara mewakili kaum muslimin yang berhijrah di hadapan Najasyi, raja Habasyah?",
+    "options": [
+      "Bilal bin Rabah",
+      "Ja'far bin Abi Thalib",
+      "Zaid bin Tsabit",
+      "Anas bin Malik"
+    ],
+    "answer": 1,
+    "explain": "Ja'far bin Abi Thalib menjelaskan Islam kepada Najasyi, yang kemudian membiarkan kaum muslimin tinggal dengan aman di negerinya."
+  },
+  {
+    "id": "q042",
+    "cat": "companions",
+    "q": "Putri Nabi Muhammad ﷺ yang manakah yang menikah dengan Ali bin Abi Thalib?",
+    "options": [
+      "Fatimah",
+      "Zainab",
+      "Ruqayyah",
+      "Ummu Kultsum"
+    ],
+    "answer": 0,
+    "explain": "Fatimah menikah dengan Ali bin Abi Thalib di Madinah. Keduanya adalah orang tua al-Hasan dan al-Husain."
+  },
+  {
+    "id": "q043",
+    "cat": "companions",
+    "q": "Apakah sebutan bagi penduduk Madinah yang menyambut dan menolong kaum pendatang dari Makkah?",
+    "options": [
+      "Kaum Muhajirin (Orang-Orang yang Berhijrah)",
+      "Kaum Quraisy",
+      "Para Tabi'in (Generasi Penerus)",
+      "Kaum Anshar (Para Penolong)"
+    ],
+    "answer": 3,
+    "explain": "Kaum muslimin Madinah disebut Anshar, para penolong. Mereka yang berhijrah dari Makkah disebut Muhajirin."
+  },
+  {
+    "id": "q044",
+    "cat": "companions",
+    "q": "Siapakah yang tidur di ranjang Nabi Muhammad ﷺ pada malam beliau meninggalkan Makkah untuk berhijrah?",
+    "options": [
+      "Zaid bin Haritsah",
+      "Bilal bin Rabah",
+      "Ali bin Abi Thalib",
+      "Anas bin Malik"
+    ],
+    "answer": 2,
+    "explain": "Ali bin Abi Thalib yang masih muda menggantikan beliau di ranjang itu pada malam tersebut, lalu tetap tinggal untuk mengembalikan barang-barang yang dititipkan orang kepada beliau."
+  },
+  {
+    "id": "q045",
+    "cat": "companions",
+    "q": "Di rumah siapakah Nabi Muhammad ﷺ tinggal di Madinah ketika masjid beliau sedang dibangun?",
+    "options": [
+      "Salman al-Farisi",
+      "Abu Ayyub al-Anshari",
+      "Khalid bin Walid",
+      "Mush'ab bin Umair"
+    ],
+    "answer": 1,
+    "explain": "Beliau tinggal di rumah Abu Ayyub al-Anshari sampai masjid dan bilik-bilik beliau selesai dibangun."
+  },
+  {
+    "id": "q046",
+    "cat": "quran",
+    "q": "Berapakah jumlah surah dalam Al-Qur'an?",
+    "options": [
+      "114",
+      "99",
+      "110",
+      "120"
+    ],
+    "answer": 0,
+    "explain": "Al-Qur'an terdiri atas 114 surah, dari al-Fatihah sampai an-Nas."
+  },
+  {
+    "id": "q047",
+    "cat": "quran",
+    "q": "Surah manakah yang terpanjang dalam Al-Qur'an?",
+    "options": [
+      "Ali Imran",
+      "An-Nisa",
+      "Yasin",
+      "Al-Baqarah"
+    ],
+    "answer": 3,
+    "explain": "Al-Baqarah, surah ke-2, adalah surah terpanjang dalam Al-Qur'an."
+  },
+  {
+    "id": "q048",
+    "cat": "quran",
+    "q": "Surah manakah yang terpendek dalam Al-Qur'an?",
+    "options": [
+      "Al-Ikhlas",
+      "Al-Kautsar",
+      "Al-Falaq",
+      "Al-Fatihah"
+    ],
+    "answer": 1,
+    "explain": "Al-Kautsar, surah ke-108, adalah yang terpendek: hanya terdiri atas tiga ayat pendek."
+  },
+  {
+    "id": "q049",
+    "cat": "quran",
+    "q": "Surah manakah yang membuka Al-Qur'an?",
+    "options": [
+      "Al-Baqarah",
+      "Al-Ikhlas",
+      "Al-Fatihah",
+      "Al-'Alaq"
+    ],
+    "answer": 2,
+    "explain": "Al-Fatihah, ‘Pembuka’, adalah surah pertama Al-Qur'an dan dibaca dalam setiap salat."
+  },
+  {
+    "id": "q050",
+    "cat": "quran",
+    "q": "Surah manakah yang terletak paling akhir dalam Al-Qur'an?",
+    "options": [
+      "Al-Falaq",
+      "Al-Ikhlas",
+      "An-Nas",
+      "An-Nashr"
+    ],
+    "answer": 2,
+    "explain": "An-Nas, surah ke-114, menutup Al-Qur'an."
+  },
+  {
+    "id": "q051",
+    "cat": "quran",
+    "q": "Al-Qur'an dibagi menjadi berapa bagian (juz)?",
+    "options": [
+      "7",
+      "30",
+      "60",
+      "114"
+    ],
+    "answer": 1,
+    "explain": "Al-Qur'an dibagi menjadi 30 juz, sehingga mudah dikhatamkan dalam satu bulan."
+  },
+  {
+    "id": "q052",
+    "cat": "quran",
+    "q": "Pada bulan apakah turunnya Al-Qur'an bermula?",
+    "options": [
+      "Ramadan",
+      "Rajab",
+      "Muharam",
+      "Zulhijah"
+    ],
+    "answer": 0,
+    "explain": "Al-Qur'an menyebutkan bahwa ia diturunkan pada bulan Ramadan (2:185)."
+  },
+  {
+    "id": "q053",
+    "cat": "quran",
+    "q": "Dalam surah manakah Ayat Kursi terdapat?",
+    "options": [
+      "Ali Imran",
+      "Al-Baqarah",
+      "Al-Kahfi",
+      "Al-Mulk"
+    ],
+    "answer": 1,
+    "explain": "Ayat Kursi adalah ayat 255 Surah al-Baqarah (2:255)."
+  },
+  {
+    "id": "q054",
+    "cat": "quran",
+    "q": "Surah manakah satu-satunya yang tidak diawali dengan basmalah?",
+    "options": [
+      "At-Taubah",
+      "Al-Anfal",
+      "Yunus",
+      "Al-Mulk"
+    ],
+    "answer": 0,
+    "explain": "At-Taubah, surah ke-9, adalah satu-satunya surah yang tidak dibuka dengan ‘Dengan nama Allah Yang Maha Pengasih, Maha Penyayang’."
+  },
+  {
+    "id": "q055",
+    "cat": "quran",
+    "q": "Dalam surah manakah basmalah muncul dua kali?",
+    "options": [
+      "An-Nahl",
+      "Al-'Ankabut",
+      "Saba'",
+      "An-Naml"
+    ],
+    "answer": 3,
+    "explain": "Dalam Surah an-Naml, basmalah terdapat pada pembukaan dan sekali lagi dalam surat Sulaiman alaihissalam (27:30)."
+  },
+  {
+    "id": "q056",
+    "cat": "quran",
+    "q": "Surah Al-Qur'an manakah yang menyandang nama ibunda Isa alaihissalam?",
+    "options": [
+      "An-Nisa",
+      "Maryam",
+      "Ali Imran",
+      "An-Nur"
+    ],
+    "answer": 1,
+    "explain": "Surah ke-19 dinamai menurut Maryam, ibunda Isa alaihimassalam. Dialah satu-satunya perempuan yang disebut namanya dalam Al-Qur'an."
+  },
+  {
+    "id": "q057",
+    "cat": "quran",
+    "q": "Selama kira-kira berapa tahun Al-Qur'an diturunkan?",
+    "options": [
+      "Sekitar 23 tahun",
+      "Sekitar 3 tahun",
+      "Sekitar 10 tahun",
+      "Sekitar 40 tahun"
+    ],
+    "answer": 0,
+    "explain": "Al-Qur'an diturunkan sedikit demi sedikit selama sekitar 23 tahun, mula-mula di Makkah kemudian di Madinah."
+  },
+  {
+    "id": "q058",
+    "cat": "quran",
+    "q": "Berapakah jumlah ayat Surah al-Fatihah?",
+    "options": [
+      "3",
+      "5",
+      "10",
+      "7"
+    ],
+    "answer": 3,
+    "explain": "Al-Fatihah terdiri atas tujuh ayat. Surah ini dibaca pada setiap rakaat salat."
+  },
+  {
+    "id": "q059",
+    "cat": "quran",
+    "q": "Apakah sebutan bagi surah-surah yang diturunkan sebelum Hijrah?",
+    "options": [
+      "Madaniyah",
+      "Muhkam",
+      "Makkiyah",
+      "Mufashshal"
+    ],
+    "answer": 2,
+    "explain": "Surah-surah yang diturunkan sebelum Hijrah disebut Makkiyah, dan yang diturunkan sesudahnya disebut Madaniyah."
+  },
+  {
+    "id": "q060",
+    "cat": "quran",
+    "q": "Ayat manakah yang terpanjang dalam Al-Qur'an?",
+    "options": [
+      "Ayat Kursi (2:255)",
+      "Ayat cahaya (24:35)",
+      "Ayat utang (2:282)",
+      "Ayat pertama al-Fatihah"
+    ],
+    "answer": 2,
+    "explain": "Ayat terpanjang adalah ayat 282 Surah al-Baqarah. Ayat ini mengajarkan agar orang mencatat utang-piutang mereka dan menghadirkan saksi."
+  },
+  {
+    "id": "q061",
+    "cat": "history",
+    "q": "Kota manakah yang menjadi ibu kota Kekhalifahan Umayyah?",
+    "options": [
+      "Bagdad",
+      "Damaskus",
+      "Kairo",
+      "Madinah"
+    ],
+    "answer": 1,
+    "explain": "Bani Umayyah memerintah dari Damaskus, di Syam (Suriah), dari tahun 661 hingga 750."
+  },
+  {
+    "id": "q062",
+    "cat": "history",
+    "q": "Khalifah Abbasiyah siapakah yang mendirikan kota Bagdad pada tahun 762?",
+    "options": [
+      "Harun ar-Rasyid",
+      "Al-Manshur",
+      "Al-Ma'mun",
+      "Al-Mu'tashim"
+    ],
+    "answer": 1,
+    "explain": "Khalifah al-Manshur mendirikan Bagdad pada tahun 762 di tepi Sungai Tigris. Kota itu menjadi salah satu kota terbesar di dunia."
+  },
+  {
+    "id": "q063",
+    "cat": "history",
+    "q": "Siapakah yang merebut dan menghancurkan Bagdad pada tahun 1258?",
+    "options": [
+      "Bangsa Mongol",
+      "Tentara Salib",
+      "Bani Seljuk",
+      "Bani Utsmaniyah"
+    ],
+    "answer": 0,
+    "explain": "Pasukan Mongol pimpinan Hulagu merebut Bagdad pada tahun 1258, yang mengakhiri Kekhalifahan Abbasiyah di Bagdad."
+  },
+  {
+    "id": "q064",
+    "cat": "history",
+    "q": "Sultan Utsmaniyah siapakah yang menaklukkan Konstantinopel pada tahun 1453?",
+    "options": [
+      "Mehmed II",
+      "Sulaiman yang Agung",
+      "Selim I",
+      "Osman I"
+    ],
+    "answer": 0,
+    "explain": "Mehmed II, yang dijuluki ‘al-Fatih’, Sang Penakluk, merebut Konstantinopel pada tahun 1453. Kota itu menjadi ibu kota Utsmaniyah, Istanbul."
+  },
+  {
+    "id": "q065",
+    "cat": "history",
+    "q": "Siapakah yang memimpin pasukan muslim menyeberang dari Afrika Utara ke Semenanjung Iberia pada tahun 711?",
+    "options": [
+      "Uqbah bin Nafi'",
+      "Khalid bin Walid",
+      "Salahuddin (Saladin)",
+      "Thariq bin Ziyad"
+    ],
+    "answer": 3,
+    "explain": "Thariq bin Ziyad menyeberangi selat itu pada tahun 711. Bukit karang Gibraltar dinamai menurut namanya: Jabal Thariq, ‘gunung Thariq’."
+  },
+  {
+    "id": "q066",
+    "cat": "history",
+    "q": "Siapakah yang merebut kembali Yerusalem dari Tentara Salib pada tahun 1187?",
+    "options": [
+      "Baibars",
+      "Nuruddin Zanki",
+      "Salahuddin (Saladin)",
+      "Mehmed II"
+    ],
+    "answer": 2,
+    "explain": "Salahuddin al-Ayyubi merebut kembali Yerusalem pada tahun 1187, setelah kemenangannya dalam Pertempuran Hittin."
+  },
+  {
+    "id": "q067",
+    "cat": "history",
+    "q": "Kota manakah, kerajaan muslim terakhir di al-Andalus, yang jatuh pada tahun 1492?",
+    "options": [
+      "Kordoba",
+      "Granada",
+      "Sevilla",
+      "Toledo"
+    ],
+    "answer": 1,
+    "explain": "Kerajaan Bani Nashr di Granada jatuh pada tahun 1492, mengakhiri hampir delapan abad pemerintahan muslim di sebagian wilayah Semenanjung Iberia."
+  },
+  {
+    "id": "q068",
+    "cat": "history",
+    "q": "Siapakah yang mengalahkan bangsa Mongol dalam Pertempuran Ain Jalut pada tahun 1260?",
+    "options": [
+      "Kaum Mamluk Mesir",
+      "Bani Utsmaniyah",
+      "Bani Seljuk",
+      "Kaum Muwahhidun"
+    ],
+    "answer": 0,
+    "explain": "Kaum Mamluk Mesir menghentikan laju bangsa Mongol di Ain Jalut, Palestina, pada tahun 1260."
+  },
+  {
+    "id": "q069",
+    "cat": "history",
+    "q": "Dinasti manakah yang mengambil alih kekhalifahan pada tahun 750 dan kemudian menjadikan Bagdad ibu kotanya?",
+    "options": [
+      "Utsmaniyah",
+      "Mamluk",
+      "Murabithun",
+      "Abbasiyah"
+    ],
+    "answer": 3,
+    "explain": "Bani Abbasiyah menggantikan Bani Umayyah pada tahun 750 dan mendirikan Bagdad pada tahun 762."
+  },
+  {
+    "id": "q070",
+    "cat": "history",
+    "q": "Pangeran Umayyah siapakah yang melarikan diri ke al-Andalus dan mendirikan Keamiran Kordoba pada tahun 756?",
+    "options": [
+      "Thariq bin Ziyad",
+      "Harun ar-Rasyid",
+      "Salahuddin (Saladin)",
+      "Abdurrahman I"
+    ],
+    "answer": 3,
+    "explain": "Abdurrahman I, seorang anggota keluarga Umayyah yang selamat, tiba di al-Andalus dan mendirikan Keamiran Kordoba pada tahun 756."
+  },
+  {
+    "id": "q071",
+    "cat": "history",
+    "q": "Dinasti Utsmaniyah (Ottoman) mengambil namanya dari pendirinya. Siapakah dia?",
+    "options": [
+      "Mehmed II",
+      "Timur Lenk",
+      "Alp Arslan",
+      "Osman I"
+    ],
+    "answer": 3,
+    "explain": "Osman I mendirikan negara Utsmaniyah di Anatolia sekitar tahun 1300. Kata ‘Utsmaniyah’ atau ‘Ottoman’ berasal dari namanya."
+  },
+  {
+    "id": "q072",
+    "cat": "history",
+    "q": "Siapakah yang mendirikan Kekaisaran Mughal di India pada tahun 1526?",
+    "options": [
+      "Akbar",
+      "Shah Jahan",
+      "Babur",
+      "Aurangzeb"
+    ],
+    "answer": 2,
+    "explain": "Babur mendirikan Kekaisaran Mughal setelah kemenangannya dalam Pertempuran Panipat pada tahun 1526."
+  },
+  {
+    "id": "q073",
+    "cat": "history",
+    "q": "Sultan Utsmaniyah abad ke-16 siapakah yang dikenal sebagai ‘yang Agung’ dan ‘Sang Pembuat Undang-Undang’?",
+    "options": [
+      "Mehmed II",
+      "Sulaiman I",
+      "Osman I",
+      "Abdul Hamid II"
+    ],
+    "answer": 1,
+    "explain": "Sulaiman I memerintah dari tahun 1520 hingga 1566, ketika Kesultanan Utsmaniyah berada di puncak kejayaannya. Ia dijuluki ‘Kanuni’, Sang Pembuat Undang-Undang."
+  },
+  {
+    "id": "q074",
+    "cat": "history",
+    "q": "Mansa Musa, yang masyhur karena perjalanan hajinya ke Makkah pada tahun 1324, memerintah kekaisaran apa?",
+    "options": [
+      "Kekaisaran Songhai",
+      "Kekaisaran Ghana",
+      "Kekaisaran Mali",
+      "Kekaisaran Kanem"
+    ],
+    "answer": 2,
+    "explain": "Mansa Musa memerintah Kekaisaran Mali di Afrika Barat. Perjalanan hajinya pada tahun 1324 membuat kekayaan Mali termasyhur ke mana-mana."
+  },
+  {
+    "id": "q075",
+    "cat": "history",
+    "q": "Sultan Seljuk siapakah yang memenangi Pertempuran Manzikert melawan Bizantium pada tahun 1071?",
+    "options": [
+      "Salahuddin (Saladin)",
+      "Baibars",
+      "Alp Arslan",
+      "Osman I"
+    ],
+    "answer": 2,
+    "explain": "Alp Arslan mengalahkan pasukan Bizantium di Manzikert pada tahun 1071, yang membuka Anatolia bagi bangsa Turki."
+  },
+  {
+    "id": "q076",
+    "cat": "sciences",
+    "q": "Cabang matematika manakah yang namanya berasal dari buku ‘al-Jabr’ karya al-Khawarizmi?",
+    "options": [
+      "Geometri",
+      "Aljabar",
+      "Trigonometri",
+      "Aritmetika"
+    ],
+    "answer": 1,
+    "explain": "Kata aljabar berasal dari ‘al-jabr’, yang tercantum dalam judul buku yang ditulis al-Khawarizmi di Bagdad pada abad ke-9."
+  },
+  {
+    "id": "q077",
+    "cat": "sciences",
+    "q": "Kata ‘algoritma’ berasal dari bentuk Latin nama ilmuwan siapa?",
+    "options": [
+      "Al-Khawarizmi",
+      "Al-Kindi",
+      "Al-Biruni",
+      "Al-Battani"
+    ],
+    "answer": 0,
+    "explain": "‘Algoritma’ berasal dari ‘Algoritmi’, bentuk Latin dari nama ahli matematika al-Khawarizmi."
+  },
+  {
+    "id": "q078",
+    "cat": "sciences",
+    "q": "Siapakah penulis ‘Kanun Kedokteran’ (al-Qanun fi ath-Thibb)?",
+    "options": [
+      "Ar-Razi (Rhazes)",
+      "Az-Zahrawi",
+      "Ibnu Sina (Avicenna)",
+      "Ibnu an-Nafis"
+    ],
+    "answer": 2,
+    "explain": "Ibnu Sina menulis Kanun Kedokteran pada abad ke-11. Karya itu dipakai untuk mengajarkan ilmu kedokteran selama berabad-abad, di dunia Islam dan di Eropa."
+  },
+  {
+    "id": "q079",
+    "cat": "sciences",
+    "q": "Ilmuwan siapakah yang menulis ‘Kitab Optik’ dan menjelaskan bahwa kita melihat karena cahaya masuk ke mata?",
+    "options": [
+      "Al-Khawarizmi",
+      "Ibnu al-Haitsam",
+      "Ibnu Khaldun",
+      "Al-Idrisi"
+    ],
+    "answer": 1,
+    "explain": "Ibnu al-Haitsam, yang hidup pada abad ke-10 dan ke-11, menulis Kitab Optik (Kitab al-Manazhir) dan bersandar pada eksperimen yang cermat."
+  },
+  {
+    "id": "q080",
+    "cat": "sciences",
+    "q": "Ilmuwan Andalusia az-Zahrawi masyhur sebagai perintis di bidang apa?",
+    "options": [
+      "Astronomi",
+      "Ilmu bedah",
+      "Geografi",
+      "Aljabar"
+    ],
+    "answer": 1,
+    "explain": "Az-Zahrawi, yang hidup di dekat Kordoba pada abad ke-10, menguraikan berbagai operasi bedah dan banyak alat dalam ensiklopedianya, at-Tashrif."
+  },
+  {
+    "id": "q081",
+    "cat": "sciences",
+    "q": "Tabib siapakah yang menulis risalah terkenal yang membedakan cacar dari campak?",
+    "options": [
+      "Al-Kindi",
+      "Al-Farabi",
+      "Al-Idrisi",
+      "Ar-Razi (Rhazes)"
+    ],
+    "answer": 3,
+    "explain": "Ar-Razi, seorang tabib besar abad ke-9 dan ke-10, menulis risalah tentang cacar dan campak yang menguraikan kedua penyakit itu dengan cermat."
+  },
+  {
+    "id": "q082",
+    "cat": "sciences",
+    "q": "Tabib abad ke-13 siapakah yang menguraikan bagaimana darah mengalir dari jantung melalui paru-paru?",
+    "options": [
+      "Al-Khawarizmi",
+      "Al-Biruni",
+      "Ibnu an-Nafis",
+      "Ibnu Khaldun"
+    ],
+    "answer": 2,
+    "explain": "Ibnu an-Nafis menguraikan peredaran darah paru-paru pada abad ke-13, jauh sebelum hal itu dikenal di Eropa."
+  },
+  {
+    "id": "q083",
+    "cat": "sciences",
+    "q": "Ilmuwan abad ke-11 siapakah yang menghitung jari-jari Bumi dan menulis kajian besar tentang India?",
+    "options": [
+      "Ibnu Rusyd (Averroes)",
+      "Jabir bin Hayyan",
+      "Az-Zahrawi",
+      "Al-Biruni"
+    ],
+    "answer": 3,
+    "explain": "Al-Biruni menghitung jari-jari Bumi dengan metode yang cerdik, dengan hasil yang mendekati nilai modern, dan menulis buku yang terperinci tentang India."
+  },
+  {
+    "id": "q084",
+    "cat": "sciences",
+    "q": "Ahli geografi siapakah yang membuat peta dunia terkenal untuk Raja Roger II dari Sisilia pada abad ke-12?",
+    "options": [
+      "Ibnu Batutah",
+      "Ibnu Khaldun",
+      "Al-Idrisi",
+      "Al-Khawarizmi"
+    ],
+    "answer": 2,
+    "explain": "Al-Idrisi merampungkan peta dunianya beserta buku yang menyertainya pada tahun 1154, di istana Roger II di Sisilia."
+  },
+  {
+    "id": "q085",
+    "cat": "sciences",
+    "q": "Jabir bin Hayyan terutama dikenal karena karyanya di bidang apa?",
+    "options": [
+      "Optik",
+      "Ilmu bedah",
+      "Kimia",
+      "Geografi"
+    ],
+    "answer": 2,
+    "explain": "Jabir bin Hayyan adalah salah satu nama besar dalam ilmu kimia awal (alkimia), dan banyak karya dinisbahkan kepadanya."
+  },
+  {
+    "id": "q086",
+    "cat": "sciences",
+    "q": "Di kota manakah Baitul Hikmah (Rumah Kebijaksanaan), perpustakaan Abbasiyah termasyhur yang terkait dengan gerakan penerjemahan, berada?",
+    "options": [
+      "Bagdad",
+      "Kordoba",
+      "Kairo",
+      "Damaskus"
+    ],
+    "answer": 0,
+    "explain": "Baitul Hikmah berada di Bagdad masa Abbasiyah, tempat para ilmuwan menerjemahkan dan mengkaji karya-karya dari tradisi Yunani, Persia, dan India."
+  },
+  {
+    "id": "q087",
+    "cat": "sciences",
+    "q": "Siapakah penulis ‘Muqaddimah’, sebuah karya terkenal tentang sejarah dan masyarakat?",
+    "options": [
+      "Ibnu Khaldun",
+      "Ibnu Batutah",
+      "Ibnu Rusyd (Averroes)",
+      "Al-Ghazali"
+    ],
+    "answer": 0,
+    "explain": "Ibnu Khaldun, yang lahir di Tunis pada tahun 1332, menulis Muqaddimah. Ia dipandang sebagai perintis sosiologi dan kajian sejarah modern."
+  },
+  {
+    "id": "q088",
+    "cat": "sciences",
+    "q": "Untuk apakah astrolab, alat yang disempurnakan para ilmuwan muslim, digunakan?",
+    "options": [
+      "Mengukur suhu",
+      "Menimbang emas dan perak",
+      "Menggiling biji-bijian",
+      "Mengamati posisi matahari dan bintang"
+    ],
+    "answer": 3,
+    "explain": "Astrolab digunakan untuk mengamati matahari dan bintang, sehingga membantu orang mengetahui waktu dan menemukan arah."
+  },
+  {
+    "id": "q089",
+    "cat": "sciences",
+    "q": "Insinyur al-Jazari, yang merampungkan bukunya yang terkenal pada tahun 1206, dikenal karena apa?",
+    "options": [
+      "Mesin-mesin cerdik dan jam air",
+      "Sebuah peta dunia",
+      "Sebuah risalah tentang cacar",
+      "Sebuah buku tentang aljabar"
+    ],
+    "answer": 0,
+    "explain": "Al-Jazari menulis Kitab Pengetahuan tentang Alat-Alat Mekanik yang Cerdik, yang menguraikan jam air, pompa, dan automata."
+  },
+  {
+    "id": "q090",
+    "cat": "sciences",
+    "q": "Dengan nama Latin apakah ilmuwan Andalusia Ibnu Rusyd dikenal di Eropa?",
+    "options": [
+      "Avicenna",
+      "Alhazen",
+      "Rhazes",
+      "Averroes"
+    ],
+    "answer": 3,
+    "explain": "Ibnu Rusyd dari Kordoba dikenal sebagai Averroes. Ulasan-ulasannya atas karya Aristoteles dibaca luas di Eropa abad pertengahan."
+  },
+  {
+    "id": "q091",
+    "cat": "pillars",
+    "q": "Berapakah jumlah rukun Islam?",
+    "options": [
+      "Tiga",
+      "Lima",
+      "Empat",
+      "Tujuh"
+    ],
+    "answer": 1,
+    "explain": "Rukun Islam ada lima: syahadat, salat, zakat, puasa Ramadan, dan haji ke Makkah."
+  },
+  {
+    "id": "q092",
+    "cat": "pillars",
+    "q": "Apakah rukun Islam yang pertama?",
+    "options": [
+      "Salat",
+      "Puasa (shaum)",
+      "Haji",
+      "Syahadat (persaksian iman)"
+    ],
+    "answer": 3,
+    "explain": "Rukun pertama adalah syahadat: bersaksi bahwa tiada tuhan selain Allah dan bahwa Muhammad ﷺ adalah utusan-Nya."
+  },
+  {
+    "id": "q093",
+    "cat": "pillars",
+    "q": "Berapakah jumlah salat wajib setiap hari?",
+    "options": [
+      "Dua",
+      "Tiga",
+      "Lima",
+      "Tujuh"
+    ],
+    "answer": 2,
+    "explain": "Ada lima salat wajib setiap hari: Subuh, Zuhur, Asar, Magrib, dan Isya."
+  },
+  {
+    "id": "q094",
+    "cat": "pillars",
+    "q": "Apakah nama salat pada waktu fajar?",
+    "options": [
+      "Zuhur",
+      "Subuh",
+      "Asar",
+      "Isya"
+    ],
+    "answer": 1,
+    "explain": "Subuh adalah salat pada waktu fajar, yang pertama dari lima salat harian."
+  },
+  {
+    "id": "q095",
+    "cat": "pillars",
+    "q": "Berapakah jumlah rakaat wajib salat Subuh?",
+    "options": [
+      "Satu",
+      "Dua",
+      "Tiga",
+      "Empat"
+    ],
+    "answer": 1,
+    "explain": "Salat Subuh yang wajib terdiri atas dua rakaat."
+  },
+  {
+    "id": "q096",
+    "cat": "pillars",
+    "q": "Ramadan adalah bulan keberapa dalam kalender Islam?",
+    "options": [
+      "Kesembilan",
+      "Pertama",
+      "Ketujuh",
+      "Kedua belas"
+    ],
+    "answer": 0,
+    "explain": "Ramadan adalah bulan kesembilan dalam kalender Hijriah. Inilah bulan puasa."
+  },
+  {
+    "id": "q097",
+    "cat": "pillars",
+    "q": "Pada bulan Ramadan, kapankah puasa setiap hari dimulai?",
+    "options": [
+      "Saat fajar",
+      "Saat matahari terbit",
+      "Saat tengah hari",
+      "Saat tengah malam"
+    ],
+    "answer": 0,
+    "explain": "Puasa dimulai saat fajar, ketika cahaya pertama tampak, sebagaimana dijelaskan Al-Qur'an dalam 2:187."
+  },
+  {
+    "id": "q098",
+    "cat": "pillars",
+    "q": "Apakah sebutan bagi santapan untuk berbuka puasa pada waktu petang?",
+    "options": [
+      "Sahur",
+      "Walimah",
+      "Akikah",
+      "Iftar"
+    ],
+    "answer": 3,
+    "explain": "Iftar adalah santapan untuk berbuka puasa. Sahur adalah santapan yang dimakan sebelum fajar."
+  },
+  {
+    "id": "q099",
+    "cat": "pillars",
+    "q": "Berapakah kadar zakat yang lazim atas harta simpanan seperti uang, emas, dan perak?",
+    "options": [
+      "2,5%",
+      "1%",
+      "5%",
+      "15%"
+    ],
+    "answer": 0,
+    "explain": "Zakat atas harta simpanan adalah 2,5%, yaitu seperempat puluh, setelah batas minimalnya (nisab) dimiliki selama satu tahun kamariah penuh."
+  },
+  {
+    "id": "q100",
+    "cat": "pillars",
+    "q": "Pada bulan apakah ibadah haji dilaksanakan?",
+    "options": [
+      "Ramadan",
+      "Zulhijah",
+      "Muharam",
+      "Syawal"
+    ],
+    "answer": 1,
+    "explain": "Ibadah haji dilaksanakan pada bulan Zulhijah, bulan kedua belas sekaligus terakhir dalam kalender Hijriah."
+  },
+  {
+    "id": "q101",
+    "cat": "pillars",
+    "q": "Berapa kali jemaah mengelilingi Ka'bah dalam satu tawaf?",
+    "options": [
+      "Tiga",
+      "Lima",
+      "Tujuh",
+      "Sembilan"
+    ],
+    "answer": 2,
+    "explain": "Satu tawaf terdiri atas tujuh putaran mengelilingi Ka'bah."
+  },
+  {
+    "id": "q102",
+    "cat": "pillars",
+    "q": "Di antara dua bukit manakah jemaah berjalan ketika sa'i?",
+    "options": [
+      "Uhud dan Tsur",
+      "Arafah dan Mina",
+      "Shafa dan Marwah",
+      "Hira dan Tsur"
+    ],
+    "answer": 2,
+    "explain": "Jemaah berjalan tujuh kali antara Shafa dan Marwah, yang oleh Al-Qur'an disebut sebagai syiar-syiar Allah (2:158)."
+  },
+  {
+    "id": "q103",
+    "cat": "pillars",
+    "q": "Pada tanggal berapakah bulan Zulhijah jemaah haji wukuf di Arafah?",
+    "options": [
+      "Tanggal 9",
+      "Tanggal 1",
+      "Tanggal 10",
+      "Tanggal 13"
+    ],
+    "answer": 0,
+    "explain": "Wukuf di Arafah dilaksanakan pada tanggal 9 Zulhijah. Inilah inti ibadah haji."
+  },
+  {
+    "id": "q104",
+    "cat": "pillars",
+    "q": "Berapa kali seumur hidup haji diwajibkan atas seorang muslim yang mampu menunaikannya?",
+    "options": [
+      "Tiga kali",
+      "Setiap tahun",
+      "Setiap lima tahun",
+      "Sekali"
+    ],
+    "answer": 3,
+    "explain": "Haji diwajibkan sekali seumur hidup bagi mereka yang mampu menempuh perjalanannya (3:97)."
+  },
+  {
+    "id": "q105",
+    "cat": "pillars",
+    "q": "Ke arah kota manakah kaum muslimin generasi pertama salat sebelum kiblat dialihkan ke Ka'bah?",
+    "options": [
+      "Madinah",
+      "Damaskus",
+      "Thaif",
+      "Yerusalem"
+    ],
+    "answer": 3,
+    "explain": "Kaum muslimin generasi pertama salat menghadap ke Yerusalem. Kiblat kemudian dialihkan ke Masjidil Haram di Makkah (2:144)."
+  },
+  {
+    "id": "q106",
+    "cat": "civilisation",
+    "q": "Siapakah yang pada abad ke-9 mendirikan Masjid al-Qarawiyyin di Fez, yang kemudian berkembang menjadi universitas terkenal?",
+    "options": [
+      "Rabi'ah al-Adawiyah",
+      "Fatimah al-Fihri",
+      "Zubaidah binti Ja'far",
+      "Syajarat ad-Durr"
+    ],
+    "answer": 1,
+    "explain": "Menurut riwayat, Fatimah al-Fihri mendirikan al-Qarawiyyin di Fez, Maroko, pada tahun 859. Ia sering disebut sebagai universitas tertua yang masih beroperasi."
+  },
+  {
+    "id": "q107",
+    "cat": "civilisation",
+    "q": "Di kota al-Andalus manakah terdapat masjid agung yang terkenal dengan hutan tiangnya serta lengkungan merah dan putihnya?",
+    "options": [
+      "Sevilla",
+      "Kordoba",
+      "Granada",
+      "Toledo"
+    ],
+    "answer": 1,
+    "explain": "Pembangunan Masjid Agung Kordoba dimulai pada abad ke-8, ketika Kordoba menjadi ibu kota al-Andalus."
+  },
+  {
+    "id": "q108",
+    "cat": "civilisation",
+    "q": "Di kota manakah Istana Alhambra berada?",
+    "options": [
+      "Granada",
+      "Kordoba",
+      "Marrakesh",
+      "Fez"
+    ],
+    "answer": 0,
+    "explain": "Alhambra berdiri di Granada, di Spanyol selatan. Dahulu ia merupakan istana para penguasa Bani Nashr."
+  },
+  {
+    "id": "q109",
+    "cat": "civilisation",
+    "q": "Kaisar Mughal siapakah yang memerintahkan pembangunan Taj Mahal?",
+    "options": [
+      "Akbar",
+      "Babur",
+      "Aurangzeb",
+      "Shah Jahan"
+    ],
+    "answer": 3,
+    "explain": "Shah Jahan memerintahkan pembangunan Taj Mahal di Agra pada abad ke-17, untuk mengenang istrinya, Mumtaz Mahal."
+  },
+  {
+    "id": "q110",
+    "cat": "civilisation",
+    "q": "Di kota manakah pengelana besar Ibnu Batutah dilahirkan?",
+    "options": [
+      "Fez",
+      "Tunis",
+      "Kairo",
+      "Tangier"
+    ],
+    "answer": 3,
+    "explain": "Ibnu Batutah lahir di Tangier, Maroko, pada tahun 1304. Ia mengembara selama hampir tiga puluh tahun melintasi Afrika, Asia, dan Eropa."
+  },
+  {
+    "id": "q111",
+    "cat": "civilisation",
+    "q": "Timbuktu, pusat ilmu dan manuskrip yang termasyhur, terletak di negara mana sekarang?",
+    "options": [
+      "Mesir",
+      "Maroko",
+      "Mali",
+      "Sudan"
+    ],
+    "answer": 2,
+    "explain": "Timbuktu terletak di Mali. Masjid-masjid dan sekolah-sekolahnya menarik para pelajar dan ulama dari seluruh Afrika Barat."
+  },
+  {
+    "id": "q112",
+    "cat": "civilisation",
+    "q": "Di kota manakah al-Azhar, salah satu universitas tertua di dunia, berada?",
+    "options": [
+      "Bagdad",
+      "Kairo",
+      "Damaskus",
+      "Kairouan"
+    ],
+    "answer": 1,
+    "explain": "Al-Azhar didirikan di Kairo pada abad ke-10 dan hingga kini masih menjadi pusat ilmu yang penting."
+  },
+  {
+    "id": "q113",
+    "cat": "civilisation",
+    "q": "Di kota manakah Kubah Batu (Qubbat ash-Shakhrah) berada?",
+    "options": [
+      "Yerusalem",
+      "Damaskus",
+      "Madinah",
+      "Kairo"
+    ],
+    "answer": 0,
+    "explain": "Kubah Batu berada di Yerusalem. Bangunan itu rampung pada akhir abad ke-7 pada masa Khalifah Umayyah Abdul Malik."
+  },
+  {
+    "id": "q114",
+    "cat": "civilisation",
+    "q": "Arsitek Utsmaniyah siapakah yang merancang Masjid Süleymaniye di Istanbul?",
+    "options": [
+      "Al-Jazari",
+      "Ulugh Beg",
+      "Mimar Sinan",
+      "Ibnu Khaldun"
+    ],
+    "answer": 2,
+    "explain": "Mimar Sinan, kepala arsitek Kesultanan Utsmaniyah pada abad ke-16, merancang Süleymaniye di Istanbul dan Selimiye di Edirne."
+  },
+  {
+    "id": "q115",
+    "cat": "civilisation",
+    "q": "Di dunia Islam abad pertengahan, apakah ‘bimaristan’ itu?",
+    "options": [
+      "Perpustakaan",
+      "Observatorium",
+      "Pasar beratap",
+      "Rumah sakit"
+    ],
+    "answer": 3,
+    "explain": "Bimaristan adalah rumah sakit. Kota-kota seperti Bagdad, Damaskus, dan Kairo memiliki rumah sakit besar tempat orang sakit dirawat."
+  },
+  {
+    "id": "q116",
+    "cat": "civilisation",
+    "q": "Apakah bulan pertama dalam kalender Hijriah?",
+    "options": [
+      "Muharam",
+      "Ramadan",
+      "Rajab",
+      "Syawal"
+    ],
+    "answer": 0,
+    "explain": "Muharam adalah bulan pertama dari dua belas bulan kalender Hijriah, yang mengikuti peredaran bulan."
+  },
+  {
+    "id": "q117",
+    "cat": "civilisation",
+    "q": "Di dalam masjid, apakah mihrab itu?",
+    "options": [
+      "Mimbar yang dipakai untuk khotbah Jumat",
+      "Ceruk yang menunjukkan arah Makkah",
+      "Menara yang dipakai untuk mengumandangkan azan",
+      "Pancuran yang dipakai untuk berwudu"
+    ],
+    "answer": 1,
+    "explain": "Mihrab adalah ceruk pada dinding yang menunjukkan kiblat, yaitu arah Makkah. Tempat berkhotbah disebut mimbar dan menaranya disebut minaret."
+  },
+  {
+    "id": "q118",
+    "cat": "civilisation",
+    "q": "Masjid Agung Kairouan, salah satu yang tertua di Afrika, terletak di negara mana?",
+    "options": [
+      "Tunisia",
+      "Maroko",
+      "Mesir",
+      "Suriah"
+    ],
+    "answer": 0,
+    "explain": "Kairouan terletak di Tunisia. Masjid agungnya berasal dari masa pendirian kota itu oleh Uqbah bin Nafi' pada tahun 670."
+  },
+  {
+    "id": "q119",
+    "cat": "civilisation",
+    "q": "Khat Kufi, salah satu gaya kaligrafi Arab tertua, dinamai menurut kota apa?",
+    "options": [
+      "Kordoba",
+      "Konya",
+      "Kufah",
+      "Kabul"
+    ],
+    "answer": 2,
+    "explain": "Khat Kufi mengambil namanya dari Kufah, di Irak. Banyak mushaf Al-Qur'an generasi awal ditulis dengan gaya bersudut ini."
+  },
+  {
+    "id": "q120",
+    "cat": "civilisation",
+    "q": "Dalam peradaban Islam, apakah ‘wakaf’ itu?",
+    "options": [
+      "Kafilah dagang",
+      "Sebuah gaya kaligrafi",
+      "Harta yang diabadikan untuk amal",
+      "Pajak atas hasil panen"
+    ],
+    "answer": 2,
+    "explain": "Wakaf adalah harta yang disisihkan untuk kebaikan, seperti sekolah, rumah sakit, atau pancuran air. Hasilnya terus bermanfaat bagi orang banyak sepanjang masa."
+  }
+]

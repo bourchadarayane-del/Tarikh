@@ -1,0 +1,4 @@
+/* Tarikh — fr */
+"CFBundleDisplayName" = "Tarikh";
+"NSLocationWhenInUseUsageDescription" = "Votre position sert uniquement à calculer les horaires de prière et la direction de la Qibla. Elle reste sur votre appareil.";
+"NSMotionUsageDescription" = "Les capteurs de mouvement servent à orienter la boussole de la Qibla.";

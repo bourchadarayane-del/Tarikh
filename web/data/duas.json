@@ -1,0 +1,1397 @@
+[
+  {
+    "id": "rabbana-atina",
+    "cat": "quran",
+    "title": {
+      "fr": "Le bien ici-bas et dans l'au-delà",
+      "en": "Good in this world and the next",
+      "ar": "خير الدنيا والآخرة",
+      "es": "El bien en esta vida y en la otra",
+      "id": "Kebaikan dunia dan akhirat",
+      "ur": "دنیا اور آخرت کی بھلائی"
+    },
+    "ar": "رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا حَسَنَةࣰ وَفِي ٱلۡأٓخِرَةِ حَسَنَةࣰ وَقِنَا عَذَابَ ٱلنَّارِ",
+    "tr": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar.",
+    "t": {
+      "fr": "Seigneur! Accorde nous belle part ici-bas, et belle part aussi dans l'au-delà; et protège-nous du châtiment du Feu!",
+      "en": "Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.",
+      "ar": "رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا حَسَنَةࣰ وَفِي ٱلۡأٓخِرَةِ حَسَنَةࣰ وَقِنَا عَذَابَ ٱلنَّارِ",
+      "es": "¡Señor nuestro! Danos bienestar en esta vida y en la otra, y presérvanos del tormento del Fuego.",
+      "id": "Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari azab neraka.",
+      "ur": "پروردگار ہم کو دنیا میں بھی نعمت عطا فرما اور آخرت میں بھی نعمت بخشیو اور دوزخ کے عذاب سے محفوظ رکھیو۔"
+    },
+    "source": {
+      "fr": "Coran 2:201",
+      "en": "Qur'an 2:201",
+      "ar": "القرآن الكريم 2:201",
+      "es": "Corán 2:201",
+      "id": "Al-Qur'an 2:201",
+      "ur": "القرآن 2:201"
+    },
+    "quran": "2:201"
+  },
+  {
+    "id": "rabbana-taqabbal",
+    "cat": "quran",
+    "title": {
+      "fr": "Pour l'acceptation des bonnes œuvres",
+      "en": "For the acceptance of good deeds",
+      "ar": "دعاء قبول العمل",
+      "es": "Para que se acepten las buenas obras",
+      "id": "Agar amal diterima",
+      "ur": "اعمال کی قبولیت کی دعا"
+    },
+    "ar": "رَبَّنَا تَقَبَّلۡ مِنَّآۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلۡعَلِيمُ",
+    "tr": "Rabbana taqabbal minna, innaka Antas-Sami'ul-'Alim.",
+    "t": {
+      "fr": "O notre Seigneur, accepte ceci de notre part! Car c'est Toi l'Audient, l'Omniscient.",
+      "en": "Our Lord, accept [this] from us. Indeed You are the Hearing, the Knowing.",
+      "ar": "رَبَّنَا تَقَبَّلۡ مِنَّآۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلۡعَلِيمُ",
+      "es": "¡Oh, Señor! Acepta nuestra obra. Tú eres el que todo lo oye, todo lo sabe.",
+      "id": "Ya Tuhan kami, terimalah (amal) dari kami. Sungguh, Engkaulah Yang Maha Mendengar, Maha Mengetahui.",
+      "ur": "اے پروردگار، ہم سے یہ خدمت قبول فرما۔ بےشک تو سننے والا (اور) جاننے والا ہے۔"
+    },
+    "source": {
+      "fr": "Coran 2:127",
+      "en": "Qur'an 2:127",
+      "ar": "القرآن الكريم 2:127",
+      "es": "Corán 2:127",
+      "id": "Al-Qur'an 2:127",
+      "ur": "القرآن 2:127"
+    },
+    "quran": "2:127"
+  },
+  {
+    "id": "rabbana-la-tuakhidhna",
+    "cat": "forgiveness",
+    "title": {
+      "fr": "Pour le pardon et l'allègement du fardeau",
+      "en": "For pardon and a lighter burden",
+      "ar": "دعاء العفو والتخفيف",
+      "es": "Por el perdón y el alivio de la carga",
+      "id": "Memohon ampunan dan keringanan beban",
+      "ur": "معافی اور آسانی کی دعا"
+    },
+    "ar": "رَبَّنَا لَا تُؤَاخِذۡنَآ إِن نَّسِينَآ أَوۡ أَخۡطَأۡنَاۚ رَبَّنَا وَلَا تَحۡمِلۡ عَلَيۡنَآ إِصۡرࣰا كَمَا حَمَلۡتَهُۥ عَلَى ٱلَّذِينَ مِن قَبۡلِنَاۚ رَبَّنَا وَلَا تُحَمِّلۡنَا مَا لَا طَاقَةَ لَنَا بِهِۦۖ وَٱعۡفُ عَنَّا وَٱغۡفِرۡ لَنَا وَٱرۡحَمۡنَآۚ أَنتَ مَوۡلَىٰنَا فَٱنصُرۡنَا عَلَى ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ",
+    "tr": "Rabbana la tu'akhidhna in nasina aw akhta'na. Rabbana wa la tahmil 'alayna isran kama hamaltahu 'alal-ladhina min qablina. Rabbana wa la tuhammilna ma la taqata lana bih. Wa'fu 'anna, waghfir lana, warhamna. Anta mawlana fansurna 'alal-qawmil-kafirin.",
+    "t": {
+      "fr": "Seigneur, ne nous châtie pas s'il nous arrive d'oublier ou de commettre une erreur. Seigneur! Ne nous charge pas d'un fardeau lourd comme Tu as chargé ceux qui vécurent avant nous. Seigneur! Ne nous impose pas ce que nous ne pouvons supporter, efface nos fautes, pardonne-nous et fais nous miséricorde. Tu es Notre Maître, accorde-nous donc la victoire sur les peuples infidèles.",
+      "en": "Our Lord, do not impose blame upon us if we have forgotten or erred. Our Lord, and lay not upon us a burden like that which You laid upon those before us. Our Lord, and burden us not with that which we have no ability to bear. And pardon us; and forgive us; and have mercy upon us. You are our protector, so give us victory over the disbelieving people.",
+      "ar": "رَبَّنَا لَا تُؤَاخِذۡنَآ إِن نَّسِينَآ أَوۡ أَخۡطَأۡنَاۚ رَبَّنَا وَلَا تَحۡمِلۡ عَلَيۡنَآ إِصۡرࣰا كَمَا حَمَلۡتَهُۥ عَلَى ٱلَّذِينَ مِن قَبۡلِنَاۚ رَبَّنَا وَلَا تُحَمِّلۡنَا مَا لَا طَاقَةَ لَنَا بِهِۦۖ وَٱعۡفُ عَنَّا وَٱغۡفِرۡ لَنَا وَٱرۡحَمۡنَآۚ أَنتَ مَوۡلَىٰنَا فَٱنصُرۡنَا عَلَى ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ",
+      "es": "¡Señor nuestro! No nos castigues si olvidamos o cometemos un error. ¡Señor nuestro! No nos impongas una carga como la que impusiste a quienes nos precedieron. ¡Señor nuestro! No nos impongas algo superior a lo que podamos soportar. Perdónanos, absuélvenos y ten misericordia de nosotros. Tú eres nuestro Protector, concédenos el triunfo sobre los que niegan la verdad.",
+      "id": "Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami melakukan kesalahan. Ya Tuhan kami, janganlah Engkau bebani kami dengan beban yang berat sebagaimana Engkau bebankan kepada orang-orang sebelum kami. Ya Tuhan kami, janganlah Engkau pikulkan kepada kami apa yang tidak sanggup kami memikulnya. Maafkanlah kami, ampunilah kami, dan rahmatilah kami. Engkaulah pelindung kami, maka tolonglah kami menghadapi orang-orang kafir.",
+      "ur": "اے پروردگار اگر ہم سے بھول یا چوک ہوگئی ہو تو ہم سے مؤاخذہ نہ کیجیو۔ اے پروردگار ہم پر ایسا بوجھ نہ ڈالیو جیسا تو نے ہم سے پہلے لوگوں پر ڈالا تھا۔ اے پروردگار جتنا بوجھ اٹھانے کی ہم میں طاقت نہیں اتنا ہمارے سر پر نہ رکھیو۔ اور (اے پروردگار) ہمارے گناہوں سے درگزر کر اور ہمیں بخش دے۔ اور ہم پر رحم فرما۔ تو ہی ہمارا مالک ہے اور ہم کو کافروں پر غالب فرما۔"
+    },
+    "source": {
+      "fr": "Coran 2:286",
+      "en": "Qur'an 2:286",
+      "ar": "القرآن الكريم 2:286",
+      "es": "Corán 2:286",
+      "id": "Al-Qur'an 2:286",
+      "ur": "القرآن 2:286"
+    },
+    "quran": "2:286"
+  },
+  {
+    "id": "rabbana-la-tuzigh",
+    "cat": "quran",
+    "title": {
+      "fr": "Pour un cœur ferme sur la guidée",
+      "en": "For a steadfast heart",
+      "ar": "دعاء الثبات على الهداية",
+      "es": "Por un corazón firme en la guía",
+      "id": "Agar hati tetap teguh di atas petunjuk",
+      "ur": "ہدایت پر ثابت قدمی کی دعا"
+    },
+    "ar": "رَبَّنَا لَا تُزِغۡ قُلُوبَنَا بَعۡدَ إِذۡ هَدَيۡتَنَا وَهَبۡ لَنَا مِن لَّدُنكَ رَحۡمَةًۚ إِنَّكَ أَنتَ ٱلۡوَهَّابُ",
+    "tr": "Rabbana la tuzigh qulubana ba'da idh hadaytana wa hab lana min ladunka rahmah, innaka Antal-Wahhab.",
+    "t": {
+      "fr": "Seigneur! Ne laisse pas dévier nos cœurs après que Tu nous aies guidés; et accorde-nous Ta miséricorde. C'est Toi, certes, le Grand Donateur.",
+      "en": "Our Lord, let not our hearts deviate after You have guided us and grant us from Yourself mercy. Indeed, You are the Bestower.",
+      "ar": "رَبَّنَا لَا تُزِغۡ قُلُوبَنَا بَعۡدَ إِذۡ هَدَيۡتَنَا وَهَبۡ لَنَا مِن لَّدُنكَ رَحۡمَةًۚ إِنَّكَ أَنتَ ٱلۡوَهَّابُ",
+      "es": "¡Señor nuestro! No permitas que nuestros corazones se desvíen después de habernos guiado. Concédenos Tu misericordia, Tú eres el Dadivoso.",
+      "id": "Ya Tuhan kami, janganlah Engkau condongkan hati kami kepada kesesatan setelah Engkau berikan petunjuk kepada kami, dan karuniakanlah kepada kami rahmat dari sisi-Mu, sesungguhnya Engkau Maha Pemberi.",
+      "ur": "اے پروردگار جب تو نے ہمیں ہدایت بخشی ہے تو اس کے بعد ہمارے دلوں میں کجی نہ پیدا کر دیجیو اور ہمیں اپنے ہاں سے نعمت عطا فرما تو تو بڑا عطا فرمانے والا ہے۔"
+    },
+    "source": {
+      "fr": "Coran 3:8",
+      "en": "Qur'an 3:8",
+      "ar": "القرآن الكريم 3:8",
+      "es": "Corán 3:8",
+      "id": "Al-Qur'an 3:8",
+      "ur": "القرآن 3:8"
+    },
+    "quran": "3:8"
+  },
+  {
+    "id": "rabbana-innana-amanna",
+    "cat": "forgiveness",
+    "title": {
+      "fr": "Pour le pardon des péchés",
+      "en": "For the forgiveness of sins",
+      "ar": "دعاء مغفرة الذنوب",
+      "es": "Por el perdón de los pecados",
+      "id": "Memohon ampunan dosa",
+      "ur": "گناہوں کی مغفرت کی دعا"
+    },
+    "ar": "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغۡفِرۡ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
+    "tr": "Rabbana innana amanna faghfir lana dhunubana wa qina 'adhaban-nar.",
+    "t": {
+      "fr": "O notre Seigneur, nous avons la foi; pardonne-nous donc nos péchés, et protège-nous du châtiment du Feu.",
+      "en": "Our Lord, indeed we have believed, so forgive us our sins and protect us from the punishment of the Fire.",
+      "ar": "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغۡفِرۡ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
+      "es": "¡Señor nuestro! Creemos en Ti. Perdónanos nuestros pecados y líbranos del castigo del Fuego.",
+      "id": "Ya Tuhan kami, kami benar-benar beriman, maka ampunilah dosa-dosa kami dan lindungilah kami dari azab neraka.",
+      "ur": "اے پروردگار ہم ایمان لے آئے سو ہم کو ہمارے گناہ معاف فرما اور دوزخ کے عذاب سے محفوظ رکھ۔"
+    },
+    "source": {
+      "fr": "Coran 3:16",
+      "en": "Qur'an 3:16",
+      "ar": "القرآن الكريم 3:16",
+      "es": "Corán 3:16",
+      "id": "Al-Qur'an 3:16",
+      "ur": "القرآن 3:16"
+    },
+    "quran": "3:16"
+  },
+  {
+    "id": "rabbana-zalamna",
+    "cat": "forgiveness",
+    "title": {
+      "fr": "L'invocation d'Adam et Hawwa (paix sur eux)",
+      "en": "The supplication of Adam and Hawwa (peace be upon them)",
+      "ar": "دعاء آدم وحواء عليهما السلام",
+      "es": "La súplica de Adán y Hawwa (la paz sea con ellos)",
+      "id": "Doa Nabi Adam dan Hawa 'alaihimas salam",
+      "ur": "حضرت آدم اور حضرت حوا علیہما السلام کی دعا"
+    },
+    "ar": "رَبَّنَا ظَلَمۡنَآ أَنفُسَنَا وَإِن لَّمۡ تَغۡفِرۡ لَنَا وَتَرۡحَمۡنَا لَنَكُونَنَّ مِنَ ٱلۡخَٰسِرِينَ",
+    "tr": "Rabbana zalamna anfusana wa in lam taghfir lana wa tarhamna lanakunanna minal-khasirin.",
+    "t": {
+      "fr": "O notre Seigneur, nous avons fait du tort à nous-mêmes. Et si Tu ne nous pardonnes pas et ne nous fais pas miséricorde, nous serons très certainement du nombre des perdants.",
+      "en": "Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers.",
+      "ar": "رَبَّنَا ظَلَمۡنَآ أَنفُسَنَا وَإِن لَّمۡ تَغۡفِرۡ لَنَا وَتَرۡحَمۡنَا لَنَكُونَنَّ مِنَ ٱلۡخَٰسِرِينَ",
+      "es": "¡Señor nuestro! Hemos sido injustos con nosotros mismos; si no nos perdonas y nos tienes misericordia, seremos de los perdidos.",
+      "id": "Ya Tuhan kami, kami telah menzalimi diri kami sendiri. Jika Engkau tidak mengampuni kami dan memberi rahmat kepada kami, niscaya kami termasuk orang-orang yang rugi.",
+      "ur": "پروردگار ہم نے اپنی جانوں پر ظلم کیا اور اگر تو ہمیں نہیں بخشے گا اور ہم پر رحم نہیں کرے گا تو ہم تباہ ہو جائیں گے۔"
+    },
+    "source": {
+      "fr": "Coran 7:23",
+      "en": "Qur'an 7:23",
+      "ar": "القرآن الكريم 7:23",
+      "es": "Corán 7:23",
+      "id": "Al-Qur'an 7:23",
+      "ur": "القرآن 7:23"
+    },
+    "quran": "7:23"
+  },
+  {
+    "id": "rabbi-ijalni",
+    "cat": "family",
+    "title": {
+      "fr": "L'invocation d'Ibrahim (paix sur lui)",
+      "en": "The supplication of Ibrahim (peace be upon him)",
+      "ar": "دعاء إبراهيم عليه السلام",
+      "es": "La súplica de Ibrahim (la paz sea con él)",
+      "id": "Doa Nabi Ibrahim 'alaihis salam",
+      "ur": "حضرت ابراہیم علیہ السلام کی دعا"
+    },
+    "ar": "رَبِّ ٱجۡعَلۡنِي مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِيۚ رَبَّنَا وَتَقَبَّلۡ دُعَآءِ رَبَّنَا ٱغۡفِرۡ لِي وَلِوَٰلِدَيَّ وَلِلۡمُؤۡمِنِينَ يَوۡمَ يَقُومُ ٱلۡحِسَابُ",
+    "tr": "Rabbij'alni muqimas-salati wa min dhurriyyati, Rabbana wa taqabbal du'a'. Rabbanaghfir li wa liwalidayya wa lil-mu'minina yawma yaqumul-hisab.",
+    "t": {
+      "fr": "O mon Seigneur! Fais que j'accomplisse assidûment la Salât ainsi qu'une partie de ma descendance; exauce ma prière, ô notre Seigneur. O notre Seigneur! pardonne-moi, ainsi qu'à mes père et mère et aux croyants, le jour de la reddition des comptes.",
+      "en": "My Lord, make me an establisher of prayer, and [many] from my descendants. Our Lord, and accept my supplication. Our Lord, forgive me and my parents and the believers the Day the account is established.",
+      "ar": "رَبِّ ٱجۡعَلۡنِي مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِيۚ رَبَّنَا وَتَقَبَّلۡ دُعَآءِ رَبَّنَا ٱغۡفِرۡ لِي وَلِوَٰلِدَيَّ وَلِلۡمُؤۡمِنِينَ يَوۡمَ يَقُومُ ٱلۡحِسَابُ",
+      "es": "¡Oh, Señor mío! Haz que tanto mis descendientes como yo seamos fervientes practicantes de la oración. ¡Oh, Señor nuestro! Concédeme esta súplica. ¡Oh, Señor nuestro! Perdóname, así como a mis padres y a todos los creyentes el Día que se celebre el Juicio [Final].",
+      "id": "Ya Tuhanku, jadikanlah aku dan anak cucuku orang yang tetap melaksanakan salat, ya Tuhan kami, perkenankanlah doaku. Ya Tuhan kami, ampunilah aku dan kedua ibu bapakku dan semua orang yang beriman pada hari diadakan perhitungan (hari Kiamat).",
+      "ur": "اے پروردگار مجھ کو (ایسی توفیق عنایت) کر کہ نماز پڑھتا رہوں اور میری اولاد کو بھی (یہ توفیق بخش) اے پروردگار میری دعا قبول فرما۔ اے پروردگار حساب (کتاب) کے دن مجھ کو اور میرے ماں باپ کو اور مومنوں کو مغفرت کیجیو۔"
+    },
+    "source": {
+      "fr": "Coran 14:40-41",
+      "en": "Qur'an 14:40-41",
+      "ar": "القرآن الكريم 14:40-41",
+      "es": "Corán 14:40-41",
+      "id": "Al-Qur'an 14:40-41",
+      "ur": "القرآن 14:40-41"
+    },
+    "quran": "14:40-41"
+  },
+  {
+    "id": "rabbi-irhamhuma",
+    "cat": "family",
+    "title": {
+      "fr": "Pour ses parents",
+      "en": "For one's parents",
+      "ar": "الدعاء للوالدين",
+      "es": "Por los padres",
+      "id": "Doa untuk kedua orang tua",
+      "ur": "والدین کے لیے دعا"
+    },
+    "ar": "رَّبِّ ٱرۡحَمۡهُمَا كَمَا رَبَّيَانِي صَغِيرࣰا",
+    "tr": "Rabbirhamhuma kama rabbayani saghira.",
+    "t": {
+      "fr": "O mon Seigneur, fais-leur, à tous deux, miséricorde comme ils m'ont élevé tout petit.",
+      "en": "My Lord, have mercy upon them as they brought me up [when I was] small.",
+      "ar": "رَّبِّ ٱرۡحَمۡهُمَا كَمَا رَبَّيَانِي صَغِيرࣰا",
+      "es": "¡Oh, Señor mío! Ten misericordia de ellos como ellos la tuvieron conmigo cuando me criaron siendo niño.",
+      "id": "Wahai Tuhanku! Sayangilah keduanya sebagaimana mereka berdua telah mendidik aku pada waktu kecil.",
+      "ur": "اے پروردگار جیسا انہوں نے مجھے بچپن میں (شفقت سے) پرورش کیا ہے تو بھی اُن (کے حال) پر رحمت فرما۔"
+    },
+    "source": {
+      "fr": "Coran 17:24",
+      "en": "Qur'an 17:24",
+      "ar": "القرآن الكريم 17:24",
+      "es": "Corán 17:24",
+      "id": "Al-Qur'an 17:24",
+      "ur": "القرآن 17:24"
+    },
+    "quran": "17:24"
+  },
+  {
+    "id": "rabbana-atina-rahmah",
+    "cat": "quran",
+    "title": {
+      "fr": "L'invocation des Gens de la Caverne",
+      "en": "The supplication of the People of the Cave",
+      "ar": "دعاء أصحاب الكهف",
+      "es": "La súplica de la Gente de la Caverna",
+      "id": "Doa Ashabul Kahfi",
+      "ur": "اصحابِ کہف کی دعا"
+    },
+    "ar": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحۡمَةࣰ وَهَيِّئۡ لَنَا مِنۡ أَمۡرِنَا رَشَدࣰا",
+    "tr": "Rabbana atina min ladunka rahmatan wa hayyi' lana min amrina rashada.",
+    "t": {
+      "fr": "O notre Seigneur, donne-nous de Ta part une miséricorde; et assure nous la droiture dans tout ce qui nous concerne.",
+      "en": "Our Lord, grant us from Yourself mercy and prepare for us from our affair right guidance.",
+      "ar": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحۡمَةࣰ وَهَيِّئۡ لَنَا مِنۡ أَمۡرِنَا رَشَدࣰا",
+      "es": "¡Señor nuestro! Acógenos en Tu misericordia y concédenos que nuestra situación se solucione correctamente.",
+      "id": "Ya Tuhan kami. Berikanlah rahmat kepada kami dari sisi-Mu dan sempurnakanlah petunjuk yang lurus bagi kami dalam urusan kami.",
+      "ur": "اے ہمارے پروردگار ہم پر اپنے ہاں سے رحمت نازل فرما۔ اور ہمارے کام درستی (کے سامان) مہیا کر۔"
+    },
+    "source": {
+      "fr": "Coran 18:10",
+      "en": "Qur'an 18:10",
+      "ar": "القرآن الكريم 18:10",
+      "es": "Corán 18:10",
+      "id": "Al-Qur'an 18:10",
+      "ur": "القرآن 18:10"
+    },
+    "quran": "18:10"
+  },
+  {
+    "id": "rabbi-ishrah-li",
+    "cat": "quran",
+    "title": {
+      "fr": "L'invocation de Musa (paix sur lui) pour la facilité",
+      "en": "The supplication of Musa (peace be upon him) for ease",
+      "ar": "دعاء موسى عليه السلام لتيسير الأمر",
+      "es": "La súplica de Musa (la paz sea con él) para pedir facilidad",
+      "id": "Doa Nabi Musa 'alaihis salam memohon kemudahan",
+      "ur": "حضرت موسیٰ علیہ السلام کی آسانی کی دعا"
+    },
+    "ar": "رَبِّ ٱشۡرَحۡ لِي صَدۡرِي وَيَسِّرۡ لِيٓ أَمۡرِي وَٱحۡلُلۡ عُقۡدَةࣰ مِّن لِّسَانِي يَفۡقَهُواْ قَوۡلِي",
+    "tr": "Rabbishrah li sadri, wa yassir li amri, wahlul 'uqdatan min lisani, yafqahu qawli.",
+    "t": {
+      "fr": "Seigneur, ouvre-moi ma poitrine, et facilite ma mission, et dénoue un nœud en ma langue, afin qu'ils comprennent mes paroles.",
+      "en": "My Lord, expand for me my breast [with assurance], and ease for me my task, and untie the knot from my tongue, that they may understand my speech.",
+      "ar": "رَبِّ ٱشۡرَحۡ لِي صَدۡرِي وَيَسِّرۡ لِيٓ أَمۡرِي وَٱحۡلُلۡ عُقۡدَةࣰ مِّن لِّسَانِي يَفۡقَهُواْ قَوۡلِي",
+      "es": "¡Oh, Señor mío! Abre mi corazón [y dame valor], facilita mi misión, suelta el nudo que hay en mi lengua, para que comprendan mis palabras.",
+      "id": "Ya Tuhanku, lapangkanlah dadaku, dan mudahkanlah untukku urusanku, dan lepaskanlah kekakuan dari lidahku, agar mereka mengerti perkataanku.",
+      "ur": "میرے پروردگار (اس کام کے لئے) میرا سینہ کھول دے، اور میرا کام آسان کردے، اور میری زبان کی گرہ کھول دے، تاکہ وہ بات سمجھ لیں۔"
+    },
+    "source": {
+      "fr": "Coran 20:25-28",
+      "en": "Qur'an 20:25-28",
+      "ar": "القرآن الكريم 20:25-28",
+      "es": "Corán 20:25-28",
+      "id": "Al-Qur'an 20:25-28",
+      "ur": "القرآن 20:25-28"
+    },
+    "quran": "20:25-28"
+  },
+  {
+    "id": "rabbi-zidni-ilma",
+    "cat": "quran",
+    "title": {
+      "fr": "Pour davantage de savoir",
+      "en": "For more knowledge",
+      "ar": "دعاء طلب العلم",
+      "es": "Para aumentar el conocimiento",
+      "id": "Memohon tambahan ilmu",
+      "ur": "علم میں اضافے کی دعا"
+    },
+    "ar": "رَّبِّ زِدۡنِي عِلۡمࣰا",
+    "tr": "Rabbi zidni 'ilma.",
+    "t": {
+      "fr": "O mon Seigneur, accroît mes connaissances!",
+      "en": "My Lord, increase me in knowledge.",
+      "ar": "رَّبِّ زِدۡنِي عِلۡمࣰا",
+      "es": "¡Oh, Señor mío! Acrecienta mi conocimiento.",
+      "id": "Ya Tuhanku, tambahkanlah ilmu kepadaku.",
+      "ur": "میرے پروردگار مجھے اور زیادہ علم دے۔"
+    },
+    "source": {
+      "fr": "Coran 20:114",
+      "en": "Qur'an 20:114",
+      "ar": "القرآن الكريم 20:114",
+      "es": "Corán 20:114",
+      "id": "Al-Qur'an 20:114",
+      "ur": "القرآن 20:114"
+    },
+    "quran": "20:114"
+  },
+  {
+    "id": "dua-yunus",
+    "cat": "distress",
+    "title": {
+      "fr": "L'invocation de Yunus (paix sur lui) dans la détresse",
+      "en": "The supplication of Yunus (peace be upon him) in distress",
+      "ar": "دعاء يونس عليه السلام في الكرب",
+      "es": "La súplica de Yunus (la paz sea con él) en la angustia",
+      "id": "Doa Nabi Yunus 'alaihis salam dalam kesusahan",
+      "ur": "پریشانی میں حضرت یونس علیہ السلام کی دعا"
+    },
+    "ar": "لَّآ إِلَٰهَ إِلَّآ أَنتَ سُبۡحَٰنَكَ إِنِّي كُنتُ مِنَ ٱلظَّٰلِمِينَ",
+    "tr": "La ilaha illa Anta subhanaka inni kuntu minaz-zalimin.",
+    "t": {
+      "fr": "Pas de divinité à part Toi! Pureté à Toi! J'ai été vraiment du nombre des injustes.",
+      "en": "There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.",
+      "ar": "لَّآ إِلَٰهَ إِلَّآ أَنتَ سُبۡحَٰنَكَ إِنِّي كُنتُ مِنَ ٱلظَّٰلِمِينَ",
+      "es": "No hay otra divinidad más que Tú. ¡Glorificado seas! En verdad he sido de los injustos.",
+      "id": "Tidak ada tuhan selain Engkau, Mahasuci Engkau. Sungguh, aku termasuk orang-orang yang zalim.",
+      "ur": "تیرے سوا کوئی معبود نہیں۔ تو پاک ہے (اور) بےشک میں قصوروار ہوں۔"
+    },
+    "source": {
+      "fr": "Coran 21:87",
+      "en": "Qur'an 21:87",
+      "ar": "القرآن الكريم 21:87",
+      "es": "Corán 21:87",
+      "id": "Al-Qur'an 21:87",
+      "ur": "القرآن 21:87"
+    },
+    "quran": "21:87"
+  },
+  {
+    "id": "rabbi-ighfir-warham",
+    "cat": "forgiveness",
+    "title": {
+      "fr": "Pour le pardon et la miséricorde",
+      "en": "For forgiveness and mercy",
+      "ar": "دعاء المغفرة والرحمة",
+      "es": "Por el perdón y la misericordia",
+      "id": "Memohon ampunan dan rahmat",
+      "ur": "مغفرت اور رحمت کی دعا"
+    },
+    "ar": "رَّبِّ ٱغۡفِرۡ وَٱرۡحَمۡ وَأَنتَ خَيۡرُ ٱلرَّٰحِمِينَ",
+    "tr": "Rabbighfir warham wa Anta khayrur-rahimin.",
+    "t": {
+      "fr": "Seigneur, pardonne et fais miséricorde. C'est Toi le Meilleur des miséricordieux.",
+      "en": "My Lord, forgive and have mercy, and You are the best of the merciful.",
+      "ar": "رَّبِّ ٱغۡفِرۡ وَٱرۡحَمۡ وَأَنتَ خَيۡرُ ٱلرَّٰحِمِينَ",
+      "es": "¡Oh, Señor mío! Perdona y ten misericordia. Tú eres el mejor de los misericordiosos.",
+      "id": "Ya Tuhanku, berilah ampunan dan (berilah) rahmat, Engkaulah pemberi rahmat yang terbaik.",
+      "ur": "میرے پروردگار مجھے بخش دے اور (مجھ پر) رحم کر اور تو سب سے بہتر رحم کرنے والا ہے۔"
+    },
+    "source": {
+      "fr": "Coran 23:118",
+      "en": "Qur'an 23:118",
+      "ar": "القرآن الكريم 23:118",
+      "es": "Corán 23:118",
+      "id": "Al-Qur'an 23:118",
+      "ur": "القرآن 23:118"
+    },
+    "quran": "23:118"
+  },
+  {
+    "id": "rabbana-hab-lana",
+    "cat": "family",
+    "title": {
+      "fr": "Pour son conjoint et ses enfants",
+      "en": "For one's spouse and children",
+      "ar": "الدعاء للأزواج والذرية",
+      "es": "Por el cónyuge y los hijos",
+      "id": "Doa untuk pasangan dan keturunan",
+      "ur": "شریکِ حیات اور اولاد کے لیے دعا"
+    },
+    "ar": "رَبَّنَا هَبۡ لَنَا مِنۡ أَزۡوَٰجِنَا وَذُرِّيَّٰتِنَا قُرَّةَ أَعۡيُنࣲ وَٱجۡعَلۡنَا لِلۡمُتَّقِينَ إِمَامًا",
+    "tr": "Rabbana hab lana min azwajina wa dhurriyyatina qurrata a'yunin waj'alna lil-muttaqina imama.",
+    "t": {
+      "fr": "Seigneur, donne-nous, en nos épouses et nos descendants, la joie des yeux, et fais de nous un guide pour les pieux.",
+      "en": "Our Lord, grant us from among our wives and offspring comfort to our eyes and make us an example for the righteous.",
+      "ar": "رَبَّنَا هَبۡ لَنَا مِنۡ أَزۡوَٰجِنَا وَذُرِّيَّٰتِنَا قُرَّةَ أَعۡيُنࣲ وَٱجۡعَلۡنَا لِلۡمُتَّقِينَ إِمَامًا",
+      "es": "¡Oh, Señor nuestro! Agrácianos con cónyuges y descendientes que sean un motivo de alegría y tranquilidad para nosotros, y haz que seamos un ejemplo para los que tienen temor [de Dios].",
+      "id": "Ya Tuhan kami, anugerahkanlah kepada kami pasangan kami dan keturunan kami sebagai penyenang hati (kami), dan jadikanlah kami pemimpin bagi orang-orang yang bertakwa.",
+      "ur": "اے پروردگار ہم کو ہماری بیویوں کی طرف سے (دل کا چین) اور اولاد کی طرف سے آنکھ کی ٹھنڈک عطا فرما اور ہمیں پرہیزگاروں کا امام بنا۔"
+    },
+    "source": {
+      "fr": "Coran 25:74",
+      "en": "Qur'an 25:74",
+      "ar": "القرآن الكريم 25:74",
+      "es": "Corán 25:74",
+      "id": "Al-Qur'an 25:74",
+      "ur": "القرآن 25:74"
+    },
+    "quran": "25:74"
+  },
+  {
+    "id": "rabbi-awzini",
+    "cat": "quran",
+    "title": {
+      "fr": "L'invocation de Sulayman (paix sur lui) pour la gratitude",
+      "en": "The supplication of Sulayman (peace be upon him) for gratitude",
+      "ar": "دعاء سليمان عليه السلام لشكر النعمة",
+      "es": "La súplica de Sulayman (la paz sea con él) para ser agradecido",
+      "id": "Doa Nabi Sulaiman 'alaihis salam agar pandai bersyukur",
+      "ur": "شکر گزاری کے لیے حضرت سلیمان علیہ السلام کی دعا"
+    },
+    "ar": "رَبِّ أَوۡزِعۡنِيٓ أَنۡ أَشۡكُرَ نِعۡمَتَكَ ٱلَّتِيٓ أَنۡعَمۡتَ عَلَيَّ وَعَلَىٰ وَٰلِدَيَّ وَأَنۡ أَعۡمَلَ صَٰلِحࣰا تَرۡضَىٰهُ وَأَدۡخِلۡنِي بِرَحۡمَتِكَ فِي عِبَادِكَ ٱلصَّٰلِحِينَ",
+    "tr": "Rabbi awzi'ni an ashkura ni'matakal-lati an'amta 'alayya wa 'ala walidayya wa an a'mala salihan tardahu wa adkhilni birahmatika fi 'ibadikas-salihin.",
+    "t": {
+      "fr": "Permets-moi Seigneur, de rendre grâce pour le bienfait dont Tu m'as comblé ainsi que mes père et mère, et que je fasse une bonne œuvre que tu agrées et fais-moi entrer, par Ta miséricorde, parmi Tes serviteurs vertueux.",
+      "en": "My Lord, enable me to be grateful for Your favor which You have bestowed upon me and upon my parents and to do righteousness of which You approve. And admit me by Your mercy into [the ranks of] Your righteous servants.",
+      "ar": "رَبِّ أَوۡزِعۡنِيٓ أَنۡ أَشۡكُرَ نِعۡمَتَكَ ٱلَّتِيٓ أَنۡعَمۡتَ عَلَيَّ وَعَلَىٰ وَٰلِدَيَّ وَأَنۡ أَعۡمَلَ صَٰلِحࣰا تَرۡضَىٰهُ وَأَدۡخِلۡنِي بِرَحۡمَتِكَ فِي عِبَادِكَ ٱلصَّٰلِحِينَ",
+      "es": "¡Señor mío! Haz que te agradezca los favores que nos has concedido, tanto a mí como a mis padres, que haga obras de bien que Te complazcan, y cuéntame, por Tu misericordia, entre Tus siervos justos.",
+      "id": "Ya Tuhanku, anugerahkanlah aku ilham untuk tetap mensyukuri nikmat-Mu yang telah Engkau anugerahkan kepadaku dan kepada kedua orang tuaku dan agar aku mengerjakan kebajikan yang Engkau ridai; dan masukkanlah aku dengan rahmat-Mu ke dalam golongan hamba-hamba-Mu yang saleh.",
+      "ur": "اے پروردگار! مجھے توفیق عطا فرما کہ جو احسان تونے مجھ پر اور میرے ماں باپ پر کئے ہیں ان کا شکر کروں اور ایسے نیک کام کروں کہ تو ان سے خوش ہوجائے اور مجھے اپنی رحمت سے اپنے نیک بندوں میں داخل فرما۔"
+    },
+    "source": {
+      "fr": "Coran 27:19",
+      "en": "Qur'an 27:19",
+      "ar": "القرآن الكريم 27:19",
+      "es": "Corán 27:19",
+      "id": "Al-Qur'an 27:19",
+      "ur": "القرآن 27:19"
+    },
+    "quran": "27:19"
+  },
+  {
+    "id": "rabbi-inni-lima",
+    "cat": "quran",
+    "title": {
+      "fr": "L'invocation de Musa (paix sur lui) dans le besoin",
+      "en": "The supplication of Musa (peace be upon him) in need",
+      "ar": "دعاء موسى عليه السلام عند الحاجة",
+      "es": "La súplica de Musa (la paz sea con él) en la necesidad",
+      "id": "Doa Nabi Musa 'alaihis salam ketika membutuhkan",
+      "ur": "ضرورت کے وقت حضرت موسیٰ علیہ السلام کی دعا"
+    },
+    "ar": "رَبِّ إِنِّي لِمَآ أَنزَلۡتَ إِلَيَّ مِنۡ خَيۡرࣲ فَقِيرࣱ",
+    "tr": "Rabbi inni lima anzalta ilayya min khayrin faqir.",
+    "t": {
+      "fr": "Seigneur, j'ai grand besoin du bien que tu feras descendre vers moi.",
+      "en": "My Lord, indeed I am, for whatever good You would send down to me, in need.",
+      "ar": "رَبِّ إِنِّي لِمَآ أَنزَلۡتَ إِلَيَّ مِنۡ خَيۡرࣲ فَقِيرࣱ",
+      "es": "¡Señor mío! Realmente necesito cualquier gracia que me concedas.",
+      "id": "Ya Tuhanku, sesungguhnya aku sangat memerlukan kebaikan apa pun yang Engkau turunkan kepadaku.",
+      "ur": "پروردگار میں اس کا محتاج ہوں کہ تو مجھ پر اپنی نعمت نازل فرمائے۔"
+    },
+    "source": {
+      "fr": "Coran 28:24",
+      "en": "Qur'an 28:24",
+      "ar": "القرآن الكريم 28:24",
+      "es": "Corán 28:24",
+      "id": "Al-Qur'an 28:24",
+      "ur": "القرآن 28:24"
+    },
+    "quran": "28:24"
+  },
+  {
+    "id": "rabbana-ighfir-lana",
+    "cat": "quran",
+    "title": {
+      "fr": "Pour les croyants et un cœur sans rancune",
+      "en": "For the believers and a heart free of rancour",
+      "ar": "الدعاء للمؤمنين وسلامة القلب",
+      "es": "Por los creyentes y un corazón sin rencor",
+      "id": "Doa untuk kaum mukmin dan hati yang bersih dari dengki",
+      "ur": "مومنوں کے لیے اور دل کی صفائی کی دعا"
+    },
+    "ar": "رَبَّنَا ٱغۡفِرۡ لَنَا وَلِإِخۡوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلۡإِيمَٰنِ وَلَا تَجۡعَلۡ فِي قُلُوبِنَا غِلࣰّا لِّلَّذِينَ ءَامَنُواْ رَبَّنَآ إِنَّكَ رَءُوفࣱ رَّحِيمٌ",
+    "tr": "Rabbanaghfir lana wa li'ikhwaninal-ladhina sabaquna bil-iman, wa la taj'al fi qulubina ghillan lilladhina amanu, Rabbana innaka Ra'ufur-Rahim.",
+    "t": {
+      "fr": "Seigneur, pardonne-nous, ainsi qu'à nos frères qui nous ont précédés dans la foi; et ne mets dans nos cœurs aucune rancœur pour ceux qui ont cru. Seigneur, Tu es Compatissant et Très Miséricordieux.",
+      "en": "Our Lord, forgive us and our brothers who preceded us in faith and put not in our hearts [any] resentment toward those who have believed. Our Lord, indeed You are Kind and Merciful.",
+      "ar": "رَبَّنَا ٱغۡفِرۡ لَنَا وَلِإِخۡوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلۡإِيمَٰنِ وَلَا تَجۡعَلۡ فِي قُلُوبِنَا غِلࣰّا لِّلَّذِينَ ءَامَنُواْ رَبَّنَآ إِنَّكَ رَءُوفࣱ رَّحِيمٌ",
+      "es": "¡Oh Señor nuestro! Perdónanos, a nosotros y a nuestros hermanos que nos han precedido en la fe. No infundas en nuestros corazones rencor hacia los creyentes ¡Señor nuestro!, Tú eres Compasivo, Misericordioso.",
+      "id": "Ya Tuhan kami, ampunilah kami dan saudara-saudara kami yang telah beriman lebih dahulu dari kami, dan janganlah Engkau tanamkan kedengkian dalam hati kami terhadap orang-orang yang beriman. Ya Tuhan kami, sungguh, Engkau Maha Penyantun, Maha Penyayang.",
+      "ur": "اے پروردگار ہمارے اور ہمارے بھائیوں کے جو ہم سے پہلے ایمان لائے ہیں گناہ معاف فرما اور مومنوں کی طرف سے ہمارے دل میں کینہ (وحسد) نہ پیدا ہونے دے۔ اے ہمارے پروردگار تو بڑا شفقت کرنے والا مہربان ہے۔"
+    },
+    "source": {
+      "fr": "Coran 59:10",
+      "en": "Qur'an 59:10",
+      "ar": "القرآن الكريم 59:10",
+      "es": "Corán 59:10",
+      "id": "Al-Qur'an 59:10",
+      "ur": "القرآن 59:10"
+    },
+    "quran": "59:10"
+  },
+  {
+    "id": "subhana-alladhi-sakhkhara",
+    "cat": "travel",
+    "title": {
+      "fr": "En montant dans un véhicule ou sur une monture",
+      "en": "When boarding a vehicle or a mount",
+      "ar": "دعاء الركوب",
+      "es": "Al subir a un vehículo o a una montura",
+      "id": "Ketika naik kendaraan",
+      "ur": "سواری پر بیٹھنے کی دعا"
+    },
+    "ar": "سُبۡحَٰنَ ٱلَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُۥ مُقۡرِنِينَ وَإِنَّآ إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ",
+    "tr": "Subhanal-ladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila Rabbina lamunqalibun.",
+    "t": {
+      "fr": "Gloire à Celui qui nous a soumis tout cela alors que nous n'étions pas capables de les dominer. C'est vers notre Seigneur que nous retournerons.",
+      "en": "Exalted is He who has subjected this to us, and we could not have [otherwise] subdued it. And indeed we, to our Lord, will [surely] return.",
+      "ar": "سُبۡحَٰنَ ٱلَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُۥ مُقۡرِنِينَ وَإِنَّآ إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ",
+      "es": "Glorificado sea Quien nos lo ha facilitado, ya que nosotros no habríamos sido capaces [por nuestro mero esfuerzo]. Y ante nuestro Señor hemos de regresar.",
+      "id": "Mahasuci (Allah) yang telah menundukkan semua ini bagi kami, padahal kami sebelumnya tidak mampu menguasainya. Dan sesungguhnya kami akan kembali kepada Tuhan kami.",
+      "ur": "وہ (ذات) پاک ہے جس نے اس کو ہمارے زیر فرمان کر دیا اور ہم میں طاقت نہ تھی کہ اس کو بس میں کرلیتے۔ اور ہم اپنے پروردگار کی طرف لوٹ کر جانے والے ہیں۔"
+    },
+    "source": {
+      "fr": "Coran 43:13-14",
+      "en": "Qur'an 43:13-14",
+      "ar": "القرآن الكريم 43:13-14",
+      "es": "Corán 43:13-14",
+      "id": "Al-Qur'an 43:13-14",
+      "ur": "القرآن 43:13-14"
+    },
+    "quran": "43:13-14"
+  },
+  {
+    "id": "waking-up",
+    "cat": "daily",
+    "title": {
+      "fr": "Au réveil",
+      "en": "On waking up",
+      "ar": "عند الاستيقاظ من النوم",
+      "es": "Al despertar",
+      "id": "Ketika bangun tidur",
+      "ur": "نیند سے بیدار ہونے پر"
+    },
+    "ar": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+    "tr": "Alhamdu lillahil-ladhi ahyana ba'da ma amatana wa ilayhin-nushur.",
+    "t": {
+      "fr": "Louange à Allah qui nous a rendu la vie après nous avoir fait mourir, et c'est vers Lui que se fera la résurrection.",
+      "en": "All praise is for Allah who gave us life after having taken it from us, and unto Him is the resurrection.",
+      "ar": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+      "es": "Alabado sea Allah, que nos devolvió la vida después de habernos hecho morir; y ante Él será la resurrección.",
+      "id": "Segala puji bagi Allah yang telah menghidupkan kami setelah mematikan kami, dan kepada-Nya kami dibangkitkan.",
+      "ur": "تمام تعریفیں اللہ کے لیے ہیں جس نے ہمیں مارنے کے بعد زندہ کیا اور اسی کی طرف اٹھ کر جانا ہے۔"
+    },
+    "source": {
+      "fr": "Sahih al-Bukhari, n° 6312",
+      "en": "Sahih al-Bukhari, no. 6312",
+      "ar": "صحيح البخاري، رقم 6312",
+      "es": "Sahih al-Bujari, n.º 6312",
+      "id": "Shahih al-Bukhari, no. 6312",
+      "ur": "صحیح بخاری، حدیث نمبر 6312"
+    },
+    "quran": null
+  },
+  {
+    "id": "before-sleep",
+    "cat": "daily",
+    "title": {
+      "fr": "Avant de dormir",
+      "en": "Before sleeping",
+      "ar": "قبل النوم",
+      "es": "Antes de dormir",
+      "id": "Sebelum tidur",
+      "ur": "سونے سے پہلے"
+    },
+    "ar": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+    "tr": "Bismika Allahumma amutu wa ahya.",
+    "t": {
+      "fr": "C'est en Ton nom, ô Allah, que je meurs et que je vis.",
+      "en": "In Your name, O Allah, I die and I live.",
+      "ar": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+      "es": "En Tu nombre, oh Allah, muero y vivo.",
+      "id": "Dengan nama-Mu, ya Allah, aku mati dan aku hidup.",
+      "ur": "اے اللہ! تیرے ہی نام کے ساتھ میں مرتا اور جیتا ہوں۔"
+    },
+    "source": {
+      "fr": "Sahih al-Bukhari, n° 6324",
+      "en": "Sahih al-Bukhari, no. 6324",
+      "ar": "صحيح البخاري، رقم 6324",
+      "es": "Sahih al-Bujari, n.º 6324",
+      "id": "Shahih al-Bukhari, no. 6324",
+      "ur": "صحیح بخاری، حدیث نمبر 6324"
+    },
+    "quran": null
+  },
+  {
+    "id": "leaving-home",
+    "cat": "daily",
+    "title": {
+      "fr": "En sortant de la maison",
+      "en": "When leaving home",
+      "ar": "عند الخروج من المنزل",
+      "es": "Al salir de casa",
+      "id": "Ketika keluar rumah",
+      "ur": "گھر سے نکلتے وقت"
+    },
+    "ar": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
+    "tr": "Bismillah, tawakkaltu 'alallah, la hawla wa la quwwata illa billah.",
+    "t": {
+      "fr": "Au nom d'Allah, je place ma confiance en Allah ; il n'y a de force ni de puissance que par Allah.",
+      "en": "In the name of Allah, I place my trust in Allah, and there is no might nor power except with Allah.",
+      "ar": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
+      "es": "En el nombre de Allah, en Allah confío; no hay fuerza ni poder sino en Allah.",
+      "id": "Dengan nama Allah, aku bertawakal kepada Allah; tiada daya dan kekuatan kecuali dengan pertolongan Allah.",
+      "ur": "اللہ کے نام سے، میں نے اللہ پر بھروسا کیا، اور اللہ کی مدد کے بغیر نہ کوئی طاقت ہے نہ قوت۔"
+    },
+    "source": {
+      "fr": "Sunan Abi Dawud, n° 5095 (sahih) ; Jami' at-Tirmidhi, n° 3426 (sahih)",
+      "en": "Sunan Abi Dawud, no. 5095 (sahih); Jami' at-Tirmidhi, no. 3426 (sahih)",
+      "ar": "سنن أبي داود، رقم 5095 (صحيح) ؛ جامع الترمذي، رقم 3426 (صحيح)",
+      "es": "Sunan Abi Dawud, n.º 5095 (sahih); Yami' at-Tirmidhi, n.º 3426 (sahih)",
+      "id": "Sunan Abu Dawud, no. 5095 (sahih); Jami' at-Tirmidzi, no. 3426 (sahih)",
+      "ur": "سنن ابی داؤد، حدیث نمبر 5095 (صحیح) ؛ جامع ترمذی، حدیث نمبر 3426 (صحیح)"
+    },
+    "quran": null
+  },
+  {
+    "id": "entering-mosque",
+    "cat": "daily",
+    "title": {
+      "fr": "En entrant à la mosquée",
+      "en": "When entering the mosque",
+      "ar": "عند دخول المسجد",
+      "es": "Al entrar en la mezquita",
+      "id": "Ketika masuk masjid",
+      "ur": "مسجد میں داخل ہوتے وقت"
+    },
+    "ar": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+    "tr": "Allahummaf-tah li abwaba rahmatik.",
+    "t": {
+      "fr": "Ô Allah, ouvre-moi les portes de Ta miséricorde.",
+      "en": "O Allah, open the gates of Your mercy for me.",
+      "ar": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "es": "Oh Allah, ábreme las puertas de Tu misericordia.",
+      "id": "Ya Allah, bukakanlah untukku pintu-pintu rahmat-Mu.",
+      "ur": "اے اللہ! میرے لیے اپنی رحمت کے دروازے کھول دے۔"
+    },
+    "source": {
+      "fr": "Sahih Muslim, n° 713",
+      "en": "Sahih Muslim, no. 713",
+      "ar": "صحيح مسلم، رقم 713",
+      "es": "Sahih Muslim, n.º 713",
+      "id": "Shahih Muslim, no. 713",
+      "ur": "صحیح مسلم، حدیث نمبر 713"
+    },
+    "quran": null
+  },
+  {
+    "id": "leaving-mosque",
+    "cat": "daily",
+    "title": {
+      "fr": "En sortant de la mosquée",
+      "en": "When leaving the mosque",
+      "ar": "عند الخروج من المسجد",
+      "es": "Al salir de la mezquita",
+      "id": "Ketika keluar masjid",
+      "ur": "مسجد سے نکلتے وقت"
+    },
+    "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+    "tr": "Allahumma inni as'aluka min fadlik.",
+    "t": {
+      "fr": "Ô Allah, je Te demande de Ta grâce.",
+      "en": "O Allah, I ask You from Your favour.",
+      "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "es": "Oh Allah, Te pido de Tu favor.",
+      "id": "Ya Allah, aku memohon kepada-Mu sebagian dari karunia-Mu.",
+      "ur": "اے اللہ! میں تجھ سے تیرے فضل کا سوال کرتا ہوں۔"
+    },
+    "source": {
+      "fr": "Sahih Muslim, n° 713",
+      "en": "Sahih Muslim, no. 713",
+      "ar": "صحيح مسلم، رقم 713",
+      "es": "Sahih Muslim, n.º 713",
+      "id": "Shahih Muslim, no. 713",
+      "ur": "صحیح مسلم، حدیث نمبر 713"
+    },
+    "quran": null
+  },
+  {
+    "id": "after-wudu",
+    "cat": "daily",
+    "title": {
+      "fr": "Après les ablutions (wudu)",
+      "en": "After ablution (wudu)",
+      "ar": "بعد الوضوء",
+      "es": "Después de la ablución (wudu)",
+      "id": "Setelah berwudu",
+      "ur": "وضو کے بعد"
+    },
+    "ar": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+    "tr": "Ashhadu an la ilaha illallahu wahdahu la sharika lah, wa ashhadu anna Muhammadan 'abduhu wa rasuluh.",
+    "t": {
+      "fr": "J'atteste qu'il n'y a de divinité digne d'adoration qu'Allah, Seul, sans associé, et j'atteste que Muhammad ﷺ est Son serviteur et Son messager.",
+      "en": "I bear witness that none has the right to be worshipped except Allah, alone, without partner, and I bear witness that Muhammad ﷺ is His servant and Messenger.",
+      "ar": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "es": "Atestiguo que no hay divinidad digna de adoración excepto Allah, Único, sin asociado, y atestiguo que Muhammad ﷺ es Su siervo y Mensajero.",
+      "id": "Aku bersaksi bahwa tidak ada tuhan yang berhak disembah selain Allah semata, tiada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad ﷺ adalah hamba dan utusan-Nya.",
+      "ur": "میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اور میں گواہی دیتا ہوں کہ محمد ﷺ اس کے بندے اور رسول ہیں۔"
+    },
+    "source": {
+      "fr": "Sahih Muslim, n° 234",
+      "en": "Sahih Muslim, no. 234",
+      "ar": "صحيح مسلم، رقم 234",
+      "es": "Sahih Muslim, n.º 234",
+      "id": "Shahih Muslim, no. 234",
+      "ur": "صحیح مسلم، حدیث نمبر 234"
+    },
+    "quran": null
+  },
+  {
+    "id": "before-eating",
+    "cat": "daily",
+    "title": {
+      "fr": "Avant de manger",
+      "en": "Before eating",
+      "ar": "قبل الطعام",
+      "es": "Antes de comer",
+      "id": "Sebelum makan",
+      "ur": "کھانے سے پہلے"
+    },
+    "ar": "بِسْمِ اللَّهِ",
+    "tr": "Bismillah.",
+    "t": {
+      "fr": "Au nom d'Allah.",
+      "en": "In the name of Allah.",
+      "ar": "بِسْمِ اللَّهِ",
+      "es": "En el nombre de Allah.",
+      "id": "Dengan nama Allah.",
+      "ur": "اللہ کے نام سے۔"
+    },
+    "source": {
+      "fr": "Sunan Abi Dawud, n° 3767 (sahih)",
+      "en": "Sunan Abi Dawud, no. 3767 (sahih)",
+      "ar": "سنن أبي داود، رقم 3767 (صحيح)",
+      "es": "Sunan Abi Dawud, n.º 3767 (sahih)",
+      "id": "Sunan Abu Dawud, no. 3767 (sahih)",
+      "ur": "سنن ابی داؤد، حدیث نمبر 3767 (صحیح)"
+    },
+    "quran": null
+  },
+  {
+    "id": "forgot-bismillah",
+    "cat": "daily",
+    "title": {
+      "fr": "Si l'on a oublié de dire Bismillah avant de manger",
+      "en": "If you forgot to say Bismillah before eating",
+      "ar": "إذا نسي التسمية في أول الطعام",
+      "es": "Si olvidaste decir Bismillah antes de comer",
+      "id": "Jika lupa membaca Bismillah sebelum makan",
+      "ur": "اگر کھانے کے شروع میں بسم اللہ پڑھنا بھول جائے"
+    },
+    "ar": "بِسْمِ اللَّهِ أَوَّلَهُ وَآخِرَهُ",
+    "tr": "Bismillahi awwalahu wa akhirah.",
+    "t": {
+      "fr": "Au nom d'Allah, à son début et à sa fin.",
+      "en": "In the name of Allah, at its beginning and at its end.",
+      "ar": "بِسْمِ اللَّهِ أَوَّلَهُ وَآخِرَهُ",
+      "es": "En el nombre de Allah, al principio y al final.",
+      "id": "Dengan nama Allah, pada awal dan akhirnya.",
+      "ur": "اللہ کے نام سے، اس کے شروع میں بھی اور آخر میں بھی۔"
+    },
+    "source": {
+      "fr": "Sunan Abi Dawud, n° 3767 (sahih)",
+      "en": "Sunan Abi Dawud, no. 3767 (sahih)",
+      "ar": "سنن أبي داود، رقم 3767 (صحيح)",
+      "es": "Sunan Abi Dawud, n.º 3767 (sahih)",
+      "id": "Sunan Abu Dawud, no. 3767 (sahih)",
+      "ur": "سنن ابی داؤد، حدیث نمبر 3767 (صحیح)"
+    },
+    "quran": null
+  },
+  {
+    "id": "after-eating",
+    "cat": "daily",
+    "title": {
+      "fr": "Après avoir mangé",
+      "en": "After eating",
+      "ar": "بعد الطعام",
+      "es": "Después de comer",
+      "id": "Setelah makan",
+      "ur": "کھانے کے بعد"
+    },
+    "ar": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلاَ قُوَّةٍ",
+    "tr": "Alhamdu lillahil-ladhi at'amani hadha wa razaqanihi min ghayri hawlin minni wa la quwwah.",
+    "t": {
+      "fr": "Louange à Allah qui m'a nourri de ceci et me l'a accordé, sans force ni puissance de ma part.",
+      "en": "All praise is for Allah who fed me this and provided it for me without any might nor power from myself.",
+      "ar": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلاَ قُوَّةٍ",
+      "es": "Alabado sea Allah, que me alimentó con esto y me lo concedió sin fuerza ni poder de mi parte.",
+      "id": "Segala puji bagi Allah yang telah memberiku makanan ini dan menganugerahkannya kepadaku tanpa daya dan kekuatan dariku.",
+      "ur": "تمام تعریفیں اللہ کے لیے ہیں جس نے مجھے یہ کھلایا اور میری کسی طاقت اور قوت کے بغیر مجھے یہ عطا فرمایا۔"
+    },
+    "source": {
+      "fr": "Jami' at-Tirmidhi, n° 3458 (hasan)",
+      "en": "Jami' at-Tirmidhi, no. 3458 (hasan)",
+      "ar": "جامع الترمذي، رقم 3458 (حسن)",
+      "es": "Yami' at-Tirmidhi, n.º 3458 (hasan)",
+      "id": "Jami' at-Tirmidzi, no. 3458 (hasan)",
+      "ur": "جامع ترمذی، حدیث نمبر 3458 (حسن)"
+    },
+    "quran": null
+  },
+  {
+    "id": "rain",
+    "cat": "daily",
+    "title": {
+      "fr": "Quand il pleut",
+      "en": "When it rains",
+      "ar": "عند نزول المطر",
+      "es": "Cuando llueve",
+      "id": "Ketika turun hujan",
+      "ur": "بارش کے وقت"
+    },
+    "ar": "صَيِّبًا نَافِعًا",
+    "tr": "Sayyiban nafi'a.",
+    "t": {
+      "fr": "(Ô Allah, fais-en) une pluie bénéfique.",
+      "en": "(O Allah, make it) a beneficial rain.",
+      "ar": "صَيِّبًا نَافِعًا",
+      "es": "(Oh Allah, haz que sea) una lluvia beneficiosa.",
+      "id": "(Ya Allah, jadikanlah ini) hujan yang bermanfaat.",
+      "ur": "(اے اللہ! اسے) نفع دینے والی بارش (بنا دے)۔"
+    },
+    "source": {
+      "fr": "Sahih al-Bukhari, n° 1032",
+      "en": "Sahih al-Bukhari, no. 1032",
+      "ar": "صحيح البخاري، رقم 1032",
+      "es": "Sahih al-Bujari, n.º 1032",
+      "id": "Shahih al-Bukhari, no. 1032",
+      "ur": "صحیح بخاری، حدیث نمبر 1032"
+    },
+    "quran": null
+  },
+  {
+    "id": "after-rain",
+    "cat": "daily",
+    "title": {
+      "fr": "Après la pluie",
+      "en": "After the rain",
+      "ar": "بعد نزول المطر",
+      "es": "Después de la lluvia",
+      "id": "Setelah turun hujan",
+      "ur": "بارش کے بعد"
+    },
+    "ar": "مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ",
+    "tr": "Mutirna bifadlillahi wa rahmatih.",
+    "t": {
+      "fr": "Nous avons reçu la pluie par la grâce d'Allah et Sa miséricorde.",
+      "en": "We have been given rain by the grace and mercy of Allah.",
+      "ar": "مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ",
+      "es": "Hemos recibido la lluvia por la gracia y la misericordia de Allah.",
+      "id": "Kami diberi hujan berkat karunia dan rahmat Allah.",
+      "ur": "ہم پر اللہ کے فضل اور اس کی رحمت سے بارش ہوئی۔"
+    },
+    "source": {
+      "fr": "Sahih al-Bukhari, n° 846",
+      "en": "Sahih al-Bukhari, no. 846",
+      "ar": "صحيح البخاري، رقم 846",
+      "es": "Sahih al-Bujari, n.º 846",
+      "id": "Shahih al-Bukhari, no. 846",
+      "ur": "صحیح بخاری، حدیث نمبر 846"
+    },
+    "quran": null
+  },
+  {
+    "id": "visiting-sick",
+    "cat": "daily",
+    "title": {
+      "fr": "En rendant visite à un malade",
+      "en": "When visiting a sick person",
+      "ar": "عند عيادة المريض",
+      "es": "Al visitar a un enfermo",
+      "id": "Ketika menjenguk orang sakit",
+      "ur": "بیمار کی عیادت کے وقت"
+    },
+    "ar": "لاَ بَأْسَ طَهُورٌ إِنْ شَاءَ اللَّهُ",
+    "tr": "La ba'sa, tahurun in sha' Allah.",
+    "t": {
+      "fr": "Ce n'est rien de grave ; que ce soit une purification, si Allah le veut.",
+      "en": "No harm; may it be a purification, if Allah wills.",
+      "ar": "لاَ بَأْسَ طَهُورٌ إِنْ شَاءَ اللَّهُ",
+      "es": "No es nada grave; que sea una purificación, si Allah quiere.",
+      "id": "Tidak mengapa, semoga menjadi penyuci (dosa), insya Allah.",
+      "ur": "کوئی فکر کی بات نہیں، ان شاء اللہ یہ (بیماری گناہوں سے) پاک کرنے والی ہے۔"
+    },
+    "source": {
+      "fr": "Sahih al-Bukhari, n° 5656",
+      "en": "Sahih al-Bukhari, no. 5656",
+      "ar": "صحيح البخاري، رقم 5656",
+      "es": "Sahih al-Bujari, n.º 5656",
+      "id": "Shahih al-Bukhari, no. 5656",
+      "ur": "صحیح بخاری، حدیث نمبر 5656"
+    },
+    "quran": null
+  },
+  {
+    "id": "healing",
+    "cat": "daily",
+    "title": {
+      "fr": "Pour la guérison d'un malade",
+      "en": "For a sick person's recovery",
+      "ar": "الدعاء للمريض بالشفاء",
+      "es": "Por la curación de un enfermo",
+      "id": "Doa untuk kesembuhan orang sakit",
+      "ur": "بیمار کی شفا کے لیے دعا"
+    },
+    "ar": "أَذْهِبِ الْبَاسَ رَبَّ النَّاسِ، وَاشْفِ أَنْتَ الشَّافِي، لاَ شِفَاءَ إِلاَّ شِفَاؤُكَ، شِفَاءً لاَ يُغَادِرُ سَقَمًا",
+    "tr": "Adhhibil-ba'sa Rabban-nas, washfi antash-Shafi, la shifa'a illa shifa'uk, shifa'an la yughadiru saqama.",
+    "t": {
+      "fr": "Fais disparaître le mal, Seigneur des hommes, et guéris, car Tu es Celui qui guérit. Il n'y a de guérison que la Tienne, une guérison qui ne laisse aucune maladie.",
+      "en": "Remove the harm, O Lord of mankind, and heal, for You are the Healer. There is no healing except Your healing, a healing that leaves no illness behind.",
+      "ar": "أَذْهِبِ الْبَاسَ رَبَّ النَّاسِ، وَاشْفِ أَنْتَ الشَّافِي، لاَ شِفَاءَ إِلاَّ شِفَاؤُكَ، شِفَاءً لاَ يُغَادِرُ سَقَمًا",
+      "es": "Aleja el mal, Señor de la gente, y cura, pues Tú eres Quien cura. No hay más curación que la Tuya, una curación que no deja enfermedad alguna.",
+      "id": "Hilangkanlah penyakit ini, wahai Tuhan manusia, dan sembuhkanlah, Engkaulah Yang Maha Penyembuh. Tidak ada kesembuhan selain kesembuhan dari-Mu, kesembuhan yang tidak menyisakan penyakit.",
+      "ur": "اے لوگوں کے رب! تکلیف دور فرما دے اور شفا عطا فرما، تو ہی شفا دینے والا ہے۔ تیری شفا کے سوا کوئی شفا نہیں، ایسی شفا جو کوئی بیماری باقی نہ چھوڑے۔"
+    },
+    "source": {
+      "fr": "Sahih al-Bukhari, n° 5750",
+      "en": "Sahih al-Bukhari, no. 5750",
+      "ar": "صحيح البخاري، رقم 5750",
+      "es": "Sahih al-Bujari, n.º 5750",
+      "id": "Shahih al-Bukhari, no. 5750",
+      "ur": "صحیح بخاری، حدیث نمبر 5750"
+    },
+    "quran": null
+  },
+  {
+    "id": "help-dhikr",
+    "cat": "daily",
+    "title": {
+      "fr": "Pour l'aide à évoquer et remercier Allah",
+      "en": "For help in remembering and thanking Allah",
+      "ar": "دعاء الإعانة على الذكر والشكر",
+      "es": "Para pedir ayuda en el recuerdo y la gratitud a Allah",
+      "id": "Memohon pertolongan untuk berzikir dan bersyukur",
+      "ur": "ذکر اور شکر پر مدد کی دعا"
+    },
+    "ar": "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
+    "tr": "Allahumma a'inni 'ala dhikrika wa shukrika wa husni 'ibadatik.",
+    "t": {
+      "fr": "Ô Allah, aide-moi à T'évoquer, à Te remercier et à T'adorer de la meilleure façon.",
+      "en": "O Allah, help me to remember You, to thank You, and to worship You in the best manner.",
+      "ar": "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
+      "es": "Oh Allah, ayúdame a recordarte, a agradecerte y a adorarte de la mejor manera.",
+      "id": "Ya Allah, tolonglah aku untuk mengingat-Mu, bersyukur kepada-Mu, dan beribadah kepada-Mu dengan baik.",
+      "ur": "اے اللہ! اپنے ذکر، اپنے شکر اور اپنی اچھی عبادت پر میری مدد فرما۔"
+    },
+    "source": {
+      "fr": "Sunan Abi Dawud, n° 1522 (sahih)",
+      "en": "Sunan Abi Dawud, no. 1522 (sahih)",
+      "ar": "سنن أبي داود، رقم 1522 (صحيح)",
+      "es": "Sunan Abi Dawud, n.º 1522 (sahih)",
+      "id": "Sunan Abu Dawud, no. 1522 (sahih)",
+      "ur": "سنن ابی داؤد، حدیث نمبر 1522 (صحیح)"
+    },
+    "quran": null
+  },
+  {
+    "id": "guidance-piety",
+    "cat": "daily",
+    "title": {
+      "fr": "Pour la guidée, la piété et la suffisance",
+      "en": "For guidance, piety and contentment",
+      "ar": "سؤال الهدى والتقى",
+      "es": "Para pedir guía, piedad y suficiencia",
+      "id": "Memohon petunjuk dan ketakwaan",
+      "ur": "ہدایت اور تقویٰ کی دعا"
+    },
+    "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى وَالتُّقَى وَالْعَفَافَ وَالْغِنَى",
+    "tr": "Allahumma inni as'alukal-huda wat-tuqa wal-'afafa wal-ghina.",
+    "t": {
+      "fr": "Ô Allah, je Te demande la guidée, la piété, la chasteté et la suffisance.",
+      "en": "O Allah, I ask You for guidance, piety, chastity and self-sufficiency.",
+      "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى وَالتُّقَى وَالْعَفَافَ وَالْغِنَى",
+      "es": "Oh Allah, Te pido la guía, la piedad, la castidad y la suficiencia.",
+      "id": "Ya Allah, aku memohon kepada-Mu petunjuk, ketakwaan, kesucian diri, dan kecukupan.",
+      "ur": "اے اللہ! میں تجھ سے ہدایت، تقویٰ، پاک دامنی اور بے نیازی کا سوال کرتا ہوں۔"
+    },
+    "source": {
+      "fr": "Sahih Muslim, n° 2721",
+      "en": "Sahih Muslim, no. 2721",
+      "ar": "صحيح مسلم، رقم 2721",
+      "es": "Sahih Muslim, n.º 2721",
+      "id": "Shahih Muslim, no. 2721",
+      "ur": "صحیح مسلم، حدیث نمبر 2721"
+    },
+    "quran": null
+  },
+  {
+    "id": "religion-dunya-akhira",
+    "cat": "daily",
+    "title": {
+      "fr": "Pour le bien de la religion, de cette vie et de l'au-delà",
+      "en": "For well-being in religion, this life and the next",
+      "ar": "دعاء صلاح الدين والدنيا والآخرة",
+      "es": "Por el bien de la religión, de esta vida y de la otra",
+      "id": "Memohon kebaikan agama, dunia, dan akhirat",
+      "ur": "دین، دنیا اور آخرت کی بہتری کی دعا"
+    },
+    "ar": "اللَّهُمَّ أَصْلِحْ لِي دِينِيَ الَّذِي هُوَ عِصْمَةُ أَمْرِي وَأَصْلِحْ لِي دُنْيَاىَ الَّتِي فِيهَا مَعَاشِي وَأَصْلِحْ لِي آخِرَتِي الَّتِي فِيهَا مَعَادِي وَاجْعَلِ الْحَيَاةَ زِيَادَةً لِي فِي كُلِّ خَيْرٍ وَاجْعَلِ الْمَوْتَ رَاحَةً لِي مِنْ كُلِّ شَرٍّ",
+    "tr": "Allahumma aslih li diniyal-ladhi huwa 'ismatu amri, wa aslih li dunyayal-lati fiha ma'ashi, wa aslih li akhiratil-lati fiha ma'adi, waj'alil-hayata ziyadatan li fi kulli khayr, waj'alil-mawta rahatan li min kulli sharr.",
+    "t": {
+      "fr": "Ô Allah, améliore pour moi ma religion, qui est la sauvegarde de mes affaires ; améliore pour moi ma vie d'ici-bas, où se trouve ma subsistance ; et améliore pour moi mon au-delà, vers lequel sera mon retour. Fais de la vie un surcroît de tout bien pour moi, et fais de la mort un repos pour moi contre tout mal.",
+      "en": "O Allah, set right for me my religion, which is the safeguard of my affairs; set right for me my worldly life, in which is my livelihood; and set right for me my Hereafter, to which is my return. Make life an increase for me in every good, and make death a relief for me from every evil.",
+      "ar": "اللَّهُمَّ أَصْلِحْ لِي دِينِيَ الَّذِي هُوَ عِصْمَةُ أَمْرِي وَأَصْلِحْ لِي دُنْيَاىَ الَّتِي فِيهَا مَعَاشِي وَأَصْلِحْ لِي آخِرَتِي الَّتِي فِيهَا مَعَادِي وَاجْعَلِ الْحَيَاةَ زِيَادَةً لِي فِي كُلِّ خَيْرٍ وَاجْعَلِ الْمَوْتَ رَاحَةً لِي مِنْ كُلِّ شَرٍّ",
+      "es": "Oh Allah, mejora para mí mi religión, que es la protección de mis asuntos; mejora para mí mi vida mundanal, en la que está mi sustento; y mejora para mí mi otra vida, a la que he de volver. Haz de la vida un aumento de todo bien para mí, y haz de la muerte un descanso de todo mal para mí.",
+      "id": "Ya Allah, perbaikilah agamaku yang menjadi penjaga urusanku, perbaikilah duniaku yang menjadi tempat penghidupanku, dan perbaikilah akhiratku yang menjadi tempat kembaliku. Jadikanlah hidup ini tambahan bagiku dalam setiap kebaikan, dan jadikanlah kematian sebagai istirahat bagiku dari setiap keburukan.",
+      "ur": "اے اللہ! میرے دین کو درست فرما دے جو میرے معاملات کا محافظ ہے، میری دنیا کو درست فرما دے جس میں میری گزر بسر ہے، اور میری آخرت کو درست فرما دے جس کی طرف مجھے لوٹنا ہے۔ زندگی کو میرے لیے ہر بھلائی میں اضافے کا ذریعہ بنا دے اور موت کو میرے لیے ہر برائی سے راحت بنا دے۔"
+    },
+    "source": {
+      "fr": "Sahih Muslim, n° 2720",
+      "en": "Sahih Muslim, no. 2720",
+      "ar": "صحيح مسلم، رقم 2720",
+      "es": "Sahih Muslim, n.º 2720",
+      "id": "Shahih Muslim, no. 2720",
+      "ur": "صحیح مسلم، حدیث نمبر 2720"
+    },
+    "quran": null
+  },
+  {
+    "id": "travel",
+    "cat": "travel",
+    "title": {
+      "fr": "Au départ en voyage",
+      "en": "When setting out on a journey",
+      "ar": "دعاء السفر",
+      "es": "Al emprender un viaje",
+      "id": "Ketika bepergian",
+      "ur": "سفر کی دعا"
+    },
+    "ar": "اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى وَمِنَ الْعَمَلِ مَا تَرْضَى اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ وَالْخَلِيفَةُ فِي الأَهْلِ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ وَكَآبَةِ الْمَنْظَرِ وَسُوءِ الْمُنْقَلَبِ فِي الْمَالِ وَالأَهْلِ",
+    "tr": "Allahumma inna nas'aluka fi safarina hadhal-birra wat-taqwa, wa minal-'amali ma tarda. Allahumma hawwin 'alayna safarana hadha watwi 'anna bu'dah. Allahumma antas-sahibu fis-safar, wal-khalifatu fil-ahl. Allahumma inni a'udhu bika min wa'tha'is-safar, wa ka'abatil-manzar, wa su'il-munqalabi fil-mali wal-ahl.",
+    "t": {
+      "fr": "Ô Allah, nous Te demandons dans ce voyage la bonté et la piété, ainsi que les œuvres que Tu agrées. Ô Allah, facilite-nous ce voyage et raccourcis-en la distance. Ô Allah, Tu es le Compagnon dans le voyage et le Gardien de la famille. Ô Allah, je cherche refuge auprès de Toi contre les fatigues du voyage, contre toute vue affligeante et contre un mauvais retour dans mes biens et ma famille.",
+      "en": "O Allah, we ask You on this journey of ours for righteousness and piety, and for deeds that please You. O Allah, make this journey easy for us and shorten its distance for us. O Allah, You are the Companion on the journey and the Guardian of the family. O Allah, I seek refuge in You from the hardship of travel, from a distressing sight, and from an evil return in wealth and family.",
+      "ar": "اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى وَمِنَ الْعَمَلِ مَا تَرْضَى اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ وَالْخَلِيفَةُ فِي الأَهْلِ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ وَكَآبَةِ الْمَنْظَرِ وَسُوءِ الْمُنْقَلَبِ فِي الْمَالِ وَالأَهْلِ",
+      "es": "Oh Allah, Te pedimos en este viaje la bondad y la piedad, y obras que Te complazcan. Oh Allah, haznos fácil este viaje y acórtanos su distancia. Oh Allah, Tú eres el Compañero en el viaje y el Protector de la familia. Oh Allah, me refugio en Ti de las fatigas del viaje, de una visión que entristezca y de un mal regreso en los bienes y la familia.",
+      "id": "Ya Allah, kami memohon kepada-Mu dalam perjalanan kami ini kebajikan dan ketakwaan, serta amal yang Engkau ridai. Ya Allah, mudahkanlah perjalanan kami ini dan dekatkanlah jaraknya bagi kami. Ya Allah, Engkaulah teman dalam perjalanan dan pelindung bagi keluarga. Ya Allah, aku berlindung kepada-Mu dari kesulitan perjalanan, pemandangan yang menyedihkan, dan kepulangan yang buruk pada harta dan keluarga.",
+      "ur": "اے اللہ! ہم اپنے اس سفر میں تجھ سے نیکی اور تقویٰ کا اور ایسے عمل کا سوال کرتے ہیں جسے تو پسند فرمائے۔ اے اللہ! ہمارا یہ سفر ہم پر آسان فرما دے اور اس کی دوری ہمارے لیے سمیٹ دے۔ اے اللہ! تو ہی سفر میں ساتھی اور گھر والوں کا نگہبان ہے۔ اے اللہ! میں سفر کی مشقت، غمگین کر دینے والے منظر اور مال اور گھر والوں میں بری واپسی سے تیری پناہ چاہتا ہوں۔"
+    },
+    "source": {
+      "fr": "Sahih Muslim, n° 1342",
+      "en": "Sahih Muslim, no. 1342",
+      "ar": "صحيح مسلم، رقم 1342",
+      "es": "Sahih Muslim, n.º 1342",
+      "id": "Shahih Muslim, no. 1342",
+      "ur": "صحیح مسلم، حدیث نمبر 1342"
+    },
+    "quran": null
+  },
+  {
+    "id": "distress",
+    "cat": "distress",
+    "title": {
+      "fr": "Dans les moments de détresse",
+      "en": "In times of distress",
+      "ar": "دعاء الكرب",
+      "es": "En momentos de angustia",
+      "id": "Ketika ditimpa kesusahan",
+      "ur": "پریشانی اور بے چینی کے وقت"
+    },
+    "ar": "لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ السَّمَوَاتِ، وَرَبُّ الأَرْضِ، وَرَبُّ الْعَرْشِ الْكَرِيمِ",
+    "tr": "La ilaha illallahul-'Azimul-Halim, la ilaha illallahu Rabbul-'Arshil-'Azim, la ilaha illallahu Rabbus-samawati wa Rabbul-ardi wa Rabbul-'Arshil-Karim.",
+    "t": {
+      "fr": "Il n'y a de divinité digne d'adoration qu'Allah, l'Immense, le Longanime. Il n'y a de divinité digne d'adoration qu'Allah, Seigneur du Trône immense. Il n'y a de divinité digne d'adoration qu'Allah, Seigneur des cieux, Seigneur de la terre et Seigneur du noble Trône.",
+      "en": "None has the right to be worshipped except Allah, the Magnificent, the Forbearing. None has the right to be worshipped except Allah, Lord of the magnificent Throne. None has the right to be worshipped except Allah, Lord of the heavens, Lord of the earth and Lord of the noble Throne.",
+      "ar": "لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ السَّمَوَاتِ، وَرَبُّ الأَرْضِ، وَرَبُّ الْعَرْشِ الْكَرِيمِ",
+      "es": "No hay divinidad digna de adoración excepto Allah, el Grandioso, el Indulgente. No hay divinidad digna de adoración excepto Allah, Señor del Trono grandioso. No hay divinidad digna de adoración excepto Allah, Señor de los cielos, Señor de la tierra y Señor del noble Trono.",
+      "id": "Tidak ada tuhan yang berhak disembah selain Allah Yang Mahaagung lagi Maha Penyantun. Tidak ada tuhan yang berhak disembah selain Allah, Tuhan 'Arsy yang agung. Tidak ada tuhan yang berhak disembah selain Allah, Tuhan langit, Tuhan bumi, dan Tuhan 'Arsy yang mulia.",
+      "ur": "اللہ کے سوا کوئی معبود نہیں، وہ عظمت والا اور بردبار ہے۔ اللہ کے سوا کوئی معبود نہیں، وہ عرشِ عظیم کا رب ہے۔ اللہ کے سوا کوئی معبود نہیں، وہ آسمانوں کا رب، زمین کا رب اور عرشِ کریم کا رب ہے۔"
+    },
+    "source": {
+      "fr": "Sahih al-Bukhari, n° 6346 ; Sahih Muslim, n° 2730",
+      "en": "Sahih al-Bukhari, no. 6346; Sahih Muslim, no. 2730",
+      "ar": "صحيح البخاري، رقم 6346 ؛ صحيح مسلم، رقم 2730",
+      "es": "Sahih al-Bujari, n.º 6346; Sahih Muslim, n.º 2730",
+      "id": "Shahih al-Bukhari, no. 6346; Shahih Muslim, no. 2730",
+      "ur": "صحیح بخاری، حدیث نمبر 6346 ؛ صحیح مسلم، حدیث نمبر 2730"
+    },
+    "quran": null
+  },
+  {
+    "id": "worry-sadness",
+    "cat": "distress",
+    "title": {
+      "fr": "Contre le souci et la tristesse",
+      "en": "Against worry and sadness",
+      "ar": "دعاء الهم والحزن",
+      "es": "Contra la preocupación y la tristeza",
+      "id": "Ketika gelisah dan sedih",
+      "ur": "فکر اور غم کے وقت"
+    },
+    "ar": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ",
+    "tr": "Allahumma inni a'udhu bika minal-hammi wal-hazan, wal-'ajzi wal-kasal, wal-jubni wal-bukhl, wa dala'id-dayni wa ghalabatir-rijal.",
+    "t": {
+      "fr": "Ô Allah, je cherche refuge auprès de Toi contre le souci et la tristesse, contre l'incapacité et la paresse, contre la lâcheté et l'avarice, contre le poids de la dette et la domination des hommes.",
+      "en": "O Allah, I seek refuge in You from anxiety and sorrow, from weakness and laziness, from cowardice and miserliness, from the burden of debt and from being overpowered by men.",
+      "ar": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ",
+      "es": "Oh Allah, me refugio en Ti de la preocupación y la tristeza, de la incapacidad y la pereza, de la cobardía y la avaricia, del peso de las deudas y de ser dominado por los hombres.",
+      "id": "Ya Allah, aku berlindung kepada-Mu dari kegelisahan dan kesedihan, dari kelemahan dan kemalasan, dari sifat pengecut dan kikir, dari lilitan utang dan penguasaan orang lain.",
+      "ur": "اے اللہ! میں فکر اور غم سے، عاجزی اور سستی سے، بزدلی اور بخل سے، قرض کے بوجھ اور لوگوں کے غلبے سے تیری پناہ چاہتا ہوں۔"
+    },
+    "source": {
+      "fr": "Sahih al-Bukhari, n° 6369",
+      "en": "Sahih al-Bukhari, no. 6369",
+      "ar": "صحيح البخاري، رقم 6369",
+      "es": "Sahih al-Bujari, n.º 6369",
+      "id": "Shahih al-Bukhari, no. 6369",
+      "ur": "صحیح بخاری، حدیث نمبر 6369"
+    },
+    "quran": null
+  },
+  {
+    "id": "calamity",
+    "cat": "distress",
+    "title": {
+      "fr": "Lorsqu'un malheur survient",
+      "en": "When struck by a calamity",
+      "ar": "عند المصيبة",
+      "es": "Cuando sobreviene una desgracia",
+      "id": "Ketika tertimpa musibah",
+      "ur": "مصیبت کے وقت"
+    },
+    "ar": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي وَأَخْلِفْ لِي خَيْرًا مِنْهَا",
+    "tr": "Inna lillahi wa inna ilayhi raji'un. Allahumma'jurni fi musibati wa akhlif li khayran minha.",
+    "t": {
+      "fr": "Nous appartenons à Allah et c'est vers Lui que nous retournerons. Ô Allah, récompense-moi dans mon épreuve et accorde-moi en échange quelque chose de meilleur.",
+      "en": "To Allah we belong and to Him we shall return. O Allah, reward me in my affliction and replace it for me with something better.",
+      "ar": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي وَأَخْلِفْ لِي خَيْرًا مِنْهَا",
+      "es": "De Allah somos y a Él hemos de volver. Oh Allah, recompénsame en mi desgracia y concédeme a cambio algo mejor.",
+      "id": "Sesungguhnya kami milik Allah dan kepada-Nya kami kembali. Ya Allah, berilah aku pahala dalam musibahku ini dan gantikanlah untukku dengan yang lebih baik darinya.",
+      "ur": "ہم اللہ ہی کے ہیں اور اسی کی طرف لوٹ کر جانے والے ہیں۔ اے اللہ! مجھے میری مصیبت میں اجر دے اور مجھے اس کے بدلے اس سے بہتر عطا فرما۔"
+    },
+    "source": {
+      "fr": "Sahih Muslim, n° 918",
+      "en": "Sahih Muslim, no. 918",
+      "ar": "صحيح مسلم، رقم 918",
+      "es": "Sahih Muslim, n.º 918",
+      "id": "Shahih Muslim, no. 918",
+      "ur": "صحیح مسلم، حدیث نمبر 918"
+    },
+    "quran": null
+  },
+  {
+    "id": "sayyid-al-istighfar",
+    "cat": "forgiveness",
+    "title": {
+      "fr": "La meilleure demande de pardon (Sayyid al-Istighfar)",
+      "en": "The best supplication for forgiveness (Sayyid al-Istighfar)",
+      "ar": "سيد الاستغفار",
+      "es": "La mejor súplica de perdón (Sayyid al-Istighfar)",
+      "id": "Sayyidul Istighfar (penghulu istighfar)",
+      "ur": "سید الاستغفار"
+    },
+    "ar": "اللَّهُمَّ أَنْتَ رَبِّي، لاَ إِلَهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَىَّ وَأَبُوءُ لَكَ بِذَنْبِي، فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
+    "tr": "Allahumma anta Rabbi la ilaha illa ant, khalaqtani wa ana 'abduk, wa ana 'ala 'ahdika wa wa'dika mastata't, a'udhu bika min sharri ma sana't, abu'u laka bini'matika 'alayya, wa abu'u laka bidhanbi, faghfir li, fa innahu la yaghfirudh-dhunuba illa ant.",
+    "t": {
+      "fr": "Ô Allah, Tu es mon Seigneur, il n'y a de divinité digne d'adoration que Toi. Tu m'as créé et je suis Ton serviteur ; je reste fidèle à mon engagement et à ma promesse envers Toi autant que je le peux. Je cherche refuge auprès de Toi contre le mal que j'ai commis. Je reconnais Ton bienfait envers moi et je reconnais mon péché ; pardonne-moi donc, car nul ne pardonne les péchés sauf Toi.",
+      "en": "O Allah, You are my Lord, none has the right to be worshipped except You. You created me and I am Your servant, and I abide by Your covenant and promise as best I can. I seek refuge in You from the evil of what I have done. I acknowledge Your favour upon me and I acknowledge my sin, so forgive me, for none can forgive sins except You.",
+      "ar": "اللَّهُمَّ أَنْتَ رَبِّي، لاَ إِلَهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَىَّ وَأَبُوءُ لَكَ بِذَنْبِي، فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
+      "es": "Oh Allah, Tú eres mi Señor, no hay divinidad digna de adoración excepto Tú. Me creaste y soy Tu siervo; me mantengo fiel a Tu pacto y a Tu promesa tanto como puedo. Me refugio en Ti del mal que he cometido. Reconozco Tu favor sobre mí y reconozco mi pecado; perdóname, pues nadie perdona los pecados sino Tú.",
+      "id": "Ya Allah, Engkaulah Tuhanku, tidak ada tuhan yang berhak disembah selain Engkau. Engkau telah menciptakanku dan aku adalah hamba-Mu. Aku berada di atas perjanjian dan janji-Mu semampuku. Aku berlindung kepada-Mu dari keburukan perbuatanku. Aku mengakui nikmat-Mu kepadaku dan aku mengakui dosaku, maka ampunilah aku, karena tidak ada yang mengampuni dosa selain Engkau.",
+      "ur": "اے اللہ! تو میرا رب ہے، تیرے سوا کوئی معبود نہیں۔ تو نے مجھے پیدا کیا اور میں تیرا بندہ ہوں، اور میں اپنی طاقت کے مطابق تیرے عہد اور وعدے پر قائم ہوں۔ میں اپنے کیے کے شر سے تیری پناہ چاہتا ہوں۔ میں اپنے اوپر تیری نعمت کا اقرار کرتا ہوں اور اپنے گناہ کا اعتراف کرتا ہوں، پس مجھے بخش دے، کیونکہ تیرے سوا کوئی گناہوں کو نہیں بخشتا۔"
+    },
+    "source": {
+      "fr": "Sahih al-Bukhari, n° 6306",
+      "en": "Sahih al-Bukhari, no. 6306",
+      "ar": "صحيح البخاري، رقم 6306",
+      "es": "Sahih al-Bujari, n.º 6306",
+      "id": "Shahih al-Bukhari, no. 6306",
+      "ur": "صحیح بخاری، حدیث نمبر 6306"
+    },
+    "quran": null
+  },
+  {
+    "id": "forgiveness-abu-bakr",
+    "cat": "forgiveness",
+    "title": {
+      "fr": "Demande de pardon (enseignée à Abu Bakr)",
+      "en": "Seeking forgiveness (taught to Abu Bakr)",
+      "ar": "دعاء الاستغفار الذي علمه النبي ﷺ أبا بكر",
+      "es": "Súplica de perdón (enseñada a Abu Bakr)",
+      "id": "Doa memohon ampunan (yang diajarkan kepada Abu Bakar)",
+      "ur": "مغفرت کی دعا (جو حضرت ابوبکر کو سکھائی گئی)"
+    },
+    "ar": "اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِيرًا، وَلاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِي، إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ",
+    "tr": "Allahumma inni zalamtu nafsi zulman kathira, wa la yaghfirudh-dhunuba illa ant, faghfir li maghfiratan min 'indik, warhamni, innaka antal-Ghafurur-Rahim.",
+    "t": {
+      "fr": "Ô Allah, je me suis fait beaucoup de tort à moi-même, et nul ne pardonne les péchés sauf Toi. Accorde-moi donc un pardon de Ta part et fais-moi miséricorde. Tu es certes le Pardonneur, le Très Miséricordieux.",
+      "en": "O Allah, I have greatly wronged myself, and none forgives sins except You. So grant me forgiveness from Yourself and have mercy on me. Indeed, You are the Most Forgiving, the Most Merciful.",
+      "ar": "اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِيرًا، وَلاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِي، إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ",
+      "es": "Oh Allah, he sido muy injusto conmigo mismo, y nadie perdona los pecados sino Tú. Concédeme un perdón de Tu parte y ten misericordia de mí. Tú eres el Perdonador, el Misericordioso.",
+      "id": "Ya Allah, sungguh aku telah banyak menzalimi diriku sendiri, dan tidak ada yang mengampuni dosa selain Engkau. Maka ampunilah aku dengan ampunan dari sisi-Mu dan rahmatilah aku. Sesungguhnya Engkau Maha Pengampun lagi Maha Penyayang.",
+      "ur": "اے اللہ! میں نے اپنی جان پر بہت ظلم کیا ہے، اور تیرے سوا کوئی گناہوں کو نہیں بخشتا۔ پس مجھے اپنی طرف سے بخشش عطا فرما اور مجھ پر رحم فرما۔ بے شک تو ہی بخشنے والا، مہربان ہے۔"
+    },
+    "source": {
+      "fr": "Sahih al-Bukhari, n° 6326",
+      "en": "Sahih al-Bukhari, no. 6326",
+      "ar": "صحيح البخاري، رقم 6326",
+      "es": "Sahih al-Bujari, n.º 6326",
+      "id": "Shahih al-Bukhari, no. 6326",
+      "ur": "صحیح بخاری، حدیث نمبر 6326"
+    },
+    "quran": null
+  },
+  {
+    "id": "end-of-gathering",
+    "cat": "forgiveness",
+    "title": {
+      "fr": "À la fin d'une assemblée",
+      "en": "At the end of a gathering",
+      "ar": "كفارة المجلس",
+      "es": "Al terminar una reunión",
+      "id": "Penutup majelis (kafaratul majelis)",
+      "ur": "مجلس کے اختتام پر"
+    },
+    "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ أَنْتَ أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ",
+    "tr": "Subhanaka Allahumma wa bihamdik, ashhadu an la ilaha illa ant, astaghfiruka wa atubu ilayk.",
+    "t": {
+      "fr": "Gloire et louange à Toi, ô Allah. J'atteste qu'il n'y a de divinité digne d'adoration que Toi. Je Te demande pardon et je me repens à Toi.",
+      "en": "Glory is to You, O Allah, and praise. I bear witness that none has the right to be worshipped except You. I seek Your forgiveness and turn to You in repentance.",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ أَنْتَ أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ",
+      "es": "Gloria y alabanza a Ti, oh Allah. Atestiguo que no hay divinidad digna de adoración excepto Tú. Te pido perdón y me vuelvo a Ti arrepentido.",
+      "id": "Mahasuci Engkau, ya Allah, dan segala puji bagi-Mu. Aku bersaksi bahwa tidak ada tuhan yang berhak disembah selain Engkau. Aku memohon ampun dan bertobat kepada-Mu.",
+      "ur": "اے اللہ! تو پاک ہے اور تیری ہی تعریف ہے۔ میں گواہی دیتا ہوں کہ تیرے سوا کوئی معبود نہیں۔ میں تجھ سے بخشش مانگتا ہوں اور تیری طرف توبہ کرتا ہوں۔"
+    },
+    "source": {
+      "fr": "Jami' at-Tirmidhi, n° 3433 (sahih)",
+      "en": "Jami' at-Tirmidhi, no. 3433 (sahih)",
+      "ar": "جامع الترمذي، رقم 3433 (صحيح)",
+      "es": "Yami' at-Tirmidhi, n.º 3433 (sahih)",
+      "id": "Jami' at-Tirmidzi, no. 3433 (sahih)",
+      "ur": "جامع ترمذی، حدیث نمبر 3433 (صحیح)"
+    },
+    "quran": null
+  },
+  {
+    "id": "morning",
+    "cat": "morning-evening",
+    "title": {
+      "fr": "Le matin",
+      "en": "In the morning",
+      "ar": "عند الصباح",
+      "es": "Por la mañana",
+      "id": "Ketika pagi hari",
+      "ur": "صبح کے وقت"
+    },
+    "ar": "اللَّهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوتُ وَإِلَيْكَ النُّشُورُ",
+    "tr": "Allahumma bika asbahna, wa bika amsayna, wa bika nahya, wa bika namutu, wa ilaykan-nushur.",
+    "t": {
+      "fr": "Ô Allah, c'est par Toi que nous voici au matin et par Toi que nous atteignons le soir ; par Toi nous vivons et par Toi nous mourons, et c'est vers Toi que se fera la résurrection.",
+      "en": "O Allah, by You we have reached the morning and by You we reach the evening, by You we live and by You we die, and to You is the resurrection.",
+      "ar": "اللَّهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوتُ وَإِلَيْكَ النُّشُورُ",
+      "es": "Oh Allah, por Ti hemos llegado a la mañana y por Ti llegamos a la noche; por Ti vivimos y por Ti morimos, y ante Ti será la resurrección.",
+      "id": "Ya Allah, dengan-Mu kami memasuki waktu pagi dan dengan-Mu kami memasuki waktu petang, dengan-Mu kami hidup dan dengan-Mu kami mati, dan kepada-Mu kami dibangkitkan.",
+      "ur": "اے اللہ! تیرے ہی نام سے ہم نے صبح کی اور تیرے ہی نام سے ہم شام کرتے ہیں، تیرے ہی نام سے ہم جیتے اور تیرے ہی نام سے مرتے ہیں، اور تیری ہی طرف اٹھ کر جانا ہے۔"
+    },
+    "source": {
+      "fr": "Sunan Abi Dawud, n° 5068 (sahih)",
+      "en": "Sunan Abi Dawud, no. 5068 (sahih)",
+      "ar": "سنن أبي داود، رقم 5068 (صحيح)",
+      "es": "Sunan Abi Dawud, n.º 5068 (sahih)",
+      "id": "Sunan Abu Dawud, no. 5068 (sahih)",
+      "ur": "سنن ابی داؤد، حدیث نمبر 5068 (صحیح)"
+    },
+    "quran": null
+  },
+  {
+    "id": "evening",
+    "cat": "morning-evening",
+    "title": {
+      "fr": "Le soir",
+      "en": "In the evening",
+      "ar": "عند المساء",
+      "es": "Por la tarde",
+      "id": "Ketika petang hari",
+      "ur": "شام کے وقت"
+    },
+    "ar": "اللَّهُمَّ بِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوتُ وَإِلَيْكَ النُّشُورُ",
+    "tr": "Allahumma bika amsayna, wa bika nahya, wa bika namutu, wa ilaykan-nushur.",
+    "t": {
+      "fr": "Ô Allah, c'est par Toi que nous voici au soir ; par Toi nous vivons et par Toi nous mourons, et c'est vers Toi que se fera la résurrection.",
+      "en": "O Allah, by You we have reached the evening, by You we live and by You we die, and to You is the resurrection.",
+      "ar": "اللَّهُمَّ بِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوتُ وَإِلَيْكَ النُّشُورُ",
+      "es": "Oh Allah, por Ti hemos llegado a la noche; por Ti vivimos y por Ti morimos, y ante Ti será la resurrección.",
+      "id": "Ya Allah, dengan-Mu kami memasuki waktu petang, dengan-Mu kami hidup dan dengan-Mu kami mati, dan kepada-Mu kami dibangkitkan.",
+      "ur": "اے اللہ! تیرے ہی نام سے ہم نے شام کی، تیرے ہی نام سے ہم جیتے اور تیرے ہی نام سے مرتے ہیں، اور تیری ہی طرف اٹھ کر جانا ہے۔"
+    },
+    "source": {
+      "fr": "Sunan Abi Dawud, n° 5068 (sahih)",
+      "en": "Sunan Abi Dawud, no. 5068 (sahih)",
+      "ar": "سنن أبي داود، رقم 5068 (صحيح)",
+      "es": "Sunan Abi Dawud, n.º 5068 (sahih)",
+      "id": "Sunan Abu Dawud, no. 5068 (sahih)",
+      "ur": "سنن ابی داؤد، حدیث نمبر 5068 (صحیح)"
+    },
+    "quran": null
+  },
+  {
+    "id": "protection-morning-evening",
+    "cat": "morning-evening",
+    "title": {
+      "fr": "Protection, matin et soir",
+      "en": "Protection, morning and evening",
+      "ar": "دعاء الحفظ في الصباح والمساء",
+      "es": "Protección, mañana y tarde",
+      "id": "Perlindungan pagi dan petang",
+      "ur": "صبح و شام کی حفاظت کی دعا"
+    },
+    "ar": "بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَىْءٌ فِي الأَرْضِ وَلاَ فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+    "tr": "Bismillahil-ladhi la yadurru ma'as-mihi shay'un fil-ardi wa la fis-sama', wa huwas-Sami'ul-'Alim.",
+    "t": {
+      "fr": "Au nom d'Allah, Celui dont le nom protège de tout mal sur terre et dans le ciel ; Il est l'Audient, l'Omniscient.",
+      "en": "In the name of Allah, with whose name nothing on earth or in heaven can cause harm, and He is the All-Hearing, the All-Knowing.",
+      "ar": "بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَىْءٌ فِي الأَرْضِ وَلاَ فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "es": "En el nombre de Allah, con cuyo nombre nada puede dañar ni en la tierra ni en el cielo; Él es Quien todo lo oye, Quien todo lo sabe.",
+      "id": "Dengan nama Allah yang bersama nama-Nya tidak ada sesuatu pun yang membahayakan, baik di bumi maupun di langit, dan Dia Maha Mendengar lagi Maha Mengetahui.",
+      "ur": "اللہ کے نام سے، جس کے نام کے ساتھ زمین اور آسمان میں کوئی چیز نقصان نہیں پہنچا سکتی، اور وہی سننے والا، جاننے والا ہے۔"
+    },
+    "source": {
+      "fr": "Sunan Abi Dawud, n° 5088 (sahih) ; Jami' at-Tirmidhi, n° 3388 (sahih)",
+      "en": "Sunan Abi Dawud, no. 5088 (sahih); Jami' at-Tirmidhi, no. 3388 (sahih)",
+      "ar": "سنن أبي داود، رقم 5088 (صحيح) ؛ جامع الترمذي، رقم 3388 (صحيح)",
+      "es": "Sunan Abi Dawud, n.º 5088 (sahih); Yami' at-Tirmidhi, n.º 3388 (sahih)",
+      "id": "Sunan Abu Dawud, no. 5088 (sahih); Jami' at-Tirmidzi, no. 3388 (sahih)",
+      "ur": "سنن ابی داؤد، حدیث نمبر 5088 (صحیح) ؛ جامع ترمذی، حدیث نمبر 3388 (صحیح)"
+    },
+    "quran": null
+  },
+  {
+    "id": "refuge-from-harm",
+    "cat": "morning-evening",
+    "title": {
+      "fr": "Refuge contre tout mal",
+      "en": "Seeking refuge from every harm",
+      "ar": "الاستعاذة من شر ما خلق",
+      "es": "Refugio contra todo mal",
+      "id": "Berlindung dari segala kejahatan",
+      "ur": "ہر شر سے پناہ کی دعا"
+    },
+    "ar": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+    "tr": "A'udhu bikalimatillahit-tammati min sharri ma khalaq.",
+    "t": {
+      "fr": "Je cherche refuge dans les paroles parfaites d'Allah contre le mal de ce qu'Il a créé.",
+      "en": "I seek refuge in the perfect words of Allah from the evil of what He has created.",
+      "ar": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+      "es": "Me refugio en las palabras perfectas de Allah del mal de lo que ha creado.",
+      "id": "Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari kejahatan makhluk yang Dia ciptakan.",
+      "ur": "میں اللہ کے کامل کلمات کی پناہ لیتا ہوں ہر اس چیز کے شر سے جو اس نے پیدا کی۔"
+    },
+    "source": {
+      "fr": "Sahih Muslim, n° 2708",
+      "en": "Sahih Muslim, no. 2708",
+      "ar": "صحيح مسلم، رقم 2708",
+      "es": "Sahih Muslim, n.º 2708",
+      "id": "Shahih Muslim, no. 2708",
+      "ur": "صحیح مسلم، حدیث نمبر 2708"
+    },
+    "quran": null
+  }
+]
